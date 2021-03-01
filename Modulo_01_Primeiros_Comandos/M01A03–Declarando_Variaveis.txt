@@ -9,3 +9,12 @@ real nota = 7.5
 cadeia nome = "Zé"
 
 logico casado = falso
+
+
+========================
+Atribuição
+
+nome = "Madureira" 
+idade = 31
+sexo = 'M'
+aprovado = falso  
