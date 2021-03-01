@@ -1,11 +1,13 @@
 Tipos Primitivos e Valores
 
-	  inteiro = 130
+números:  inteiro = 130
 números:  real = 4.5
 
 
 letras: caracter = 'A' 	
-	cadeia = "Olá"
+letras:	cadeia = "Olá"
 
 
 respostas: logico = falso
+
+Exemplos:
