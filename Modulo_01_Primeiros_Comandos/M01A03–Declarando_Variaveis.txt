@@ -1,0 +1,3 @@
+Declaração de variaveis
+
+tipo indentificador = valor
