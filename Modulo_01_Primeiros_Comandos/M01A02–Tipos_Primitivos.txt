@@ -12,11 +12,11 @@ respostas: logico = falso
 
 Exemplos:
 
-83190           -> inteiro
-0.7343  	-> real
-"J"		-> cadeia
-"Estudonauta"   -> cadeia
-'K'		-> caracter
-"falso"		-> cadeia
--743		-> inteiro
-verdadeiro	-> logico
+83190 ------------> inteiro
+0.7343 -----------> real
+"J" --------------> cadeia
+"Estudonauta" ----> cadeia
+'K' --------------> caracter
+"falso" ----------> cadeia
+-743 -------------> inteiro
+verdadeiro --------> logico
