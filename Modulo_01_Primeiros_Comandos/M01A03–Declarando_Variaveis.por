@@ -5,6 +5,9 @@ programa
 	{
 		inteiro idade = 22
 		cadeia nome = "Marivaldo"
+		real peso = 101.2
+
+		escreva("FIM!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -12,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 85; 
+ * @POSICAO-CURSOR = 125; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
