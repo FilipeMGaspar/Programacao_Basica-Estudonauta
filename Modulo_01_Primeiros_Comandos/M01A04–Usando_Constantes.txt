@@ -1,0 +1,6 @@
+Usando Constantes
+
+const inteiro IDADE = 19
+const real NOTA = 7.5
+const cadeira NOME = "Zé"
+const logico CASADO = falso
