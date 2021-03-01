@@ -10,7 +10,9 @@ programa
 		real peso = 101.2
 		cadeia sobreNome = "Teste"
 
-		escreva("\nO seu nome é: "+nome)
+		escreva("\nO meu nome é: "+nome)
+		escreva(" , e tenho " + idade + " anos")
+		
 		escreva("\nFIM!")
 	}
 }
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 231; 
+ * @POSICAO-CURSOR = 245; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
