@@ -1,0 +1,12 @@
+ M01A01 - O que são variáveis? -> Módulo 01: Primeiros Comandos
+
+Identificadores válidos ou inválidos de variaveis no Portugol Studio - Algoritmos
+
+salário ->  Inválida contém acento
+teste123 -> Válida
+10vezes -> Inválida deve iniciar por uma letra (a - Z ou A - Z)
+preço total -> Inválida Contém espaço e caracteres acentuados
+tot_alunos -> Válida
+precoR$ -> Inválida Contém um o Caracter $ inválido
+inicio -> Inválido palavra reservada dos algoritmos
+inicio_fim -> Válido
