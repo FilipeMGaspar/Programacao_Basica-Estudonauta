@@ -5,7 +5,11 @@ programa
 	funcao inicio()
 	{
 		inteiro n = Util.sorteia(1, 10) //Sorteia números entre 1 e 10
-		escreva("Eu gerei o número: " + n)
+		escreva("Gerando um número .....")
+		Util.aguarde(2000)
+		escreva("\nEu gerei o número: " + n)
+		Util.aguarde(2000)
+		escreva("\n.... Acabou!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -13,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 126; 
+ * @POSICAO-CURSOR = 241; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
