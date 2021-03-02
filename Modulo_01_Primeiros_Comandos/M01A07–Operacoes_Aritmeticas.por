@@ -1,5 +1,6 @@
 programa
 {
+	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
@@ -19,21 +20,34 @@ programa
 		escreva("\n (4 + 2) / 2 = "+ ((4+2)/2) +"\n")
 
 		real n1, n2
-		escreva("Primeira Nota: ")
+		escreva("\nPrimeira Nota: ")
 		leia(n1)
 		escreva("\nSegunda Nota: ")
 		leia(n2)
 		real m = (n1 + n2) / 2
 		escreva("\nA média das notas " + n1 + " e " + n2)
 		escreva(" é igual a " + m + "\n")
+
+		real valor, novoValor
+		escreva("\nPreço do produto: ")
+		leia(valor)
+		novoValor = valor-(valor*30/100)
+		escreva("\nPreço com 30% de desconto: " + novoValor)
+
+		escreva("\n" + Matematica.PI)
+		escreva("\n\n")
+		inteiro num = 9
+		real raiz = Matematica.raiz(num, 2)
+		escreva(raiz)		
 	}
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 566; 
+ * @POSICAO-CURSOR = 1009; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
