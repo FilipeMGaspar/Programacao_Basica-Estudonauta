@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		escreva(4 + 2)
+		escreva(" 4 + 2 = " + (4+2))
 	}
 }
 /* $$$ Portugol Studio $$$ 
