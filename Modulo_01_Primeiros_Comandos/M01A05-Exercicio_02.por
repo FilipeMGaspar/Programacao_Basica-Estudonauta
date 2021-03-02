@@ -15,12 +15,12 @@ programa
 		leia(salario)
 
 		
-		escreva("\n")
+		escreva("\n\n")
 		escreva("--------- Ficha Funcional ---------\n")
-		escreva("NOME: " + nomeFuncionario + "\n")
+		escreva("\nNOME: " + nomeFuncionario + "\n")
 		escreva("NASCIMENTO em " + anoNascimento + "\n")
 		escreva("SALÁRIO: " + salario + "€\n")
-		escreva("-----------------------------------")
+		escreva("\n-----------------------------------")
 		
 		//pede ao utilizador
 
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 518; 
+ * @POSICAO-CURSOR = 278; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
