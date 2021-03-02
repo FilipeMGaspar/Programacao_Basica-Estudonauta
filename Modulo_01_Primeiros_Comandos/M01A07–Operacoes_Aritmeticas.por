@@ -38,7 +38,16 @@ programa
 		escreva("\n\n")
 		inteiro num = 9
 		real raiz = Matematica.raiz(num, 2)
-		escreva(raiz)		
+		escreva(raiz)
+		escreva("\n\n")
+		real potencia = Matematica.potencia(num, 3)	
+		escreva(potencia+"\n")	
+
+		escreva("\n")
+		inteiro a = 7, b = 2
+		inteiro r = a/b
+		escreva("\n"+ r)
+		
 	}
 	
 }
@@ -47,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1009; 
+ * @POSICAO-CURSOR = 1146; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
