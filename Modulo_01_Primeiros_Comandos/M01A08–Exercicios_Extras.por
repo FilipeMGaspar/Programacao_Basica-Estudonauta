@@ -66,6 +66,32 @@ programa
 		 * Qual é o preço do produto? 420.75
 		 * com 5% de desconto. o produto custa 399.7125
 		 * 
+		 * inplementar a função arredondar 2 casas décimais
+		*/
+
+		/*Exercicio_09
+		 * { EXERCICIO 009  - Aumento Salarial }
+		 * Nome do funcionário: Michel
+		 * Salário: 8500
+		 * Reajuste (%): 35
+		 * 
+		 * --------- RESULTADO ------------
+		 * Michel ganhava 8500
+		 * e depois de ganhar 35.0% de aumento
+		 * vai passar a ganhar 11475.0
+		*/
+
+		/*Exercicio_10
+		 * { EXERCICIO 010  - Não Fume }
+		 * Cada cigarro reduz 10 minutos de vida
+		 * -------------------------------------
+		 * 
+		 * Há quantos anos você fuma? 8
+		 * Quantos cigarros você fuma por dia? 5
+		 * 
+		 * -------------------------------------
+		 * Ao todo, até agora você já fumou 14600 cigarros!
+		 * Estima-se que você já perdeu 101.39 dias de vida!
 		*/
 	}
 }
@@ -74,7 +100,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1478; 
+ * @POSICAO-CURSOR = 2206; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
