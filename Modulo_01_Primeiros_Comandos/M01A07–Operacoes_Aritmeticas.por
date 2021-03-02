@@ -11,7 +11,8 @@ programa
 
 		escreva("\n")
 		real preco = 123.45
-		escreva ("\n" + preco)
+		escreva ("\n Preço: " + preco)
+		escreva("\nDesconto de 10% " + (preco*10/100))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 260; 
+ * @POSICAO-CURSOR = 327; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
