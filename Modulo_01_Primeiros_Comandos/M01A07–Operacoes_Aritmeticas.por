@@ -45,7 +45,7 @@ programa
 
 		escreva("\n")
 		inteiro a = 7, b = 2
-		inteiro r = a/b
+		real r = a/b
 		escreva("\n"+ r)
 		
 	}
@@ -56,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1146; 
+ * @POSICAO-CURSOR = 1136; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
