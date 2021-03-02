@@ -15,7 +15,13 @@ programa
 		escreva("\nDesconto de 10%: " + (preco*10/100))
 		escreva("\nPreço com desconto: " + (preco-(preco*10/100)))
 
-		escreva("\n 4 + 2 / 2 = "+ (4+2/2) +"\n")
+		escreva("\n 4 + 2 / 2 = "+ (4+2/2))
+		escreva("\n (4 + 2) / 2 = "+ ((4+2)/2) +"\n")
+
+		real n1 = 3.5, n2 = 8.5
+		real m = (n1 + n2) / 2
+		escreva("\nA média das notas " + n1 + " e " + n2)
+		escreva(" é igual a " + m + "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 412; 
+ * @POSICAO-CURSOR = 609; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
