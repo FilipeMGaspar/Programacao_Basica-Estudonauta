@@ -4,11 +4,14 @@ programa
 	funcao inicio()
 	{
 		escreva(" 4 + 2 = " + (4+2))
-		escreva(" 4 - 2 = " + (4-2))
-		escreva(" 4 X 2 = " + (4*2))
-		escreva(" 8 / 4 = " + (8/4))
-		escreva(" 10 % 2 = " + (10%2))
-		
+		escreva("\n 4 - 2 = " + (4-2))
+		escreva("\n 4 X 2 = " + (4*2))
+		escreva("\n 8 / 4 = " + (8/4))
+		escreva("\n 10 % 2 = " + (10%2))
+
+		escreva("\n")
+		real preco = 123.45
+		escreva ("\n" + preco)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 197; 
+ * @POSICAO-CURSOR = 260; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
