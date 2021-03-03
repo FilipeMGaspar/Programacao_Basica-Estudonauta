@@ -16,14 +16,15 @@ programa
 		leia(qtCigarros)
 
 		const inteiro QTDIASANO = 365
-		qtCigarros = QTDIASANO * qtCigarros * anosQueFuma
+		inteiro qtCigarrosAnal
+		qtCigarrosAnal = QTDIASANO * qtCigarros * anosQueFuma
 
-		real minutosPorDia = 24 * 60
-		real diasPerdidos = minutosPorDia - (10 * qtCigarros)
+		real minutosPorAno = 24 * 60 * 365 
+		real diasPerdidos = minutosPorAno - (10 * qtCigarrosAnal)
 		
 		escreva("\n")
 		escreva("-------------------------------------\n")
-		escreva("Ao todo, até agora você já fumou " + qtCigarros + " cigarros!\n")
+		escreva("Ao todo, até agora você já fumou " + qtCigarrosAnal + " cigarros!\n")
 		escreva("Estima-se que você já perdeu " + diasPerdidos + " dias de vida!\n")
 		
 		
@@ -46,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 747; 
+ * @POSICAO-CURSOR = 791; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
