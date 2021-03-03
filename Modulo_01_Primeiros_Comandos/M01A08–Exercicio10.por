@@ -1,5 +1,6 @@
 programa
 {
+	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
@@ -24,15 +25,34 @@ programa
 
 		//Calculo dos minutos perdidos por cigarro fumado
 		real mPerdidosPorcigaro = 10 * qtCigarrosAnal
+
+		//calculo dor minutos perdidos por anos a fumar
+		real mPerdidosPAnosaFum = totMinutDosAnosKFuma - mPerdidosPorcigaro
+
+		//Conversao de Minutos para horas que seram "aproveitadas"
+		real horasPerdidasPFumar = mPerdidosPAnosaFum / 60
+		horasPerdidasPFumar = Matematica.arredondar(horasPerdidasPFumar, 2)
+		
+		//Conversão de horas para dias que seram "aproveitados", "Vividos"
+		real diasPerdidosPFumar = horasPerdidasPFumar / 24
+		diasPerdidosPFumar = Matematica.arredondar(diasPerdidosPFumar, 2)
+		
 		
 		escreva("\nFuma há "+ anosQueFuma + " anos")		
 		real totHorasAnosFuma =(24 * anosQueFuma * QTDIASANO)
-		escreva("\n"+ totHorasAnosFuma  +" horas a poluir!") 	
-		escreva("\n"+ (anosQueFuma * QTDIASANO) +" Dias a espetar pregos!")
+		 	
+		
 		escreva("\n"+ (anosQueFuma * 12) +" Meses a abrir covas!")
 		
+		
 		escreva("\n"+ totMinutDosAnosKFuma +" Minutos a queimar notas!")
-		escreva("\nMenos " + mPerdidosPorcigaro + " minutos Vividos\n")
+		escreva("\nMenos " + mPerdidosPorcigaro + " minutos Vividos")
+		escreva("\nComo fuma viverá apenas " + mPerdidosPAnosaFum +" minutos")
+		escreva("\nDo total de: "+ totHorasAnosFuma  +" horas")
+		escreva("\nApenas " + horasPerdidasPFumar +" horas para viver")
+		escreva("\nDo total de "+ (anosQueFuma * QTDIASANO) +" Dias")
+		escreva("\nApenas " + diasPerdidosPFumar + " dias para gozar\n")
+		escreva("\n")
 		  
 		//escreva("\n" +24 *60 * anosQueFuma * QTDIASANO + " Minutos por anos\n")
 		
@@ -82,7 +102,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1145; 
+ * @POSICAO-CURSOR = 1782; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
