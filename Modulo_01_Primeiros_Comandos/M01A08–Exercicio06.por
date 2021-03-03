@@ -10,6 +10,7 @@ programa
 		leia(distancia)
 		escreva("\n")
 		escreva("\n---------- CONVERTENDO ----------")
+		
 		real resultado = distancia/1000
 		resultado = Matematica.arredondar(resultado, 2)		
 		escreva("\n" + resultado + " Km")
@@ -57,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1052; 
+ * @POSICAO-CURSOR = 312; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
