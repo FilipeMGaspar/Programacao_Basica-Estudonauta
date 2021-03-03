@@ -14,7 +14,9 @@ programa
 		escreva("\n" + (distancia/100) + " Hm")
 		escreva("\n" + (distancia/10) +" Dam")
 		escreva("\n" + distancia + " M")
-		
+		escreva("\n" + (distancia * 10) + " dm")
+		escreva("\n" + (distancia * 100) + " cm")
+		escreva("\n" + (distancia * 1000) + " mm")
 		
 		/*Exercicio_06
 		 * { EXERCICIO 006  - Conversor de medidas }
@@ -37,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 397; 
+ * @POSICAO-CURSOR = 564; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
