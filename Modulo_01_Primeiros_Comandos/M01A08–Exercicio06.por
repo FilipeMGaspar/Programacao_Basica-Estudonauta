@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Matematica
 	funcao inicio()
 	{
 		escreva("{ EXERCICIO 006  - Conversor de medidas }\n")
@@ -10,8 +10,14 @@ programa
 		leia(distancia)
 		escreva("\n")
 		escreva("\n---------- CONVERTENDO ----------")
-		escreva("\n" + (distancia/1000) + " Km")
-		escreva("\n" + (distancia/100) + " Hm")
+		real resultado = distancia/1000
+		resultado = Matematica.arredondar(resultado, 2)		
+		escreva("\n" + resultado + " Km")
+		
+		resultado = distancia/100
+		resultado = Matematica.arredondar(resultado, 2)
+		escreva("\n" + resultado + " Hm")
+		
 		escreva("\n" + (distancia/10) +" Dam")
 		escreva("\n" + distancia + " M")
 		escreva("\n" + (distancia * 10) + " dm")
@@ -39,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 564; 
+ * @POSICAO-CURSOR = 539; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
