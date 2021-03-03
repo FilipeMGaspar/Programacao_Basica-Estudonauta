@@ -17,12 +17,24 @@ programa
 		resultado = distancia/100
 		resultado = Matematica.arredondar(resultado, 2)
 		escreva("\n" + resultado + " Hm")
+
+		resultado = distancia/10
+		resultado = Matematica.arredondar(resultado, 2)
+		escreva("\n" + resultado +" Dam")
 		
-		escreva("\n" + (distancia/10) +" Dam")
 		escreva("\n" + distancia + " M")
-		escreva("\n" + (distancia * 10) + " dm")
-		escreva("\n" + (distancia * 100) + " cm")
-		escreva("\n" + (distancia * 1000) + " mm")
+
+		resultado =  distancia * 10
+		resultado = Matematica.arredondar(resultado, 2)
+		escreva("\n" + resultado + " dm")
+
+		resultado = distancia * 100
+		resultado = Matematica.arredondar(resultado, 2)
+		escreva("\n" + resultado + " cm")
+
+		resultado = distancia * 1000
+		resultado = Matematica.arredondar(resultado, 2)
+		escreva("\n" + resultado + " mm")
 		
 		/*Exercicio_06
 		 * { EXERCICIO 006  - Conversor de medidas }
@@ -45,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 539; 
+ * @POSICAO-CURSOR = 1052; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
