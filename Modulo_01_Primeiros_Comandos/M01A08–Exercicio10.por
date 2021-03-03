@@ -15,10 +15,13 @@ programa
 		escreva("Quantos cigarros fuma por dia? ")
 		leia(qtCigarros)
 
+		const inteiro QTDIASANO = 365
+		qtCigarros = QTDIASANO * qtCigarros * anosQueFuma
+		
 		escreva("\n")
 		escreva("-------------------------------------\n")
-		escreva("Ao todo, até agora você já fumou "+ + " cigarros!\n")
-		escreva("Estima-se que você já perdeu " + + "dias de vida!")
+		escreva("Ao todo, até agora você já fumou " + qtCigarros + " cigarros!\n")
+		escreva("Estima-se que você já perdeu " + + "dias de vida!\n")
 		
 		
 		/*Exercicio_10
@@ -40,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 569; 
+ * @POSICAO-CURSOR = 584; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
