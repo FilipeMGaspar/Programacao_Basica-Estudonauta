@@ -25,6 +25,7 @@ programa
 		real latasDeTinta
 		latasDeTinta = area / 2
 		escreva("Precisaremos de " + latasDeTinta + " latas de tinta com 1 litro\n")	
+		
 		/*Exercicio_07
 		 * { EXERCICIO 007  - Pintando uma parede }
 		 * Informação importante: um litro de tinta pinta 2m2
@@ -43,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 446; 
+ * @POSICAO-CURSOR = 662; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
