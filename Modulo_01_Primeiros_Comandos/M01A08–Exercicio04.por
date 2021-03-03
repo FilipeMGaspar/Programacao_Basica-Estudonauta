@@ -1,5 +1,6 @@
 programa
 {
+	inclua biblioteca Tipos
 	
 	funcao inicio()
 	{
@@ -16,7 +17,9 @@ programa
 		escreva("\nDIFERENÇA: " + (num1 - num2))
 		escreva("\nPRODURO: " + (num1 * num2))		
 		escreva("\nDIVISÂO INTEIRA: " + (num1 / num2))
-		escreva("\nDIVISAO REAL: " + (num1 / num2))
+		real n1 = Tipos.inteiro_para_real(num1)
+		real n2 = Tipos.inteiro_para_real(num2)
+		escreva("\nDIVISAO REAL: " + (n1 / n2))
 		escreva("\nRESTO DA DIVISAO: " + (num1 % num2))
 		escreva("\n")
 		
@@ -40,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 534; 
+ * @POSICAO-CURSOR = 652; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
