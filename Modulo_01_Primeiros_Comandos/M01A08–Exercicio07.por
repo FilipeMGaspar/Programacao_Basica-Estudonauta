@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Matematica
 	funcao inicio()
 	{		
 		escreva("{ EXERCICIO 007  - Pintando uma parede }\n")
@@ -24,6 +24,7 @@ programa
 		
 		real latasDeTinta
 		latasDeTinta = area / 2
+		latasDeTinta = Matematica.arredondar(latasDeTinta, 2)
 		escreva("Precisaremos de " + latasDeTinta + " latas de tinta com 1 litro\n")	
 		
 		/*Exercicio_07
@@ -44,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 662; 
+ * @POSICAO-CURSOR = 806; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
