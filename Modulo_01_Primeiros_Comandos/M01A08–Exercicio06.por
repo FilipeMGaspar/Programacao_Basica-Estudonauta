@@ -10,6 +10,8 @@ programa
 		leia(distancia)
 		escreva("\n")
 		escreva("\n---------- CONVERTENDO ----------")
+		escreva("\n" + (distancia/1000) + " Km")
+		escreva("\n" + (distancia/100) + " Hm")
 		
 		/*Exercicio_06
 		 * { EXERCICIO 006  - Conversor de medidas }
@@ -32,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 289; 
+ * @POSICAO-CURSOR = 356; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
