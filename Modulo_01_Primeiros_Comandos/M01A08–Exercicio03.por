@@ -17,6 +17,7 @@ programa
 		escreva("\n")
 		escreva("O antecessor de " + numero + " é o valor " + (numero - 1))
 		escreva("\nO sucessor de " + numero + " é o valor " + (numero + 1))
+		escreva("\n")
 	}
 	
 }
@@ -25,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 509; 
+ * @POSICAO-CURSOR = 526; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
