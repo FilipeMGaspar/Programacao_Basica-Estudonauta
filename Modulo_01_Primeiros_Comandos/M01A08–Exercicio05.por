@@ -14,6 +14,7 @@ programa
 		escreva("\n")
 		escreva("\nAs notas do aluno foram " + nota1 + " e " + nota2)
 		escreva("\nA média final foi " + ((nota1+nota2)/2))
+		escreva("\n")
 		
 		/*Exercicio_05
 		 * { EXERCICIO 005  - Média do aluno }
@@ -31,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 394; 
+ * @POSICAO-CURSOR = 403; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
