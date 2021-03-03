@@ -20,11 +20,11 @@ programa
 
 		escreva("--------- RESULTADO ---------\n")
 		escreva(nomeFuncionario + " ganhava " + salario + "\n")
-		escreva("depois do aumento de " + aumento + "% de aumento")	
+		escreva("depois do aumento de " + aumento + "% de aumento\n")	
 		
 		real novoSalario
 		novoSalario = salario + (salario * aumento/100) 
-		escreva("vai passar a ganhar " + novoSalario  + "€")
+		escreva("vai passar a ganhar " + novoSalario  + "€\n")
 		 
 		/*Exercicio_09
 		 * { EXERCICIO 009  - Aumento Salarial }
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 647; 
+ * @POSICAO-CURSOR = 521; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
