@@ -20,12 +20,12 @@ programa
 		qtCigarrosAnal = QTDIASANO * qtCigarros * anosQueFuma
 
 		real minutosPorAno = 24 * 60 * 365 
-		real diasPerdidos = minutosPorAno - (10 * qtCigarrosAnal)
+		real diasPerdidos  
 		
 		escreva("\n")
 		escreva("-------------------------------------\n")
 		escreva("Ao todo, até agora você já fumou " + qtCigarrosAnal + " cigarros!\n")
-		escreva("Estima-se que você já perdeu " + diasPerdidos + " dias de vida!\n")
+		escreva("Estima-se que você já perdeu " + minutosPorAno + " dias de vida!\n")
 		
 		
 		/*Exercicio_10
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 791; 
+ * @POSICAO-CURSOR = 521; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
