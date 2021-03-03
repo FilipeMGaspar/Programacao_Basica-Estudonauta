@@ -12,7 +12,11 @@ programa
 		leia(num2)
 		escreva("\n")
 		escreva("\n------------ RESULTADO ------------")
-		escreva("")
+		escreva("\nSOMA: " + (num1 + num2))
+		escreva("\nDIFERENÇA: " + (num1 - num2))
+		escreva("\nPRODURO: " + (num1 * num2))		
+		escreva("\nDIVISÂO INTEIRA: " + (num1 / num2))
+		escreva("\n")
 		
 		/*Exercicio_04		
 		 * { EXERCICIO 004  - Operações Aritméticas}
@@ -34,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 340; 
+ * @POSICAO-CURSOR = 515; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
