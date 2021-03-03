@@ -16,7 +16,8 @@ programa
 		escreva("\nDIFERENÇA: " + (num1 - num2))
 		escreva("\nPRODURO: " + (num1 * num2))		
 		escreva("\nDIVISÂO INTEIRA: " + (num1 / num2))
-		escreva("\n")
+		escreva("\nDIVISAO REAL: ")
+		escreva("\nRESTO DA DIVISAO: " + (num1 % num2))
 		
 		/*Exercicio_04		
 		 * { EXERCICIO 004  - Operações Aritméticas}
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 515; 
+ * @POSICAO-CURSOR = 579; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
