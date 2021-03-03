@@ -2,7 +2,10 @@ programa
 {
 	
 	funcao inicio()
-	{
+	{		
+		escreva("{ EXERCICIO 007  - Pintando uma parede }\n")
+		escreva("Informação importante: um litro de tinta pinta 2m2\n")
+		escreva("--------------------------------------------------")
 		/*Exercicio_07
 		 * { EXERCICIO 007  - Pintando uma parede }
 		 * Informação importante: um litro de tinta pinta 2m2
@@ -21,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 373; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
