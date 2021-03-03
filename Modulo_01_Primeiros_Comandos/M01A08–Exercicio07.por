@@ -19,6 +19,7 @@ programa
 		//Calculo da área
 		real area
 		area = largura * altura
+		area = Matematica.arredondar(area, 2)
 	
 		escreva("\nUma parede de " + largura + " x " + altura + " tem uma área de " + area + "m2\n")
 		
@@ -45,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 806; 
+ * @POSICAO-CURSOR = 846; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
