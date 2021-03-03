@@ -9,7 +9,7 @@ programa
 		real preco
 		escreva("Qual é o preço do produto? ")
 		leia(preco)
-		real novoPreco = preco + (preco * 5/100)
+		real novoPreco = preco - (preco * 5/100)
 		novoPreco = Matematica.arredondar(novoPreco, 2)
 		escreva("\nCom 5% de desconto. O produto custa " + novoPreco + "€\n")
 		
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 410; 
+ * @POSICAO-CURSOR = 269; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
