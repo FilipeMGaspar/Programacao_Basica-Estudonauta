@@ -19,8 +19,17 @@ programa
 		inteiro qtCigarrosAnal
 		qtCigarrosAnal = QTDIASANO * qtCigarros * anosQueFuma
 
+		//Cauculo da quantidade de minutos em anos que fumou ou fuma
+		real totMinutAnosFuma = (24 * 60 * anosQueFuma * QTDIASANO)
+		escreva("\nFuma há "+ anosQueFuma + " anos")
+		escreva("\n"+totMinutAnosFuma + " minutos a fumar!")
+		real totHorasAnosFuma =(24 * anosQueFuma * QTDIASANO)
+		escreva("\n"+ totHorasAnosFuma  +" horas a poluir!") 	
+		escreva("\n"+ (anosQueFuma * QTDIASANO) +" Dias a espetar pregos!")
+		escreva("\n"+ (anosQueFuma * 12) +" Meses a abrir covas!\n")
+		 	
 		  
-		escreva("\n" + 24 * 60 + "\n")
+		//escreva("\n" +24 *60 * anosQueFuma * QTDIASANO + " Minutos por anos\n")
 		
 		//real minutosPerdidosAnual = 10 * qtCigarrosAnal		
 		//real minutosPerdidos  
@@ -46,7 +55,7 @@ programa
 		escreva("\n")
 		escreva("-------------------------------------\n")
 		escreva("Ao todo, até agora você já fumou " + qtCigarrosAnal + " cigarros!\n")
-		escreva("Estima-se que você já perdeu " + minutosPerdidosAnual + " dias de vida!\n")
+		//escreva("Estima-se que você já perdeu " + minutosPerdidosAnual + " dias de vida!\n")
 		
 		
 		/*Exercicio_10
@@ -68,7 +77,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 493; 
+ * @POSICAO-CURSOR = 952; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
