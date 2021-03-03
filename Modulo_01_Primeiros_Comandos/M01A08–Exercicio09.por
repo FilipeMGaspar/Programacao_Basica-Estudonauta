@@ -19,7 +19,7 @@ programa
 		escreva("\n")
 
 		escreva("--------- RESULTADO ---------\n")
-		escreva(nomeFuncionario + " ganhava " + salario + "\n")
+		escreva(nomeFuncionario + " ganhava " + salario + "€\n")
 		escreva("depois do aumento de " + aumento + "% de aumento\n")	
 		
 		real novoSalario
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 521; 
+ * @POSICAO-CURSOR = 456; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
