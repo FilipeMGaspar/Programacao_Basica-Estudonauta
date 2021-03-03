@@ -5,7 +5,22 @@ programa
 	{		
 		escreva("{ EXERCICIO 007  - Pintando uma parede }\n")
 		escreva("Informação importante: um litro de tinta pinta 2m2\n")
-		escreva("--------------------------------------------------")
+		escreva("--------------------------------------------------\n")
+		escreva("\n")
+		
+		real largura
+		escreva("\nLargura da parede: ")
+		leia(largura)
+		
+		real altura
+		escreva("Altura da parede: ")
+		leia(altura)
+
+		//Calculo da área
+		real area
+		area = largura * altura
+	
+		escreva("Uma parede de " + largura + " x " + altura + " tem uma área de " + area + "m2")	
 		/*Exercicio_07
 		 * { EXERCICIO 007  - Pintando uma parede }
 		 * Informação importante: um litro de tinta pinta 2m2
@@ -24,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 218; 
+ * @POSICAO-CURSOR = 521; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
