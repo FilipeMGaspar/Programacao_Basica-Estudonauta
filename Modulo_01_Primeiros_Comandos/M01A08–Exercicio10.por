@@ -37,6 +37,10 @@ programa
 		real diasPerdidosPFumar = horasPerdidasPFumar / 24
 		diasPerdidosPFumar = Matematica.arredondar(diasPerdidosPFumar, 2)
 		
+		//calculo dos dias que se estima ter perdido por fumar
+		real estDiasPerdidosPfumar = (anosQueFuma * QTDIASANO) - diasPerdidosPFumar
+		
+		
 		
 		escreva("\nFuma há "+ anosQueFuma + " anos")		
 		real totHorasAnosFuma =(24 * anosQueFuma * QTDIASANO)
@@ -80,7 +84,7 @@ programa
 		escreva("\n")
 		escreva("-------------------------------------\n")
 		escreva("Ao todo, até agora você já fumou " + qtCigarrosAnal + " cigarros!\n")
-		//escreva("Estima-se que você já perdeu " + minutosPerdidosAnual + " dias de vida!\n")
+		escreva("Estima-se que você já perdeu " + estDiasPerdidosPfumar + " dias de vida!\n")
 		
 		
 		/*Exercicio_10
@@ -102,7 +106,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1782; 
+ * @POSICAO-CURSOR = 3098; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
