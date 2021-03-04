@@ -12,7 +12,13 @@ programa
 	
 	funcao inicio()
 	{
+		cadeia nomeCidade
 		
+		escreva("{ EXERCÌCIO 011 - Analisando sua cidade }\n")
+		escreva("-----------------------------------------\n")
+		
+		escreva("\nEm que cidade você mora? ")
+		leia(nomeCidade)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 274; 
+ * @POSICAO-CURSOR = 472; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
