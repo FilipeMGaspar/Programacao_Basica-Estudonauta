@@ -9,7 +9,7 @@ programa
  * A primeira letra é R
  * E contém 14 caracteres
 */
-	
+	inclua biblioteca Texto --> txt
 	funcao inicio()
 	{
 		cadeia nomeCidade
@@ -19,6 +19,9 @@ programa
 		
 		escreva("\nEm que cidade você mora? ")
 		leia(nomeCidade)
+		escreva("\n\n")
+		escreva("------------ ANALISANDO ------------")
+		escreva("Você mora na cidade: " + txt.caixa_alta(nomeCidade))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 472; 
+ * @POSICAO-CURSOR = 634; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
