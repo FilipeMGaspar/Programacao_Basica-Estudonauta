@@ -7,9 +7,9 @@ programa
 		escreva("n = " + n)
 		//n = n + 2
 		//n+=2
-		n /= 2
-		escreva("\nn / 2 = "+n)
-		
+		//n /= 2
+		n++
+		escreva("\nn++ = "+n)
 		
 	}
 }
@@ -18,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 140; 
+ * @POSICAO-CURSOR = 133; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
