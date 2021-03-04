@@ -5,9 +5,11 @@ programa
 	{
 		inteiro n = 6
 		escreva("n = " + n)
-		n = n + 2
-		//n+=2
-		escreva("\n "+n)
+		//n = n + 2
+		n+=2
+		escreva("\nn + 2 = "+n)
+
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
