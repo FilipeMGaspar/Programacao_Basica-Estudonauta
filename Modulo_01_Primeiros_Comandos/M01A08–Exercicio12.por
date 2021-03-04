@@ -10,6 +10,7 @@ programa
 	{
 		cadeia nomeCompleto
 		inteiro posicaoDoEspaco
+		cadeia primeiroNome
 		
 		escreva("{ EXERCÌCIO 012 - Seu nome }\n")
 		escreva("----------------------------\n")
@@ -18,7 +19,9 @@ programa
 		leia(nomeCompleto)
 
 		posicaoDoEspaco  = txt.posicao_texto(" ", nomeCompleto, 0)
-		escreva("Seu primeiro nome é: " + posicaoDoEspaco)
+		primeiroNome = txt.extrair_subtexto(nomeCompleto, 0 , posicaoDoEspaco)
+		
+		escreva("Seu primeiro nome é: " + primeiroNome)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 507; 
+ * @POSICAO-CURSOR = 601; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
