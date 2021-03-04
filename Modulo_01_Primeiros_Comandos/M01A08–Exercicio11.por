@@ -1,6 +1,6 @@
 programa
 {
-/*Exercicio 11
+ /*Exercicio 11
  * { EXERCÌCIO 011 - Analisando sua cidade }
  * Em que cidade você mora? Rio de Janeiro
  * 
@@ -8,7 +8,7 @@ programa
  * Você mora na cidade: RIO DE JANEIRO 
  * A primeira letra é R
  * E contém 14 caracteres
-*/
+ */
 	inclua biblioteca Texto --> txt
 	funcao inicio()
 	{
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 801; 
+ * @POSICAO-CURSOR = 244; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
