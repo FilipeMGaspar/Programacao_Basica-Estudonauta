@@ -1,10 +1,10 @@
 programa
 {
-/*Exercicio 12
+ /*Exercicio 12
  * { EXERCÌCIO 012 - Seu nome }
  * Digite seu nome completo: Gustavo Guanabara
  * Seu primeiro nome é Gustavo
-*/
+ */
 	inclua biblioteca Texto --> txt
 	funcao inicio()
 	{
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 602; 
+ * @POSICAO-CURSOR = 138; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
