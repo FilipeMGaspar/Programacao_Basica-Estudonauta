@@ -22,8 +22,8 @@ programa
 		escreva("\n\n")
 		escreva("------------ ANALISANDO ------------")
 		escreva("Você mora na cidade: " + txt.caixa_alta(nomeCidade)+"\n")
-		escreva("A primeira letra é: ")
-		escreva("O nome da sua cidade contem "  )
+		escreva("A primeira letra é: " + txt.obter_caracter(nomeCidade, 0))
+		escreva("O nome da sua cidade contem " + txt.numero_caracteres(nomeCidade))
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 716; 
+ * @POSICAO-CURSOR = 795; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
