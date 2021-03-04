@@ -12,7 +12,7 @@ programa
 		escreva("Caracter número na 5ª posição: "+ txt.obter_caracter(nome, 5) +"\n")
 		escreva("Subtexto entre o 5 e o 8 craracter:  :"+ txt.extrair_subtexto(nome, 5, 8)+" \n")
 		escreva("Primeira posição do a : " + txt.posicao_texto("a", nome, 0) +"\n")
-		escreva(txt.substituir(nome, "d", "K"))
+		escreva(txt.substituir(nome, "d", "K")+ "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 600; 
+ * @POSICAO-CURSOR = 602; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
