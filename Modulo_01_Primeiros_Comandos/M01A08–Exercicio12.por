@@ -8,7 +8,13 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		cadeia nomeCompleto
+		
+		escreva("{ EXERCÌCIO 012 - Seu nome }\n")
+		escreva("----------------------------\n")
+
+		escreva("Digite seu nome completo: ")
+		leia(nomeCompleto)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 335; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
