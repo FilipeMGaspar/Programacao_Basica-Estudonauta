@@ -1,13 +1,46 @@
 programa
 {
-	inclua biblioteca Matematica
-	
+		/*Exercicio_10
+		 * { EXERCICIO 010  - Não Fume }
+		 * Cada cigarro reduz 10 minutos de vida
+		 * -------------------------------------
+		 * 
+		 * Há quantos anos você fuma? 8
+		 * Quantos cigarros você fuma por dia? 5
+		 * 
+		 * -------------------------------------
+		 * Ao todo, até agora você já fumou 14600 cigarros!
+		 * Estima-se que você já perdeu 101.39 dias de vida!
+		*/
+		
+	inclua biblioteca Matematica --> m
+	inclua biblioteca Tipos --> t //solução do professor
 	funcao inicio()
 	{
+		inteiro anos, cig
+		
 		escreva("{ EXERCICIO 010  - Não Fume }\n")
 		escreva("Cada cigarro reduz 10 minutos de vida\n")
 		escreva("-------------------------------------\n")
 		escreva("\n")
+
+		//solução do Professor Gustavo Gunabara
+		escreva("Há quantos anos você fuma? ")
+		leia(anos)
+		escreva("Quantos cigarros fuma por dia? ")
+		leia(cig)
+
+		inteiro total = cig * 365 * anos // cada ano tem 365 dias
+		real dias = t.inteiro_para_real(total) * 10 / 1440 //cada dia tem 1140 minutos
+		
+		escreva("\n")
+		escreva("-------------------------------------\n")
+		escreva("Ao todo, até agora você já fumou " + total + " cigarros!\n")
+		escreva("Estima-se que você já perdeu " + m.arredondar(dias, 2) + " dias de vida!\n")
+
+		
+		/*
+		// A minha solução não muito elegante mas funcional
 		inteiro anosQueFuma
 		escreva("Há quantos anos você fuma? ")
 		leia(anosQueFuma)
@@ -42,38 +75,27 @@ programa
 		estDiasPerdidosPfumar = Matematica.arredondar(estDiasPerdidosPfumar, 2)
 		
 		
-		/*	Acrescentei para testes	 
-		escreva("\nFuma há "+ anosQueFuma + " anos")		
-		real totHorasAnosFuma =(24 * anosQueFuma * QTDIASANO)	
-		escreva("\n"+ (anosQueFuma * 12) +" Meses a abrir covas!")		
-		escreva("\n"+ totMinutDosAnosKFuma +" Minutos a queimar notas!")
-		escreva("\nMenos " + mPerdidosPorcigaro + " minutos Vividos")
-		escreva("\nComo fuma viverá apenas " + mPerdidosPAnosaFum +" minutos")
-		escreva("\nDo total de: "+ totHorasAnosFuma  +" horas")
-		escreva("\nApenas " + horasPerdidasPFumar +" horas para viver")
-		escreva("\nDo total de "+ (anosQueFuma * QTDIASANO) +" Dias")
-		escreva("\nApenas " + diasPerdidosPFumar + " dias para gozar\n")
-		*/
+		//Acrescentei para testes	 
+		//escreva("\nFuma há "+ anosQueFuma + " anos")		
+		//real totHorasAnosFuma =(24 * anosQueFuma * QTDIASANO)	
+		//escreva("\n"+ (anosQueFuma * 12) +" Meses a abrir covas!")		
+		//escreva("\n"+ totMinutDosAnosKFuma +" Minutos a queimar notas!")
+		//escreva("\nMenos " + mPerdidosPorcigaro + " minutos Vividos")
+		//escreva("\nComo fuma viverá apenas " + mPerdidosPAnosaFum +" minutos")
+		//escreva("\nDo total de: "+ totHorasAnosFuma  +" horas")
+		//escreva("\nApenas " + horasPerdidasPFumar +" horas para viver")
+		//escreva("\nDo total de "+ (anosQueFuma * QTDIASANO) +" Dias")
+		//escreva("\nApenas " + diasPerdidosPFumar + " dias para gozar\n")
+		
 		  
 		//Resultado pedido no exercicio
 		escreva("\n")
 		escreva("-------------------------------------\n")
 		escreva("Ao todo, até agora você já fumou " + qtCigarrosAnal + " cigarros!\n")
 		escreva("Estima-se que você já perdeu " + estDiasPerdidosPfumar + " dias de vida!\n")
-		
-		
-		/*Exercicio_10
-		 * { EXERCICIO 010  - Não Fume }
-		 * Cada cigarro reduz 10 minutos de vida
-		 * -------------------------------------
-		 * 
-		 * Há quantos anos você fuma? 8
-		 * Quantos cigarros você fuma por dia? 5
-		 * 
-		 * -------------------------------------
-		 * Ao todo, até agora você já fumou 14600 cigarros!
-		 * Estima-se que você já perdeu 101.39 dias de vida!
 		*/
+		
+
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -81,7 +103,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1489; 
+ * @POSICAO-CURSOR = 1234; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
