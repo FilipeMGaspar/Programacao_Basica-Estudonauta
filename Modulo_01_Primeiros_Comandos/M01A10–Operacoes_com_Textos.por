@@ -9,7 +9,7 @@ programa
 		escreva("Tem " + txt.numero_caracteres(nome) + " caracteres\n")
 		escreva("Em miúsculas "+ txt.caixa_alta(nome) + "\n")
 		escreva("Em minúsculas " + txt.caixa_baixa(nome) + "\n")
-		escreva("Caracter número 5 "+ txt.obter_caracter(nome, 5) + "\n")
+		escreva("Caracter número na 5ª posição: "+ txt.obter_caracter(nome, 5) + "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 370; 
+ * @POSICAO-CURSOR = 346; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
