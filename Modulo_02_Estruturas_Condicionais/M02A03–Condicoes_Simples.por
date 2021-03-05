@@ -8,10 +8,10 @@ programa
 		leia(vel)
 
 		se (vel > 80){
-			escreva("Você vai ser MULTADO!")
+			escreva("Você vai ser ..: MULTADO!\n")
 		}
 		
-		escreva("Dirija com cuidado!\n")		
+		escreva("\nDirija com cuidado!\n")		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 154; 
+ * @POSICAO-CURSOR = 152; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
