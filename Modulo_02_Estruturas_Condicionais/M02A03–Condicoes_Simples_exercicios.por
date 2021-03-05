@@ -28,10 +28,18 @@ programa
 		*/
 
 		/* Exercicio 15
-		 *  { EXERCÍCIO 014 - Consumidor ganha 10% de desconto }
+		 *  { EXERCÍCIO 015 - Fila de banco }
 		 *  Em que ano você nasceu? 1978
 		 *  
 		 *  Você tem 40 anos, certo? Seja bem-vindo(a) ao Banco Estudonauto
+		 *  
+		 *  se idade for igual ou superior a 65 anos 
+		 *  
+		 *  Em que ano você nasceu? 1963
+		 *  
+		 *  Você tem 68 anos, certo? Seja bem-vindo(a) ao Banco Estudonauto
+		 *  ====== ATENÇÂO! DIRIJA-SE PARA A FILA PREFERENCIAL! ======
+		 *  
 		*/
 	}
 }
@@ -40,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 996; 
+ * @POSICAO-CURSOR = 1209; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
