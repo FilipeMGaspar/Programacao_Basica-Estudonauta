@@ -5,7 +5,10 @@ programa
 	{
 		inteiro a = 7, b = 9
 
-		escreva(a + " = " + b + " é:  " + (a == b))
+		escreva(a + " = " + b + " é:  " + (a == b) + "\n")
+		escreva(a + " <=  " + b + " é: "+(a<=b) + "\n")
+		escreva(a + " = 8 é: " + (a == 8) + "\n")
+		escreva(b + " = 9 é: " +(b==9) + "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -13,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 92; 
+ * @POSICAO-CURSOR = 109; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
