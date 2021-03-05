@@ -10,7 +10,7 @@ programa
 		logico y = x ou nao (c < a + b / d)
 		logico z = nao x e falso ou (d + a <= b+ d)
 
-		escreva(x , y, k, z)
+		escreva(x + "\n" + y + "\n" + k + "\n" + z)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 300; 
+ * @POSICAO-CURSOR = 302; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
