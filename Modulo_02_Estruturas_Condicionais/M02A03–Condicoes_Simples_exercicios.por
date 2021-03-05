@@ -26,6 +26,13 @@ programa
 		 * 
 		 * Só ganha o desconto se gastar mais de R$500
 		*/
+
+		/* Exercicio 15
+		 *  { EXERCÍCIO 014 - Consumidor ganha 10% de desconto }
+		 *  Em que ano você nasceu? 1978
+		 *  
+		 *  Você tem 40 anos, certo? Seja bem-vindo(a) ao Banco Estudonauto
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 536; 
+ * @POSICAO-CURSOR = 996; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
