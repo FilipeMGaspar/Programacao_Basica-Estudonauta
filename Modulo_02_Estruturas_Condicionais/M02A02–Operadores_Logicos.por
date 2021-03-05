@@ -5,6 +5,11 @@ programa
 	{
 		logico r = nao (5>3) ou (10>=10) e (7<4)	
 		escreva(r)
+
+		inteiro a = 3, b = 5
+		logico  x = (a>b) ou (b<a*2) e nao (b>a)
+
+		escreva("\n"+ x+ "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -12,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 94; 
+ * @POSICAO-CURSOR = 185; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
