@@ -14,10 +14,11 @@ programa
 *  ====== ATENÇÂO! DIRIJA-SE PARA A FILA PREFERENCIAL! ======
 *  
 */
-	
+	inclua biblioteca Calendario --> cld	
 	funcao inicio()
 	{
-		inteiro anoNascimento
+		inteiro anoNascimento, idade 
+		inteiro anoAtual = cld.ano_atual()
 	
 		escreva("{ EXERCÍCIO 015 - Fila de banco }\n")
 		escreva("---------------------------------\n")
@@ -25,7 +26,12 @@ programa
 		
 		escreva("Em que ano você nasce: ")
 		leia(anoNascimento)
-		escreva("Você tem " + anoNascimento)
+		idade = anoAtual - anoNascimento
+		escreva("Você tem " + idade + " anos, certo? Seja bem vindo ao Banco Estudonauta!\n")
+
+		se(idade >= 65){
+			escreva("=========== ATENÇÂO! DIRIJA-SE PARA A FILA PREFERENCIAL! ===========\n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 658; 
+ * @POSICAO-CURSOR = 928; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
