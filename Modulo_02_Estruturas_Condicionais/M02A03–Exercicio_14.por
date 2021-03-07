@@ -32,6 +32,7 @@ programa
 			desconto = totalCompras * 10/100
 			escreva("\n===== ATENÇÂO =====")
 			escreva("Por fazer mais de R$500 em compras, você vai receber R$ " + desconto + " de desconto\n")
+			escreva("O valor a ser pago é de R$ " + (totalCompras - desconto) + "! Volte sempre!\n")
 		}
 		
 	}
@@ -41,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1049; 
+ * @POSICAO-CURSOR = 1143; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
