@@ -29,7 +29,7 @@ programa
 		 * 
 		*/
 
-		/* Exercico 17
+		/* Exercico 18
 		 *  { EXERCÍCIO 018 - Preço da Passagem }
 		 *  Informe a distancia total da viagem, em Km: 100
 		 *  
@@ -40,14 +40,27 @@ programa
 		 *  Uma viagem de 100.0Km var custar R$0.35/Km. Valor total: R$35 
 		 * 
 		*/
+
+		/* Exercico 19
+		 *  { EXERCÍCIO 019 - Inverso ou Oposto }
+		 *  
+		 *  Digite um número: 2 
+		 *  
+		 *  O inverso de 2.0 é igual a 0.5 (1/2)
+		 *  
+		 *  Digite um número: -3 
+		 *  
+		 *  O oposto de -3 é igual a 3.0
+		 *  
+		*/
 	}
-}
+		
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 937; 
+ * @POSICAO-CURSOR = 1173; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
