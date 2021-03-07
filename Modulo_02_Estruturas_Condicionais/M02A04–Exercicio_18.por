@@ -14,7 +14,20 @@ programa
 	
 	funcao inicio()
 	{
-				
+		real distancia
+		
+		escreva(" { EXERCÍCIO 018 - Preço da Passagem }\n")
+		escreva("--------------------------------------\n")
+		escreva("\n")
+		
+		escreva("Informe a distancia total da viagem, em Km: ")
+		leia(distancia)
+
+		escreva("\nUma viagem de " + distancia +" Km vai custar ")
+		se(distancia <= 150){
+			escreva("R$0.5/Km. Valor total: R$" + (distancia*0.5) + "\n")
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 346; 
+ * @POSICAO-CURSOR = 713; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
