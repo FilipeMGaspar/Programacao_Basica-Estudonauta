@@ -53,6 +53,19 @@ programa
 		 *  O oposto de -3 é igual a 3.0
 		 *  
 		*/
+
+		/* Exercico 20
+		 *  { EXERCÍCIO 020 - Dá pra ver o filme? }
+		 *  ========== CINEMA ESTUDONAUTA ==========
+		 *  HORÀRIO DO FILME: 13h - PREÇO DO INGRESSO: R$20
+		 *  ------------------------------------------------
+		 *  
+		 *  Quanto dinheiro você tem? R$ 15
+		 *  Agora são 13 horas. Inflesmente não é possível comprar o ingresso!
+		 *  
+		 *  Quanto dinheiro você tem? R$ 60
+		 *  Agora são 13 horas. Você consegue comprar o ingresso!
+		*/
 	}
 		
 /* $$$ Portugol Studio $$$ 
@@ -60,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1173; 
+ * @POSICAO-CURSOR = 1628; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
