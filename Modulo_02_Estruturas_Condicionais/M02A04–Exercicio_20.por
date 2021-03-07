@@ -26,7 +26,12 @@ programa
 
 		escreva("Quanto dinheiro você tem? R$ ")
 		leia(dinheiro)
-		
+
+		se(dinheiro < 20){
+			escreva(" Infelismente não é possivel comprar o ingresso!")			
+		} senao{
+			escreva(" Você consegue comprar o ingresso!")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -34,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 869; 
+ * @POSICAO-CURSOR = 1012; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
