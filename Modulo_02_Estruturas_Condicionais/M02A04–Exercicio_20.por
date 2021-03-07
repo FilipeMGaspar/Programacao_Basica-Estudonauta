@@ -28,6 +28,7 @@ programa
 		escreva("Quanto dinheiro você tem? R$ ")
 		leia(dinheiro)
 
+		escreva("Agotra são " + horaFilme + "horas.")
 		se(dinheiro < 20){
 			escreva(" Infelismente não é possivel comprar o ingresso!\n")			
 		} senao{
@@ -40,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 778; 
+ * @POSICAO-CURSOR = 1006; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
