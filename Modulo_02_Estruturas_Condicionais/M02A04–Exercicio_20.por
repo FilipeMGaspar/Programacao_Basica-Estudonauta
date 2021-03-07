@@ -12,15 +12,16 @@ programa
 *  Quanto dinheiro você tem? R$ 60
 *  Agora são 13 horas. Você consegue comprar o ingresso!
 */
-	
+	inclua biblioteca Calendario --> cld
 	funcao inicio()
 	{
 		real dinheiro 
+		inteiro horaFilme = cld.hora_atual(falso)
 		
 		escreva("{ EXERCÍCIO 020 - Dá pra ver o filme? }\n\n")
 		escreva("\t=========  CINEMA ESTUDONAUTA  =========\n")
 		escreva("----------------------------------------------------\n")
-		escreva("  HORÀRIO DO FILME: " + " - PREÇO DO INGRESSO R$20  \n")
+		escreva("  HORÀRIO DO FILME: " + horaFilme + "h - PREÇO DO INGRESSO R$20  \n")
 		escreva("____________________________________________________\n")
 		escreva("\n")
 
@@ -28,9 +29,9 @@ programa
 		leia(dinheiro)
 
 		se(dinheiro < 20){
-			escreva(" Infelismente não é possivel comprar o ingresso!")			
+			escreva(" Infelismente não é possivel comprar o ingresso!\n")			
 		} senao{
-			escreva(" Você consegue comprar o ingresso!")
+			escreva(" Você consegue comprar o ingresso!\n")
 		}
 	}
 }
@@ -39,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1012; 
+ * @POSICAO-CURSOR = 778; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
