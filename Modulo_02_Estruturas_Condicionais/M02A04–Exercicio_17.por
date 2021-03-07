@@ -25,11 +25,17 @@ programa
 		leia(ano)
 
 		escreva("O ano de " + ano)
-		se((ano%4 == 0) e (ano%100 != 0) ou (ano%4 != 0) e (ano%400 == 0)){
+		se(ano%4 != 0 e ano%400 !=0){
+			escreva(" NÃO É BISSEXTO!\n")
+		}senao {
+			escreva(" É BISSEXTO!\n")
+		}
+		
+		/*se((ano%4 == 0) e (ano%100 != 0) ou (ano%4 != 0) e (ano%400 == 0)){
 			escreva(" É BISSEXTO!\n")
 		} senao{
 			escreva(" NÃO É BISSEXTO!\n")
-		}
+		}*/
 		
 	}
 }
@@ -38,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 513; 
+ * @POSICAO-CURSOR = 553; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
