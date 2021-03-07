@@ -10,7 +10,17 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		real nota1, nota2, media
+
+		escreva("{ EXERCÍCIO 013 - Bons alunos merecem parabéns }\n")
+		escreva("------------------------------------------------\n")
+		escreva("\n")
+		escreva("Digite a primeira nota: ")
+		leia(nota1)
+		escreva("Digite a segunda nota: ")
+		leia(nota2)
+		media = (nota1+nota2)/2
+		escreva("A sua média foi: "+ media)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 15; 
+ * @POSICAO-CURSOR = 604; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
