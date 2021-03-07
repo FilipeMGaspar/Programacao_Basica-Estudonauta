@@ -22,7 +22,7 @@ programa
 		media = (nota1+nota2)/2
 		escreva("A sua média foi de "+ media)
 		se( media >= 7){
-			escreva(" MUITOS PARABÉNS!")
+			escreva(" MEUS PARABÉNS!")
 		}
 	}
 }
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 593; 
+ * @POSICAO-CURSOR = 640; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
