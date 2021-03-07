@@ -25,8 +25,10 @@ programa
 		escreva("Digite um número: ")
 		leia(numero)
 
-		se(numero < 0){
-			escreva("O oposto de " + numero + " é igual a " + mat.valor_absoluto(numero))
+		se(numero <= 0){
+			escreva("O oposto de " + numero + " é igual a " + mat.valor_absoluto(numero) + "\n")
+		}senao {
+			escreva ("O inverso de " + numero + " é igual a " + "\n" )
 		}
 		
 	}
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 531; 
+ * @POSICAO-CURSOR = 647; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
