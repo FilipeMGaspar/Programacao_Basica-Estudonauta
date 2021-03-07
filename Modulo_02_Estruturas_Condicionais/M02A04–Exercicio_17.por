@@ -25,7 +25,7 @@ programa
 		leia(ano)
 
 		escreva("O ano de " + ano)
-		se((ano%4 == 0) e (ano%100 != 0) ){
+		se((ano%4 == 0) e (ano%100 != 0) ou (ano%4 != 0) e (ano%400 == 0)){
 			escreva(" É BISSEXTO!\n")
 		} senao{
 			escreva(" NÃO É BISSEXTO!\n")
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 544; 
+ * @POSICAO-CURSOR = 513; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
