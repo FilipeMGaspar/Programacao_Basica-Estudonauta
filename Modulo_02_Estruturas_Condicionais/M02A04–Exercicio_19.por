@@ -13,9 +13,21 @@ programa
 *  
 */
 
-	
+		
 	funcao inicio()
 	{
+		real numero
+		
+		escreva("{ EXERCÍCIO 019 - Inverso ou Oposto }\n")
+		escreva("-------------------------------------\n")
+		escreva("\n")
+
+		escreva("Digite um número: ")
+		leia(numero)
+
+		se(numero < 0){
+			
+		}
 		
 	}
 }
@@ -24,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 241; 
+ * @POSICAO-CURSOR = 215; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
