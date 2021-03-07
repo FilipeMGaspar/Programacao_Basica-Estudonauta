@@ -15,7 +15,7 @@ programa
 * 
 * Só ganha o desconto se gastar mais de R$500
 */
-	
+	inclua biblioteca Matematica	--> mat
 	funcao inicio()
 	{
 		real totalCompras, desconto
@@ -30,9 +30,9 @@ programa
 		escreva("Você comprou R$ " + totalCompras + " na nossa loja. Obrigado!\n")
 		se(totalCompras > 500){
 			desconto = totalCompras * 10/100
-			escreva("\n===== ATENÇÂO =====\n")
-			escreva("Por fazer mais de R$500 em compras, você vai receber R$ " + desconto + " de desconto\n")
-			escreva("O valor a ser pago é de R$ " + (totalCompras - desconto) + "! Volte sempre!\n")
+			escreva("\n \t===== ATENÇÂO =====\n")
+			escreva("Por fazer mais de R$ 500 em compras, você vai receber R$ " + desconto + " de desconto\n")
+			escreva("O valor a ser pago é de R$ " + (mat.arredondar((totalCompras - desconto),2)) + "! Volte sempre!\n")
 		}
 		
 	}
@@ -42,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 955; 
+ * @POSICAO-CURSOR = 1214; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
