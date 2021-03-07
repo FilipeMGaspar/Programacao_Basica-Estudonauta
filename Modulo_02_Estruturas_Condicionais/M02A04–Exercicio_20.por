@@ -15,6 +15,17 @@ programa
 	
 	funcao inicio()
 	{
+		real dinheiro 
+		
+		escreva("{ EXERCÍCIO 020 - Dá pra ver o filme? }\n\n")
+		escreva("\t=========  CINEMA ESTUDONAUTA  =========\n")
+		escreva("----------------------------------------------------\n")
+		escreva("  HORÀRIO DO FILME: " + " - PREÇO DO INGRESSO R$20  \n")
+		escreva("____________________________________________________\n")
+		escreva("\n")
+
+		escreva("Quanto dinheiro você tem? R$ ")
+		leia(dinheiro)
 		
 	}
 }
@@ -23,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 453; 
+ * @POSICAO-CURSOR = 869; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
