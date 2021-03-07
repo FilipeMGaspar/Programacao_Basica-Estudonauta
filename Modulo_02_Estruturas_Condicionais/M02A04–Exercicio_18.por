@@ -11,7 +11,7 @@ programa
 *  Uma viagem de 100.0Km var custar R$0.35/Km. Valor total: R$35 
 * 
 */
-	
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		real distancia
@@ -27,7 +27,7 @@ programa
 		se(distancia <= 150){
 			escreva("R$0.5/Km. Valor total: R$" + (distancia*0.5) + "\n")
 		} senao {
-			escreva("R$0.35/Km. Valor total: R$" + (distancia*0.35) + "\n")
+			escreva("R$0.35/Km. Valor total: R$" + mat.arredondar((distancia*0.35), 2) + "\n")
 		}
 		
 	}
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 795; 
+ * @POSICAO-CURSOR = 856; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
