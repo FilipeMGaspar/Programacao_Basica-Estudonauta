@@ -13,7 +13,7 @@ programa
 *  
 */
 
-		
+	inclua biblioteca Matematica --> mat	
 	funcao inicio()
 	{
 		real numero
@@ -26,7 +26,7 @@ programa
 		leia(numero)
 
 		se(numero < 0){
-			
+			escreva("O oposto de " + numero + " é igual a " + mat.valor_absoluto(numero))
 		}
 		
 	}
@@ -36,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 215; 
+ * @POSICAO-CURSOR = 531; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
