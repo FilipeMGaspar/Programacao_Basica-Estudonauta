@@ -35,7 +35,9 @@ programa
 		 *  
 		 *  Uma viagem de 100.0Km var custar R$0.5/Km. Valor total: R$50 
 		 *  
+		 * Informe a distancia total da viagem, em Km: 250
 		 *  
+		 *  Uma viagem de 100.0Km var custar R$0.35/Km. Valor total: R$35 
 		 * 
 		*/
 	}
@@ -45,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 817; 
+ * @POSICAO-CURSOR = 937; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
