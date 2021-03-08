@@ -29,7 +29,7 @@ programa
 		escreva("Digite mais um valor: ")
 		leia(valor3)
 
-		escreva("------------------------------------\n\n")
+		escreva("------------------------------------\n\n")		
 		se((valor1 > valor2) e (valor1 > valor3)){
 			escreva("MAIOR: " + valor1 + "\n")
 		}senao se((valor2 > valor1) e (valor2 > valor3)){
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 838; 
+ * @POSICAO-CURSOR = 846; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
