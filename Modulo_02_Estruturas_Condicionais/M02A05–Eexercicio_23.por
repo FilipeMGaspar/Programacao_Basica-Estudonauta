@@ -40,6 +40,9 @@ programa
 		} senao se(idade > 18) {
 			 escreva("\nVocê já deveria ter se alistado em " + (anoNascimento + 18) + "\n")
 			 escreva("Você está atrasado " + (anoAtual - (anoNascimento + 18)) + " ano(s) \n")
+		} senao{
+			escreva("\nVocê completa 18 anos neste ano de " + anoAtual +"\n")
+			escreva("Você deve ALISTAR-SE! \n")
 		}
 		
 	}
@@ -49,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1348; 
+ * @POSICAO-CURSOR = 1463; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
