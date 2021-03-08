@@ -47,14 +47,6 @@ programa
 		}senao{
 			escreva("INTERMEDIÁRIO: " + valor3 + "\n")
 		}
-		
-		/*se((valor2 > valor1) e (valor2 < valor3)){
-			escreva("INTERMEDIÁRIO: " + valor2 + "\n")
-		}senao se((valor1 < valor3) e (valor1 > valor2)){
-			escreva("INTERMEDIÁRIO: " + valor1 + "\n")
-		}senao{
-			escreva("INTERMEDIÁRIO: " + valor3 + "\n")
-		}*/
 
 		//Menor
 		se((valor1 < valor2) e (valor1 < valor3)){
@@ -71,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1199; 
+ * @POSICAO-CURSOR = 1203; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
