@@ -32,9 +32,11 @@ programa
 		leia(anoNascimento)
 		idade = anoAtual - anoNascimento
 
+		escreva("\n")
+		escreva("=========================================================\n")
 		se(idade < 18){
-			escreva("Você ainda não completou 18 anos. Vai acontecer em " + idade + "\n")
-			escreva("Ainda falta(m) " + idade + " ano(s) \n")
+			escreva("Você ainda não completou 18 anos. Vai acontecer em " + (anoAtual + (18 - idade)) + "\n")
+			escreva("Ainda falta(m) " + (18 - idade) + " ano(s) \n")
 		}
 		
 	}
@@ -44,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1030; 
+ * @POSICAO-CURSOR = 967; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
