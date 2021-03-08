@@ -50,19 +50,38 @@ programa
 		 * Você está atrasado 22 ano(s)
 		*/
 
-			/*Exercicio 24
+		/*Exercicio 24
 		 * { EXERCÍCIO 024 - Qual é o seu estado? }
-		 *Em que estado do Brasil você nasceu? rj  
-		 *Nascendo no rj você é FLUMINENSE
+		 * Em que estado do Brasil você nasceu? rj  
+		 * Nascendo no rj você é FLUMINENSE
 		 *
-		 *Em que estado do Brasil você nasceu? sp  
-		 *Nascendo no sp você é Paulista
+		 * Em que estado do Brasil você nasceu? sp  
+		 * Nascendo no sp você é Paulista
 		 *
-		 *Em que estado do Brasil você nasceu? rn  
-		 *Nascendo no rn você é POTIGUAR
+		 * Em que estado do Brasil você nasceu? rn  
+		 * Nascendo no rn você é POTIGUAR
 		 *
-		 *Em que estado do Brasil você nasceu? sc
-		 *Nascendo no sc você é BARRIGA VERDE
+		 * Em que estado do Brasil você nasceu? sc
+		 * Nascendo no sc você é BARRIGA VERDE
+		 *
+		 * Em que estado do Brasil você nasceu? to
+		 * Nascendo no to você é natural da sua cidade, mas ainda não sei como te chamar.
+		*/
+
+		/*Exercicio 25
+		 * { EXERCÍCIO 025 - Três valores em ordem }
+		 * 
+		 * Digite um valor: 2
+		 * Digite outro valor: 8
+		 * digite mais um valor: 1
+		 * ---------------------------
+		 * 
+		 * MAIOR: 8
+		 * INTERMEDIÁRIO: 2
+		 * MENOR: 1
+		 * 
+		 * 
+		 * 
 		*/
 		
 	}
@@ -72,7 +91,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1669; 
+ * @POSICAO-CURSOR = 2067; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
