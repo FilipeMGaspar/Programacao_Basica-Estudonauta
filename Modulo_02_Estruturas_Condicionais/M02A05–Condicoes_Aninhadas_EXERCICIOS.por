@@ -15,7 +15,40 @@ programa
 		 *  Você digitou um número NULO
 		*/
 
-		
+		/*Exercicio 22
+		 * { EXERCÍCIO 022 - Ordem Crescente }
+		 * Digite um número: 5
+		 * Digite outro número: 9
+		 * Os número em ordem são 5 e 9 
+		 * 
+		 * Digite um número: 8
+		 * Digite outro número: 3 
+		 * Os número em ordem são 3 e 8 
+		 * 
+		 * Digite um número: 4
+		 * Digite outro número: 4
+		 * Não tem como colocar esses valores em ordem. Eles são IGUAIS 
+		 * 
+		*/	
+
+		/*Exercicio 23
+		 * { EXERCÍCIO 023 - Serviço Militar V2.0 }
+		 * Em que ano você nasceu? 2000
+		 * ----------------------------------------
+		 * Você completa 18 anos nesse ano de 2018
+		 * 
+		 * 
+		 * Em que ano você nasceu? 2010 
+		 * ----------------------------------------
+		 * Você ainda não completou 18 anos. Vai acontecer em 2028
+		 * ainda falta(m) 10 anos(s)
+		 * 
+		 * 
+		 * Em que ano você nasceu? 1978
+		 * ----------------------------------------
+		 * Você já deveria ter se alistado em 1996
+		 * Você está atrasado 22 ano(s)
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 1234; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
