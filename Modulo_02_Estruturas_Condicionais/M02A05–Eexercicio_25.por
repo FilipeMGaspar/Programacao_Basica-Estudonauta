@@ -37,6 +37,14 @@ programa
 		}senao{
 			escreva("MAIOR: " + valor3 + "\n")
 		}
+
+		se((valor1 < valor2) e (valor1 < valor3)){
+			escreva("MENOR: " + valor1)
+		}senao se((valor2 < valor1) e (valor2 < valor3)){
+			escreva("MENOR: " + valor2)
+		}senao{
+			escreva("MENOR: " + valor3)
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -44,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 846; 
+ * @POSICAO-CURSOR = 1046; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
