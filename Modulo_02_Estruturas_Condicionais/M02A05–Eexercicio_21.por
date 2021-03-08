@@ -16,8 +16,8 @@ programa
 	{
 		inteiro numero
 		
-		escreva(" { EXERCÍCIO 021 - Positivo ou Negativo }\n")
-		escreva("-----------------------------------------\n")
+		escreva(" { EXERCÍCIO 021 - Positivo ou Negativo } \n")
+		escreva("----------------------------------------- \n")
 		escreva("\n")
 		
 		escreva("Digite um némero: ")
@@ -25,7 +25,11 @@ programa
 
 		escreva("\nVocê digitou um número ")
 		se (numero < 0){
-			escreva("NEGATIVO!\n")
+			escreva("NEGATIVO! \n")
+		}senao se(numero > 0){
+			escreva("POSITIVO! \n")
+		}senao{
+			escreva("NULO! \n")
 		}
 	}
 }
@@ -34,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 494; 
+ * @POSICAO-CURSOR = 353; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
