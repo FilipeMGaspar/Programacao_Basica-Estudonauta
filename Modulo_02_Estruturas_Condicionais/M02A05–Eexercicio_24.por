@@ -29,7 +29,20 @@ programa
 		escreva("Em que estado do Brasil você nasceu? ")
 		leia(estado)
 
-		
+		escreva("Nascendo no " + estado + " você é ")
+		se((estado == "rj") ou (estado == "RJ")){
+			escreva("FLUMINENSE! \n")
+		}senao se ((estado == "sp") ou (estado == "SP")){
+			escreva("PAULISTA! \n")
+		}senao se((estado == "rn") ou (estado == "RN")){
+			escreva("POTIGUAR! \n")
+		}senao se ((estado == "sc") ou (estado == "SC")){
+			escreva("BARRIGA VERDE! \n")
+		}senao se((estado == "mg") ou (estado == "MG")){
+			escreva("MINEIRO! \n")
+		}senao{
+			escreva("natural da sua cidade, mas ainda não sei como te chamar.\n")
+		}
 		
 	}
 }
@@ -38,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 764; 
+ * @POSICAO-CURSOR = 1287; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
