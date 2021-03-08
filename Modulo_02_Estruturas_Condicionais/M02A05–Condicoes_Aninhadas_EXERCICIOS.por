@@ -35,7 +35,7 @@ programa
 		 * { EXERCÍCIO 023 - Serviço Militar V2.0 }
 		 * Em que ano você nasceu? 2000
 		 * ----------------------------------------
-		 * Você completa 18 anos nesse ano de 2018
+		 * Você completa 18 anos nesse ano de 2018! TEM DE SE ALISTAR!
 		 * 
 		 * 
 		 * Em que ano você nasceu? 2010 
@@ -49,6 +49,22 @@ programa
 		 * Você já deveria ter se alistado em 1996
 		 * Você está atrasado 22 ano(s)
 		*/
+
+			/*Exercicio 24
+		 * { EXERCÍCIO 024 - Qual é o seu estado? }
+		 *Em que estado do Brasil você nasceu? rj  
+		 *Nascendo no rj você é FLUMINENSE
+		 *
+		 *Em que estado do Brasil você nasceu? sp  
+		 *Nascendo no sp você é Paulista
+		 *
+		 *Em que estado do Brasil você nasceu? rn  
+		 *Nascendo no rn você é POTIGUAR
+		 *
+		 *Em que estado do Brasil você nasceu? sc
+		 *Nascendo no sc você é BARRIGA VERDE
+		*/
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -56,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1234; 
+ * @POSICAO-CURSOR = 1669; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
