@@ -16,7 +16,7 @@ programa
 			se (n1 < n2){
 				escreva("O maior é o " + n2)
 			} senao{
-				escreva(n1 + "e " + n2 +" São iguais!")		
+				escreva("O número " + n1 + " e " + n2 +" São iguais!")		
 			}			
 		}
 	}
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 291; 
+ * @POSICAO-CURSOR = 283; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
