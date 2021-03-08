@@ -16,7 +16,20 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro valor1, valor2, valor3
+	
+		escreva("{ EXERCÍCIO 025 - Três valores em ordem } \n")
+		escreva("----------------------------------------- \n")
+		escreva("\n")
+
+		escreva("Digite um valor: ")
+		leia(valor1)
+		escreva("Digite outro valor: ")
+		leia(valor2)
+		escreva("Digite mais um valor: ")
+		leia(valor3)
+
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 226; 
+ * @POSICAO-CURSOR = 568; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
