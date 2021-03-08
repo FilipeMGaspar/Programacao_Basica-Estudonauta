@@ -38,8 +38,9 @@ programa
 			escreva("MAIOR: " + valor3 + "\n")
 		}
 
-		se((valor1 > valor2) e (valor1 < valor3)){
-			escreva("INTERMEDIÁRIO: " + valor3 + "\n")
+			//falso                verdadeiro   falso
+		se((valor2 > valor1) e (valor2 < valor3)){
+			escreva("INTERMEDIÁRIO: " + valor2 + "\n")
 		}
 
 		se((valor1 < valor2) e (valor1 < valor3)){
@@ -56,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1162; 
+ * @POSICAO-CURSOR = 914; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
