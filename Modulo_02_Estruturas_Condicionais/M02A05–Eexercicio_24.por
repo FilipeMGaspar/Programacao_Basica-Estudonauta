@@ -41,7 +41,7 @@ programa
 		}senao se((estado == "mg") ou (estado == "MG")){
 			escreva("MINEIRO! \n")
 		}senao{
-			escreva("natural da sua cidade, mas ainda não sei como te chamar.\n")
+			escreva("natural da sua cidade. Mas ainda não sei como te chamar.\n")
 		}
 		
 	}
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1287; 
+ * @POSICAO-CURSOR = 1247; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
