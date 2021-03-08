@@ -35,7 +35,7 @@ programa
 		escreva("\n")
 		escreva("=========================================================\n")
 		se(idade < 18){
-			escreva("	nVocê ainda não completou 18 anos. Vai acontecer em " + (anoAtual + (18 - idade)) + "\n")
+			escreva("\nVocê ainda não completou 18 anos. Vai acontecer em " + (anoAtual + (18 - idade)) + "\n")
 			escreva("Ainda falta(m) " + (18 - idade) + " ano(s) \n")
 		} senao se(idade > 18) {
 			 escreva("\nVocê já deveria ter se alistado em " + (anoNascimento + 18) + "\n")
@@ -52,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1463; 
+ * @POSICAO-CURSOR = 1003; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
