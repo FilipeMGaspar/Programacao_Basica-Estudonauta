@@ -30,6 +30,7 @@ programa
 		leia(valor3)
 
 		escreva("------------------------------------\n\n")		
+		//Maior
 		se((valor1 > valor2) e (valor1 > valor3)){
 			escreva("MAIOR: " + valor1 + "\n")
 		}senao se((valor2 > valor1) e (valor2 > valor3)){
@@ -38,11 +39,16 @@ programa
 			escreva("MAIOR: " + valor3 + "\n")
 		}
 
-			//falso                verdadeiro   falso
+		//Intermédio
 		se((valor2 > valor1) e (valor2 < valor3)){
 			escreva("INTERMEDIÁRIO: " + valor2 + "\n")
+		}senao se((valor1 < valor3) e (valor1 > valor2)){
+			escreva("INTERMEDIÁRIO: " + valor1 + "\n")
+		}senao{
+			escreva("INTERMEDIÁRIO: " + valor3 + "\n")
 		}
 
+		//Menor
 		se((valor1 < valor2) e (valor1 < valor3)){
 			escreva("MENOR: " + valor1 + "\n")
 		}senao se((valor2 < valor1) e (valor2 < valor3)){
@@ -57,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 914; 
+ * @POSICAO-CURSOR = 1109; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
