@@ -1,6 +1,7 @@
 programa
 {
 /*Exercicio 22
+* 
 * { EXERCÍCIO 022 - Ordem Crescente }
 * Digite um número: 5
 * Digite outro número: 9
@@ -43,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 883; 
+ * @POSICAO-CURSOR = 26; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
