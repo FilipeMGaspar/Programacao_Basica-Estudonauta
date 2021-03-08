@@ -18,17 +18,24 @@ programa
 * Você já deveria ter se alistado em 1996
 * Você está atrasado 22 ano(s)
 */
-	
+	inclua biblioteca Calendario --> cld
 	funcao inicio()
 	{
-		inteiro anoNascimento
-		
+		inteiro anoNascimento, idade
+		inteiro anoAtual = cld.ano_atual()
+
 		escreva("{ EXERCÍCIO 023 - Serviço Militar V2.0 } \n")	
 		escreva("---------------------------------------- \n")
 		escreva("\n")
 
 		escreva("Em que ano você nasceu? ")
 		leia(anoNascimento)
+		idade = anoAtual - anoNascimento
+
+		se(idade < 18){
+			escreva("Você ainda não completou 18 anos. Vai acontecer em " + idade + "\n")
+			escreva("Ainda falta(m) " + idade + " ano(s) \n")
+		}
 		
 	}
 }
@@ -37,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 767; 
+ * @POSICAO-CURSOR = 1030; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
