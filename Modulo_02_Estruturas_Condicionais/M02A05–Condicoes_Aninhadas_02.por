@@ -13,11 +13,11 @@ programa
 		
 		escreva("Aluno obteve a média de " + media + "\n")
 		se(media < 5){
-			escreva("Aluno REPROVADO!")
+			escreva("Aluno REPROVADO!\n")
 		}senao se( (media >= 5) e (media < 7) ){
-			escreva("Aluno EM RECUPERAÇÂO!")
+			escreva("Aluno EM RECUPERAÇÂO!\n")
 		}senao{
-			escreva("Aluno APROVADO!")
+			escreva("Aluno APROVADO!\n")
 		}
 	}
 }
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 290; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
