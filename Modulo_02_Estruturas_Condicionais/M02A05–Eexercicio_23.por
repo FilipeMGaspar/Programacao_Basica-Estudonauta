@@ -21,6 +21,14 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro anoNascimento
+		
+		escreva("{ EXERCÍCIO 023 - Serviço Militar V2.0 } \n")	
+		escreva("---------------------------------------- \n")
+		escreva("\n")
+
+		escreva("Em que ano você nasceu? ")
+		leia(anoNascimento)
 		
 	}
 }
@@ -29,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 557; 
+ * @POSICAO-CURSOR = 767; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
