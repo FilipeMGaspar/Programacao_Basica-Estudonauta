@@ -42,6 +42,11 @@ programa
 		escreva("\t   5 \t Saturno \n")
 		escreva("\t   5 \t Urano \n")
 		escreva("\t=========================== \n")
+		inteiro op
+		escreva("\n\tDigite a sua opção => ")
+		leia(op)
+		
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -49,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1042; 
+ * @POSICAO-CURSOR = 1106; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
