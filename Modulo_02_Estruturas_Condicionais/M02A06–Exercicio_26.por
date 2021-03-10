@@ -52,9 +52,9 @@ programa
 		escreva("Você escolheu a operação [" + operacao + "]\n")	
 
 		inteiro num1, num2
+		escreva("\n")
 		escreva("Digite o primeiro número: ")
 		leia(num1)
-		escreva("\n")
 		escreva("Digite o segundo número: ")
 		leia(num2)
 		
@@ -88,7 +88,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1340; 
+ * @POSICAO-CURSOR = 1266; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
