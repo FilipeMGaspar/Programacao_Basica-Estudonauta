@@ -31,10 +31,14 @@ programa
 		leia(preco)
 
 		escreva("\n")
-		escreva("\t   ESCOLHA UM PERÍODO \n")
-		escreva("\t ======================")
-		escreva("\t 1      Carnaval [+10%]\n")
-		escreva("\t 2      Férias Escolares [+20%]\n")
+		escreva("\t        ESCOLHA UM PERÍODO \n")
+		escreva("\t ================================ \n")
+		escreva("\t     1      Carnaval [+10%] \n")
+		escreva("\t     2      Férias Escolares [+20%] \n")
+		escreva("\t     3      Dia da Criança [+5%] \n")
+		escreva("\t     4      Black Friday [-30%] \n")
+		escreva("\t     5      Natal [-5%] \n")
+		escreva("\t ================================ \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -42,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 863; 
+ * @POSICAO-CURSOR = 1093; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
