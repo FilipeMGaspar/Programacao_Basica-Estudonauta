@@ -79,6 +79,8 @@ programa
 		
 		escreva("\n..: ************************************************************ :.. \n")
 		escreva("     Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + etiqueta + " R$ " + mat.arredondar(preco, 2))
+		escreva("\n..: ************************************************************ :.. \n")
+		escreva("\n \t Muito Obrigado pela sua visita!   VOLTE SEMPRE!")
 		
 		escreva("\n")
 	}
@@ -88,7 +90,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1868; 
+ * @POSICAO-CURSOR = 2327; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
