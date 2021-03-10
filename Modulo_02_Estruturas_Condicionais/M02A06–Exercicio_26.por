@@ -45,8 +45,29 @@ programa
 		escreva(" * \t Multiplicação \n")
 		escreva(" / \t Divisão \n")
 		escreva("==================== \n")
+		caracter operacao
+		escreva("\nDigite a sua opção => ")
+		leia(operacao)
+
+		escreva("Você escolheu a operação [" + operacao + "]\n")	
+
+		inteiro num1, num2
+		escreva("Digite o primeiro número: ")
+		leia(num1)
+		escreva("Digite o segundo número: ")
+		leia(num2)
+
+		escreva("Calculando o valor de " + num1 + " " + operacao + " " + num2)
+		escolha(operacao) {
+			caso '+' :
+				escreva("Resultado da SOMA ")
+			pare
+
+			caso contrario: 
+				escreva(" \n")
+				pare
+		}
 		
-	
 		escreva("--------------------------------	\n")
 		escreva("\tVOLTE SEMPRE! \n")
 	}
@@ -56,7 +77,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1107; 
+ * @POSICAO-CURSOR = 1511; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
