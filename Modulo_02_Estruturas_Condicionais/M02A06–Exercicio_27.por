@@ -43,9 +43,22 @@ programa
 		escreva("\t   5 \t Urano \n")
 		escreva("\t=========================== \n")
 		inteiro op
-		escreva("\n\tDigite a sua opção => ")
+		escreva("\n\t  Digite a sua opção => ")
 		leia(op)
+
 		
+		escolha(op){
+			caso 1:
+				
+			/*  ---------------------------------------------
+				*  No planeta JÚPITER, seu peso seria 264.0Kg
+				*  ---------------------------------------------
+				*  		VOLTE SEMPRE!*/
+			pare
+		}
+
+		escreva("--------------------------------------------- \n")
+		escreva("No planeta " +  ", seu peso seria " + "Kg")
 		escreva("\n")
 	}
 }
@@ -54,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1106; 
+ * @POSICAO-CURSOR = 1453; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
