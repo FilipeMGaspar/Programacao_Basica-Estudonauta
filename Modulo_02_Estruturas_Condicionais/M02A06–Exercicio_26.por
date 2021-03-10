@@ -56,11 +56,13 @@ programa
 		leia(num1)
 		escreva("Digite o segundo número: ")
 		leia(num2)
-
-		escreva("Calculando o valor de " + num1 + " " + operacao + " " + num2)
+		
+		escreva("\n")
+		escreva("--------------------------------	\n")
+		escreva("Calculando o valor de " + num1 + " " + operacao + " " + num2 + "\n")
 		escolha(operacao) {
 			caso '+' :
-				escreva("Resultado da SOMA ")
+				escreva("Resultado da SOMA = " + (num1 + num2) + "\n")
 			pare
 
 			caso contrario: 
@@ -77,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1511; 
+ * @POSICAO-CURSOR = 1438; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
