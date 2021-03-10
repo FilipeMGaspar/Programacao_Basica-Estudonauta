@@ -12,7 +12,16 @@ programa
 		 *  	*	Multiplicação
 		 *  	/	Divisão
 		 *  =========================
-		 *  Digite a sua opção => 
+		 *  Digite a sua opção => +
+		 *  Você escolheu a operação [+]
+		 *  
+		 *  Digite o primeiro número: 5
+		 *  Digite o segundo número: 8
+		 *  
+		 *  ---------------------------
+		 *  Calculado o valor 5 + 8
+		 *  Resultado da SOMA = 13
+		 *  ---------------------------
 		*/
 	}
 }
@@ -21,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 275; 
+ * @POSICAO-CURSOR = 493; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
