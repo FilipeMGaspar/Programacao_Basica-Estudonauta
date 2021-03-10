@@ -1,6 +1,6 @@
 programa
 {
-/* Exercicio 26
+/* Exercicio 26
 *  { EXERCÍCIO 026 - Super Tabuada v1.0 }
 *  =========================
 *  	+	Adição
@@ -35,8 +35,8 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("--------------------------------")
-		escreva("\tVOLTE SEMPRE!")
+		escreva("--------------------------------	\n")
+		escreva("\tVOLTE SEMPRE! \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 827; 
+ * @POSICAO-CURSOR = 823; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
