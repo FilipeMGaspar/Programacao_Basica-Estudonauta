@@ -10,18 +10,23 @@ programa
 
 		escolha(num){
 			caso 1:
-				escreva("Um")
+				escreva("Um\n")
+				pare
 			caso 2:
-				escreva("Dois")
+				escreva("Dois\n")
+				pare
 			caso 3:
-				escreva("Três")
+				escreva("Três\n")
+				pare
 			caso 4:
-				escreva("Quatro")
+				escreva("Quatro\n")
+				pare
 			caso contrario: 
-				escreva("..: ERRO :..")
+				escreva("..: ERRO :..\n")
+				pare
 		}
 		
-		escreva("FIM DO PROCESSAMENTO")
+		escreva("FIM DO PROCESSAMENTO!\n")
 		
 	}
 }
@@ -30,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 293; 
+ * @POSICAO-CURSOR = 350; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
