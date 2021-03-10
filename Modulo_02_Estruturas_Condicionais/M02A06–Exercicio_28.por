@@ -20,6 +20,7 @@ programa
 * 
 */
 	inclua biblioteca Texto --> txt
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		escreva("{ EXERCÍCIO 028 - O preço por época } \n")
@@ -43,34 +44,34 @@ programa
 		inteiro op
 		escreva("Digite a sua opção => ")
 		leia(op)
-		cadeia epoca, novoPreco = ""
+		cadeia epoca, etiqueta = ""
 		escolha(op){
 			caso 1:
 				epoca = "Carnaval"
-				novoPreco = "sobe para"
+				etiqueta = "sobe para"
 			pare 
 			caso 2:
 				epoca = "Férias Escolares"
-				novoPreco = "sobe para"
+				etiqueta = "sobe para"
 			pare
 			caso 3:
 				epoca = "Dia da Criança"
-				novoPreco = "sobe para"
+				etiqueta = "sobe para"
 			pare
 			caso 4: 
 				epoca = "Black Friday"
-				novoPreco = "desce para"
+				etiqueta = "desce para"
 			pare
 			caso 5:
 				epoca = "Natal"
-				novoPreco = "desce para"
+				etiqueta = "desce para"
 			pare
 			caso contrario:
 				epoca = "Sem Alteração"
-				novoPreco = "Mantem o preço de "
+				etiqueta = "mantem o preço de "
 			pare
 		}
-		escreva("Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + novoPreco + " R$ ")
+		escreva("Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + etiqueta + " R$ " + mat.arredondar(preco, 2))
 		
 		escreva("\n")
 	}
@@ -80,7 +81,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1698; 
+ * @POSICAO-CURSOR = 1862; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
