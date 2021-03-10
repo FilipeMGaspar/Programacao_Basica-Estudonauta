@@ -46,14 +46,7 @@ programa
 		escreva(" / \t Divisão \n")
 		escreva("==================== \n")
 		
-/*
-*  =========================
-*  	+	Adição
-*  	-	Subtração
-*  	*	Multiplicação
-*  	/	Divisão
-*  =========================
-*/		
+	
 		escreva("--------------------------------	\n")
 		escreva("\tVOLTE SEMPRE! \n")
 	}
