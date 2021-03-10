@@ -45,21 +45,45 @@ programa
 		inteiro op
 		escreva("\n\t  Digite a sua opção => ")
 		leia(op)
-
+		cadeia nomePlaneta
 		
 		escolha(op){
-			caso 1:
-				
-			/*  ---------------------------------------------
-				*  No planeta JÚPITER, seu peso seria 264.0Kg
-				*  ---------------------------------------------
-				*  		VOLTE SEMPRE!*/
+			caso 1:	
+				nomePlaneta = "Mercúrio"
+				peso *= 0.37
+				//1kg na Terra = 0.37kg
+			pare
+			caso 2:
+				nomePlaneta = "Vênus"
+				//1kg na Terra = 0.88kg
+			pare
+			caso 3:
+				nomePlaneta = "Marte"
+				//1kg na Terra = 0.38kg
+			pare
+			caso 4:
+				nomePlaneta = "Júpiter"
+				//1kg na Terra = 2.64kg
+			pare
+			caso 5:
+				nomePlaneta = "Saturno"
+				//1kg na Terra = 1.15kg
+			pare
+			caso 6: 
+				nomePlaneta = "Urano"
+				//1kg na Terra = 1.17kg
+			pare
+			caso contrario:
+				nomePlaneta = "NÃO REGISTADO"
+				peso = peso
 			pare
 		}
 
 		escreva("--------------------------------------------- \n")
-		escreva("No planeta " +  ", seu peso seria " + "Kg")
-		escreva("\n")
+		escreva("No planeta " + nomePlaneta + ", seu peso seria " + peso + " Kg \n")
+		escreva("--------------------------------------------- \n")
+		escreva("")
+		escreva("\t VOLTE SEMPRE! \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -67,7 +91,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1453; 
+ * @POSICAO-CURSOR = 1201; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
