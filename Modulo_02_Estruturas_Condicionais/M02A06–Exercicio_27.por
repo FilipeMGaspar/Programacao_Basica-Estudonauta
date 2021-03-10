@@ -35,7 +35,13 @@ programa
 		
 		escreva("\n\t     ESCOLHA UM PLANETA \n")
 		escreva("\t=========================== \n")
-		escreva("\t   1 \tMercúrio\n")
+		escreva("\t   1 \t Mercúrio \n")
+		escreva("\t   2 \t Vênus \n")
+		escreva("\t   3 \t Marte \n")
+		escreva("\t   4 \t Júpiter \n")
+		escreva("\t   5 \t Saturno \n")
+		escreva("\t   5 \t Urano \n")
+		escreva("\t=========================== \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -43,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 800; 
+ * @POSICAO-CURSOR = 1042; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
