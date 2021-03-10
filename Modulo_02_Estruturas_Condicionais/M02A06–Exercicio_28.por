@@ -39,6 +39,19 @@ programa
 		escreva("\t     4      Black Friday [-30%] \n")
 		escreva("\t     5      Natal [-5%] \n")
 		escreva("\t ================================ \n")
+		escreva("\n")
+		inteiro op
+		escreva("Digite a sua opção => ")
+		leia(op)
+		cadeia epoca
+		escolha(op){
+			caso 1:
+				epoca = "Carnaval"
+			pare 
+		}
+		escreva("Na época de " + epoca + " o preço do produto " + " para R$ ")
+		
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -46,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1093; 
+ * @POSICAO-CURSOR = 1274; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
