@@ -23,6 +23,7 @@ programa
 *  		VOLTE SEMPRE!
 */
 	
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		escreva("{ EXERCÍCIO 027 - Seu peso nos planetas } \n")
@@ -40,7 +41,8 @@ programa
 		escreva("\t   3 \t Marte \n")
 		escreva("\t   4 \t Júpiter \n")
 		escreva("\t   5 \t Saturno \n")
-		escreva("\t   5 \t Urano \n")
+		escreva("\t   6 \t Urano \n")
+		escreva("\t   7 \t Netuno \n")
 		escreva("\t=========================== \n")
 		inteiro op
 		escreva("\n\t  Digite a sua opção => ")
@@ -55,23 +57,33 @@ programa
 			pare
 			caso 2:
 				nomePlaneta = "Vênus"
+				peso *= 0.88
 				//1kg na Terra = 0.88kg
 			pare
 			caso 3:
 				nomePlaneta = "Marte"
+				peso *= 0.38
 				//1kg na Terra = 0.38kg
 			pare
 			caso 4:
 				nomePlaneta = "Júpiter"
+				peso *= 2.64
 				//1kg na Terra = 2.64kg
 			pare
 			caso 5:
 				nomePlaneta = "Saturno"
+				peso *= 1.15
 				//1kg na Terra = 1.15kg
 			pare
 			caso 6: 
 				nomePlaneta = "Urano"
+				peso *= 1.17
 				//1kg na Terra = 1.17kg
+			pare
+			caso 7:
+				nomePlaneta = "Netuno"
+				peso *= 1.18
+				//1kg na Terra = 1.18kg
 			pare
 			caso contrario:
 				nomePlaneta = "NÃO REGISTADO"
@@ -80,7 +92,7 @@ programa
 		}
 
 		escreva("--------------------------------------------- \n")
-		escreva("No planeta " + nomePlaneta + ", seu peso seria " + peso + " Kg \n")
+		escreva("No planeta " + nomePlaneta + ", seu peso seria " + (mat.arredondar(peso, 2)) + " Kg \n")
 		escreva("--------------------------------------------- \n")
 		escreva("")
 		escreva("\t VOLTE SEMPRE! \n")
@@ -91,7 +103,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1201; 
+ * @POSICAO-CURSOR = 1848; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
