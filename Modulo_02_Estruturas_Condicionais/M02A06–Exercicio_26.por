@@ -62,16 +62,16 @@ programa
 		escreva("--------------------------------	\n")
 		escreva("Calculando o valor de " + num1 + " " + operacao + " " + num2 + "\n")
 		escolha(operacao) {
-			caso '+' :
+			caso '+': caso '1':
 				escreva("Resultado da SOMA = " + (num1 + num2) + "\n")
 			pare
-			caso '-' :
+			caso '-': caso '2':
 				escreva("Resultado da SUBTRAÇÂO = " + (num1 - num2) + "\n")
 			pare
-			caso '*' :
+			caso '*': caso '3':
 				escreva("Resultado da MULTIPLICAÇÂO = " + (num1 * num2) + "\n")
 			pare
-			caso '/':
+			caso '/': caso '4':
 				escreva("Resultado da DIVISÃO = " + (num1 / num2) + "\n")
 			pare
 			caso contrario: 
@@ -88,7 +88,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1882; 
+ * @POSICAO-CURSOR = 1871; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
