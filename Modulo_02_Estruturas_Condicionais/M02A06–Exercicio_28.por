@@ -19,7 +19,7 @@ programa
 * Na época de BLACK FRIDAY o preço do produto cai para R$ 350.0
 * 
 */
-	
+	inclua biblioteca Texto --> txt
 	funcao inicio()
 	{
 		escreva("{ EXERCÍCIO 028 - O preço por época } \n")
@@ -48,8 +48,23 @@ programa
 			caso 1:
 				epoca = "Carnaval"
 			pare 
+			caso 2:
+				epoca = "Férias Escolares"
+			pare
+			caso 3:
+				epoca = "Dia da Criança"
+			pare
+			caso 4: 
+				epoca = "Black Friday"
+			pare
+			caso 5:
+				epoca = "Natal"
+			pare
+			caso contrario:
+				epoca = "Sem Alteração"
+			pare
 		}
-		escreva("Na época de " + epoca + " o preço do produto " + " para R$ ")
+		escreva("Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + " para R$ ")
 		
 		escreva("\n")
 	}
@@ -59,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1274; 
+ * @POSICAO-CURSOR = 1512; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
