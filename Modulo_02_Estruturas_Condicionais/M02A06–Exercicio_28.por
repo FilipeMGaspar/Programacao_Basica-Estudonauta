@@ -49,29 +49,36 @@ programa
 			caso 1:
 				epoca = "Carnaval"
 				etiqueta = "sobe para"
+				 preco = preco + preco * 10/100 //sobe 10%
 			pare 
 			caso 2:
 				epoca = "Férias Escolares"
 				etiqueta = "sobe para"
+				preco = preco + preco * 20/100 //sobe 20%
 			pare
 			caso 3:
 				epoca = "Dia da Criança"
 				etiqueta = "sobe para"
+				preco = preco + preco * 5/100 //sobe 5%
 			pare
 			caso 4: 
 				epoca = "Black Friday"
 				etiqueta = "desce para"
+				preco = preco - preco * 30/100 //desce 30%
 			pare
 			caso 5:
 				epoca = "Natal"
 				etiqueta = "desce para"
+				preco = preco - preco * 5/100 //desce 5%
 			pare
 			caso contrario:
 				epoca = "Sem Alteração"
 				etiqueta = "mantem o preço de "
 			pare
 		}
-		escreva("Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + etiqueta + " R$ " + mat.arredondar(preco, 2))
+		
+		escreva("\n..: ************************************************************ :.. \n")
+		escreva("     Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + etiqueta + " R$ " + mat.arredondar(preco, 2))
 		
 		escreva("\n")
 	}
@@ -81,7 +88,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1862; 
+ * @POSICAO-CURSOR = 1868; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
