@@ -73,7 +73,7 @@ programa
 			pare
 			caso contrario:
 				epoca = "Sem Alteração"
-				etiqueta = "mantem o preço de "
+				etiqueta = "mantem o preço de"
 			pare
 		}
 		
@@ -90,7 +90,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2094; 
+ * @POSICAO-CURSOR = 1957; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
