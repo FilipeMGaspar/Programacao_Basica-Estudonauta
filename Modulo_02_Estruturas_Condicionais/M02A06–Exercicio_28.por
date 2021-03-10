@@ -43,28 +43,34 @@ programa
 		inteiro op
 		escreva("Digite a sua opção => ")
 		leia(op)
-		cadeia epoca
+		cadeia epoca, novoPreco = ""
 		escolha(op){
 			caso 1:
 				epoca = "Carnaval"
+				novoPreco = "sobe para"
 			pare 
 			caso 2:
 				epoca = "Férias Escolares"
+				novoPreco = "sobe para"
 			pare
 			caso 3:
 				epoca = "Dia da Criança"
+				novoPreco = "sobe para"
 			pare
 			caso 4: 
 				epoca = "Black Friday"
+				novoPreco = "desce para"
 			pare
 			caso 5:
 				epoca = "Natal"
+				novoPreco = "desce para"
 			pare
 			caso contrario:
 				epoca = "Sem Alteração"
+				novoPreco = "Mantem o preço de "
 			pare
 		}
-		escreva("Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + " para R$ ")
+		escreva("Na época de " + txt.caixa_alta(epoca) + " o preço do produto " + novoPreco + " R$ ")
 		
 		escreva("\n")
 	}
@@ -74,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1512; 
+ * @POSICAO-CURSOR = 1698; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
