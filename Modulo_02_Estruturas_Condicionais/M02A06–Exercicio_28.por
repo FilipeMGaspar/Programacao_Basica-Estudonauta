@@ -22,7 +22,19 @@ programa
 	
 	funcao inicio()
 	{
-		
+		escreva("{ EXERCÍCIO 028 - O preço por época } \n")
+		escreva("------------------------------------- \n")
+		escreva("\n")
+
+		real preco
+		escreva("Digite o preço de um produto R$ ")
+		leia(preco)
+
+		escreva("\n")
+		escreva("\t   ESCOLHA UM PERÍODO \n")
+		escreva("\t ======================")
+		escreva("\t 1      Carnaval [+10%]\n")
+		escreva("\t 2      Férias Escolares [+20%]\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 489; 
+ * @POSICAO-CURSOR = 863; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
