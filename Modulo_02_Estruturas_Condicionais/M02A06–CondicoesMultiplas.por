@@ -10,15 +10,19 @@ programa
 
 		escolha(num){
 			caso 1:
-
+				escreva("Um")
 			caso 2:
-
+				escreva("Dois")
 			caso 3:
-
+				escreva("Três")
 			caso 4:
-
+				escreva("Quatro")
 			caso contrario: 
+				escreva("..: ERRO :..")
 		}
+		
+		escreva("FIM DO PROCESSAMENTO")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 134; 
+ * @POSICAO-CURSOR = 293; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
