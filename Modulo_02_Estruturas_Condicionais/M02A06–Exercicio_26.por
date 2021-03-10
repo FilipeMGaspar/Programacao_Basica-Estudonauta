@@ -28,7 +28,7 @@ programa
 *  
 *  ---------------------------
 *  Calculado o valor 4 ^ 8
-*  Não foi possível fazer tal operação. Tente novamente. 
+//*  Não foi possível fazer tal operação. Tente novamente. 
 *  ---------------------------
 *  		VOLTE SEMPRE! 		
 */
@@ -39,12 +39,12 @@ programa
 		escreva("-------------------------------------- \n")
 		escreva("\n")
 		
-		escreva("==================== \n")
+		escreva("======================= \n")
 		escreva(" + \t Adição \n")
 		escreva(" - \t Subtração \n")
 		escreva(" * \t Multiplicação \n")
 		escreva(" / \t Divisão \n")
-		escreva("==================== \n")
+		escreva("======================= \n")
 		caracter operacao
 		escreva("\nDigite a sua opção => ")
 		leia(operacao)
@@ -64,9 +64,11 @@ programa
 			caso '+' :
 				escreva("Resultado da SOMA = " + (num1 + num2) + "\n")
 			pare
-
+			caso '-' :
+				escreva("Resultado da SUBTRAÇÂO = " + (num1 - num2) + "\n")
+			pare
 			caso contrario: 
-				escreva(" \n")
+				escreva("Não foi possível fazer tal operação. Tente novamente. \n")
 				pare
 		}
 		
@@ -79,7 +81,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1438; 
+ * @POSICAO-CURSOR = 1735; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
