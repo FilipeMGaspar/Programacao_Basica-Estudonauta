@@ -67,6 +67,12 @@ programa
 			caso '-' :
 				escreva("Resultado da SUBTRAÇÂO = " + (num1 - num2) + "\n")
 			pare
+			caso '*' :
+				escreva("Resultado da MULTIPLICAÇÂO = " + (num1 * num2) + "\n")
+			pare
+			caso '/':
+				escreva("Resultado da DIVISÃO = " + (num1 * num2) + "\n")
+			pare
 			caso contrario: 
 				escreva("Não foi possível fazer tal operação. Tente novamente. \n")
 				pare
@@ -81,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1735; 
+ * @POSICAO-CURSOR = 1769; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
