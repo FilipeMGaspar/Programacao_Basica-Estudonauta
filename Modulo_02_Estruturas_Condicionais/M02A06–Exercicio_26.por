@@ -35,6 +35,25 @@ programa
 	
 	funcao inicio()
 	{
+		escreva("{ EXERCÍCIO 026 - Super Tabuada v1.0 }\n")
+		escreva("-------------------------------------- \n")
+		escreva("\n")
+		
+		escreva("==================== \n")
+		escreva(" + \t Adição \n")
+		escreva(" - \t Subtração \n")
+		escreva(" * \t Multiplicação \n")
+		escreva(" / \t Divisão \n")
+		escreva("==================== \n")
+		
+/*
+*  =========================
+*  	+	Adição
+*  	-	Subtração
+*  	*	Multiplicação
+*  	/	Divisão
+*  =========================
+*/		
 		escreva("--------------------------------	\n")
 		escreva("\tVOLTE SEMPRE! \n")
 	}
@@ -44,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 823; 
+ * @POSICAO-CURSOR = 1107; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
