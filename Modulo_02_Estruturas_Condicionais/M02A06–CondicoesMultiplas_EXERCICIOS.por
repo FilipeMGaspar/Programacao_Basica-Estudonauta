@@ -23,6 +23,18 @@ programa
 		 *  Resultado da SOMA = 13
 		 *  ---------------------------
 		 *  		VOLTE SEMPRE!
+		 *  		
+		 * Digite a sua opção => ^
+		 *  Você escolheu a operação [^]
+		 *  
+		 *  Digite o primeiro número: 4
+		 *  Digite o segundo número: 3
+		 *  
+		 *  ---------------------------
+		 *  Calculado o valor 4 ^ 8
+		 *  Não foi possível fazer tal operação. Tente novamente. 
+		 *  ---------------------------
+		 *  		VOLTE SEMPRE! 		
 		*/
 
 		/*
@@ -34,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 541; 
+ * @POSICAO-CURSOR = 819; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
