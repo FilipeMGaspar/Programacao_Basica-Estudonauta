@@ -24,6 +24,7 @@ programa
 */
 	
 	inclua biblioteca Matematica --> mat
+	inclua biblioteca Tipos
 	funcao inicio()
 	{
 		escreva("{ EXERCÍCIO 027 - Seu peso nos planetas } \n")
@@ -47,43 +48,45 @@ programa
 		inteiro op
 		escreva("\n\t  Digite a sua opção => ")
 		leia(op)
-		cadeia nomePlaneta
+		cadeia nomePlaneta, KgNoutroPlaneta = ""
 		
 		escolha(op){
 			caso 1:	
 				nomePlaneta = "Mercúrio"
-				peso *= 0.37
+				KgNoutroPlaneta = Tipos.real_para_cadeia(mat.arredondar(peso *= 0.37, 2))
 				//1kg na Terra = 0.37kg
 			pare
 			caso 2:
 				nomePlaneta = "Vênus"
-				peso *= 0.88
+				KgNoutroPlaneta=Tipos.real_para_cadeia(mat.arredondar(peso *= 0.88, 2))
 				//1kg na Terra = 0.88kg
 			pare
 			caso 3:
 				nomePlaneta = "Marte"
-				peso *= 0.38
+				KgNoutroPlaneta=Tipos.real_para_cadeia(mat.arredondar(peso *= 0.38, 2))
 				//1kg na Terra = 0.38kg
 			pare
 			caso 4:
 				nomePlaneta = "Júpiter"
-				peso *= 2.64
+				KgNoutroPlaneta=Tipos.real_para_cadeia(mat.arredondar(peso *= 2.64, 2))
 				//1kg na Terra = 2.64kg
 			pare
 			caso 5:
 				nomePlaneta = "Saturno"
-				peso *= 1.15
+				KgNoutroPlaneta=Tipos.real_para_cadeia(mat.arredondar(peso *= 1.15, 2))
 				//1kg na Terra = 1.15kg
 			pare
 			caso 6: 
 				nomePlaneta = "Urano"
-				peso *= 1.17
+				KgNoutroPlaneta=Tipos.real_para_cadeia(mat.arredondar(peso *= 1.17, 2))
 				//1kg na Terra = 1.17kg
 			pare
 			caso 7:
 				nomePlaneta = "Netuno"
-				peso *= 1.18
+				KgNoutroPlaneta=Tipos.real_para_cadeia(mat.arredondar(peso *= 1.18 , 2))
 				//1kg na Terra = 1.18kg
+
+				//(mat.arredondar(peso, 2))
 			pare
 			caso contrario:
 				nomePlaneta = "NÃO REGISTADO"
@@ -92,7 +95,7 @@ programa
 		}
 
 		escreva("--------------------------------------------- \n")
-		escreva("No planeta " + nomePlaneta + ", seu peso seria " + (mat.arredondar(peso, 2)) + " Kg \n")
+		escreva("No planeta " + nomePlaneta + ", seu peso seria " + KgNoutroPlaneta + " Kg \n")
 		escreva("--------------------------------------------- \n")
 		escreva("")
 		escreva("\t VOLTE SEMPRE! \n")
@@ -103,7 +106,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1848; 
+ * @POSICAO-CURSOR = 1382; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
