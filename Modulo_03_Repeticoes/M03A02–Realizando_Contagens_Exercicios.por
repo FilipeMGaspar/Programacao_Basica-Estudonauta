@@ -23,6 +23,16 @@ programa
 		 * 5-6-7-PIN! 
 		 * 9-10-11-PIN!
 		 * 13-14-15- FIM!
+		 * sempre que for multiplo de 4 mostra PIN!
+		*/
+
+		/*Exercício 31
+		 * { EXERCÍCIO 031 - Contagem Regressiva }
+		 * 
+		 * Sua contagem regressiva vai começar em 20
+		 * Marcar os multiplos de 5
+		 * 
+		 * [20] - 19 - .. - [15] - 14 - .. - [10]
 		*/
 	}
 }
@@ -31,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 399; 
+ * @POSICAO-CURSOR = 652; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
