@@ -24,10 +24,12 @@ programa
 		escreva("Qual vai ser o incremento? ")
 		leia(incr)
 
+		escreva("\n")
 		enquanto(comeca <= final){
 			escreva(comeca , " - ")
 			comeca +=	incr
 		}
+		escreva("FIM! \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 547; 
+ * @POSICAO-CURSOR = 540; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
