@@ -15,12 +15,16 @@ programa
 		escreva("------------------------------------------ \n")
 		escreva("\n")
 
-		inteiro  comeca, fim, incr 
+		inteiro  comeca, final, incr 
 		
 		escreva("Onde começa a contagem? ")
 		leia(comeca)
-		escreva()
-		
+		escreva("Onde termina a contagem? ")
+		leia(final)
+		escreva("Qual vai ser o incremento? ")
+		leia(incr)
+
+				
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 428; 
+ * @POSICAO-CURSOR = 529; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
