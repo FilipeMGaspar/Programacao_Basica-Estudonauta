@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro n = 1
-
+		escreva("COMEÇOU - ")
 		enquanto(n <= 6){
 			escreva(n + " - ")
 			n++
@@ -17,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 119; 
+ * @POSICAO-CURSOR = 95; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
