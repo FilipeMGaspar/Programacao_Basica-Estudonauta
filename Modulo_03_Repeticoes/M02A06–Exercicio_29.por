@@ -8,7 +8,7 @@ programa
 * Qual vai ser o incremento? 6
 * 
 */
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		escreva("{ EXERCÍCIO 029 - Contagem Personalizada } \n")
@@ -26,6 +26,7 @@ programa
 
 		escreva("\n")
 		enquanto(comeca <= final){
+			Util.aguarde(230)
 			escreva(comeca , " - ")
 			comeca +=	incr
 		}
@@ -37,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 540; 
+ * @POSICAO-CURSOR = 612; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
