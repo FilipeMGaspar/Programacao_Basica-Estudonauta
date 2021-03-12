@@ -8,6 +8,22 @@ programa
 			escreva("lavar prato! \n")
 			p--
 		}
+
+		inteiro prato, nPratos
+
+		escreva("Qauntos partos temos de lavar? ")
+		leia(nPratos)
+		
+		escreva("\n")
+		se(nPratos < 0){
+			nPratos = 0
+		}
+
+		prato = 0
+		enquanto(prato < nPratos){
+			escreva("Lavei o " + (prato + 1) + "º prato \n")
+			prato++
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 68; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
