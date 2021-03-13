@@ -26,8 +26,9 @@ programa
 			escreva("Número ", num , " é INVÀLIDO! \n")
 		}senao {
 			inteiro conta = 1
+			escreva("\n")
 			enquanto(num >= conta){
-				escreva(conta , "\n")
+				escreva(conta , " - ")
 				conta++
 			}
 		}
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 514; 
+ * @POSICAO-CURSOR = 566; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
