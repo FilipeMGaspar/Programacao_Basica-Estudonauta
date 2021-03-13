@@ -14,7 +14,11 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		escreva("{ EXERCÍCIO 030 - Jogo do Pin } \n")
+		escreva("------------------------------- \n")
+		escreva("\n")
+		
+		inteiro mum
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 201; 
+ * @POSICAO-CURSOR = 355; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
