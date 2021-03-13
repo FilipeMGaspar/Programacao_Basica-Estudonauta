@@ -15,10 +15,16 @@ programa
 		escreva("--------------------------------------- \n")
 		escreva("\n")
 
-		inteiro num
+		inteiro num, multiplos
 		escreva("Sua contagem regressiva vai começar em: ")
 		leia(num)
+		escreva("Marcar os multiplos de: ")
+		leia(multiplos)
 
+		se(multiplos == 0){
+			escreva("Multiplo de ", multiplos, " é o ", multiplos)
+		}		
+		
 		enquanto(num > 0 ){
 			escreva(num , " - ")
 			num--			
@@ -31,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 481; 
+ * @POSICAO-CURSOR = 647; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
