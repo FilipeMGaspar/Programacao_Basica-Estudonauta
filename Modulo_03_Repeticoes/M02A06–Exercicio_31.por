@@ -19,17 +19,21 @@ programa
 		escreva("Sua contagem regressiva vai começar em: ")
 		leia(num)
 		escreva("Marcar os multiplos de: ")
-		leia(multiplos)
+		leia(multiplos)	
 
 		se(multiplos == 0){
-			escreva("Multiplo de ", multiplos, " é o ", multiplos)
+			escreva("\nMultiplo de ", multiplos, " é o ", multiplos, " \n")
 		}		
-		
 		enquanto(num > 0 ){
 			escreva(num , " - ")
+			se((multiplos!=0) e (num % multiplos == 0)){
+				escreva("[", num ,"]")
+			}
 			num--			
 		}
 		escreva("FIM! \n")
+		
+			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 647; 
+ * @POSICAO-CURSOR = 710; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
