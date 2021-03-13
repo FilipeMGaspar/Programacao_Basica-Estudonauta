@@ -18,7 +18,10 @@ programa
 		escreva("------------------------------- \n")
 		escreva("\n")
 		
-		inteiro mum
+		inteiro num
+		escreva("Quer contar até quanto? ")
+		leia(num)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 355; 
+ * @POSICAO-CURSOR = 409; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
