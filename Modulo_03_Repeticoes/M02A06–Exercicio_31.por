@@ -24,12 +24,14 @@ programa
 		se(multiplos == 0){
 			escreva("\nMultiplo de ", multiplos, " é o ", multiplos, " \n")
 		}		
-		enquanto(num > 0 ){
-			
+		enquanto(num > 0 ){	
+			cadeia chave = "] "		
 			se((multiplos!=0) e (num % multiplos == 0)){
 				escreva("[")
+			}senao{
+				chave = " "
 			}
-			escreva(num , " - ")
+			escreva(num , chave ,"- ")
 			num--			
 		}
 		escreva("FIM! \n")
@@ -42,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 709; 
+ * @POSICAO-CURSOR = 728; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
