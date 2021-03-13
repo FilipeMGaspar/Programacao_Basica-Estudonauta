@@ -21,7 +21,12 @@ programa
 		inteiro num
 		escreva("Quer contar até quanto? ")
 		leia(num)
-		
+
+		se(num < 0){
+			escreva("Número ", num , " é INVÀLIDO! \n")
+		}senao {
+			
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 409; 
+ * @POSICAO-CURSOR = 484; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
