@@ -22,8 +22,9 @@ programa
 		leia(multiplos)	
 
 		se(multiplos == 0){
-			escreva("\nMultiplo de ", multiplos, " é o ", multiplos, " \n")
-		}		
+			escreva("\nMultiplo de ", multiplos, " é o ", multiplos)
+		}
+		escreva("\n")		
 		enquanto(num > 0 ){	
 			cadeia chave = "] "		
 			se((multiplos!=0) e (num % multiplos == 0)){
@@ -44,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 728; 
+ * @POSICAO-CURSOR = 575; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
