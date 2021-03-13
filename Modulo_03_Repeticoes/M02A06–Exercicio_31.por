@@ -25,10 +25,11 @@ programa
 			escreva("\nMultiplo de ", multiplos, " é o ", multiplos, " \n")
 		}		
 		enquanto(num > 0 ){
-			escreva(num , " - ")
+			
 			se((multiplos!=0) e (num % multiplos == 0)){
-				escreva("[", num ,"]")
+				escreva("[")
 			}
+			escreva(num , " - ")
 			num--			
 		}
 		escreva("FIM! \n")
@@ -41,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 710; 
+ * @POSICAO-CURSOR = 709; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
