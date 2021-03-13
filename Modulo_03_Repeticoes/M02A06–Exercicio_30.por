@@ -23,7 +23,7 @@ programa
 		leia(num)
 
 		se(num < 0){
-			escreva("Número ", num , " é INVÀLIDO! \n")
+			escreva("Número ", num , " é INVÁLIDO! \n")
 		}senao {
 			inteiro conta = 1
 			escreva("\n")
@@ -34,6 +34,7 @@ programa
 				}
 				conta++
 			}
+			escreva("FIM! \n")
 		}
 	}
 }
@@ -42,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 612; 
+ * @POSICAO-CURSOR = 657; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
