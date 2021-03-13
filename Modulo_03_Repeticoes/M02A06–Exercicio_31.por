@@ -8,7 +8,7 @@ programa
 * 
 * [20] - 19 - .. - [15] - 14 - .. - [10]
 */
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		escreva("{ EXERCÍCIO 031 - Contagem Regressiva } \n")
@@ -28,13 +28,17 @@ programa
 		enquanto(num > 0 ){	
 			cadeia chave = "] "		
 			se((multiplos!=0) e (num % multiplos == 0)){
+				Util.aguarde(20)
 				escreva("[")
 			}senao{
+				Util.aguarde(200)
 				chave = " "
 			}
+			Util.aguarde(200)
 			escreva(num , chave ,"- ")
 			num--			
 		}
+		Util.aguarde(200)
 		escreva("FIM! \n")
 		
 			
@@ -45,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 575; 
+ * @POSICAO-CURSOR = 735; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
