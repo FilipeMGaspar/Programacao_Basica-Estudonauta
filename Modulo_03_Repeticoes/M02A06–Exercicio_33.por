@@ -18,8 +18,9 @@ programa
 	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro qtaSortear, sorteado, conta
+		inteiro qtaSortear, sorteado, conta, soma
 		conta = 1
+		soma = 0
 		
 		escreva("{ EXERCÍCIO 032 - Sorteio de Números } \n")
 		escreva("-------------------------------------- \n")
@@ -31,7 +32,8 @@ programa
 		escreva("\n")
 		escreva("=====================================\n")
 		enquanto(conta <= qtaSortear){
-			sorteado = Util.sorteia(1, 10)
+			sorteado = Util.sorteia(1, 10) //sorteia um número entre 1 e 10
+			soma += sorteado // soma dos números sorteados
 			Util.aguarde(220)
 			escreva("\tO " , conta , "º valor sorteado foi: ", sorteado , "\n")
 			conta++
@@ -44,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 912; 
+ * @POSICAO-CURSOR = 925; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
