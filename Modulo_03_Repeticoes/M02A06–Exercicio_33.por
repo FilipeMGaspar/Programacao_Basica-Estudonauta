@@ -26,11 +26,14 @@ programa
 
 		escreva("Quantos números deseja sortear? ")
 		leia(qtaSortear)
-
+		
+		escreva("\n")
+		escreva("=====================================\n")
 		enquanto(conta <= qtaSortear){
-			escreva("O " , conta , "º valor sorteado foi: ")
+			escreva("\tO " , conta , "º valor sorteado foi: ", "\n")
 			conta++
 		}
+		escreva("=====================================\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -38,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 748; 
+ * @POSICAO-CURSOR = 782; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
