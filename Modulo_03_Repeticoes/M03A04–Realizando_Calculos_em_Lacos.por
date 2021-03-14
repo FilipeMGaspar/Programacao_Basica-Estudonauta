@@ -4,6 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro s, n, c, tot
+		real media = 0
 		s = 0
 		c = 1
 
@@ -17,7 +18,11 @@ programa
 			s += n //Acumulador
 			c++ //contador
 		}
+		
+		media = s /tot
+		
 		escreva("\nA soma foi de ", s , "\n")
+		escreva("A média foi de ", media, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 266; 
+ * @POSICAO-CURSOR = 390; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
