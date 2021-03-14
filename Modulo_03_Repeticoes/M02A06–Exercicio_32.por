@@ -14,7 +14,19 @@ programa
 */	
 	funcao inicio()
 	{
-	
+		inteiro conta, somaPar, somaImpar, valor
+		conta = 1
+		somaPar = 0
+		somaImpar = 0
+		
+		escreva("{ EXERCÍCIO 032 - Soma Par e Impar } \n")
+		escreva("------------------------------------ \n")
+		escreva("\n")
+		enquanto(conta <= 5){
+			
+			conta++
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 286; 
+ * @POSICAO-CURSOR = 527; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
