@@ -1,10 +1,11 @@
 programa
 {
-	
+	inclua biblioteca Matematica --> mat
+	inclua biblioteca Tipos
 	funcao inicio()
 	{
 		inteiro s, n, c, tot
-		real media = 0
+		real media = 0.0
 		s = 0
 		c = 1
 
@@ -19,10 +20,10 @@ programa
 			c++ //contador
 		}
 		
-		media = s /tot
+		media = Tipos.inteiro_para_real(s) / Tipos.inteiro_para_real(tot)
 		
 		escreva("\nA soma foi de ", s , "\n")
-		escreva("A média foi de ", media, "\n")
+		escreva("A média foi de ", mat.arredondar(media, 2), "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 390; 
+ * @POSICAO-CURSOR = 518; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
