@@ -17,14 +17,20 @@ programa
 */
 	funcao inicio()
 	{
-		inteiro num, sorteado
+		inteiro qtaSortear, sorteado, conta
+		conta = 1
 		
 		escreva("{ EXERCÍCIO 032 - Sorteio de Números } \n")
 		escreva("-------------------------------------- \n")
 		escreva("\n")
 
 		escreva("Quantos números deseja sortear? ")
-		leia(num)
+		leia(qtaSortear)
+
+		enquanto(conta <= qtaSortear){
+			escreva("O " , conta , "º valor sorteado foi: ")
+			conta++
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -32,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 441; 
+ * @POSICAO-CURSOR = 748; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
