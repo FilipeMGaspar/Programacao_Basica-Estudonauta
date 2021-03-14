@@ -3,7 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro c, n
+		c = 1
+		enquanto(c <= 4){
+			escreva("Digite", c, "º valor: ")
+			leia(n)
+			
+			c++
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 107; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
