@@ -33,6 +33,10 @@ programa
 			conta++
 		}
 		
+		escreva("\n")
+		escreva("Somando todos os pares, temos ", somaPar, "\n")
+		escreva("Somando todos os ímpares, temos ", somaImpar, "\n")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -40,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 680; 
+ * @POSICAO-CURSOR = 819; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
