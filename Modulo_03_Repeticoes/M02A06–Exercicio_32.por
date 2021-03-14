@@ -23,7 +23,7 @@ programa
 		escreva("------------------------------------ \n")
 		escreva("\n")
 		enquanto(conta <= 5){
-			escreva("Digite o ", conta ,"º valor:" )
+			escreva("Digite o ", conta ,"º valor: ")
 			leia(valor)
 			se(valor % 2 == 0){
 				somaPar += valor
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 819; 
+ * @POSICAO-CURSOR = 566; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
