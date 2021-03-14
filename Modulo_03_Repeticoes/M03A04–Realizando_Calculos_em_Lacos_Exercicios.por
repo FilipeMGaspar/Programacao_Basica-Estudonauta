@@ -28,6 +28,8 @@ programa
 		 * O 4º valor sorteado foi 9
 		 * O 5º valor sorteado foi 1
 		 * -----------------------------------------
+		 * Somando todos os valores, temos 38
+		 * 
 		*/
 	}
 }
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 652; 
+ * @POSICAO-CURSOR = 739; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
