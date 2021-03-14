@@ -15,6 +15,7 @@ programa
 * Somando todos os valores, temos 38
 * 
 */
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		inteiro qtaSortear, sorteado, conta
@@ -30,6 +31,8 @@ programa
 		escreva("\n")
 		escreva("=====================================\n")
 		enquanto(conta <= qtaSortear){
+			sorteado = Util.sorteia(1, 10)
+			Util.aguarde(220)
 			escreva("\tO " , conta , "º valor sorteado foi: ", "\n")
 			conta++
 		}
@@ -41,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 782; 
+ * @POSICAO-CURSOR = 974; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
