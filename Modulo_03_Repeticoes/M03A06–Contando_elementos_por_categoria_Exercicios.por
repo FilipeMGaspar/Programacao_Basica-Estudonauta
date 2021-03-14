@@ -48,6 +48,18 @@ programa
 		 * ao todo, temos 2 pessoas acima do limite de 50 Kg
 		 * E dessa pessoas, 1 são HOMENS e 1 São MULHERES
 		*/
+
+		/*Exercicio 36
+		 * { EXERCÍCIO 036 - Analisando números }
+		 * Quantos números vou sortear? 7
+		 * 
+		 * Sorteando 7 números... 7.. 9.. 8.. 2.. 6.. 3.. 5.. 
+		 * ----------------------------------------
+		 * Dos 7 números sorteados
+		 * 4 são maiores que 5
+		 * 3 são divisiveis por três
+		 * 
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -55,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1215; 
+ * @POSICAO-CURSOR = 1511; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
