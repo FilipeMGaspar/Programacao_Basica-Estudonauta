@@ -14,8 +14,8 @@ programa
 		enquanto(c <= tot){
 			escreva("Digite um número: ")
 			leia(n)
-			s += n
-			c++
+			s += n //Acumulador
+			c++ //contador
 		}
 		escreva("\nA soma foi de ", s , "\n")
 	}
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 156; 
+ * @POSICAO-CURSOR = 266; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
