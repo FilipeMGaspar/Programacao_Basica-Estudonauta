@@ -30,15 +30,15 @@ programa
 		leia(qtaSortear)
 		
 		escreva("\n")
-		escreva("=====================================\n")
+		escreva("=====================================================\n")
 		enquanto(conta <= qtaSortear){
 			sorteado = Util.sorteia(1, 10) //sorteia um número entre 1 e 10
 			soma += sorteado // soma dos números sorteados
-			Util.aguarde(220)
+			Util.aguarde(450)
 			escreva("\tO " , conta , "º valor sorteado foi: ", sorteado , "\n")
 			conta++
 		}
-		escreva("=====================================\n")
+		escreva("=====================================================\n")
 		escreva("Somando todos os valores sorteados, temos ", soma , "\n")
 	}
 }
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1152; 
+ * @POSICAO-CURSOR = 959; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
