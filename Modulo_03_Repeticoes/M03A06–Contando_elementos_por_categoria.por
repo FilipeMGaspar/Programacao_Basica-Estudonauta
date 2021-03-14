@@ -9,6 +9,12 @@ programa
 		enquanto(c <= 5){
 			escreva("Digite o sexo: [M/F] ")
 			leia(sx)
+			se(sx == 'M'){
+				
+			}
+			se(sx == 'F'){
+				
+			}
 			c++
 		}
 	}
@@ -18,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 162; 
+ * @POSICAO-CURSOR = 185; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
