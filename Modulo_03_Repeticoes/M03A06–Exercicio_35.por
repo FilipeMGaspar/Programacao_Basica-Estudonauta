@@ -75,8 +75,9 @@ programa
 			conta++
 		}
 		escreva("\n________________________________________________________________ \n")
-		escreva("Ao todo, temos " , qtAcimaPeso , " pessoas acima do limite de ", pesoLimite, " Kg \n")
-		escreva("E dessa pessoas, ", contaMasc," são HOMENS e ", contaFem ," São MULHERES")
+		escreva("\nAo todo, temos " , qtAcimaPeso , " pessoas acima do limite de ", pesoLimite, " Kg \n")
+		escreva("\nE dessa pessoas, ", contaMasc," são HOMENS e ", contaFem ," São MULHERES")
+		escreva("\n________________________________________________________________ \n")
 		escreva("\n")
 		
 	}
@@ -86,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2123; 
+ * @POSICAO-CURSOR = 2228; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
