@@ -29,8 +29,20 @@ programa
 		enquanto(conta <= 5){
 			escreva("Digite o ", conta,"º valor: ")
 			leia(valor)
+			se(valor % 2 == 0){
+				qtPares++
+				somaPar += valor
+			} senao{
+				qtImpares++
+				somaImpar += valor
+			}
 			conta++
 		}
+		
+		escreva("\n")
+		escreva("----------------------------------- \n")
+		escreva("Você digitou ", qtPares, " números pares. A média é ", "\n")
+		escreva("Você digitou ", qtImpares, "números impares. A média é ", "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -38,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 695; 
+ * @POSICAO-CURSOR = 1029; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
