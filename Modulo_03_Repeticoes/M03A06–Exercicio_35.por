@@ -60,7 +60,9 @@ programa
 			escreva("Sexo: [M/F] ")
 			leia(sx)
 			se(peso > pesoLimite){
-				escreva("======= PESO ACIMA DO LIMITE (",pesoLimite," Kg) =======")
+				escreva("======= PESO ACIMA DO LIMITE (", pesoLimite, " Kg) ======= \n")
+			}senao{
+				escreva("======= PESO DENTRO DO LIMITE (", pesoLimite, " Kg) ======= \n")
 			}
 			conta++
 		}
@@ -72,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1562; 
+ * @POSICAO-CURSOR = 1664; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
