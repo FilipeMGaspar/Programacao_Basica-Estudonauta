@@ -59,9 +59,9 @@ programa
 			leia(peso)
 			escreva("Sexo: [M/F] ")
 			leia(sx)
-			/*se(){
-				
-			}*/
+			se(peso > pesoLimite){
+				escreva("======= PESO ACIMA DO LIMITE (",pesoLimite," Kg) =======")
+			}
 			conta++
 		}
 		
@@ -72,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1476; 
+ * @POSICAO-CURSOR = 1562; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
