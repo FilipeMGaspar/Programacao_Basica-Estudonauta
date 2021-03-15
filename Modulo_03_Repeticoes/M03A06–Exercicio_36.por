@@ -11,10 +11,26 @@ programa
 * 3 são divisiveis por três
 * 
 */
-	
+	inclua biblioteca Util	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro qtSorteados, conta = 1, sorteado
+		
+		escreva("{ EXERCÍCIO 036 - Analisando números } \n")
+		escreva("-------------------------------------- \n")
+		escreva("\n")
+		
+		escreva("Quantos números vou sortear? ")
+		leia(qtSorteados)
+
+		escreva("Sorteando ", qtSorteados, " n+umeros...")
+		enquanto(conta <= qtSorteados){
+			
+			sorteado = Util.sorteia(1, 10)
+			Util.aguarde(350)
+			escreva(sorteado, ".. ")
+			conta++
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 284; 
+ * @POSICAO-CURSOR = 714; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
