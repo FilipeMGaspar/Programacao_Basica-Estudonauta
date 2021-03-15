@@ -16,7 +16,7 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		escreva("{ EXERCÍCIO 034 - Pares e Ímpares } \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 312; 
+ * @POSICAO-CURSOR = 389; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
