@@ -78,6 +78,12 @@ programa
 		 *  NOME: Glaucia
 		 *  SEXO: F
 		 *  IDADE: 30
+		 *  
+		 *  ==========================================
+		 *  A mulher mais jovem é a Maria que tem 19 anos
+		 *  A mulher masi velha é a Glaucia que tem 30 anos
+		 *  O homem mais jovem é o Pedro que tem 22 anos
+		 *  o homem mais velho é o joão que tem 75 anos.
 		*/
 	}
 }
@@ -86,7 +92,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1409; 
+ * @POSICAO-CURSOR = 1673; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
