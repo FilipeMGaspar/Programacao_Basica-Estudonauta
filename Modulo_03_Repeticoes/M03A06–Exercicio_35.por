@@ -34,7 +34,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro qtRegisto = 0
+		inteiro qtRegisto = 0, conta = 1
 		real pesoLimite = 0.0
 		
 		escreva("{ EXERCÍCIO 035 - Pessoas } \n")
@@ -45,6 +45,13 @@ programa
 		leia(qtRegisto)
 		escreva("Qual é o peso de referencia (50)? ")
 		leia(pesoLimite)
+		enquanto(conta <= qtRegisto){
+			escreva("-------------------------------- \n")
+			escreva("\t PESSOA ", conta, " de ", qtRegisto)
+			escreva("-------------------------------- \n")
+			conta++
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -52,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1078; 
+ * @POSICAO-CURSOR = 1283; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
