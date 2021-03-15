@@ -42,9 +42,9 @@ programa
 		}
 		escreva("\n\n")
 		escreva("======================================== \n")
-		escreva("Dos ", qtSorteados, " números sorteados \n")
-		escreva(qtMaisdCinco," são maiores que 5 \n")
-		escreva(qtDivPorTres, " são divisíveis por três \n")
+		escreva("\tDos ", qtSorteados, " números sorteados \n")
+		escreva("\t",qtMaisdCinco," são maiores que 5 \n")
+		escreva("\t",qtDivPorTres, " são divisíveis por três \n")
 		escreva("======================================== \n")
 	}
 }
@@ -53,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 929; 
+ * @POSICAO-CURSOR = 1115; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
