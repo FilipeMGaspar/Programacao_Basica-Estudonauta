@@ -34,7 +34,8 @@ programa
 	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro qtRegisto = 0, conta = 1
+		inteiro qtRegisto = 0, conta = 1, qtAcimaPeso = 0
+		inteiro contaMasc = 0, contaFem = 0
 		real pesoLimite = 0.0, peso
 		caracter sx
 		
@@ -60,12 +61,23 @@ programa
 			escreva("Sexo: [M/F] ")
 			leia(sx)
 			se(peso > pesoLimite){
-				escreva("======= PESO ACIMA DO LIMITE (", pesoLimite, " Kg) ======= \n")
+				se(sx == 'm' ou sx == 'M'){
+					contaMasc++
+				}
+				se(sx == 'f' ou sx == 'F'){
+					contaFem++
+				}
+				escreva("\n======= PESO ACIMA DO LIMITE (", pesoLimite, " Kg) ======= \n")
+				qtAcimaPeso++
 			}senao{
-				escreva("======= PESO DENTRO DO LIMITE (", pesoLimite, " Kg) ======= \n")
+				escreva("\n======= PESO DENTRO DO LIMITE (", pesoLimite, " Kg) ======= \n")
 			}
 			conta++
 		}
+		escreva("\n________________________________________________________________ \n")
+		escreva("Ao todo, temos " , qtAcimaPeso , " pessoas acima do limite de ", pesoLimite, " Kg \n")
+		escreva("E dessa pessoas, ", contaMasc," são HOMENS e ", contaFem ," São MULHERES")
+		escreva("\n")
 		
 	}
 }
@@ -74,7 +86,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1664; 
+ * @POSICAO-CURSOR = 2123; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
