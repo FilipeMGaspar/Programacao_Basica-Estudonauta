@@ -13,7 +13,7 @@ programa
 * Você digitou 3 números pares. A média é 5.33
 * Você digitou 2 números impares. A média é 5.0
 */
-	
+	inclua biblioteca Tipos
 	funcao inicio()
 	{
 		inteiro conta = 1, valor
@@ -38,10 +38,11 @@ programa
 			}
 			conta++
 		}
+		mediaPar = Tipos.inteiro_para_real(somaPar) / qtPares
 		
 		escreva("\n")
 		escreva("----------------------------------- \n")
-		escreva("Você digitou ", qtPares, " números PARES. A média é ", "\n")
+		escreva("Você digitou ", qtPares, " números PARES. A média é ",mediaPar ,"\n")
 		escreva("Você digitou ", qtImpares, " números IMPARES. A média é ", "\n")
 		escreva("----------------------------------- \n")
 	}
@@ -51,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1012; 
+ * @POSICAO-CURSOR = 1039; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
