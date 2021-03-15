@@ -35,11 +35,12 @@ programa
 			se(sorteado % 3 == 0){
 				qtDivPorTres++			
 			}
+			
 			Util.aguarde(350)
 			escreva(sorteado, ".. ")
 			conta++
 		}
-		escreva("\n")
+		escreva("\n\n")
 		escreva("======================================== \n")
 		escreva("Dos ", qtSorteados, " números sorteados \n")
 		escreva(qtMaisdCinco," são maiores que 5 \n")
@@ -52,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1111; 
+ * @POSICAO-CURSOR = 929; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
