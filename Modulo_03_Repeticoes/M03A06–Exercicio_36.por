@@ -23,7 +23,7 @@ programa
 		escreva("Quantos números vou sortear? ")
 		leia(qtSorteados)
 
-		escreva("Sorteando ", qtSorteados, " n+umeros...")
+		escreva("Sorteando ", qtSorteados, " números... ")
 		enquanto(conta <= qtSorteados){
 			
 			sorteado = Util.sorteia(1, 10)
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 714; 
+ * @POSICAO-CURSOR = 622; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
