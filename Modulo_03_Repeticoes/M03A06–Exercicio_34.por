@@ -41,8 +41,9 @@ programa
 		
 		escreva("\n")
 		escreva("----------------------------------- \n")
-		escreva("Você digitou ", qtPares, " números pares. A média é ", "\n")
-		escreva("Você digitou ", qtImpares, "números impares. A média é ", "\n")
+		escreva("Você digitou ", qtPares, " números PARES. A média é ", "\n")
+		escreva("Você digitou ", qtImpares, " números IMPARES. A média é ", "\n")
+		escreva("----------------------------------- \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -50,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1029; 
+ * @POSICAO-CURSOR = 1012; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
