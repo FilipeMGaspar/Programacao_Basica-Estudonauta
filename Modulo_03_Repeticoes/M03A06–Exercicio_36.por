@@ -40,6 +40,7 @@ programa
 			escreva(sorteado, ".. ")
 			conta++
 		}
+		
 		escreva("\n\n")
 		escreva("======================================== \n")
 		escreva("\tDos ", qtSorteados, " números sorteados \n")
@@ -53,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1115; 
+ * @POSICAO-CURSOR = 916; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
