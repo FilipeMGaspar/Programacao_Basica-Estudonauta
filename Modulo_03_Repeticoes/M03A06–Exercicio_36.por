@@ -15,7 +15,7 @@ programa
 	funcao inicio()
 	{
 		inteiro qtSorteados, conta = 1, sorteado
-		inteiro qtMaisdCinco = 0
+		inteiro qtMaisdCinco = 0, qtDivPorTres = 0
 		
 		escreva("{ EXERCÍCIO 036 - Analisando números } \n")
 		escreva("-------------------------------------- \n")
@@ -27,8 +27,13 @@ programa
 		escreva("\nSorteando ", qtSorteados, " números... ")
 		enquanto(conta <= qtSorteados){			
 			sorteado = Util.sorteia(1, 10)
-			se(){
-				
+			
+			se(sorteado > 5){
+				qtMaisdCinco++
+			}
+
+			se(sorteado % 3 == 0){
+				qtDivPorTres++			
 			}
 			Util.aguarde(350)
 			escreva(sorteado, ".. ")
@@ -37,8 +42,8 @@ programa
 		escreva("\n")
 		escreva("======================================== \n")
 		escreva("Dos ", qtSorteados, " números sorteados \n")
-		escreva(" são maiores que 5 \n")
-		escreva(" são divisíveis por três \n")
+		escreva(qtMaisdCinco," são maiores que 5 \n")
+		escreva(qtDivPorTres, " são divisíveis por três \n")
 		escreva("======================================== \n")
 	}
 }
@@ -47,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 738; 
+ * @POSICAO-CURSOR = 1111; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
