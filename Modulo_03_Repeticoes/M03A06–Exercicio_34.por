@@ -14,6 +14,7 @@ programa
 * Você digitou 2 números impares. A média é 5.0
 */
 	inclua biblioteca Tipos
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		inteiro conta = 1, valor
@@ -43,8 +44,8 @@ programa
 		
 		escreva("\n")
 		escreva("----------------------------------- \n")
-		escreva("Você digitou ", qtPares, " números PARES. A média é ",mediaPar ,"\n")
-		escreva("Você digitou ", qtImpares, " números IMPARES. A média é ",mediaImpar, "\n")
+		escreva("Você digitou ", qtPares, " números PARES. A média é ", mat.arredondar(mediaPar, 2) ,"\n")
+		escreva("Você digitou ", qtImpares, " números IMPARES. A média é ", mat.arredondar(mediaImpar, 2), "\n")
 		escreva("----------------------------------- \n")
 	}
 }
@@ -53,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1187; 
+ * @POSICAO-CURSOR = 1235; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
