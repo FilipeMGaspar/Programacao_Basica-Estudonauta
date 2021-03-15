@@ -40,6 +40,45 @@ programa
 		 *  A pessoa mais jovem é João que tem 19 anos
 		 *  A pesso mais velha é Pedro que tem 45 naos
 		*/
+
+		/* Exercicio 38
+		 *  { EXERCÍCIO 038 - Analisando idades }
+		 *  
+		 *  -----------------
+		 *  1a PESSOA
+		 *  -----------------
+		 *  NOME: Maria
+		 *  SEXO: F
+		 *  IDADE: 19
+		 *  
+		 *  -----------------
+		 *  2a PESSOA
+		 *  -----------------
+		 *  NOME: Pedro
+		 *  SEXO: M
+		 *  IDADE: 22
+		 *  
+		 *  -----------------
+		 *  3a PESSOA
+		 *  -----------------
+		 *  NOME: João
+		 *  SEXO: M
+		 *  IDADE: 77
+		 *  
+		 *  -----------------
+		 *  4a PESSOA
+		 *  -----------------
+		 *  NOME: Ana
+		 *  SEXO: F
+		 *  IDADE: 22
+		 *  
+		 *  -----------------
+		 *  5a PESSOA
+		 *  -----------------
+		 *  NOME: Glaucia
+		 *  SEXO: F
+		 *  IDADE: 30
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -47,7 +86,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 747; 
+ * @POSICAO-CURSOR = 1409; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
