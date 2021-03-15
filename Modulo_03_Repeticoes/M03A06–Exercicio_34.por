@@ -39,11 +39,12 @@ programa
 			conta++
 		}
 		mediaPar = Tipos.inteiro_para_real(somaPar) / qtPares
+		mediaImpar = Tipos.inteiro_para_real(somaImpar / qtImpares)
 		
 		escreva("\n")
 		escreva("----------------------------------- \n")
 		escreva("Você digitou ", qtPares, " números PARES. A média é ",mediaPar ,"\n")
-		escreva("Você digitou ", qtImpares, " números IMPARES. A média é ", "\n")
+		escreva("Você digitou ", qtImpares, " números IMPARES. A média é ",mediaImpar, "\n")
 		escreva("----------------------------------- \n")
 	}
 }
@@ -52,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1039; 
+ * @POSICAO-CURSOR = 1187; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
