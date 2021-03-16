@@ -69,7 +69,13 @@ programa
 			escreva("IDADE: ")
 			leia(idade)
 			
+			se(sx == 'f' ou sx == 'F'){
+					
+			}
+
+			se(sx == 'm' ou sx == 'M'){
 				
+			}
 			/*se(conta == 1){
 				
 				se(sx == 'f' ou sx == 'F'){
@@ -128,7 +134,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1433; 
+ * @POSICAO-CURSOR = 1465; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
