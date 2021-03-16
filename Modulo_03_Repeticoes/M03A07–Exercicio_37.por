@@ -40,7 +40,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro conta = 0
+		inteiro conta = 1, idade
 		
 		escreva("{ EXERCÍCIO 037 - Mais velho e mais novo } \n")
 		escreva("------------------------------------------ \n")
@@ -49,6 +49,8 @@ programa
 		enquanto(conta <= 5){
 			escreva("----------------- \n")
 			escreva(" ", conta, "a PESSOA \n")
+			escreva("Idade: ")
+			leia(idade)
 			escreva("----------------- \n")
 			conta++
 		}
@@ -59,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 875; 
+ * @POSICAO-CURSOR = 658; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
