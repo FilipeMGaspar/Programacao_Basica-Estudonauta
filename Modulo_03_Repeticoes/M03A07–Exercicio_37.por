@@ -60,8 +60,20 @@ programa
 				maiorIdade = idade
 				menorIdade = idade
 			}
+			se(menorIdade < idade){
+				menorIdade = idade
+			}
+			se(maiorIdade > idade){
+				maiorIdade = idade
+			}
 			conta++
 		}
+
+		escreva("\n")
+		escreva("====================================== \n")
+		escreva("A pessoa mais jovem é a(o) que tem ", menorIdade, " anos \n")
+		escreva("A pessoa mais velha é a(o) que tem ", maiorIdade, " anos \n")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -69,7 +81,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1133; 
+ * @POSICAO-CURSOR = 1481; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
