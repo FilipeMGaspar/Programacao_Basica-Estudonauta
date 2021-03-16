@@ -89,10 +89,10 @@ programa
 		}
 		escreva("\n")
 		escreva("============================================= \n")
-		escreva("  A mulher mais jovem é a ", femMnova, " que tem ",nFemMnova, " anos \n")
-		escreva("  A mulher mais velha é a ", femMVelha, " que tem ",nFemMvelha, " anos \n")
-		escreva("  O homem mais jovem é o ", mascMnovo, " que tem ",nMascMnovo, " anos \n")
-		escreva("  O homem mais velho é o ",mascMvelho, " que tem ",nMascMvelho, " anos \n")
+		escreva("  A mulher mais jovem é a ", nFemMnova, " que tem ",femMnova, " anos \n")
+		escreva("  A mulher mais velha é a ",nFemMvelha , " que tem ",femMVelha , " anos \n")
+		escreva("  O homem mais jovem é o ",nMascMnovo , " que tem ",mascMnovo, " anos \n")
+		escreva("  O homem mais velho é o ",nMascMvelho , " que tem ",mascMvelho, " anos \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -100,7 +100,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2158; 
+ * @POSICAO-CURSOR = 2159; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
