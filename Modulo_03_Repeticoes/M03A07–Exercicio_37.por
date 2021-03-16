@@ -56,18 +56,20 @@ programa
 			leia(nome)
 			escreva("  Idade: ")
 			leia(idade)
+			
 			se(conta == 1){
 				maiorIdade = idade
 				menorIdade = idade
 			}
-			se(menorIdade < idade){
+			se(idade < menorIdade){
 				menorIdade = idade
 				pessoMnova = nome
 			}
-			se(maiorIdade > idade){
+			se(idade > maiorIdade){
 				maiorIdade = idade
 				pessoMvelha = nome
 			}
+			
 			conta++
 		}
 
@@ -83,7 +85,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1456; 
+ * @POSICAO-CURSOR = 1269; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
