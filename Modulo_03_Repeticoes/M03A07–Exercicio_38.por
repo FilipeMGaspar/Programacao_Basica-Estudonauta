@@ -70,6 +70,7 @@ programa
 			leia(idade)
 			
 			se(conta == 1){
+				
 				se(sx == 'f' ou sx == 'F'){
 					nFemMnova = nome
 					nFemMvelha = nome
@@ -83,10 +84,36 @@ programa
 					nMascMnovo = nome
 					nMascMvelho = 	nome		
 				}
+				
+			} senao{
+				
+				se(sx == 'f' ou sx == 'F'){					
+					se(idade < femMnova){
+						femMnova = idade
+						nFemMnova = nome
+					}
+
+					se(idade > femMVelha){
+						femMVelha = idade 
+						nFemMvelha = nome
+					}			
+				}
+
+				se(sx == 'm' ou sx == 'M'){
+					se(idade < mascMnovo){
+						mascMnovo = idade
+						nMascMnovo = nome
+					}
+					se(idade > mascMvelho){
+						mascMvelho = idade						
+						nMascMvelho = 	nome	
+					}					
+				}
 			}
-			
+				
 			conta++
 		}
+		
 		escreva("\n")
 		escreva("============================================= \n")
 		escreva("  A mulher mais jovem é a ", nFemMnova, " que tem ",femMnova, " anos \n")
@@ -100,7 +127,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2159; 
+ * @POSICAO-CURSOR = 2171; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
