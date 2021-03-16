@@ -75,8 +75,8 @@ programa
 
 		escreva("\n")
 		escreva("====================================== \n")
-		escreva("A pessoa mais jovem é a(o)", pessoMnova, "que tem ", menorIdade, " anos \n")
-		escreva("A pessoa mais velha é a(o)", pessoMvelha, "que tem ", maiorIdade, " anos \n")
+		escreva("A pessoa mais jovem é a(o) ", pessoMnova, " que tem ", menorIdade, " anos \n")
+		escreva("A pessoa mais velha é a(o) ", pessoMvelha, " que tem ", maiorIdade, " anos \n")
 		
 	}
 }
@@ -85,7 +85,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1269; 
+ * @POSICAO-CURSOR = 1570; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
