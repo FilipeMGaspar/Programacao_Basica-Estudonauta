@@ -41,6 +41,7 @@ programa
 	funcao inicio()
 	{
 		inteiro conta = 1, idade
+		inteiro maiorIdade = 0, menorIdade = 0
 		cadeia nome
 		
 		escreva("{ EXERCÍCIO 037 - Mais velho e mais novo } \n")
@@ -55,6 +56,10 @@ programa
 			leia(nome)
 			escreva("  Idade: ")
 			leia(idade)
+			se(conta == 1){
+				maiorIdade = idade
+				menorIdade = idade
+			}
 			conta++
 		}
 	}
@@ -64,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 988; 
+ * @POSICAO-CURSOR = 1133; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
