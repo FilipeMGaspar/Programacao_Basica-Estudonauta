@@ -49,7 +49,9 @@ programa
 	{
 		inteiro conta = 1, idade
 		inteiro femMnova = 0, femMVelha = 0
-		cadeia nome
+		cadeia nome, nFemMnova = "", nFemMvelha = ""
+		inteiro mascMnovo = 0, mascMvelho = 0
+		cadeia nMascMnovo = "", nMascMvelho = ""		
 		caracter sx
 		
 		escreva(" { EXERCÍCIO 038 - Analisando idades } \n")
@@ -66,13 +68,23 @@ programa
 			leia(sx)
 			escreva("IDADE: ")
 			leia(idade)
-			/*
+			
 			se(conta == 1){
 				se(sx == 'f' ou sx == 'F'){
-					femMnova = nome
+					nFemMnova = nome
+					nFemMvelha = nome
+					femMnova = idade
+					femMVelha = idade
+				}
+				
+				se(sx == 'm' ou sx == 'M'){
+					mascMnovo = idade
+					mascMvelho = idade	
+					nMascMnovo = nome
+					nMascMvelho = 	nome		
 				}
 			}
-			*/
+			
 			conta++
 		}
 		escreva("\n")
@@ -88,7 +100,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1408; 
+ * @POSICAO-CURSOR = 1715; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
