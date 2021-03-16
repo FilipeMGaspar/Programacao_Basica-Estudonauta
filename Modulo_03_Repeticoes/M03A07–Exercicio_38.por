@@ -69,7 +69,7 @@ programa
 			escreva("IDADE: ")
 			leia(idade)
 			
-			se(conta == 1){
+			/*se(conta == 1){
 				
 				se(sx == 'f' ou sx == 'F'){
 					nFemMnova = nome
@@ -109,7 +109,7 @@ programa
 						nMascMvelho = 	nome	
 					}					
 				}
-			}
+			}*/
 				
 			conta++
 		}
@@ -127,7 +127,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2171; 
+ * @POSICAO-CURSOR = 2191; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
