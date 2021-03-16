@@ -67,6 +67,12 @@ programa
 			leia(idade)
 			conta++
 		}
+		escreva("\n")
+		escreva("==================================== \n")
+		escreva("A mulher mais jovem é a ", " que tem ", " anos \n")
+		escreva("A mulher mais velha é a ", " que tem ", " anos \n")
+		escreva("A homem mais jovem é o ", " que tem ", " anos \n")
+		escreva("A homem mais velho é o ", " que tem ", " anos \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -74,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1286; 
+ * @POSICAO-CURSOR = 1577; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
