@@ -47,7 +47,9 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro conta = 1
+		inteiro conta = 1, idade
+		cadeia nome
+		caracter sx
 		
 		escreva(" { EXERCÍCIO 038 - Analisando idades } \n")
 		escreva("-------------------------------------- \n")
@@ -57,6 +59,12 @@ programa
 			escreva("----------------------------\n")
 			escreva("\t",conta ,"a PESSOA \n")
 			escreva("----------------------------\n")
+			escreva("NOME: ")
+			leia(nome)
+			escreva("SEXO: ")
+			leia(sx)
+			escreva("IDADE: ")
+			leia(idade)
 			conta++
 		}
 	}
@@ -66,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1135; 
+ * @POSICAO-CURSOR = 1286; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
