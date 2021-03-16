@@ -42,7 +42,7 @@ programa
 	{
 		inteiro conta = 1, idade
 		inteiro maiorIdade = 0, menorIdade = 0
-		cadeia nome
+		cadeia nome, pessoMnova, pessoMvelha
 		
 		escreva("{ EXERCÍCIO 037 - Mais velho e mais novo } \n")
 		escreva("------------------------------------------ \n")
@@ -62,17 +62,19 @@ programa
 			}
 			se(menorIdade < idade){
 				menorIdade = idade
+				pessoMnova = nome
 			}
 			se(maiorIdade > idade){
 				maiorIdade = idade
+				pessoMvelha = nome
 			}
 			conta++
 		}
 
 		escreva("\n")
 		escreva("====================================== \n")
-		escreva("A pessoa mais jovem é a(o) que tem ", menorIdade, " anos \n")
-		escreva("A pessoa mais velha é a(o) que tem ", maiorIdade, " anos \n")
+		escreva("A pessoa mais jovem é a(o)",pessoMnova, "que tem ", menorIdade, " anos \n")
+		escreva("A pessoa mais velha é a(o)",pessoMvelha, "que tem ", maiorIdade, " anos \n")
 		
 	}
 }
@@ -81,7 +83,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1481; 
+ * @POSICAO-CURSOR = 1544; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
