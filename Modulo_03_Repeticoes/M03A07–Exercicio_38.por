@@ -92,7 +92,7 @@ programa
 					nMascMvelho = nomeDoMaisVelho	
 					mascMvelho = 	maisVelho		
 				}
-			}senao{
+			}/*senao{
 				se(idade <  maisNovo){
 					maisNovo = idade
 					nomeDoMaisNovo = nome
@@ -102,7 +102,7 @@ programa
 					maisVelho = idade
 					nomeDoMaisVelho = nome
 				}
-			}		
+			}*/		
 			conta++
 		}
 		
@@ -119,7 +119,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2244; 
+ * @POSICAO-CURSOR = 2259; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
