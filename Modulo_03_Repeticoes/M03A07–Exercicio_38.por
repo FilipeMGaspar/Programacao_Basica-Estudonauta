@@ -51,9 +51,9 @@ programa
 		inteiro femMnova = 0, femMVelha = 0 //Guardam a idade da mulher mais nova e mais velha
 		cadeia nome, nFemMnova = "", nFemMvelha = "" //Guardam o nome recebido do teclado, o nome da mulher mais nova e mais velha
 		inteiro mascMnovo = 0, mascMvelho = 0 //Guardam a idade do homem mais novo e mais velho
-		cadeia nMascMnovo = "", nMascMvelho = ""		
+		cadeia nMascMnovo = "", nMascMvelho = "" //Guardam o nome do homem mais novo e mais velho		
 		caracter sx
-		inteiro maisNovo = 0, maisVelho = 0
+		inteiro maisNovo = 0, maisVelho = 0 // variaveis auxiliares para guardarem o mais novo e o mias velho
 		cadeia nomeDoMaisNovo = "", nomeDoMaisVelho = ""
 		
 		escreva(" { EXERCÍCIO 038 - Analisando idades } \n")
@@ -141,7 +141,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1158; 
+ * @POSICAO-CURSOR = 1370; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
