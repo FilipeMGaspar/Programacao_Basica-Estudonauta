@@ -85,16 +85,22 @@ programa
 					femMVelha = maisVelho
 				}
 
-				se(sx == 'm' ou sx == 'M'){
+				se(sx == 'm' ou sx == 'M'){ //Verifica se é masculino se for guarda o nome i a idade
 					nMascMnovo = nomeDoMaisNovo
 					mascMnovo = maisNovo
 
 					nMascMvelho = nomeDoMaisVelho	
 					mascMvelho = 	maisVelho		
 				}
-			}
-			
-				
+			}senao{
+				se(idade <  maisNovo){
+					
+				}
+
+				se(idade > maisVelho){
+					
+				}
+			}		
 			conta++
 		}
 		
@@ -111,7 +117,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2020; 
+ * @POSICAO-CURSOR = 2162; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
