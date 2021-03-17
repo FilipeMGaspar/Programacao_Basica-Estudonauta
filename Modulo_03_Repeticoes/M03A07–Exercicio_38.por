@@ -76,6 +76,14 @@ programa
 				maisVelho = idade
 				nomeDoMaisNovo = nome
 				nomeDoMaisVelho = nome
+				
+				se(sx == 'f' ou sx == 'F'){ //Verifica se é feminino guarda o nome e a idade
+					nFemMnova = nomeDoMaisNovo
+					femMnova = maisNovo
+					
+					nFemMvelha = nomeDoMaisVelho
+					femMVelha = maisVelho
+				}
 			}
 			
 				
@@ -95,7 +103,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1633; 
+ * @POSICAO-CURSOR = 1849; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
