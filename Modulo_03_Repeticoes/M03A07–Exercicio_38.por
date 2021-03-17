@@ -108,6 +108,7 @@ programa
 					}
 				}
 
+				//Verificação de quem é o mais velho
 				se(idade > maisVelho){ //Verifica se a idade recebida é Maior que a maisVelho
 					maisVelho = idade
 					nomeDoMaisVelho = nome
@@ -133,7 +134,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2125; 
+ * @POSICAO-CURSOR = 2489; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
