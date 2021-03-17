@@ -48,9 +48,9 @@ programa
 	funcao inicio()
 	{
 		inteiro conta = 1, idade
-		inteiro femMnova = 0, femMVelha = 0
-		cadeia nome, nFemMnova = "", nFemMvelha = ""
-		inteiro mascMnovo = 0, mascMvelho = 0
+		inteiro femMnova = 0, femMVelha = 0 //Guardam a idade da mulher mais nova e mais velha
+		cadeia nome, nFemMnova = "", nFemMvelha = "" //Guardam o nome recebido do teclado, o nome da mulher mais nova e mais velha
+		inteiro mascMnovo = 0, mascMvelho = 0 //Guardam a idade do homem mais novo e mais velho
 		cadeia nMascMnovo = "", nMascMvelho = ""		
 		caracter sx
 		inteiro maisNovo = 0, maisVelho = 0
@@ -141,7 +141,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2920; 
+ * @POSICAO-CURSOR = 1158; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
