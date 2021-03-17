@@ -92,10 +92,11 @@ programa
 					nMascMvelho = nomeDoMaisVelho	
 					mascMvelho = 	maisVelho		
 				}
-			}senao{
+			} senao {
 				se(idade <  maisNovo){
 					maisNovo = idade
 					nomeDoMaisNovo = nome
+					
 					se(sx == 'f' ou sx == 'F'){
 						femMnova = maisNovo
 						nFemMnova = nomeDoMaisNovo
@@ -127,9 +128,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2439; 
+ * @POSICAO-CURSOR = 1057; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
