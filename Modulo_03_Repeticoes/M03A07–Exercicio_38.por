@@ -84,6 +84,14 @@ programa
 					nFemMvelha = nomeDoMaisVelho
 					femMVelha = maisVelho
 				}
+
+				se(sx == 'm' ou sx == 'M'){
+					nMascMnovo = nomeDoMaisNovo
+					mascMnovo = maisNovo
+
+					nMascMvelho = nomeDoMaisVelho	
+					mascMvelho = 	maisVelho		
+				}
 			}
 			
 				
@@ -103,7 +111,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1849; 
+ * @POSICAO-CURSOR = 2020; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
