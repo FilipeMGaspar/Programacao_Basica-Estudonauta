@@ -119,7 +119,7 @@ programa
 						nFemMvelha = nomeDoMaisVelho
 					}
 
-					se(sx == 'm' ou sx == 'M'){
+					se(sx == 'm' ou sx == 'M'){ //Verifica se é do sexo masculino
 						mascMvelho = maisVelho
 						nMascMvelho = nomeDoMaisVelho
 					}
@@ -141,7 +141,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2951; 
+ * @POSICAO-CURSOR = 2920; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
