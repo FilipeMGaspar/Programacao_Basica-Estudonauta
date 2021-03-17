@@ -53,6 +53,8 @@ programa
 		inteiro mascMnovo = 0, mascMvelho = 0
 		cadeia nMascMnovo = "", nMascMvelho = ""		
 		caracter sx
+		inteiro maisNovo = 0, maisVelho = 0
+		
 		
 		escreva(" { EXERCÍCIO 038 - Analisando idades } \n")
 		escreva("-------------------------------------- \n")
@@ -69,7 +71,10 @@ programa
 			escreva("IDADE: ")
 			leia(idade)
 			
-			
+			se(conta == 1){
+				maisNovo = idade
+				maisVelho = idade
+			}
 			
 				
 			conta++
@@ -88,7 +93,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1433; 
+ * @POSICAO-CURSOR = 1079; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
