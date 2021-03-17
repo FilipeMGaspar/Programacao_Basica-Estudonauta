@@ -96,11 +96,19 @@ programa
 				se(idade <  maisNovo){
 					maisNovo = idade
 					nomeDoMaisNovo = nome
+					se(sx == 'f' ou sx == 'F'){
+						femMnova = maisNovo
+						nFemMnova = nomeDoMaisNovo
+					}
 				}
 
 				se(idade > maisVelho){
 					maisVelho = idade
 					nomeDoMaisVelho = nome
+					se(sx == 'f' ou sx == 'F'){
+						femMVelha = maisVelho
+						nFemMvelha = nomeDoMaisVelho
+					}
 				}
 			}		
 			conta++
@@ -119,7 +127,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2159; 
+ * @POSICAO-CURSOR = 2439; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
