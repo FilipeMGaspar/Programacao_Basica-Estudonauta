@@ -76,47 +76,6 @@ programa
 			se(sx == 'm' ou sx == 'M'){
 				
 			}
-			/*se(conta == 1){
-				
-				se(sx == 'f' ou sx == 'F'){
-					nFemMnova = nome
-					nFemMvelha = nome
-					femMnova = idade
-					femMVelha = idade
-				}
-				
-				se(sx == 'm' ou sx == 'M'){
-					mascMnovo = idade
-					mascMvelho = idade	
-					nMascMnovo = nome
-					nMascMvelho = 	nome		
-				}
-				
-			} senao{
-				
-				se(sx == 'f' ou sx == 'F'){					
-					se(idade < femMnova){
-						femMnova = idade
-						nFemMnova = nome
-					}
-
-					se(idade > femMVelha){
-						femMVelha = idade 
-						nFemMvelha = nome
-					}			
-				}
-
-				se(sx == 'm' ou sx == 'M'){
-					se(idade < mascMnovo){
-						mascMnovo = idade
-						nMascMnovo = nome
-					}
-					se(idade > mascMvelho){
-						mascMvelho = idade						
-						nMascMvelho = 	nome	
-					}					
-				}
-			}*/
 				
 			conta++
 		}
@@ -134,7 +93,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1465; 
+ * @POSICAO-CURSOR = 1513; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
