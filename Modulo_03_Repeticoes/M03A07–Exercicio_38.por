@@ -93,20 +93,20 @@ programa
 					mascMvelho = 	maisVelho		
 				}
 			} senao {
-				se(idade <  maisNovo){
+				se(idade <  maisNovo){ //Verifica se a idade recebida é menor que a maisNovo
 					maisNovo = idade
 					nomeDoMaisNovo = nome
 					
-					se(sx == 'f' ou sx == 'F'){
+					se(sx == 'f' ou sx == 'F'){ //Verifica se é do sexo feminino
 						femMnova = maisNovo
 						nFemMnova = nomeDoMaisNovo
 					}
 				}
 
-				se(idade > maisVelho){
+				se(idade > maisVelho){ //Verifica se a idade recebida é Maior que a maisVelho
 					maisVelho = idade
 					nomeDoMaisVelho = nome
-					se(sx == 'f' ou sx == 'F'){
+					se(sx == 'f' ou sx == 'F'){ //Verifica se é do sexo feminino
 						femMVelha = maisVelho
 						nFemMvelha = nomeDoMaisVelho
 					}
@@ -128,7 +128,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1057; 
+ * @POSICAO-CURSOR = 2559; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
