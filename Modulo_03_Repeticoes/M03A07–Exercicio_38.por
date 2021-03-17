@@ -93,6 +93,7 @@ programa
 					mascMvelho = 	maisVelho		
 				}
 			} senao {
+				//Verificação de quem é o mais novo
 				se(idade <  maisNovo){ //Verifica se a idade recebida é menor que a maisNovo
 					maisNovo = idade
 					nomeDoMaisNovo = nome
@@ -100,6 +101,10 @@ programa
 					se(sx == 'f' ou sx == 'F'){ //Verifica se é do sexo feminino
 						femMnova = maisNovo
 						nFemMnova = nomeDoMaisNovo
+					}
+
+					se(sx == 'm' ou sx == 'M'){
+						
 					}
 				}
 
@@ -128,7 +133,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2559; 
+ * @POSICAO-CURSOR = 2125; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
