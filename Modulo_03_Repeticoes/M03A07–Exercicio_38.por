@@ -113,9 +113,15 @@ programa
 				se(idade > maisVelho){ //Verifica se a idade recebida é Maior que a maisVelho
 					maisVelho = idade
 					nomeDoMaisVelho = nome
+					
 					se(sx == 'f' ou sx == 'F'){ //Verifica se é do sexo feminino
 						femMVelha = maisVelho
 						nFemMvelha = nomeDoMaisVelho
+					}
+
+					se(sx == 'm' ou sx == 'M'){
+						mascMvelho = maisVelho
+						nMascMvelho = nomeDoMaisVelho
 					}
 				}
 			}		
@@ -135,7 +141,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2460; 
+ * @POSICAO-CURSOR = 2951; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
