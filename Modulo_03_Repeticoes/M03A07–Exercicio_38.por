@@ -90,7 +90,7 @@ programa
 					mascMnovo = maisNovo
 
 					nMascMvelho = nomeDoMaisVelho	
-					mascMvelho = 	maisVelho		
+					mascMvelho = maisVelho		
 				}
 			} senao {
 				//Verificação de quem é o mais novo
@@ -104,7 +104,8 @@ programa
 					}
 
 					se(sx == 'm' ou sx == 'M'){
-						
+						mascMnovo = maisNovo	
+						nMascMnovo = nomeDoMaisNovo
 					}
 				}
 
@@ -134,7 +135,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2489; 
+ * @POSICAO-CURSOR = 2488; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {maisNovo, 56, 10, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
