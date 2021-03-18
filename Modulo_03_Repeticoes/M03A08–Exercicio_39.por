@@ -61,13 +61,13 @@ programa
 				}
 			}
 			se(num == 9999){
-				escreva("========= FLAG DIGITADO ========= \n")
+				escreva("\n========= FLAG DIGITADa ========= \n")
 			}
 			conta++			
 		}
 
 		media = Tipos.inteiro_para_real(soma) / contaVal
-		escreva("\n")
+
 		escreva("Ao todo você digitou ", contaVal ," valores \n")
 		escreva("A soma entre eles foi ", soma, "\n")
 		escreva("E a média foi ", mat.arredondar(media, 2) ,"\n")
@@ -79,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1312; 
+ * @POSICAO-CURSOR = 1394; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
