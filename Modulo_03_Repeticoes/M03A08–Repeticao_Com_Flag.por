@@ -9,7 +9,7 @@ programa
 			leia(idade)
 			soma += idade
 		}
-		escreva("A soma de todas as idades é ", soma)
+		escreva("A soma de todas as idades é ", soma, "\n")
 		escreva("==== Programa Finalizado ===")
 		
 	}
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 208; 
+ * @POSICAO-CURSOR = 213; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
