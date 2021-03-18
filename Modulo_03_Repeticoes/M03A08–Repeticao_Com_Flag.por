@@ -3,12 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro idade = 0
+		inteiro idade = 0, soma = 0
 		enquanto (idade != 9999){
 			escreva("Digite a sua idade: ")
 			leia(idade)
+			soma += idade
 		}
+		escreva("A soma de todas as idades é ", soma)
 		escreva("==== Programa Finalizado ===")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 175; 
+ * @POSICAO-CURSOR = 208; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
