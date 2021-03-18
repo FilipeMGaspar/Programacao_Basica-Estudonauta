@@ -64,6 +64,24 @@ programa
 			escreva(" [ 5 ] SAIR \n")
 			escreva(">>>>>>>> SUA OPÇÂO: ")
 			leia(op)
+
+			escolha(op){
+				caso 1:
+					escreva("Adição \n")
+				pare
+				caso 2:
+					escreva("Subtração \n")
+				pare
+				caso 3:
+					escreva("Multiplicação \n")
+				pare
+				caso 4:
+					escreva("Entrada de novos dados \n")
+				pare
+				caso contrario:
+					escreva("==== OPÇÃO INVÁLIDA ====\n")
+				pare
+			}
 		}
 	}
 }
@@ -72,7 +90,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1398; 
+ * @POSICAO-CURSOR = 1706; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
