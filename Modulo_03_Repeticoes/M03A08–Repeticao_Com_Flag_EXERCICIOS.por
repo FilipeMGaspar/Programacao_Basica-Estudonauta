@@ -34,46 +34,46 @@ programa
 		 *   
 		*/
 
-		/*Exercﾃｭcio 40
-		 *  { EXERCﾃ垢IO 040 - Calculadora } 
-		 *  
-		 *  Operando 1: 5
-		 *  operando 2: 2
-		 *  
-		 *  
-		 *  ========== ESCOLHA UMA OPERAﾃ�ﾃグ ========
-		 *  [ 1 ] Adiﾃｧﾃ｣o
-		 *  [ 2 ] Subtraﾃｧﾃ｣o
-		 *  [ 3 ] Multiplicaﾃｧﾃ｣o
-		 *  [ 4 ] Entrar com novos dados
-		 *  [ 5 ] SAIR
-		 *  >>>>>>>>>>>>> SUA OPﾃ�ﾃグ: 1
-		 *  
-		 *  ------------------------------
-		 *  Calculando 5 + 2  = 7
-		 *  ------------------------------
-		 *  
-		 *   ========== ESCOLHA UMA OPERAﾃ�ﾃグ ========
-		 *  [ 1 ] Adiﾃｧﾃ｣o
-		 *  [ 2 ] Subtraﾃｧﾃ｣o
-		 *  [ 3 ] Multiplicaﾃｧﾃ｣o
-		 *  [ 4 ] Entrar com novos dados
-		 *  [ 5 ] SAIR
-		 *  >>>>>>>>>>>>> SUA OPﾃ�ﾃグ: 7
-		 *  
-		 *  ==== OPﾃ�ﾃ０ INVﾃ�LIDA =====
-		 *  
-		 *   ========== ESCOLHA UMA OPERAﾃ�ﾃグ ========
-		 *  [ 1 ] Adiﾃｧﾃ｣o
-		 *  [ 2 ] Subtraﾃｧﾃ｣o
-		 *  [ 3 ] Multiplicaﾃｧﾃ｣o
-		 *  [ 4 ] Entrar com novos dados
-		 *  [ 5 ] SAIR
-		 *  >>>>>>>>>>>>> SUA OPﾃ�ﾃグ: 5
-		 *  
-		 *  ==== SAINDO =====
-		 *  ===== VOLTE SEMPRE =====
-		*/
+/*Exercicio 40
+*  { EXERCICIO 040 - Calculadora } 
+*  
+*  Operando 1: 5
+*  operando 2: 2
+*  
+*  
+*  ========== ESCOLHA UMA OPERAÇÂO ========
+*  [ 1 ] Adição
+*  [ 2 ] Subtração
+*  [ 3 ] Multiplicação
+*  [ 4 ] Entrar com novos dados
+*  [ 5 ] SAIR
+*  >>>>>>>>>>>>> SUA OPÇÃO: 1
+*  
+*  ------------------------------
+*  Calculando 5 + 2  = 7
+*  ------------------------------
+*  
+*   ========== ESCOLHA UMA OPERAÇÂO ========
+*  [ 1 ] Adição
+*  [ 2 ] Subtração
+*  [ 3 ] Multiplicação
+*  [ 4 ] Entrar com novos dados
+*  [ 5 ] SAIR
+*  >>>>>>>>>>>>> SUA OPÇÃO: 7
+*  
+*  ==== OPÇÃO INVÁLIDA =====
+*  
+* ========== ESCOLHA UMA OPERAÇÂO ========
+*  [ 1 ] Adição
+*  [ 2 ] Subtração
+*  [ 3 ] Multiplicação
+*  [ 4 ] Entrar com novos dados
+*  [ 5 ] SAIR
+*  >>>>>>>>>>>>> SUA OPÇÃO: 5
+*  
+*  ==== SAINDO =====
+*  ===== VOLTE SEMPRE =====
+*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -81,7 +81,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 991; 
+ * @POSICAO-CURSOR = 670; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
