@@ -67,16 +67,26 @@ programa
 
 			escolha(op){
 				caso 1:
-					escreva("Adição \n")
+					escreva("--------------------------- \n")
+					escreva("Calculando ", num1, " + ", num2, " = ", (num1+num2),"\n")
+					escreva("--------------------------- \n")
 				pare
 				caso 2:
 					escreva("Subtração \n")
+					escreva("--------------------------- \n")
+					escreva("--------------------------- \n")
 				pare
 				caso 3:
 					escreva("Multiplicação \n")
+					escreva("--------------------------- \n")
+					escreva("--------------------------- \n")
 				pare
 				caso 4:
-					escreva("Entrada de novos dados \n")
+					escreva("\n")
+					escreva("Digite um valor: ")
+					leia(num1)
+					escreva("Digite outro valor: ")
+					leia(num2)
 				pare
 				caso 5:
 					escreva("\n==== SAINDO ==== \n")
@@ -97,7 +107,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1663; 
+ * @POSICAO-CURSOR = 1555; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
