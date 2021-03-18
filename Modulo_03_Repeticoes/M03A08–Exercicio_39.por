@@ -60,6 +60,9 @@ programa
 					}
 				}
 			}
+			se(num == 9999){
+				escreva("========= FLAG DIGITADO ========= \n")
+			}
 			conta++			
 		}
 
@@ -76,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1493; 
+ * @POSICAO-CURSOR = 1312; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
