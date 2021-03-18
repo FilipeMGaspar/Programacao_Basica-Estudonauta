@@ -33,11 +33,21 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro num = 0, conta = 1
+	
 		escreva("{ EXERCICIO 039 - LENDO Dados } \n")
 		escreva("------------------------------- \n")
 		escreva("\n")
 
-		
+		enquanto(num != 9999){
+			escreva("----------------------------- \n")
+			escreva(conta,"º valor [9999 faz parar]")
+			escreva("----------------------------- \n")
+			escreva("NÚMERO: ")
+			leia(num)
+			
+			conta++			
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -45,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 702; 
+ * @POSICAO-CURSOR = 934; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
