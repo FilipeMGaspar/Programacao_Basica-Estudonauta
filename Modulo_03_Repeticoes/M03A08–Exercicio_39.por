@@ -53,7 +53,9 @@ programa
 			conta++			
 		}
 		escreva("\n")
-		escreva("Ao todo você digitor ",contaVal ," valores \n")
+		escreva("Ao todo você digitou ", contaVal ," valores \n")
+		escreva("A soma entre eles foi ", soma, "\n")
+		escreva("E a média foi ", "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -61,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1106; 
+ * @POSICAO-CURSOR = 1046; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
