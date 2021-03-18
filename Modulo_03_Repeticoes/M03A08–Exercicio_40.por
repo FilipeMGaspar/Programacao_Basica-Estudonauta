@@ -53,6 +53,8 @@ programa
 		leia(num1)
 		escreva("Digite outro valor: ")
 		leia(num2)
+
+		escreva("\n======= ESCOLHA UMA OPERAÇÂO ======= \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -60,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1093; 
+ * @POSICAO-CURSOR = 1149; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
