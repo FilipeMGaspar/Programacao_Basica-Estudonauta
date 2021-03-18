@@ -34,6 +34,7 @@ programa
 	funcao inicio()
 	{
 		inteiro num = 0, conta = 1
+		inteiro soma = 0, contaVal = 0
 	
 		escreva("{ EXERCICIO 039 - LENDO Dados } \n")
 		escreva("------------------------------- \n")
@@ -45,14 +46,14 @@ programa
 			escreva("------------------------------ \n")
 			escreva("NÚMERO: ")
 			leia(num)
-			se(num == 9999){
-				
-				
+			se(num != 9999){				
+				soma += num
+				contaVal++
 			}
 			conta++			
 		}
 		escreva("\n")
-		escreva("Ao todo você digitor "," valores \n")
+		escreva("Ao todo você digitor ",contaVal ," valores \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -60,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1002; 
+ * @POSICAO-CURSOR = 1106; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
