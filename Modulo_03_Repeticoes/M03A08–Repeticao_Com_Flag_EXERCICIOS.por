@@ -35,7 +35,44 @@ programa
 		*/
 
 		/*Exercício 40
-		 *  { EXERCÍCIO 040 -  } 
+		 *  { EXERCÍCIO 040 - Calculadora } 
+		 *  
+		 *  Operando 1: 5
+		 *  operando 2: 2
+		 *  
+		 *  
+		 *  ========== ESCOLHA UMA OPERAÇÃO ========
+		 *  [ 1 ] Adição
+		 *  [ 2 ] Subtração
+		 *  [ 3 ] Multiplicação
+		 *  [ 4 ] Entrar com novos dados
+		 *  [ 5 ] SAIR
+		 *  >>>>>>>>>>>>> SUA OPÇÃO: 1
+		 *  
+		 *  ------------------------------
+		 *  Calculando 5 + 2  = 7
+		 *  ------------------------------
+		 *  
+		 *   ========== ESCOLHA UMA OPERAÇÃO ========
+		 *  [ 1 ] Adição
+		 *  [ 2 ] Subtração
+		 *  [ 3 ] Multiplicação
+		 *  [ 4 ] Entrar com novos dados
+		 *  [ 5 ] SAIR
+		 *  >>>>>>>>>>>>> SUA OPÇÃO: 7
+		 *  
+		 *  ==== OPÇÂO INVÀLIDA =====
+		 *  
+		 *   ========== ESCOLHA UMA OPERAÇÃO ========
+		 *  [ 1 ] Adição
+		 *  [ 2 ] Subtração
+		 *  [ 3 ] Multiplicação
+		 *  [ 4 ] Entrar com novos dados
+		 *  [ 5 ] SAIR
+		 *  >>>>>>>>>>>>> SUA OPÇÃO: 5
+		 *  
+		 *  ==== SAINDO =====
+		 *  ===== VOLTE SEMPRE =====
 		*/
 	}
 }
@@ -44,7 +81,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 713; 
+ * @POSICAO-CURSOR = 1611; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
