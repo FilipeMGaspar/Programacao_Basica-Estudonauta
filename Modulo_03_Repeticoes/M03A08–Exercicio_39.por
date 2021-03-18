@@ -40,14 +40,19 @@ programa
 		escreva("\n")
 
 		enquanto(num != 9999){
-			escreva("----------------------------- \n")
-			escreva(conta,"º valor [9999 faz parar]")
-			escreva("----------------------------- \n")
+			escreva("------------------------------ \n")
+			escreva(conta,"º valor [9999 faz parar] \n")
+			escreva("------------------------------ \n")
 			escreva("NÚMERO: ")
 			leia(num)
-			
+			se(num == 9999){
+				
+				
+			}
 			conta++			
 		}
+		escreva("\n")
+		escreva("Ao todo você digitor "," valores \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -55,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 934; 
+ * @POSICAO-CURSOR = 1002; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
