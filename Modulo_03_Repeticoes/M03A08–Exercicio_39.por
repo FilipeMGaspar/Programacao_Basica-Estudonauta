@@ -52,6 +52,13 @@ programa
 			se(num != 9999){				
 				soma += num
 				contaVal++
+				se(conta == 1){
+					maiorValor = num
+				}senao{
+					se(num > maiorValor){
+						maiorValor = num
+					}
+				}
 			}
 			conta++			
 		}
@@ -69,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1122; 
+ * @POSICAO-CURSOR = 1226; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
