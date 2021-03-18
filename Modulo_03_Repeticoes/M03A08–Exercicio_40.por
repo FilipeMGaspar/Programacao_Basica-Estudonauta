@@ -44,6 +44,7 @@ programa
 	funcao inicio()
 	{
 		inteiro num1, num2
+		inteiro op = 0
 		
 		escreva("{ EXERCICIO 040 - Calculadora } \n")
 		escreva("------------------------------- \n")
@@ -54,7 +55,16 @@ programa
 		escreva("Digite outro valor: ")
 		leia(num2)
 
-		escreva("\n======= ESCOLHA UMA OPERAÇÂO ======= \n")
+		enquanto(op != 5){
+			escreva("\n======= ESCOLHA UMA OPERAÇÂO ======= \n")
+			escreva(" [ 1 ] Adição \n")
+			escreva(" [ 2 ] Subtração \n")
+			escreva(" [ 3 ] Multiplicação \n")
+			escreva(" [ 4 ] Entrar com novos dados \n")
+			escreva(" [ 5 ] SAIR \n")
+			escreva(">>>>>>>>>>>>>>>>>>>>> Sua opção: ")
+			leia(op)
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -62,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1149; 
+ * @POSICAO-CURSOR = 1413; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
