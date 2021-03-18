@@ -36,6 +36,7 @@ programa
 	{
 		inteiro num = 0, conta = 1
 		inteiro soma = 0, contaVal = 0
+		inteiro maiorValor = 0
 		real media
 	
 		escreva("{ EXERCICIO 039 - LENDO Dados } \n")
@@ -60,6 +61,7 @@ programa
 		escreva("Ao todo você digitou ", contaVal ," valores \n")
 		escreva("A soma entre eles foi ", soma, "\n")
 		escreva("E a média foi ", mat.arredondar(media, 2), "\n")
+		escreva("O maior valor digitado foi ", "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -67,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1348; 
+ * @POSICAO-CURSOR = 1122; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
