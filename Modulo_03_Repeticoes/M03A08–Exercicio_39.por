@@ -30,11 +30,13 @@ programa
 *   O maior valor digitado foi 100
 *   
 */
-	
+	inclua biblioteca Tipos
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 	{
 		inteiro num = 0, conta = 1
 		inteiro soma = 0, contaVal = 0
+		real media
 	
 		escreva("{ EXERCICIO 039 - LENDO Dados } \n")
 		escreva("------------------------------- \n")
@@ -52,10 +54,12 @@ programa
 			}
 			conta++			
 		}
+
+		media = Tipos.inteiro_para_real(soma) / contaVal
 		escreva("\n")
 		escreva("Ao todo você digitou ", contaVal ," valores \n")
 		escreva("A soma entre eles foi ", soma, "\n")
-		escreva("E a média foi ", "\n")
+		escreva("E a média foi ", mat.arredondar(media, 2), "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -63,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1046; 
+ * @POSICAO-CURSOR = 1348; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
