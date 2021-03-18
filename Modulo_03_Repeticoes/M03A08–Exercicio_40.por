@@ -27,7 +27,7 @@ programa
 *  [ 5 ] SAIR
 *  >>>>>>>>>>>>> SUA OPção: 7
 *  
-*  ==== OPﾃ�ﾃ０ INVÁLIDA =====
+*  ==== OPÇÃO INVÁLIDA =====
 *  
 * ========== ESCOLHA UMA OPERAÇÂO ========
 *  [ 1 ] Adição
@@ -35,7 +35,7 @@ programa
 *  [ 3 ] Multiplicação
 *  [ 4 ] Entrar com novos dados
 *  [ 5 ] SAIR
-*  >>>>>>>>>>>>> SUA OPção:: 5
+*  >>>>>>>>>>>>> SUA OPção: 5
 *  
 *  ==== SAINDO =====
 *  ===== VOLTE SEMPRE =====
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 605; 
+ * @POSICAO-CURSOR = 585; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
