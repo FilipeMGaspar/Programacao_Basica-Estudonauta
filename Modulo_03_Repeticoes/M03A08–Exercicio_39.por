@@ -45,7 +45,7 @@ programa
 
 		enquanto(num != 9999){
 			escreva("------------------------------ \n")
-			escreva(conta,"º valor [9999 faz parar] \n")
+			escreva(" ", conta, "º valor [9999 faz parar] \n")
 			escreva("------------------------------ \n")
 			escreva("NÚMERO: ")
 			leia(num)
@@ -61,17 +61,17 @@ programa
 				}
 			}
 			se(num == 9999){
-				escreva("\n========= FLAG DIGITADa ========= \n")
+				escreva("\n========== FLAG DIGITADA ========== \n")
 			}
 			conta++			
 		}
 
 		media = Tipos.inteiro_para_real(soma) / contaVal
 
-		escreva("Ao todo você digitou ", contaVal ," valores \n")
-		escreva("A soma entre eles foi ", soma, "\n")
-		escreva("E a média foi ", mat.arredondar(media, 2) ,"\n")
-		escreva("O maior valor digitado foi ",maiorValor ,"\n")
+		escreva(" Ao todo você digitou ", contaVal ," valores \n")
+		escreva(" A soma entre eles foi ", soma, "\n")
+		escreva(" E a média foi ", mat.arredondar(media, 2) ,"\n")
+		escreva(" O maior valor digitado foi ",maiorValor ,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -79,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1394; 
+ * @POSICAO-CURSOR = 949; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
