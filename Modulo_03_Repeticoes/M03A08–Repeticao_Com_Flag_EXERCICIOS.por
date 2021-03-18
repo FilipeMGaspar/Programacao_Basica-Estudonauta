@@ -34,7 +34,9 @@ programa
 		 *   
 		*/
 
-		
+		/*Exercício 40
+		 *  { EXERCÍCIO 040 -  } 
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -42,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 674; 
+ * @POSICAO-CURSOR = 713; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
