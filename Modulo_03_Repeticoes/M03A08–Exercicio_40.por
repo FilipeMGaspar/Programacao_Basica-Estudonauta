@@ -79,10 +79,14 @@ programa
 					escreva("Entrada de novos dados \n")
 				pare
 				caso contrario:
-					escreva("==== OPÇÃO INVÁLIDA ====\n")
+					escreva("\n ==== OPÇÃO INVÁLIDA ====\n")
 				pare
 			}
 		}
+		
+		escreva("\n==== SAINDO ==== \n")
+		escreva("=== VOLTE SEMPRE ===")
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -90,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1706; 
+ * @POSICAO-CURSOR = 1799; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
