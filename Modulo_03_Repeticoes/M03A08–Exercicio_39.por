@@ -67,8 +67,8 @@ programa
 		escreva("\n")
 		escreva("Ao todo você digitou ", contaVal ," valores \n")
 		escreva("A soma entre eles foi ", soma, "\n")
-		escreva("E a média foi ", mat.arredondar(media, 2), "\n")
-		escreva("O maior valor digitado foi ", "\n")
+		escreva("E a média foi ", mat.arredondar(media, 2) ,"\n")
+		escreva("O maior valor digitado foi ",maiorValor ,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -76,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1539; 
+ * @POSICAO-CURSOR = 1493; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
