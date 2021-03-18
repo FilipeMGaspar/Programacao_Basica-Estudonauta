@@ -13,7 +13,7 @@ programa
 *  [ 3 ] Multiplicação
 *  [ 4 ] Entrar com novos dados
 *  [ 5 ] SAIR
-*  >>>>>>>>>>>>> SUA OPção: 1
+*  >>>>>>>>>>>>> SUA OPÇÃO: 1
 *  
 *  ------------------------------
 *  Calculando 5 + 2  = 7
@@ -25,7 +25,7 @@ programa
 *  [ 3 ] Multiplicação
 *  [ 4 ] Entrar com novos dados
 *  [ 5 ] SAIR
-*  >>>>>>>>>>>>> SUA OPção: 7
+*  >>>>>>>>>>>>> SUA OPÇÃO: 7
 *  
 *  ==== OPÇÃO INVÁLIDA =====
 *  
@@ -35,7 +35,7 @@ programa
 *  [ 3 ] Multiplicação
 *  [ 4 ] Entrar com novos dados
 *  [ 5 ] SAIR
-*  >>>>>>>>>>>>> SUA OPção: 5
+*  >>>>>>>>>>>>> SUA OPÇÃO: 5
 *  
 *  ==== SAINDO =====
 *  ===== VOLTE SEMPRE =====
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 585; 
+ * @POSICAO-CURSOR = 779; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
