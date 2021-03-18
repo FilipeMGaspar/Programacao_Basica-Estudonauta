@@ -7,10 +7,12 @@ programa
 		enquanto (idade != 9999){
 			escreva("Digite a sua idade: ")
 			leia(idade)
-			soma += idade
+			se(idade != 9999){
+				soma += idade
+			}
 		}
 		escreva("A soma de todas as idades é ", soma, "\n")
-		escreva("==== Programa Finalizado ===")
+		escreva("==== Programa Finalizado === \n")
 		
 	}
 }
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 213; 
+ * @POSICAO-CURSOR = 160; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
