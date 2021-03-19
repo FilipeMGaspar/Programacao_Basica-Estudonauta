@@ -44,7 +44,19 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		cadeia nome
+		inteiro idade
+		
+		escreva("{ EXERCICIO 041 - Cadastro de Amigos } \n")
+		escreva("-------------------------------------- \n")
+
+		enquanto(verdadeiro){
+			escreva("\n---------- NOVO AMIGO ---------- \n")
+			escreva(" -> OBS: Digite ACABOU no nome para terminar \n")
+			escreva("\n")
+			escreva("Nome: ")
+			leia(nome)
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -52,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 991; 
+ * @POSICAO-CURSOR = 1199; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
