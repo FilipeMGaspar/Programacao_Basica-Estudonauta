@@ -42,6 +42,8 @@ programa
 *    	A média de idade do grupo é de 29.75 anos
 */
 	inclua biblioteca Tipos
+	inclua biblioteca Matematica --> mat
+	
 	funcao inicio()
 	{
 		cadeia nome
@@ -100,7 +102,7 @@ programa
 		escreva("   Total de amigos cadastrados: ",contaAmigos, "\n")
 		escreva("   Seu amigo mais velho é ", nomeAmgMvelho, ", com ", idadeAmgMvelho, " anos \n")
 		escreva("   Seu amigo mais jovem é ", nomeAmgMnovo, ", com ", idadeAmgMnovo, " anos \n")
-		escreva("   A média de idade do grupo é de ", media, " anos \n")
+		escreva("   A média de idade do grupo é de ", mat.arredondar(media, 2), " anos \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -108,7 +110,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2618; 
+ * @POSICAO-CURSOR = 2649; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
