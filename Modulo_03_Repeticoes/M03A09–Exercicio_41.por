@@ -45,7 +45,8 @@ programa
 	funcao inicio()
 	{
 		cadeia nome
-		inteiro idade
+		inteiro idade, contaAmigos = 0
+		inteiro idadeAmgMnovo = 0, idadeAmgMvelho = 0
 		
 		escreva("{ EXERCICIO 041 - Cadastro de Amigos } \n")
 		escreva("-------------------------------------- \n")
@@ -59,15 +60,22 @@ programa
 			se(nome == "ACABOU" ou nome == "acabou" ou nome == "Acabou"){
 				pare
 			}
+			escreva("Idade: ")
+			leia(idade)
+			contaAmigos++
+			se(contaAmigos == 1){
+				idadeAmgMnovo = idade
+				idadeAmgMvelho = idade
+			}
 		}
 		
 		escreva("\n")
 		escreva(" ~~~~~~ ..: INTERROMPIDO :.. ~~~~~~ \n")
 		escreva("\n")
 		escreva(" ========== RESULTADOS ========== \n")
-		escreva("   Total de amigos cadastrados: ", "\n")
-		escreva("   Seu amigo mais velho é ",", com ", " anos \n")
-		escreva("   Seu amigo mais jovem é ",", com ", " anos \n")
+		escreva("   Total de amigos cadastrados: ",contaAmigos, "\n")
+		escreva("   Seu amigo mais velho é ",", com ", idadeAmgMnovo, " anos \n")
+		escreva("   Seu amigo mais jovem é ",", com ", idadeAmgMvelho, " anos \n")
 		escreva("   A média de idade do grupo é de ","anos \n")
 	}
 }
@@ -76,7 +84,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1565; 
+ * @POSICAO-CURSOR = 1977; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
