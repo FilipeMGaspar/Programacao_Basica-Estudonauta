@@ -1,6 +1,7 @@
 programa
 {
-	
+	inclua biblioteca Matematica --> mat
+		
 	funcao inicio()
 	{
 		cadeia nome
@@ -34,7 +35,7 @@ programa
 			
 			//contagem de funcionários do sexo feminino
 			se(sx == 'f' ou sx == 'F'){
-				contaMulheres++
+				contaMulheres++ //Contador de funcionários do sexo feminino
 			}
 
 			//Verifica se a resposta é negativa se for para a execução do enquanto
@@ -51,7 +52,7 @@ programa
 		escreva("Total de pessoas cadastradas: ", contaFunc ,"\n")
 		escreva("Total de Homens: ", contaHomens, "\n")
 		escreva("Total de Mulheres; ", contaMulheres, "\n")
-		escreva("Média salarial dos homens: R$ ","\n")
+		escreva("Média salarial dos homens: R$ ", mat.arredondar(medSalarioMasc, 2), "\n")
 		escreva("Total de mulheres que ganham mas de Mil Reias: ", "\n")
 		escreva("Maior salário entre os homens: R$ ", "\n")
 	}
@@ -94,7 +95,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 743; 
+ * @POSICAO-CURSOR = 1543; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
