@@ -70,9 +70,9 @@ programa
 			
 			somaIdade += idade // Somatório de idade
 			
-			contaAmigos++ //Contagem de amigos cadastrados
+			contaAmigos++ //Contagem de amigos cadastrados 
 			
-			se(contaAmigos == 1){
+			se(contaAmigos == 1){ 
 				idadeAmgMnovo = idade
 				nomeAmgMnovo = nome
 				
@@ -110,7 +110,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2649; 
+ * @POSICAO-CURSOR = 1811; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
