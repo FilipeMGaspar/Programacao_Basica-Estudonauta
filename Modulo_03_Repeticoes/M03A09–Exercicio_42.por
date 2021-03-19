@@ -6,7 +6,7 @@ programa
 	{
 		cadeia nome
 		caracter sx, resp
-		real salario
+		real salario, maiorSalario = 0.0
 		inteiro contaFunc = 0, contaHomens = 0, contaMulheres = 0
 		real somSalarioMasc = 0.0, medSalarioMasc = 0.0, maiorSalMasc = 0.0
 		inteiro femCsalMaisDmil = 0 		
@@ -44,6 +44,14 @@ programa
 				}
 			}
 
+			//Verificação do maior salário entre funcionários do sexo masculino
+			se(contaFunc == 1){
+				maiorSalario = salario
+				se(sx == 'm' ou sx == 'M'){
+					maiorSalMasc = maiorSalario
+				}
+			}
+			
 			//Verifica se a resposta é negativa se for para a execução do enquanto
 			se(resp == 'n' ou resp == 'N'){
 				pare
@@ -101,7 +109,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 1409; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
