@@ -11,7 +11,14 @@ programa
 		escreva("-------------------------------------------- \n")
 		escreva("\n")
 
-		
+		enquanto(verdadeiro){
+			escreva("Nome: ")
+			leia(nome)
+			escreva("Sexo [M/F]: ")
+			leia(sx)
+			escreva("Salário R$ ")
+			leia(salario)
+		}
 	}
 }
 /*Exercicio 42
@@ -51,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 161; 
+ * @POSICAO-CURSOR = 364; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
