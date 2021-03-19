@@ -45,10 +45,22 @@ programa
 			}
 
 			//Verificação do maior salário entre funcionários do sexo masculino
-			se(contaFunc == 1){
-				maiorSalario = salario
+			se(contaFunc == 1){ //Na primeira execução o maiorSalario é igual ao salário
+				
+				maiorSalario = salario//Guarda o maior salário 
+				//Verifica se é do sexo masculino se for
 				se(sx == 'm' ou sx == 'M'){
-					maiorSalMasc = maiorSalario
+					maiorSalMasc = maiorSalario //O maior salário masculino passa a ser o maior salário
+				}
+			}senao {
+				//Verifica se é o maior salário
+				se(salario > maiorSalario){
+					maiorSalario = salario // Guarda o maior salário 
+					
+					//Vedifica se o funcionário é do sexo Masculino
+					se(sx == 'm' ou sx == 'M'){
+						maiorSalMasc = maiorSalario //O maior salário masculino passa a ser o maior salário
+					}
 				}
 			}
 			
@@ -68,7 +80,7 @@ programa
 		escreva("Total de Mulheres; ", contaMulheres, "\n")
 		escreva("Média salarial dos homens: R$ ", mat.arredondar(medSalarioMasc, 2), "\n")
 		escreva("Total de mulheres que ganham mais de Mil Reias: ", femCsalMaisDmil, "\n")
-		escreva("Maior salário entre os homens: R$ ", "\n")
+		escreva("Maior salário entre os homens: R$ ", maiorSalMasc, "\n")
 	}
 }
 
@@ -109,7 +121,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1409; 
+ * @POSICAO-CURSOR = 2626; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
