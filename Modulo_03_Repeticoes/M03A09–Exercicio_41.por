@@ -77,13 +77,13 @@ programa
 				
 			}senao {
 				se(idade < idadeAmgMnovo){
-					idadeAmgMnovo = idade
 					nomeAmgMnovo = nome
+					idadeAmgMnovo = idade					
 				}
 
 				se(idade > idadeAmgMvelho){
-					idadeAmgMvelho = idade
 					nomeAmgMvelho = nome
+					idadeAmgMvelho = idade					
 				}
 			}
 		}
@@ -93,8 +93,8 @@ programa
 		escreva("\n")
 		escreva(" ========== RESULTADOS ========== \n")
 		escreva("   Total de amigos cadastrados: ",contaAmigos, "\n")
-		escreva("   Seu amigo mais velho é ", nomeAmgMvelho, ", com ", idadeAmgMnovo, " anos \n")
-		escreva("   Seu amigo mais jovem é ", nomeAmgMnovo, ", com ", idadeAmgMvelho, " anos \n")
+		escreva("   Seu amigo mais velho é ", nomeAmgMvelho, ", com ", idadeAmgMvelho, " anos \n")
+		escreva("   Seu amigo mais jovem é ", nomeAmgMnovo, ", com ", idadeAmgMnovo, " anos \n")
 		escreva("   A média de idade do grupo é de ","anos \n")
 	}
 }
@@ -103,7 +103,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2024; 
+ * @POSICAO-CURSOR = 2316; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
