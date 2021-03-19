@@ -9,6 +9,7 @@ programa
 		real salario
 		inteiro contaFunc = 0, contaHomens = 0, contaMulheres = 0
 		real somSalarioMasc = 0.0, medSalarioMasc = 0.0
+		inteiro femCsalMaisDmil = 0
 			
 		escreva("{ EXERCICIO 042 - Cadastro de Funcionarios } \n")
 		escreva("-------------------------------------------- \n")
@@ -36,6 +37,11 @@ programa
 			//contagem de funcionários do sexo feminino
 			se(sx == 'f' ou sx == 'F'){
 				contaMulheres++ //Contador de funcionários do sexo feminino
+				
+				//Verifica se ganha mais de R$1000
+				se(salario > 1000){
+					femCsalMaisDmil++
+				}
 			}
 
 			//Verifica se a resposta é negativa se for para a execução do enquanto
@@ -53,7 +59,7 @@ programa
 		escreva("Total de Homens: ", contaHomens, "\n")
 		escreva("Total de Mulheres; ", contaMulheres, "\n")
 		escreva("Média salarial dos homens: R$ ", mat.arredondar(medSalarioMasc, 2), "\n")
-		escreva("Total de mulheres que ganham mas de Mil Reias: ", "\n")
+		escreva("Total de mulheres que ganham mais de Mil Reias: ", femCsalMaisDmil, "\n")
 		escreva("Maior salário entre os homens: R$ ", "\n")
 	}
 }
@@ -95,7 +101,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1543; 
+ * @POSICAO-CURSOR = 1121; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
