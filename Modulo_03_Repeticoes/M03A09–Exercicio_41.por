@@ -74,6 +74,17 @@ programa
 				
 				idadeAmgMvelho = idade
 				nomeAmgMvelho = nome
+				
+			}senao {
+				se(idade < idadeAmgMnovo){
+					idadeAmgMnovo = idade
+					nomeAmgMnovo = nome
+				}
+
+				se(idade > idadeAmgMvelho){
+					idadeAmgMvelho = idade
+					nomeAmgMvelho = nome
+				}
 			}
 		}
 		
@@ -92,7 +103,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2096; 
+ * @POSICAO-CURSOR = 2024; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
