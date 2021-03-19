@@ -6,7 +6,8 @@ programa
 		cadeia nome
 		caracter sx, resp
 		real salario
-		inteiro contaFunc = 0, contaHomens = 0
+		inteiro contaFunc = 0, contaHomens = 0, contaMulheres = 0
+		real somSalarioMasc = 0.0, medSalarioMasc = 0.0
 			
 		escreva("{ EXERCICIO 042 - Cadastro de Funcionarios } \n")
 		escreva("-------------------------------------------- \n")
@@ -27,20 +28,29 @@ programa
 
 			//contagem de Funcinários do sexo masculino
 			se(sx == 'm' ou sx == 'M'){
-				contaHomens++
+				contaHomens++ //Contador de funcionários do sexo masculino
+				somSalarioMasc += salario //Acomula o salério dos homens
 			}
 			
+			//contagem de funcionários do sexo feminino
+			se(sx == 'f' ou sx == 'F'){
+				contaMulheres++
+			}
+
+			//Verifica se a resposta é negativa se for para a execução do enquanto
 			se(resp == 'n' ou resp == 'N'){
 				pare
 			}			
 		}
+
+		medSalarioMasc = somSalarioMasc / contaHomens //Calculo da média salarial dos homens
 
 		escreva("\n")
 		escreva("========== RESULTADOS ========== \n")
 		escreva("\n")
 		escreva("Total de pessoas cadastradas: ", contaFunc ,"\n")
 		escreva("Total de Homens: ", contaHomens, "\n")
-		escreva("Total de Mulheres; ","\n")
+		escreva("Total de Mulheres; ", contaMulheres, "\n")
 		escreva("Média salarial dos homens: R$ ","\n")
 		escreva("Total de mulheres que ganham mas de Mil Reias: ", "\n")
 		escreva("Maior salário entre os homens: R$ ", "\n")
@@ -84,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 869; 
+ * @POSICAO-CURSOR = 743; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
