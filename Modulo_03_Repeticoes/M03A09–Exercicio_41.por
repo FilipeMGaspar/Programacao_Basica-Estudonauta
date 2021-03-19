@@ -60,6 +60,15 @@ programa
 				pare
 			}
 		}
+		
+		escreva("\n")
+		escreva("\t ..: INTERROMPIDO :.. \n")
+		escreva("\n")
+		escreva("======== RESULTADOS ======== \n")
+		escreva("Total de amigos cadastrados: ", "\n")
+		escreva("Seu amigo mais velho é ",", com ", " anos \n")
+		escreva("Seu amigo mais jovem é ",", com ", " anos \n")
+		escreva("A média de idade do grupo é de ","anos \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -67,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1424; 
+ * @POSICAO-CURSOR = 1769; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
