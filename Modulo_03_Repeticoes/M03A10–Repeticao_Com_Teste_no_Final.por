@@ -10,7 +10,7 @@ programa
 			escreva("Digite um número: ")
 			leia(n)
 			
-			escreva("Quer continuar? [s/n]")
+			escreva("Quer continuar? [s/n] ")
 			leia(r)
 		}enquanto(r!='n')
 	}
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 114; 
+ * @POSICAO-CURSOR = 154; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
