@@ -6,6 +6,7 @@ programa
 		cadeia nome
 		caracter sx, resp
 		real salario
+		inteiro contaFunc = 0
 			
 		escreva("{ EXERCICIO 042 - Cadastro de Funcionarios } \n")
 		escreva("-------------------------------------------- \n")
@@ -25,12 +26,13 @@ programa
 			se(resp == 'n' ou resp == 'N'){
 				pare
 			}
+			contaFunc++
 		}
 
 		escreva("\n")
 		escreva("========== RESULTADOS ========== \n")
 		escreva("\n")
-		escreva("Total de pessoas cadastradas: ","\n")
+		escreva("Total de pessoas cadastradas: ", contaFunc ,"\n")
 		escreva("Total de Homens: ", "\n")
 		escreva("Total de Mulheres; ","\n")
 		escreva("Média salarial dos homens: R$ ","\n")
@@ -76,7 +78,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 866; 
+ * @POSICAO-CURSOR = 667; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
