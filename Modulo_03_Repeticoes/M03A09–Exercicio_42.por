@@ -6,13 +6,13 @@ programa
 		cadeia nome
 		caracter sx, resp
 		real salario
-		inteiro contaFunc = 0
+		inteiro contaFunc = 0, contaHomens = 0
 			
 		escreva("{ EXERCICIO 042 - Cadastro de Funcionarios } \n")
 		escreva("-------------------------------------------- \n")
-		escreva("\n")
 
 		enquanto(verdadeiro){
+			escreva("\n")
 			escreva("Nome: ")
 			leia(nome)
 			escreva("Sexo [M/F]: ")
@@ -23,17 +23,23 @@ programa
 			escreva("\n")
 			escreva("Quer continuar? [S/N] ")
 			leia(resp)
+			contaFunc++ //contador de Funcionários registados
+
+			//contagem de Funcinários do sexo masculino
+			se(sx == 'm' ou sx == 'M'){
+				contaHomens++
+			}
+			
 			se(resp == 'n' ou resp == 'N'){
 				pare
-			}
-			contaFunc++
+			}			
 		}
 
 		escreva("\n")
 		escreva("========== RESULTADOS ========== \n")
 		escreva("\n")
 		escreva("Total de pessoas cadastradas: ", contaFunc ,"\n")
-		escreva("Total de Homens: ", "\n")
+		escreva("Total de Homens: ", contaHomens, "\n")
 		escreva("Total de Mulheres; ","\n")
 		escreva("Média salarial dos homens: R$ ","\n")
 		escreva("Total de mulheres que ganham mas de Mil Reias: ", "\n")
@@ -78,7 +84,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 667; 
+ * @POSICAO-CURSOR = 869; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
