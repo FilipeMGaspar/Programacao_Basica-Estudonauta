@@ -73,6 +73,17 @@ programa
 		 * Chance número 1 de 3. Em que número pensei? 5
 		 * Ainda não foi dessa vez .. Mas vou te dar outra chance. Chete um valor MAIOR
 		 *
+		 * Chance número 2 de 3. Em que número pensei? 8
+		 * Ainda não foi dessa vez .. Mas vou te dar outra chance. Chete um valor MAIOR
+		 * 
+		 * Chance número 2 de 3. Em que número pensei? 6
+		 * ACERTOU em 3 tentativas!
+		 * 
+		 * 
+		 * 
+		 * Chance número 1 de 3. Em que número pensei? 5
+		 * Ainda não foi dessa vez .. Mas vou te dar outra chance. Chete um valor MAIOR
+		 *
 		 * Chance número 2 de 3. Em que número pensei? 4
 		 * Ainda não foi dessa vez .. Mas vou te dar outra chance. Chete um valor MAIOR
 		 * 
@@ -88,7 +99,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1484; 
+ * @POSICAO-CURSOR = 2033; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
