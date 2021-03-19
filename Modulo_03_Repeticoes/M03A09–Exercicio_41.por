@@ -41,12 +41,14 @@ programa
 *    	Seu amigo mais jovem é Maria, com 22 anos
 *    	A média de idade do grupo é de 29.75 anos
 */
-	
+	inclua biblioteca Tipos
 	funcao inicio()
 	{
 		cadeia nome
+		inteiro idade
+		real media
 		cadeia nomeAmgMnovo = "", nomeAmgMvelho = ""
-		inteiro idade, contaAmigos = 0, somaIdade = 0
+		inteiro contaAmigos = 0, somaIdade = 0
 		inteiro idadeAmgMnovo = 0, idadeAmgMvelho = 0
 		
 		escreva("{ EXERCICIO 041 - Cadastro de Amigos } \n")
@@ -87,6 +89,9 @@ programa
 				}
 			}
 		}
+
+		//Calculo da média
+		media = Tipos.inteiro_para_real(somaIdade) / contaAmigos
 		
 		escreva("\n")
 		escreva(" ~~~~~~ ..: INTERROMPIDO :.. ~~~~~~ \n")
@@ -95,7 +100,7 @@ programa
 		escreva("   Total de amigos cadastrados: ",contaAmigos, "\n")
 		escreva("   Seu amigo mais velho é ", nomeAmgMvelho, ", com ", idadeAmgMvelho, " anos \n")
 		escreva("   Seu amigo mais jovem é ", nomeAmgMnovo, ", com ", idadeAmgMnovo, " anos \n")
-		escreva("   A média de idade do grupo é de ","anos \n")
+		escreva("   A média de idade do grupo é de ", media, " anos \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -103,7 +108,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2316; 
+ * @POSICAO-CURSOR = 2618; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
