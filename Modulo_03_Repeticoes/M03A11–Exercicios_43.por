@@ -22,16 +22,16 @@ programa
 			}
 
 			//Verificação do menor número impar
-			se(contaValores == 1){
+			se(contaValores == 1){ // verifica se o número recebido é menor que o menorValor
 				menorValor = num
 				//Verificação se é um número impar
 				se(num %2 != 0){
 					menorValorImpar = menorValor
 				}
 			}senao{
-				se(num < menorValor){
+				se(num < menorValor){ // verifica se o número recebido é menor que o menorValor
 					menorValor = num
-					se(num % 2 != 0){
+					se(num % 2 != 0){//Verifica se é impar
 						menorValorImpar = menorValor
 					}
 				}
@@ -86,7 +86,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 776; 
+ * @POSICAO-CURSOR = 596; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
