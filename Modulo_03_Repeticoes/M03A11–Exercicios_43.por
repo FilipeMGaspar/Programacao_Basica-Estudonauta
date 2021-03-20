@@ -28,6 +28,13 @@ programa
 				se(num %2 != 0){
 					menorValorImpar = menorValor
 				}
+			}senao{
+				se(num < menorValor){
+					menorValor = num
+					se(num % 2 != 0){
+						menorValorImpar = menorValor
+					}
+				}
 			}
 			
 			escreva("Desja continuar? [S/N] ")	
@@ -79,7 +86,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1011; 
+ * @POSICAO-CURSOR = 776; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
