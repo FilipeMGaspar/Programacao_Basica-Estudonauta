@@ -24,6 +24,18 @@ programa
 			leia(resp)
 			resp = txt.caixa_alta(resp)
 		}enquanto(resp != "N")
+
+		escreva("\n")
+		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n")
+		escreva("Você me fez sortear ", contaNumSorteados, "valores \n")
+		escreva("A soma de todos eles foi igual a ","/n")
+		escreva("O maior valor foi o "," e o menor valor foi o "," \n")
+		escreva("O valor 5 foi sorteado ", " vez(es) \n")
+		/*
+		 * a soma de todos eles foi igual a 44
+		 * O maior valor foi 9 e o menor valor foi 2
+		 * O valor 5 foi sortedado 1 vezes
+		*/
 	}
 }
 /*Exercicio 44
@@ -64,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 540; 
+ * @POSICAO-CURSOR = 987; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
