@@ -2,10 +2,11 @@ programa
 {
 	
 	inclua biblioteca Util
+	inclua biblioteca Texto --> txt
 	
 	funcao inicio()
 	{
-		caracter resp
+		cadeia resp
 	
 		escreva("{ EXERCICIO 044 - Números Sorteados } \n")
 		escreva("------------------------------------- \n")
@@ -15,7 +16,9 @@ programa
 
 		faca{
 			escreva("Desja Continuar? [S/N]")
-		}enquanto(resp != 'n')
+			leia(resp)
+			resp = txt.caixa_alta(resp)
+		}enquanto(resp != "N")
 	}
 }
 /*Exercicio 44
@@ -56,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 346; 
+ * @POSICAO-CURSOR = 448; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
