@@ -20,6 +20,18 @@ programa
 			leia(resp)
 			resp = txt.caixa_alta(resp)
 		}enquanto(resp!= "N")
+
+		escreva("\n")
+		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=\n")
+		escreva("Ao todo você digitou ", conta, "valores \n")
+		escreva("Você digitou ", " valores PARES \n")
+		escreva("O valor ", " foi o menor número IMPAR digitado \n")
+/*
+ * =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=
+	* Ao todo, você digitou 6 valores
+	* Você digitou 3 valores PARES
+	* O valor 3 foi o menor número IMPAR digitado
+	*/
 	}
 }
 /*Exercicio 43
@@ -53,7 +65,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 403; 
+ * @POSICAO-CURSOR = 664; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
