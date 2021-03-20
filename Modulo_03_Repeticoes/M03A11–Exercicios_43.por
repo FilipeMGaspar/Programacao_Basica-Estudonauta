@@ -1,10 +1,10 @@
 programa
 {
 
-	
+	inclua biblioteca Texto --> txt
 	funcao inicio()
 	{
-		caracter resp
+		cadeia resp
 		
 		escreva("{ EXERCICIO 043 - Analisador de Números } \n")
 		escreva("----------------------------------------- \n")
@@ -13,7 +13,8 @@ programa
 		faca{
 			escreva("Desja continuar? [S/N] ")	
 			leia(resp)
-		}enquanto(resp!= 'N')
+			resp = txt.caixa_alta(resp)
+		}enquanto(resp!= "N")
 	}
 }
 /*Exercicio 43
@@ -47,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 268; 
+ * @POSICAO-CURSOR = 394; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
