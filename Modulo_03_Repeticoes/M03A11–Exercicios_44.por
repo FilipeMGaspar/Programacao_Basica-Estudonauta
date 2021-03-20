@@ -4,6 +4,10 @@ programa
 	funcao inicio()
 	{
 		escreva("{ EXERCICIO 044 - Números Sorteados } \n")
+		escreva("------------------------------------- \n")
+		escreva("\n")
+		escreva("Vou sortear vários números! \n")
+		escreva("\n=====================================")
 	}
 }
 /*Exercicio 44
@@ -44,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 89; 
+ * @POSICAO-CURSOR = 257; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
