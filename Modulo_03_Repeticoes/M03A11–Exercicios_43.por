@@ -5,16 +5,21 @@ programa
 	funcao inicio()
 	{
 		cadeia resp
-		inteiro num, conta = 0
+		inteiro num, contaValores = 0
+		inteiro contaPares = 0
 		
 		escreva("{ EXERCICIO 043 - Analisador de Números } \n")
 		escreva("----------------------------------------- \n")
 
 		faca{
-			conta++
+			contaValores++
 			escreva("\n")
-			escreva("Digite o ", conta,"º valor: ")
+			escreva("Digite o ", contaValores,"º valor: ")
 			leia(num)
+			
+			se(num%2 == 0){ //Verifica se o número é par
+				contaPares++
+			}
 			
 			escreva("Desja continuar? [S/N] ")	
 			leia(resp)
@@ -23,8 +28,8 @@ programa
 
 		escreva("\n")
 		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=\n")
-		escreva("Ao todo você digitou ", conta, "valores \n")
-		escreva("Você digitou ", " valores PARES \n")
+		escreva("Ao todo você digitou ", contaValores, "valores \n")
+		escreva("Você digitou ", contaPares, " valores PARES \n")
 		escreva("O valor ", " foi o menor número IMPAR digitado \n")
 /*
  * =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=
@@ -65,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 664; 
+ * @POSICAO-CURSOR = 710; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
