@@ -6,7 +6,7 @@ programa
 	{
 		cadeia resp
 		inteiro num, contaValores = 0
-		inteiro contaPares = 0
+		inteiro contaPares = 0, menorValor = 0, menorValorImpar = 0
 		
 		escreva("{ EXERCICIO 043 - Analisador de Números } \n")
 		escreva("----------------------------------------- \n")
@@ -19,6 +19,11 @@ programa
 			
 			se(num%2 == 0){ //Verifica se o número é par
 				contaPares++
+			}
+
+			//Verificação do menor número impar
+			se(){
+				
 			}
 			
 			escreva("Desja continuar? [S/N] ")	
@@ -70,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 671; 
+ * @POSICAO-CURSOR = 526; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
