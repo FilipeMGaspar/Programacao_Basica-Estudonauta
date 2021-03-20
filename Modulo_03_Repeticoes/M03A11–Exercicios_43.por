@@ -28,7 +28,7 @@ programa
 
 		escreva("\n")
 		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=\n")
-		escreva("Ao todo você digitou ", contaValores, "valores \n")
+		escreva("Ao todo você digitou ", contaValores, " valores \n")
 		escreva("Você digitou ", contaPares, " valores PARES \n")
 		escreva("O valor ", " foi o menor número IMPAR digitado \n")
 /*
@@ -70,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 710; 
+ * @POSICAO-CURSOR = 671; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
