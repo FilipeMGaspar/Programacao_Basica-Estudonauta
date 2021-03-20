@@ -1,13 +1,21 @@
 programa
 {
 	
+	inclua biblioteca Util
+	
 	funcao inicio()
 	{
+		caracter resp
+	
 		escreva("{ EXERCICIO 044 - Números Sorteados } \n")
 		escreva("------------------------------------- \n")
 		escreva("\n")
 		escreva("Vou sortear vários números! \n")
 		escreva("\n=====================================")
+
+		faca{
+			escreva("Desja Continuar? [S/N]")
+		}enquanto(resp != 'n')
 	}
 }
 /*Exercicio 44
@@ -48,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 257; 
+ * @POSICAO-CURSOR = 346; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
