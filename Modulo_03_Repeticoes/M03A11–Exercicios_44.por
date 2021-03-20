@@ -27,7 +27,7 @@ programa
 
 		escreva("\n")
 		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n")
-		escreva("Você me fez sortear ", contaNumSorteados, "valores \n")
+		escreva("Você me fez sortear ", contaNumSorteados, " valores \n")
 		escreva("A soma de todos eles foi igual a ","\n")
 		escreva("O maior valor foi o "," e o menor valor foi o "," \n")
 		escreva("O valor 5 foi sorteado ", " vez(es) \n")
@@ -76,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 866; 
+ * @POSICAO-CURSOR = 806; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
