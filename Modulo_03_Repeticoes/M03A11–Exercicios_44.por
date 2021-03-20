@@ -7,6 +7,7 @@ programa
 	funcao inicio()
 	{
 		cadeia resp
+		inteiro contaNumSorteados = 0
 	
 		escreva("{ EXERCICIO 044 - Números Sorteados } \n")
 		escreva("------------------------------------- \n")
@@ -15,7 +16,9 @@ programa
 		escreva("\n=====================================")
 
 		faca{
+			contaNumSorteados++
 			escreva("\n")
+			escreva("O ", contaNumSorteados, "º valor sorteado foi ","\n")
 			escreva("Desja Continuar? [S/N] ")
 			leia(resp)
 			resp = txt.caixa_alta(resp)
@@ -60,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 396; 
+ * @POSICAO-CURSOR = 479; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
