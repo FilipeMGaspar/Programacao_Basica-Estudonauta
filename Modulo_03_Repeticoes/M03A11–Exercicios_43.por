@@ -4,7 +4,16 @@ programa
 	
 	funcao inicio()
 	{
+		caracter resp
+		
 		escreva("{ EXERCICIO 043 - Analisador de Números } \n")
+		escreva("----------------------------------------- \n")
+		escreva("\n")
+
+		faca{
+			escreva("Desja continuar? [S/N]")	
+			leia(resp)
+		}enquanto(resp!='n' ou resp!='N')
 	}
 }
 /*Exercicio 43
@@ -38,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 94; 
+ * @POSICAO-CURSOR = 309; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
