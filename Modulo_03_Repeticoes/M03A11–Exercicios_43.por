@@ -22,8 +22,12 @@ programa
 			}
 
 			//Verificação do menor número impar
-			se(){
-				
+			se(contaValores == 1){
+				menorValor = num
+				//Verificação se é um número impar
+				se(num %2 != 0){
+					menorValorImpar = menorValor
+				}
 			}
 			
 			escreva("Desja continuar? [S/N] ")	
@@ -35,7 +39,7 @@ programa
 		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=\n")
 		escreva("Ao todo você digitou ", contaValores, " valores \n")
 		escreva("Você digitou ", contaPares, " valores PARES \n")
-		escreva("O valor ", " foi o menor número IMPAR digitado \n")
+		escreva("O valor ", menorValorImpar, " foi o menor número IMPAR digitado \n")
 /*
  * =.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=
 	* Ao todo, você digitou 6 valores
@@ -75,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 526; 
+ * @POSICAO-CURSOR = 1011; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
