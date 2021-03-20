@@ -15,7 +15,8 @@ programa
 		escreva("\n=====================================")
 
 		faca{
-			escreva("Desja Continuar? [S/N]")
+			escreva("\n")
+			escreva("Desja Continuar? [S/N] ")
 			leia(resp)
 			resp = txt.caixa_alta(resp)
 		}enquanto(resp != "N")
@@ -59,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 448; 
+ * @POSICAO-CURSOR = 396; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
