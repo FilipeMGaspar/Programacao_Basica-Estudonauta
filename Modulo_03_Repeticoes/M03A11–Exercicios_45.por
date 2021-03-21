@@ -21,7 +21,7 @@ programa
 			escreva("Chance número ", tentativas, " de 3. Em que número pensei? ")
 			leia(palpite)
 
-			se(palpite > numSorteado){
+			se(palpite > numSorteado e tentativas != 3){
 				escreva("Ainda não foi dessa vez .. Mas vou te dar outra chance. Chute um valor MAIOR \n")
 			}
 			
@@ -63,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 817; 
+ * @POSICAO-CURSOR = 740; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
