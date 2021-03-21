@@ -3,7 +3,14 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro numElementos
+		
 		escreva("{ EXERCICIO 049 - SequÊncia de Fibonacci } \n")
+		escreva("------------------------------------------ \n")
+		escreva("\n")
+
+		escreva("Quantos elementos você que exibir? ")
+		leia(numElementos)
 	}
 }
 
@@ -20,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 94; 
+ * @POSICAO-CURSOR = 269; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
