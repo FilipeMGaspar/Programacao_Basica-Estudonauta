@@ -1,8 +1,13 @@
 programa
 {
+
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
+		inteiro tentativas = 1
+		inteiro numSorteado, palpite
+		
 		escreva("    { EXERCICIO 045 - Jogo de Adivinhar } \n\n")
 		escreva("------------------------------------------------ \n")
 		escreva("|   Vou pensar em um número entre 1 e 10       | \n")
@@ -11,7 +16,15 @@ programa
 
 		escreva("\n")
 		escreva("================================================= \n")
+		faca{
+			numSorteado = Util.sorteia(1, 10) // Sorteia números entre 1 e 10
+			escreva("Chance número ", tentativas, " de 3. Em que número pensei? ")
+			leia(palpite)
+			
+			tentativas++
+		}enquanto(tentativas <= 3)
 		
+		escreva("\nAinda não foi dessa vez .. Suas chances acabaram \n")
 	}
 }
 
@@ -46,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 444; 
+ * @POSICAO-CURSOR = 759; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
