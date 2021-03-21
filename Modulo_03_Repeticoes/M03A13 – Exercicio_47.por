@@ -27,7 +27,7 @@ programa
 		}
 		
 		se(valorInicial > valorFinal){
-			para(c = valorFinal; c >= valorFinal; c -= passo){
+			para(c = valorInicial; c >= valorFinal; c -= passo){
 				Util.aguarde(300)
 				escreva(c,"... ")
 			}
@@ -65,7 +65,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 669; 
+ * @POSICAO-CURSOR = 613; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
