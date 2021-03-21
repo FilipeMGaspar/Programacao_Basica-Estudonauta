@@ -34,6 +34,7 @@ programa
 		}
 		
 		escreva("\n")
+		escreva("\n****** ..:  :.. ******\n\n")
 		escreva("O número ", num, " foi divisivel ", contaNumDivisoes, " vezes \n")
 		escreva("Logo ele ", resultado, "\n")
 	}
@@ -60,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 828; 
+ * @POSICAO-CURSOR = 739; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
