@@ -12,7 +12,7 @@ programa
 		escreva("Quantos elementos você que exibir? ")
 		leia(numElementos)
 		se(numElementos < 2){
-			escreva("Erro! No minimo deve solicitar 2 elementos \n")
+			escreva("\n!!! Erro [300] !!!\n\t No minimo deve solicitar 2 elementos \n")
 		}senao{
 			escreva("Vamos a isso \n")
 		}
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 391; 
+ * @POSICAO-CURSOR = 330; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
