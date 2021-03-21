@@ -3,7 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("{ EXERCICIO 045 - Jogo de Adivinhar } \n")
+		escreva("    { EXERCICIO 045 - Jogo de Adivinhar } \n\n")
+		escreva("------------------------------------------------ \n")
+		escreva("|   Vou pensar em um número entre 1 e 10       | \n")
+		escreva("|   Você tem 3 CHANCES para tentar adivinhar   | \n")
+		escreva("|______________________________________________| \n")
 	}
 }
 
@@ -38,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 89; 
+ * @POSICAO-CURSOR = 95; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
