@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("{ EXERCICIO 049 - SequÊncia de Fibonacci } \n")
+	}
+}
+
+ /* Exercicio 49
+*  
+*  { EXERCICIO 049 - SequÊncia de Fibonacci }
+*  
+*  Quantos elementos você quer exibir? 8
+*  
+*  0 1 1 2 3 5 8 13 PRONTO!
+*/
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 94; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
