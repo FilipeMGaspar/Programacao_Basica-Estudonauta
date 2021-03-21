@@ -5,6 +5,7 @@ programa
 	funcao inicio()
 	{
 		inteiro c
+		/*
 		c = 1
 		enquanto(c <= 10){
 			Util.aguarde(300)
@@ -13,7 +14,15 @@ programa
 		}
 		
 		Util.aguarde(300)
-		escreva("FIM!")
+		escreva("FIM! \n")*/
+
+		para(c = 1;c <= 10; c++){
+			Util.aguarde(300)
+			escreva(c, " - ")
+		}
+		
+		Util.aguarde(300)
+		escreva("FIM! \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 159; 
+ * @POSICAO-CURSOR = 286; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
