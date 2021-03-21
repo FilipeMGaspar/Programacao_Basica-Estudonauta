@@ -1,5 +1,7 @@
 programa
 {
+
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
@@ -18,8 +20,11 @@ programa
 		leia(passo)
 
 		para(c = valorInicial; c <= valorFinal; c += passo){
+			Util.aguarde(300)
 			escreva(c,"... ")
 		}
+		
+		Util.aguarde(300)
 		escreva("ACABOU!\n")
 	}
 }
@@ -51,7 +56,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 469; 
+ * @POSICAO-CURSOR = 497; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
