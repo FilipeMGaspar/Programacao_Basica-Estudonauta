@@ -17,9 +17,9 @@ programa
 		escreva("\n=====================================")
 
 		faca{
-			contaNumSorteados++
-			numSorteado = Util.sorteia(1, 10)
-			somaSorteados += 
+			contaNumSorteados++ //Contador de números sorteados
+			numSorteado = Util.sorteia(1, 10) //Sorteio de números entre 1 e 10
+			somaSorteados += numSorteado //Soma de todos os números sorteados
 			escreva("\n")
 			escreva("O ", contaNumSorteados, "º valor sorteado foi ", numSorteado, "\n")
 			escreva("Desja Continuar? [S/N] ")
@@ -30,7 +30,7 @@ programa
 		escreva("\n")
 		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n")
 		escreva("Você me fez sortear ", contaNumSorteados, " valores \n")
-		escreva("A soma de todos eles foi igual a ","\n")
+		escreva("A soma de todos eles foi igual a ", somaSorteados, "\n")
 		escreva("O maior valor foi o "," e o menor valor foi o "," \n")
 		escreva("O valor 5 foi sorteado ", " vez(es) \n")
 		/*
@@ -78,7 +78,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 581; 
+ * @POSICAO-CURSOR = 1038; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
