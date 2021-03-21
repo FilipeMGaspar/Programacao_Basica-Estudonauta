@@ -24,12 +24,19 @@ programa
 			escreva("Chance número ", tentativas, " de 3. Em que número pensei? ")
 			leia(palpite)
 
-			se(palpite < numSorteado e tentativas != 3){ //Verifica se o palpite é menor que o número sorteado e diferente do total de tentativas
+			se(palpite < numSorteado e tentativas != 3){ //Verifica se o palpite é menor que o número sorteado e diferente do total de tentativas 3
+				//Se o palpite for menor que o número sortedao logo o palpite deve ser maior
 				escreva("Ainda não foi dessa vez .. Mas vou te dar outra chance. Chute um valor MAIOR \n")
 			}
 
-			se(palpite > numSorteado e tentativas != 3){
-				escreva("Ainda não foi dessa vez .. Mas vou te dar outra chance. Chete um valor MENOR")
+			se(palpite > numSorteado e tentativas != 3){ //Verifica se o palpite é maior que o número sorteado e diferente do total de tentativas 3
+				//se o palpite for maior que o número sorteado logo o palpite deverá ser menor
+				escreva("Ainda não foi dessa vez .. Mas vou te dar outra chance. Chete um valor MENOR \n")
+			}
+
+			se(palpite == numSorteado){//Verifica se o palpite é igual ao número sorteado
+				escreva("\nACERTOU em", tentativas,  "tentativas! \n")
+				pare //se for igual vamos parar a execução do laço de repetição
 			}
 			
 			tentativas++ // soma as tentativas
@@ -70,7 +77,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1079; 
+ * @POSICAO-CURSOR = 1468; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
