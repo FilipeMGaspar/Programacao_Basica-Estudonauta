@@ -5,6 +5,7 @@ programa
 *  { EXERCICIO 046 - Tabuada } 
 *  
 *  NUMERO = 7  -> Faz a tabuada até x 10
+*  7 X 1 = 7
 */
 	
 	inclua biblioteca Util
@@ -21,7 +22,7 @@ programa
 		leia(numTabuada)
 
 		escreva("\n")
-		para(c = 1; c <= 10; c++){
+		para(c = 1; c <= 10; c++){
 			Util.aguarde(300)
 			escreva(c," X ", numTabuada, " = ", (c * numTabuada), "\n")
 		}
@@ -32,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 412; 
+ * @POSICAO-CURSOR = 120; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
