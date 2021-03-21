@@ -49,6 +49,15 @@ programa
 		 *  O número 13 foi divisivel 2 vezes
 		 *  Logo, ele É PRIMO 
 		 */
+
+		 /** Exercicio 49
+		 *  
+		 *  { EXERCICIO 049 - SequÊncia de Fibonacci }
+		 *  
+		 *  Quantos elementos você quer exibir? 8
+		 *  
+		 *  0 1 1 2 3 5 8 13 PRONTO!
+		 */
 		 
 	}
 }
@@ -57,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 884; 
+ * @POSICAO-CURSOR = 1050; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
