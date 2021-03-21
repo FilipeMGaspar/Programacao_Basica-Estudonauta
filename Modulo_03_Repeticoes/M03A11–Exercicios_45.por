@@ -16,16 +16,23 @@ programa
 
 		escreva("\n")
 		escreva("================================================= \n")
+		
+		numSorteado = Util.sorteia(1, 10) // Sorteia números entre 1 e 10
+		
 		faca{
-			numSorteado = Util.sorteia(1, 10) // Sorteia números entre 1 e 10
+			
 			escreva("Chance número ", tentativas, " de 3. Em que número pensei? ")
 			leia(palpite)
 
-			se(palpite > numSorteado e tentativas != 3){
+			se(palpite < numSorteado e tentativas != 3){ //Verifica se o palpite é menor que o número sorteado e diferente do total de tentativas
 				escreva("Ainda não foi dessa vez .. Mas vou te dar outra chance. Chute um valor MAIOR \n")
 			}
+
+			se(palpite > numSorteado e tentativas != 3){
+				escreva("Ainda não foi dessa vez .. Mas vou te dar outra chance. Chete um valor MENOR")
+			}
 			
-			tentativas++
+			tentativas++ // soma as tentativas
 		}enquanto(tentativas <= 3)
 		
 		escreva("\nAinda não foi dessa vez .. Suas chances acabaram \n")
@@ -63,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 740; 
+ * @POSICAO-CURSOR = 1079; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
