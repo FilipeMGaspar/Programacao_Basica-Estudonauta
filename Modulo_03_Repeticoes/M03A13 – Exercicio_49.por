@@ -21,11 +21,19 @@ programa
 			t1 = 0
 			t2 = 1
 			escreva("\n")
-			para(c = 2 ; c <= numElementos; c++){
+			escreva(t1, " ", t2," ") //os dois primeiros termos são sempre 0 1
+			para(c = 2 ; c < numElementos; c++){
 				Util.aguarde(300)
-				escreva(t1, " ", t2 )
+				
+				t3 = t1  // t3 recebe t1 na primeira execução 0
+				
+				t1 = t2  // t1 passa a ser t2 na primeira execução 1
+				
+				t2 += t3 // t2 passa a ser t2 + t3 na primeira execução 1 + 0 = 1 
+				
+				escreva(t2," ")//Escreve o próximo termo na primeira execução 1
 			}
-			escreva(" PRONTO! \n")
+			escreva("PRONTO! \n")
 		}
 	}
 }
@@ -43,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 540; 
+ * @POSICAO-CURSOR = 877; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
