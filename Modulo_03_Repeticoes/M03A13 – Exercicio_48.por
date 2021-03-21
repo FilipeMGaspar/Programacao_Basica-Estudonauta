@@ -6,7 +6,9 @@ programa
 	funcao inicio()
 	{
 		inteiro num, c
-	
+		inteiro contaNumDivisoes = 0
+		cadeia resultado  // vai guardar a resposta se é ou não um número primo
+			
 		escreva("{ EXERCICIO 048 - Número Primo } \n")
 		escreva("-------------------------------- \n")
 		escreva("\n")
@@ -17,8 +19,23 @@ programa
 		escreva("\n")
 		para(c = 1; c <= num; c++){
 			Util.aguarde(300)
-			escreva(c," ")
+			se(num % c == 0){ //Verifica se o número é divisivel por c [1 2 3 ....]
+				escreva("[", c, "]")
+				contaNumDivisoes++
+			}senao{
+				escreva(" ",c," ")
+			}
 		}
+
+		se(contaNumDivisoes == 2){
+			resultado = "É PRIMO!"
+		} senao {
+			resultado = "NÃO É PRIMO!"
+		}
+		
+		escreva("\n")
+		escreva("O número ", num, " foi divisivel ", contaNumDivisoes, " vezes \n")
+		escreva("Logo ele ", resultado, "\n")
 	}
 }
 
@@ -43,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 334; 
+ * @POSICAO-CURSOR = 828; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
