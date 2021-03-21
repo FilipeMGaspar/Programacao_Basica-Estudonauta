@@ -1,7 +1,7 @@
 programa
 {
-	
 	inclua biblioteca Util
+	
 	inclua biblioteca Texto --> txt
 	
 	funcao inicio()
@@ -27,11 +27,13 @@ programa
 				
 				menorNumSorteado = numSorteado //menor
 			} senao {
-				se(numSorteado > maiorNumSorteado){//Verifica se o numero sorteado é maior que o valor da variavel maiorNumSorteado
+				se(numSorteado > maiorNumSorteado){ //Verifica se o numero sorteado é maior que o valor da variavel maiorNumSorteado
 					maiorNumSorteado = numSorteado
 				}
 
-				
+				se(numSorteado < menorNumSorteado){ //Verifica se o némero sorteado é menor que o valor da variavél menorNumSorteado
+					menorNumSorteado = numSorteado
+				}
 			}
 			
 			escreva("\n")
@@ -92,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1047; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
