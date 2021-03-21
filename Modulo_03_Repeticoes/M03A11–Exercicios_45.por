@@ -42,7 +42,7 @@ programa
 			tentativas++ // soma as tentativas
 		}enquanto(tentativas <= 3)
 
-		se(tentativas == 3){
+		se(tentativas > 3){
 			escreva("\nAinda não foi dessa vez .. Suas chances acabaram \n")
 		}
 	}
@@ -79,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1674; 
+ * @POSICAO-CURSOR = 1652; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
