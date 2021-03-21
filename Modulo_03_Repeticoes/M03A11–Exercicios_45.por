@@ -20,6 +20,10 @@ programa
 			numSorteado = Util.sorteia(1, 10) // Sorteia números entre 1 e 10
 			escreva("Chance número ", tentativas, " de 3. Em que número pensei? ")
 			leia(palpite)
+
+			se(palpite > numSorteado){
+				escreva("Ainda não foi dessa vez .. Mas vou te dar outra chance. Chute um valor MAIOR \n")
+			}
 			
 			tentativas++
 		}enquanto(tentativas <= 3)
@@ -59,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 759; 
+ * @POSICAO-CURSOR = 817; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
