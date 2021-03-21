@@ -8,7 +8,7 @@ programa
 	{
 		cadeia resp
 		inteiro contaNumSorteados = 0, numSorteado
-		inteiro somaSorteados = 0
+		inteiro somaSorteados = 0, maiorNumSorteado = 0, menorNumSorteado = 0
 	
 		escreva("{ EXERCICIO 044 - Números Sorteados } \n")
 		escreva("------------------------------------- \n")
@@ -20,6 +20,20 @@ programa
 			contaNumSorteados++ //Contador de números sorteados
 			numSorteado = Util.sorteia(1, 10) //Sorteio de números entre 1 e 10
 			somaSorteados += numSorteado //Soma de todos os números sorteados
+
+			//No primeiro sorteio o maior e o menor são iguais vamos verificar se é o primeiro sorteio
+			se(contaNumSorteados == 1){
+				maiorNumSorteado = numSorteado //maior
+				
+				menorNumSorteado = numSorteado //menor
+			} senao {
+				se(numSorteado > maiorNumSorteado){//Verifica se o numero sorteado é maior que o valor da variavel maiorNumSorteado
+					maiorNumSorteado = numSorteado
+				}
+
+				
+			}
+			
 			escreva("\n")
 			escreva("O ", contaNumSorteados, "º valor sorteado foi ", numSorteado, "\n")
 			escreva("Desja Continuar? [S/N] ")
@@ -31,7 +45,7 @@ programa
 		escreva("=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.=.= \n")
 		escreva("Você me fez sortear ", contaNumSorteados, " valores \n")
 		escreva("A soma de todos eles foi igual a ", somaSorteados, "\n")
-		escreva("O maior valor foi o "," e o menor valor foi o "," \n")
+		escreva("O maior valor foi o ", maiorNumSorteado, " e o menor valor foi o ", menorNumSorteado, " \n")
 		escreva("O valor 5 foi sorteado ", " vez(es) \n")
 		/*
 		 * a soma de todos eles foi igual a 44
@@ -78,7 +92,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1038; 
+ * @POSICAO-CURSOR = 1047; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
