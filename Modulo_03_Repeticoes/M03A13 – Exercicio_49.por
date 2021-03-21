@@ -1,9 +1,13 @@
 programa
 {
+
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
 		inteiro numElementos
+		inteiro t1, t2, t3
+		inteiro c
 		
 		escreva("{ EXERCICIO 049 - SequÊncia de Fibonacci } \n")
 		escreva("------------------------------------------ \n")
@@ -14,7 +18,14 @@ programa
 		se(numElementos < 2){
 			escreva("\n!!! Erro [300] !!!\n\t No minimo deve solicitar 2 elementos \n")
 		}senao{
-			escreva("Vamos a isso \n")
+			t1 = 0
+			t2 = 1
+			escreva("\n")
+			para(c = 2 ; c <= numElementos; c++){
+				Util.aguarde(300)
+				escreva(t1, " ", t2 )
+			}
+			escreva(" PRONTO! \n")
 		}
 	}
 }
@@ -32,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 330; 
+ * @POSICAO-CURSOR = 540; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
