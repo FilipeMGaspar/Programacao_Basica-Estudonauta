@@ -9,6 +9,7 @@ programa
 		cadeia resp
 		inteiro contaNumSorteados = 0, numSorteado
 		inteiro somaSorteados = 0, maiorNumSorteado = 0, menorNumSorteado = 0
+		inteiro qtCincoSorteado = 0 //Guarda a quantidade de vezes que o cinco foi sorteado
 	
 		escreva("{ EXERCICIO 044 - Números Sorteados } \n")
 		escreva("------------------------------------- \n")
@@ -28,12 +29,16 @@ programa
 				menorNumSorteado = numSorteado //menor
 			} senao {
 				se(numSorteado > maiorNumSorteado){ //Verifica se o numero sorteado é maior que o valor da variavel maiorNumSorteado
-					maiorNumSorteado = numSorteado
+					maiorNumSorteado = numSorteado 
 				}
 
 				se(numSorteado < menorNumSorteado){ //Verifica se o némero sorteado é menor que o valor da variavél menorNumSorteado
 					menorNumSorteado = numSorteado
 				}
+			}
+
+			se(numSorteado == 5){ //Verifica se o número sorteado é igual a 5
+				qtCincoSorteado++
 			}
 			
 			escreva("\n")
@@ -48,14 +53,12 @@ programa
 		escreva("Você me fez sortear ", contaNumSorteados, " valores \n")
 		escreva("A soma de todos eles foi igual a ", somaSorteados, "\n")
 		escreva("O maior valor foi o ", maiorNumSorteado, " e o menor valor foi o ", menorNumSorteado, " \n")
-		escreva("O valor 5 foi sorteado ", " vez(es) \n")
-		/*
-		 * a soma de todos eles foi igual a 44
-		 * O maior valor foi 9 e o menor valor foi 2
-		 * O valor 5 foi sortedado 1 vezes
-		*/
+		escreva("O valor 5 foi sorteado ", qtCincoSorteado, " vez(es) \n")
+		
 	}
 }
+
+
 /*Exercicio 44
 * { EXERCICIO 044 - Números Sorteados }
 * 
@@ -94,7 +97,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 2020; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
