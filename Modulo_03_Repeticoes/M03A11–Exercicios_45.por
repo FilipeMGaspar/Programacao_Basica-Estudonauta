@@ -8,6 +8,10 @@ programa
 		escreva("|   Vou pensar em um número entre 1 e 10       | \n")
 		escreva("|   Você tem 3 CHANCES para tentar adivinhar   | \n")
 		escreva("|______________________________________________| \n")
+
+		escreva("\n")
+		escreva("================================================= \n")
+		
 	}
 }
 
@@ -42,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 95; 
+ * @POSICAO-CURSOR = 444; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
