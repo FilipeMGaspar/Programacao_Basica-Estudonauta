@@ -22,6 +22,7 @@ programa
 		leia(passo)
 
 		se(valorInicial < valorFinal e passo > 0){
+			escreva("\n")
 			para(c = valorInicial; c <= valorFinal; c += passo){
 				Util.aguarde(300)
 				escreva(c,"... ")
@@ -31,7 +32,6 @@ programa
 		se(valorInicial > valorFinal ou passo < 0){
 			se(passo < 0){
 				passo = passo * -1
-				escreva("passo = ", passo, "\n")
 				
 				aux = valorFinal // Aux guarda o valor do valorFinal
 				
@@ -40,7 +40,7 @@ programa
 				valorInicial = aux //Valor inicial passa a ser o valor final ou seja passa a ser aux 
 				
 			}
-			
+			escreva("\n")
 			para(c = valorInicial; c >= valorFinal; c -= passo){
 				Util.aguarde(300)
 				escreva(c,"... ")
@@ -79,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1012; 
+ * @POSICAO-CURSOR = 1020; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
