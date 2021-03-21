@@ -1,6 +1,8 @@
 programa
 {
 	
+	inclua biblioteca Util
+	
 	funcao inicio()
 	{
 		inteiro num, c
@@ -12,7 +14,9 @@ programa
 		escreva("Digite um número: ")
 		leia(num)
 
+		escreva("\n")
 		para(c = 1; c <= num; c++){
+			Util.aguarde(300)
 			escreva(c," ")
 		}
 	}
@@ -39,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 271; 
+ * @POSICAO-CURSOR = 334; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
