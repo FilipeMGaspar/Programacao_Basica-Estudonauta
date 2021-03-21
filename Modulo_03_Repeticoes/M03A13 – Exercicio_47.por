@@ -3,8 +3,18 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro valorInicial, valorFinal, passo
+		
 		escreva("{ EXERCICIO 047 - Contagem Personalizada } \n")
-		escreva()
+		escreva("------------------------------------------ \n")
+		escreva("\n")
+		
+		escreva("INICIO = ")
+		leia(valorInicial)
+		escreva("FINAL = ")
+		leia(valorFinal)
+		escreva("PASSO = ")
+		leia(passo)
 	}
 }
 
@@ -35,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 108; 
+ * @POSICAO-CURSOR = 335; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
