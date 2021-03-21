@@ -19,9 +19,18 @@ programa
 		escreva("PASSO = ")
 		leia(passo)
 
-		para(c = valorInicial; c <= valorFinal; c += passo){
-			Util.aguarde(300)
-			escreva(c,"... ")
+		se(valorInicial < valorFinal){
+			para(c = valorInicial; c <= valorFinal; c += passo){
+				Util.aguarde(300)
+				escreva(c,"... ")
+			}
+		}
+		
+		se(valorInicial > valorFinal){
+			para(c = valorFinal; c >= valorFinal; c -= passo){
+				Util.aguarde(300)
+				escreva(c,"... ")
+			}
 		}
 		
 		Util.aguarde(300)
@@ -56,7 +65,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 497; 
+ * @POSICAO-CURSOR = 669; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
