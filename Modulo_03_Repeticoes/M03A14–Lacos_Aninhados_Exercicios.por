@@ -12,17 +12,31 @@ programa
 		 *  ---------------
 		 *  	TABUADA DE 5
 		 *  ---------------
-		 *  
+		 *  Mostra a tabuada
 		 *  ---------------
 		 *  	TABUADA DE 6
 		 *  ---------------
-		 *  
+		 *  Mostra a tabuada
 		 *  ---------------
 		 *  	TABUADA DE 7
 		 *  ---------------
+		 *  Mostra a tabuada
 		 *  ---------------
 		 *  	TABUADA DE 8
 		 *  ---------------
+		 *  Mostra a tabuada
+		*/
+
+		/* Exercicio 51
+		 *  { EXERCICIO 051 - Triangulo }
+		 *  
+		 *  Quantos andares? 5
+		 *  
+		 *  **
+		 *  ****
+		 *  ******
+		 *  ********
+		 *  ***********
 		*/
 	}
 }
@@ -31,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 402; 
+ * @POSICAO-CURSOR = 658; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
