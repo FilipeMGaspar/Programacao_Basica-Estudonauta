@@ -19,8 +19,8 @@ programa
 				escreva("*")
 			}
 			escreva("\n")
-			para(c=1; c <= (numAdares/2); c++){
-				escreva(c," ", (numAdares/2))
+			para(c = 1; c <=  ){
+				
 			}
 		}
 	}
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 554; 
+ * @POSICAO-CURSOR = 386; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
