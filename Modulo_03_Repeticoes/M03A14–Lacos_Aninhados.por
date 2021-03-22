@@ -3,7 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro x, y
+		para(x=1; x<=3;x++){
+			para(y=1;y<=2;y++){
+				escreva(x," | ",y,"\n")
+			}
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 124; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
