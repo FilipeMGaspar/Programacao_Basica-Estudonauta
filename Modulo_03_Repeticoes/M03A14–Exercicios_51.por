@@ -5,7 +5,6 @@ programa
 	{
 		inteiro numAndares
 		inteiro x = 0, y = 0
-		cadeia ast = "*"
 		
 		escreva("{ EXERCICIO 051 - Triangulo } \n")
 		escreva("----------------------------- \n")
@@ -14,9 +13,8 @@ programa
 		escreva("Quantos andares? ")
 		leia(numAndares)
 		escreva("\n")
-		para(x = 1; x <= numAndares; x++){	
-			escreva("Linha -> ")		
-			para(y = 1; y <= x*2; y++){ //sempre que estoura y este retorna a 1
+		para(x = 1; x <= numAndares; x++){			
+			para(y = 1; y <= x*2; y++){ //Quando X = 1 y <= 1 * 2 = 2 , isto é escreve 2 *
 				escreva("*")				
 			}
 			escreva("\n")
@@ -41,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 341; 
+ * @POSICAO-CURSOR = 81; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
