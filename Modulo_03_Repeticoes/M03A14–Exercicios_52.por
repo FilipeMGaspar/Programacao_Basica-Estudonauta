@@ -19,10 +19,8 @@ programa
 				escreva("*")
 			}
 			escreva("\n")
-			//x = 4 c=1
-			escreva("X = ", x," \n ")
-			para(c = 1; c < x; c++){
-				escreva(c)
+			para(c=1; c <= (numAdares/2); c++){
+				escreva(c," ", (numAdares/2))
 			}
 		}
 	}
@@ -45,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 401; 
+ * @POSICAO-CURSOR = 554; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
