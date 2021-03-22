@@ -16,8 +16,8 @@ programa
 		escreva("\n")
 		para(x = 1; x <= numAndares; x++){	
 			escreva("Linha -> ")		
-			para(y = 1; y <= numAndares*2; y++){ //sempre que estoura y este retorna a 1
-								
+			para(y = 1; y <= x*2; y++){ //sempre que estoura y este retorna a 1
+				escreva("*")				
 			}
 			escreva("\n")
 		}
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 423; 
+ * @POSICAO-CURSOR = 341; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
