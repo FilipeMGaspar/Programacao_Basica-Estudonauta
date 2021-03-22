@@ -19,9 +19,10 @@ programa
 		para(x = tabuadaInicial; x <= tabuadaFinal; x++){
 			Util.aguarde(300)
 			escreva("\n------------------------\n")
-			escreva("\t TABUADA DE ", x, "\n")
+			escreva("     TABUADA DE ", x, "\n")
 			escreva("------------------------\n")
 			para(y = 1; y <= 10; y++){
+				Util.aguarde(300)
 				escreva(x," X ", y, " = " ,(x*y),"\n")
 			}
 		}
@@ -56,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 617; 
+ * @POSICAO-CURSOR = 478; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
