@@ -13,21 +13,13 @@ programa
 		escreva("Quantos andares? ")
 		leia(numAdares)
 
-		para(x = numAdares; x >= 1; x++){
+		escreva("\n")
+		para(x = numAdares; x >= 1; x--){
 			para(y = 1; y <= x*2; y++){
 				escreva("*")
 			}
 			escreva("\n")
 		}
-		/* Em ordem crescente
-		para(x=1; x <= numAdares; x++){
-			escreva("Linha -> ")
-			para(y = 1; y <= x * 2 ; y++){
-				escreva("*")
-			}
-			escreva("\n")
-		}
-		*/
 	}
 }
 
@@ -48,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 299; 
+ * @POSICAO-CURSOR = 362; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
