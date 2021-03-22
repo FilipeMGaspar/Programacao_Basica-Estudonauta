@@ -4,6 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro numAdares
+		inteiro x = 0, y = 0
 			
 		escreva("{ EXERCICIO 052 - Piramide } \n")
 		escreva("---------------------------- \n")
@@ -11,6 +12,14 @@ programa
 
 		escreva("Quantos andares? ")
 		leia(numAdares)
+
+		para(x=1; x<= numAdares; x++){
+			escreva("Linha -> ")
+			para(y=1; y <= x*2; y++){
+				escreva("*")
+			}
+			escreva("\n")
+		}
 	}
 }
 
@@ -31,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 211; 
+ * @POSICAO-CURSOR = 329; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
