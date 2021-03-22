@@ -8,7 +8,7 @@ programa
 		enquanto(x<=3){
 			y = 1
 			enquanto(y <= 2){
-				escreva(x," ", y)
+				escreva(x," ", y, "\n")
 				y++
 			}
 		  	x++
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 131; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
