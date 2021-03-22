@@ -6,6 +6,7 @@ programa
 	funcao inicio()
 	{
 		real peso, altura, imc
+		real pesoIdeal
 		
 		escreva("______________________ \n")
 		escreva("|                    | \n")
@@ -23,7 +24,14 @@ programa
 		escreva("O Seu IMC é de ", imc, "\n")
 
 		se(imc < 16){
+			/*
+			 * Homem: (Altura- 100) x 0.90
+			 * Mulher: (Altura - 100) x 0.85
+			*/
+			
+			pesoIdeal = ((altura * 100) - 100) * 0.85
 			escreva("Baixo peso Grau III \n")
+			escreva("O seu peso ideal é de ", pesoIdeal, "\n")			
 		}
 	}
 }
@@ -45,7 +53,7 @@ abaixo de 16,00	Baixo peso Grau III
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 547; 
+ * @POSICAO-CURSOR = 643; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
