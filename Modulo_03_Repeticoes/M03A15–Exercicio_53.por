@@ -5,6 +5,7 @@ programa
 	funcao inicio()
 	{
 		inteiro valor, conta = 1
+		cadeia teclado // variavel para guardar a resposta vinda do teclado
 		
 		escreva("{ EXERCICIO 053 - Números Validados } \n")
 		escreva("------------------------------------- \n")
@@ -15,11 +16,19 @@ programa
 			escreva("      VALOR ", conta,   "\n")
 			escreva("----------------------- \n")
 			faca{
+				
 				escreva("Digite um número (entre 1 e 10): ")
-				leia(valor)
-				se(valor < 1 ou valor > 10){
-					escreva("<< ERRO >> O número deve estar entre 1 e 10 \n")
+				leia(teclado)
+				
+				se(Tipos.cadeia_e_inteiro(teclado, 10)){
+					valor = Tipos.cadeia_para_inteiro(teclado ,10)
+					
+					se(valor < 1 ou valor > 10){
+						escreva("<< ERRO >> O número deve estar entre 1 e 10 \n")
+					}
 				}
+				
+				
 			}enquanto(valor < 1 ou valor > 10)
 			
 			se (conta == 3){
@@ -60,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 92; 
+ * @POSICAO-CURSOR = 736; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
