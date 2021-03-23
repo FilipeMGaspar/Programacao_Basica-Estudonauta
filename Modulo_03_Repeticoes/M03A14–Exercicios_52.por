@@ -5,6 +5,7 @@ programa
 	{
 		inteiro numAdares
 		inteiro x = 0, y = 0, c = 0
+		inteiro addEsp = 1
 			
 		escreva("{ EXERCICIO 052 - Piramide } \n")
 		escreva("---------------------------- \n")
@@ -19,9 +20,10 @@ programa
 				escreva("*")
 			}
 			escreva("\n")
-			/*para(c = 1; c <=  ){
-				
-			}*/
+			addEsp++
+			para(c = 1; c <= addEsp-1; c++){
+				escreva(" ")	
+			}
 		}
 	}
 }
@@ -43,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 371; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
