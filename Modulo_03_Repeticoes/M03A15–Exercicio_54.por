@@ -5,8 +5,9 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro conta = 1
+		inteiro conta = 1, idade
 		cadeia nome
+		
 		
 		escreva("{ EXERCICIO 054 - Pessoas Validadas } \n")
 		escreva("------------------------------------- \n")
@@ -25,7 +26,8 @@ programa
 				}
 			}enquanto(txt.numero_caracteres(nome) < 3)
 			
-			
+			escreva("IDADE: ")
+			leia(idade)
 			
 			conta++
 			se(conta == 4){
@@ -75,7 +77,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 584; 
+ * @POSICAO-CURSOR = 627; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
