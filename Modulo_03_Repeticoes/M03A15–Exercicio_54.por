@@ -29,10 +29,15 @@ programa
 			}enquanto(txt.numero_caracteres(nome) < 3)
 
 			//Leitura e validação da idade
-			faca{
+			enquanto(verdadeiro){
 				escreva("IDADE: ")
 				leia(teclado)
-			{enquanto()
+				se(Tipos.cadeia_e_inteiro(teclado, 10)){
+					escreva("AKI \n")
+				} senao {
+					escreva(" <<ERRO>> A idade deve ser um número inteiro \n")
+				}
+			}
 			
 			conta++
 			se(conta == 4){
@@ -82,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 800; 
+ * @POSICAO-CURSOR = 946; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
