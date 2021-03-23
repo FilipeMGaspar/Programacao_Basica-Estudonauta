@@ -41,26 +41,31 @@ programa
 				se(Tipos.cadeia_e_inteiro(teclado, 10)){
 					idade = Tipos.cadeia_para_inteiro(teclado, 10)//Conversão de String para inteiro
 
-					//Verifica se é a primeira pesso a ser registada se for a pessoa mais nova e mais velha é a mesma
-					se(conta == 1){
-						maisNovo = idade //Guarda a idade da pessoa mais nova
-						nomeDoMaisNovo = nome //Guarda o nome da pesso mais nova
+					//Verifica se a idade está entre 0 e 130 se estiver regista senão imprime um erro
+					se( idade > 0 e idade <= 130){
+						idade = Tipos.cadeia_para_inteiro(teclado, 10)//Conversão de String para inteiro
 						
-						maisVelho = idade // Guarda a idade da pessoa mais velha
-						nomeDoMaisVelho = nome //Guarda o nome da pesso mais velha
-					} senao {
-						//Verifica se é o mais novo
-						se(idade < maisNovo){
+						//Verifica se é a primeira pesso a ser registada se for a pessoa mais nova e mais velha é a mesma
+						se(conta == 1){
 							maisNovo = idade //Guarda a idade da pessoa mais nova
-							nomeDoMaisNovo = nome //Guarda o nome da pessoa mais nova
-						}
-
-						//Verifica se é o mais velho
-						se(idade > maisVelho){
+							nomeDoMaisNovo = nome //Guarda o nome da pesso mais nova
+						
 							maisVelho = idade // Guarda a idade da pessoa mais velha
 							nomeDoMaisVelho = nome //Guarda o nome da pesso mais velha
-						}
-					}
+						} senao {
+							//Verifica se é o mais novo
+							se(idade < maisNovo){
+								maisNovo = idade //Guarda a idade da pessoa mais nova
+								nomeDoMaisNovo = nome //Guarda o nome da pessoa mais nova
+							}
+
+							//Verifica se é o mais velho
+							se(idade > maisVelho){
+								maisVelho = idade // Guarda a idade da pessoa mais velha
+								nomeDoMaisVelho = nome //Guarda o nome da pesso mais velha
+							}
+						}	
+					}		
 					pare
 				} senao {
 					escreva(" <<ERRO>> A idade deve ser um número inteiro \n")
@@ -133,7 +138,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1241; 
+ * @POSICAO-CURSOR = 1358; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
