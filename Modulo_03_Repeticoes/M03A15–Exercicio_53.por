@@ -6,6 +6,7 @@ programa
 	{
 		inteiro valor, conta = 1
 		cadeia teclado // variavel para guardar a resposta vinda do teclado
+		caracter continuar 
 		
 		escreva("{ EXERCICIO 053 - Números Validados } \n")
 		escreva("------------------------------------- \n")
@@ -17,6 +18,7 @@ programa
 			escreva("----------------------- \n")
 
 			enquanto(verdadeiro){
+				
 				escreva("Digite um número (entre 1 e 10): ")
 				leia(teclado)
 				se(Tipos.cadeia_e_inteiro(teclado, 10)){
@@ -27,14 +29,17 @@ programa
 						valor = Tipos.cadeia_para_inteiro(teclado ,10)
 						escreva("VALOR = ", valor," \n")
 						pare
-					}
-					
+					}					
 				} senao {
 					escreva("<< ERRO >> O valor deve ser um número inteiro! \n")	
 				}
 				
 			}
-			
+
+			faca{
+				escreva("Quer continuar? [S/N]")
+				leia(continuar)
+			enquanto(continuar != 's' ou continuar = 'S' ou continuar != 'n' ou continuar !='N')	
 			
 			se (conta == 3){
 				pare
@@ -74,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 959; 
+ * @POSICAO-CURSOR = 1170; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
