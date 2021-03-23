@@ -26,10 +26,7 @@ programa
 					se(valor < 1 ou valor > 10){
 						escreva("<< ERRO >> O número deve estar entre 1 e 10 \n")
 					}senao{
-						valor = Tipos.cadeia_para_inteiro(teclado ,10)
-						
-						escreva("VALOR = ", valor," \n")
-						
+						valor = Tipos.cadeia_para_inteiro(teclado ,10)				
 						pare
 					}					
 				} senao {
@@ -41,8 +38,6 @@ programa
 			faca{
 				escreva("Quer continuar? [S/N]")
 				leia(continuar)
-				
-				escreva("Continuar = ", continuar, "\n")
 				
 				se (continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N'){
 					escreva(" <<ERRO>> Resposta inválida. Tente novamente! \n")	
@@ -89,7 +84,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1492; 
+ * @POSICAO-CURSOR = 1013; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
