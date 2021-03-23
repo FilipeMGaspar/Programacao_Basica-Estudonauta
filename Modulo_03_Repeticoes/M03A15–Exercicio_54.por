@@ -1,11 +1,34 @@
 programa
 {
 	
+	inclua biblioteca Texto --> txt
+	
 	funcao inicio()
 	{
+		inteiro conta = 1
+		cadeia nome
+		
 		escreva("{ EXERCICIO 054 - Pessoas Validadas } \n")
 		escreva("------------------------------------- \n")
 		escreva("\n")
+
+		enquanto(verdadeiro){
+			escreva("------------------- \n")
+			escreva("   PESSOA ", conta,"\n")
+			escreva("------------------- \n")
+			faca{
+				escreva("NOME: ")
+				leia(nome)
+				se(txt.numero_caracteres(nome) < 3){
+					escreva("<<ERRO>> O nome deve ter pelo menos 3 letras \n")
+				}
+			}enquanto(txt.numero_caracteres(nome) < 3)
+			// numero_caracteres
+			conta++
+			se(conta == 4){
+				pare
+			}
+		}
 		
 	}
 }
@@ -49,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 164; 
+ * @POSICAO-CURSOR = 635; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
