@@ -2,12 +2,13 @@ programa
 {
 	
 	inclua biblioteca Texto --> txt
+	inclua biblioteca Tipos
 	
 	funcao inicio()
 	{
 		inteiro conta = 1, idade
 		cadeia nome
-		
+		cadeia teclado//Recebe a idade em string vinda do teclado
 		
 		escreva("{ EXERCICIO 054 - Pessoas Validadas } \n")
 		escreva("------------------------------------- \n")
@@ -18,6 +19,7 @@ programa
 			escreva("   PESSOA ", conta,"\n")
 			escreva("------------------- \n")
 			
+			//Leitura e validação do nome
 			faca{
 				escreva("NOME: ")
 				leia(nome)
@@ -25,9 +27,12 @@ programa
 					escreva("<<ERRO>> O nome deve ter pelo menos 3 letras \n")
 				}
 			}enquanto(txt.numero_caracteres(nome) < 3)
-			
-			escreva("IDADE: ")
-			leia(idade)
+
+			//Leitura e validação da idade
+			faca{
+				escreva("IDADE: ")
+				leia(teclado)
+			{enquanto()
 			
 			conta++
 			se(conta == 4){
@@ -77,7 +82,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 627; 
+ * @POSICAO-CURSOR = 800; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
