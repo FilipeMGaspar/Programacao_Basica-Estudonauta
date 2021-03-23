@@ -3,9 +3,23 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro valor, conta = 1
+		
 		escreva("{ EXERCICIO 053 - Números Validados } \n")
 		escreva("------------------------------------- \n")
 		escreva("\n")
+
+		enquanto(verdadeiro){
+			escreva("----------------------- \n")
+			escreva("      VALOR", conta,   "\n")
+			escreva("----------------------- \n")
+			
+			conta++
+			se (conta == 3){
+				pare
+			}
+		}
+		
 	}
 }
 
@@ -38,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 159; 
+ * @POSICAO-CURSOR = 384; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
