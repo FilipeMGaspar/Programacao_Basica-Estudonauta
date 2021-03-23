@@ -46,11 +46,18 @@ programa
 				leia(resp)
 			}enquanto(resp != 's' e resp != 'S' e resp != 'n' e resp != 'N')	
 			
-			conta++
-			se(conta == 4){
+			se(resp == 'n' ou resp == 'N'){
 				pare
 			}
+			
+			conta++
 		}
+		
+		escreva("\n")
+		escreva("=========== RESULTADO =========== \n")
+		escreva("Ao todo você cadastrou ", conta, " pessoa(s) \n")
+		escreva(" "," é a pessoa mais velha, com ", " Anos \n")
+		escreva(" "," é a pessoa mais jovem, com ", " Anos \n" )
 		
 	}
 }
@@ -94,7 +101,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1197; 
+ * @POSICAO-CURSOR = 1499; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
