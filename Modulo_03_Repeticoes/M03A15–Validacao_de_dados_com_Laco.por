@@ -15,6 +15,8 @@ programa
 			escreva("Digite a idade: ")
 			leia(idade)
 		}enquanto(nao(idade >=0 e idade<=130))
+
+		escreva("Sexo ", sx, " Idade: ", idade)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 235; 
+ * @POSICAO-CURSOR = 302; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
