@@ -10,6 +10,7 @@ programa
 		cadeia nome
 		cadeia teclado//Recebe a idade em string vinda do teclado
 		caracter resp
+		inteiro maisNovo = 0, maisVelho = 0
 		
 		escreva("{ EXERCICIO 054 - Pessoas Validadas } \n")
 		escreva("------------------------------------- \n")
@@ -35,6 +36,20 @@ programa
 				leia(teclado)
 				se(Tipos.cadeia_e_inteiro(teclado, 10)){
 					idade = Tipos.cadeia_para_inteiro(teclado, 10)//Conversão de String para inteiro
+
+					//Verifica se é a primeira pesso a ser registada se for a pessoa mais nova e mais velha é a mesma
+					se(conta == 1){
+						maisNovo = idade //Pessoa mais nova
+						maisVelho = idade // pessoa mais velha
+					} senao {
+						//Verifica se é o mais novo
+						se(idade < maisNovo){
+							maisNovo = idade
+						}
+
+						//Verifica se é o mais velho
+						
+					}
 					pare
 				} senao {
 					escreva(" <<ERRO>> A idade deve ser um número inteiro \n")
@@ -56,8 +71,8 @@ programa
 		escreva("\n")
 		escreva("=========== RESULTADO =========== \n")
 		escreva("Ao todo você cadastrou ", conta, " pessoa(s) \n")
-		escreva(" "," é a pessoa mais velha, com ", " Anos \n")
-		escreva(" "," é a pessoa mais jovem, com ", " Anos \n" )
+		escreva(" "," é a pessoa mais velha, com ", maisVelho, " Anos \n")
+		escreva(" "," é a pessoa mais jovem, com ", maisNovo, " Anos \n" )
 		
 	}
 }
@@ -101,7 +116,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1499; 
+ * @POSICAO-CURSOR = 1346; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
