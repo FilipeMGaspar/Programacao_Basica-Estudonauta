@@ -48,7 +48,9 @@ programa
 						}
 
 						//Verifica se é o mais velho
-						
+						se(idade > maisVelho){
+							maisVelho = idade
+						}
 					}
 					pare
 				} senao {
@@ -116,7 +118,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1346; 
+ * @POSICAO-CURSOR = 1393; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
