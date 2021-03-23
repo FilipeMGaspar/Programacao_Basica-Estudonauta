@@ -35,21 +35,6 @@ programa
 				
 			}
 			
-			/*faca{
-				
-				escreva("Digite um número (entre 1 e 10): ")
-				leia(teclado)
-				
-				se(Tipos.cadeia_e_inteiro(teclado, 10)){
-					valor = Tipos.cadeia_para_inteiro(teclado ,10)
-					
-					se(valor < 1 ou valor > 10){
-						escreva("<< ERRO >> O número deve estar entre 1 e 10 \n")
-					}
-				} senao {
-					escreva("<< ERRO >> O valor deve ser um número inteiro! \n")	
-				}							
-			}enquanto(valor < 1 ou valor > 10)*/
 			
 			se (conta == 3){
 				pare
@@ -89,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 832; 
+ * @POSICAO-CURSOR = 959; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
