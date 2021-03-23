@@ -13,8 +13,13 @@ programa
 			escreva("----------------------- \n")
 			escreva("      VALOR ", conta,   "\n")
 			escreva("----------------------- \n")
-			escreva("Digite um número (entre 1 e 10): ")
-			leia(valor)
+			faca{
+				escreva("Digite um número (entre 1 e 10): ")
+				leia(valor)
+				se(valor < 1 ou valor > 10){
+					escreva("<< ERRO >> O número deve estar entre 1 e 10 \n")
+				}
+			}enquanto(valor < 1 ou valor > 10)
 			
 			se (conta == 3){
 				pare
@@ -54,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 408; 
+ * @POSICAO-CURSOR = 509; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
