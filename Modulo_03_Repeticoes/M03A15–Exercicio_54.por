@@ -26,6 +26,7 @@ programa
 			faca{
 				escreva("NOME: ")
 				leia(nome)
+				//Verifica se o nome contém menos de 3 caracteres, se for verdadeiro imprime um erro
 				se(txt.numero_caracteres(nome) < 3){
 					escreva("<<ERRO>> O nome deve ter pelo menos 3 letras \n")
 				}
@@ -35,6 +36,8 @@ programa
 			enquanto(verdadeiro){
 				escreva("IDADE: ")
 				leia(teclado)
+
+				//Verifica se o valor recebido pelo teclado é um valor inteiro se for regista o valor senão imprime um erro
 				se(Tipos.cadeia_e_inteiro(teclado, 10)){
 					idade = Tipos.cadeia_para_inteiro(teclado, 10)//Conversão de String para inteiro
 
@@ -130,7 +133,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2197; 
+ * @POSICAO-CURSOR = 1241; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
