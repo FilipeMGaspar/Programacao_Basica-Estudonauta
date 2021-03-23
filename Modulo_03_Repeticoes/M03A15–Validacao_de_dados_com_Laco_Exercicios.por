@@ -58,7 +58,7 @@ programa
 		 *   Quer continuar? [S/N] n
 		 *   
 		 *   ======= RESULTADO ========
-		 *   Ao todo você cadastrou 4 pessoas
+		 *   Ao todo você cadastrou 2 pessoas
 		 *   Gustavo é a pessoa mais velha, com 30 Anos
 		 *   Maria é a pessoa mais jovem, com 12 Anos
 		*/
@@ -70,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1511; 
+ * @POSICAO-CURSOR = 1405; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
