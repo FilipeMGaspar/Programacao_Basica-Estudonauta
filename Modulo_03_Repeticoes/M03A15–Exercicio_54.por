@@ -67,6 +67,12 @@ programa
 			faca{
 				escreva("Deseja continuar? [S/N] ")
 				leia(resp)
+				
+				//Verifica a resposta imprimindo um erro se for diferente do esperado
+				se(resp != 's' e resp != 'S' e resp != 'n' e resp != 'N'){
+						escreva("<<ERRO>> Opção Inválida! Esperava [ S / N ]\n")
+				}
+				
 			}enquanto(resp != 's' e resp != 'S' e resp != 'n' e resp != 'N')	
 			
 			se(resp == 'n' ou resp == 'N'){
@@ -124,7 +130,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2380; 
+ * @POSICAO-CURSOR = 2197; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
