@@ -33,7 +33,8 @@ programa
 				escreva("IDADE: ")
 				leia(teclado)
 				se(Tipos.cadeia_e_inteiro(teclado, 10)){
-					escreva("AKI \n")
+					idade = Tipos.cadeia_para_inteiro(teclado, 10)//Conversão de String para inteiro
+					pare
 				} senao {
 					escreva(" <<ERRO>> A idade deve ser um número inteiro \n")
 				}
@@ -87,7 +88,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 946; 
+ * @POSICAO-CURSOR = 853; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
