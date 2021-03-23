@@ -11,6 +11,7 @@ programa
 		cadeia teclado//Recebe a idade em string vinda do teclado
 		caracter resp
 		inteiro maisNovo = 0, maisVelho = 0
+		cadeia nomeDoMaisNovo = "", nomeDoMaisVelho =""
 		
 		escreva("{ EXERCICIO 054 - Pessoas Validadas } \n")
 		escreva("------------------------------------- \n")
@@ -39,17 +40,22 @@ programa
 
 					//Verifica se é a primeira pesso a ser registada se for a pessoa mais nova e mais velha é a mesma
 					se(conta == 1){
-						maisNovo = idade //Pessoa mais nova
-						maisVelho = idade // pessoa mais velha
+						maisNovo = idade //Guarda a idade da pessoa mais nova
+						nomeDoMaisNovo = nome //Guarda o nome da pesso mais nova
+						
+						maisVelho = idade // Guarda a idade da pessoa mais velha
+						nomeDoMaisVelho = nome //Guarda o nome da pesso mais velha
 					} senao {
 						//Verifica se é o mais novo
 						se(idade < maisNovo){
-							maisNovo = idade
+							maisNovo = idade //Guarda a idade da pessoa mais nova
+							nomeDoMaisNovo = nome //Guarda o nome da pessoa mais nova
 						}
 
 						//Verifica se é o mais velho
 						se(idade > maisVelho){
-							maisVelho = idade
+							maisVelho = idade // Guarda a idade da pessoa mais velha
+							nomeDoMaisVelho = nome //Guarda o nome da pesso mais velha
 						}
 					}
 					pare
@@ -74,7 +80,7 @@ programa
 		escreva("=========== RESULTADO =========== \n")
 		escreva("Ao todo você cadastrou ", conta, " pessoa(s) \n")
 		escreva(" "," é a pessoa mais velha, com ", maisVelho, " Anos \n")
-		escreva(" "," é a pessoa mais jovem, com ", maisNovo, " Anos \n" )
+		escreva(nomeDoMaisNovo," é a pessoa mais jovem, com ", maisNovo, " Anos \n" )
 		
 	}
 }
@@ -118,7 +124,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1393; 
+ * @POSICAO-CURSOR = 1415; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
