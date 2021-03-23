@@ -5,7 +5,7 @@ programa
 	{
 		inteiro numAdares
 		inteiro x = 0, y = 0, c = 0
-		inteiro addEsp = 1
+		inteiro addEsp = 1 //Variavel utilizada para adicionar espação antes dos asteriscos
 			
 		escreva("{ EXERCICIO 052 - Piramide } \n")
 		escreva("---------------------------- \n")
@@ -20,8 +20,10 @@ programa
 				escreva("*")
 			}
 			escreva("\n")
-			addEsp++
-			para(c = 1; c <= addEsp-1; c++){
+			
+			addEsp++ // incrementando o espaçamento ou seja  neste momento passa a ser dois
+			para(c = 1; c <= addEsp-1; c++){ // Como já foi impressa a primeira linha desejamos escrever um espaço o addEsp - 1 é para isso
+				//para c = 1; c <= addEsp - 1; na primeira execução será para c= 1; c <= 2-1, ou seja c=1; c <=1 vai imprimir um espaço na linha imediatamente seguinte
 				escreva(" ")	
 			}
 		}
@@ -45,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 423; 
+ * @POSICAO-CURSOR = 852; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
