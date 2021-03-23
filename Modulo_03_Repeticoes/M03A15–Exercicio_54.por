@@ -16,6 +16,7 @@ programa
 			escreva("------------------- \n")
 			escreva("   PESSOA ", conta,"\n")
 			escreva("------------------- \n")
+			
 			faca{
 				escreva("NOME: ")
 				leia(nome)
@@ -23,7 +24,9 @@ programa
 					escreva("<<ERRO>> O nome deve ter pelo menos 3 letras \n")
 				}
 			}enquanto(txt.numero_caracteres(nome) < 3)
-			// numero_caracteres
+			
+			
+			
 			conta++
 			se(conta == 4){
 				pare
@@ -72,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 635; 
+ * @POSICAO-CURSOR = 584; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
