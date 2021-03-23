@@ -44,11 +44,9 @@ programa
 				
 				escreva("Continuar = ", continuar, "\n")
 				
-				se (continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N'){
-					pare
-				} senao {
+				se (continuar == 's' e continuar == 'S' e continuar == 'n' e continuar == 'N'){
 					escreva(" <<ERRO>> Resposta inválida. Tente novamente! \n")	
-				}
+				} 
 				
 			} enquanto(continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N')	
 			
@@ -90,7 +88,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1286; 
+ * @POSICAO-CURSOR = 1194; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
