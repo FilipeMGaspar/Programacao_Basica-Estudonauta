@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> txt
+	inclua biblioteca Texto --> txt
 	funcao inicio()
 	{
 		cadeia nome
@@ -8,7 +8,11 @@ programa
 		enquanto(verdadeiro){
 			escreva("Digite um nome: ")
 			leia(nome)
-			
+			se(txt.numero_caracteres(nome) < 3){
+				pare
+			}senao{
+				escreva("<<< ERRO >>> O nome deve ter pelo menos três letras \n")
+			}
 		}
 		
 	}
@@ -18,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 157; 
+ * @POSICAO-CURSOR = 282; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
