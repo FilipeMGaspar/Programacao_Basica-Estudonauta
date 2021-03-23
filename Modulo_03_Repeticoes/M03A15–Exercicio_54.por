@@ -9,6 +9,7 @@ programa
 		inteiro conta = 1, idade
 		cadeia nome
 		cadeia teclado//Recebe a idade em string vinda do teclado
+		caracter resp
 		
 		escreva("{ EXERCICIO 054 - Pessoas Validadas } \n")
 		escreva("------------------------------------- \n")
@@ -39,6 +40,11 @@ programa
 					escreva(" <<ERRO>> A idade deve ser um número inteiro \n")
 				}
 			}
+
+			faca{
+				escreva("Deseja continuar? [S/N] ")
+				leia(resp)
+			}enquanto(resp != 's' e resp != 'S' e resp != 'n' e resp != 'N')	
 			
 			conta++
 			se(conta == 4){
@@ -88,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 853; 
+ * @POSICAO-CURSOR = 1197; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
