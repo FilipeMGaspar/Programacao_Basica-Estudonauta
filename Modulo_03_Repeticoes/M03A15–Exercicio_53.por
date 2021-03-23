@@ -39,9 +39,10 @@ programa
 			faca{
 				escreva("Quer continuar? [S/N]")
 				leia(continuar)
-			enquanto(continuar != 's' ou continuar = 'S' ou continuar != 'n' ou continuar !='N')	
+				escreva(continuar, "\n")
+			} enquanto(continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N')	
 			
-			se (conta == 3){
+			se (continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N'){
 				pare
 			}
 			conta++
@@ -79,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1170; 
+ * @POSICAO-CURSOR = 1283; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
