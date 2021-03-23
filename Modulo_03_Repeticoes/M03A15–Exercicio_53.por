@@ -44,7 +44,7 @@ programa
 				
 				escreva("Continuar = ", continuar, "\n")
 				
-				se (continuar == 's' e continuar == 'S' e continuar == 'n' e continuar == 'N'){
+				se (continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N'){
 					escreva(" <<ERRO>> Resposta inválida. Tente novamente! \n")	
 				} 
 				
