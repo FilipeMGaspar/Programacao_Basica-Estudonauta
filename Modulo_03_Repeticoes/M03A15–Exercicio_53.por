@@ -50,9 +50,10 @@ programa
 				
 			} enquanto(continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N')	
 			
-			/*se (continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N'){
+			se (continuar == 's' ou continuar == 'S' ou continuar == 'n' ou continuar == 'N'){
+				escreva("Vou parar Obrigado! \n")
 				pare
-			}*/
+			}
 			conta++
 		}
 		
@@ -88,7 +89,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1194; 
+ * @POSICAO-CURSOR = 1492; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
