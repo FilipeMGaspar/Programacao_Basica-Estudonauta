@@ -5,6 +5,7 @@ programa
 	funcao inicio()
 	{
 		inteiro valor, conta = 1
+		inteiro soma = 0
 		cadeia teclado // variavel para guardar a resposta vinda do teclado
 		caracter continuar 
 		
@@ -26,7 +27,8 @@ programa
 					se(valor < 1 ou valor > 10){
 						escreva("<< ERRO >> O número deve estar entre 1 e 10 \n")
 					}senao{
-						valor = Tipos.cadeia_para_inteiro(teclado ,10)				
+						valor = Tipos.cadeia_para_inteiro(teclado ,10)	
+						soma += valor		
 						pare
 					}					
 				} senao {
@@ -45,13 +47,17 @@ programa
 				
 			} enquanto(continuar != 's' e continuar != 'S' e continuar != 'n' e continuar != 'N')	
 			
-			se (continuar == 's' ou continuar == 'S' ou continuar == 'n' ou continuar == 'N'){
+			se (continuar == 'n' ou continuar == 'N'){
 				escreva("Vou parar Obrigado! \n")
 				pare
 			}
 			conta++
 		}
-		
+
+		escreva("\n")
+		escreva("======== RESULTADO ======== \n")
+		escreva("Ao todo você digitou",conta ,"valor(es). \n")
+		escreva("A soma de todos eles foi ", soma, "\n")
 	}
 }
 
@@ -84,7 +90,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1013; 
+ * @POSICAO-CURSOR = 1589; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
