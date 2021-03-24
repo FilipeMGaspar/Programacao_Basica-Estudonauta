@@ -11,6 +11,11 @@ programa
 			escreva("Digite uma idade: ")
 			leia(id[c])
 		}
+
+		escreva("As idades digitadas foram ")
+		para(inteiro pos = 0; pos < 4; pos++){
+			escreva(id[pos]," ")
+		}
 		/*
 		 * idade[0] = 11
 		 * idade[1] = 40
@@ -25,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 207; 
+ * @POSICAO-CURSOR = 315; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {idade, 6, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
