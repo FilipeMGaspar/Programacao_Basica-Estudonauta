@@ -42,7 +42,16 @@ programa
 		 *  
 		 *  9:{7} 8:{2} 7:{3} 6:{1} .... 0:{9}
 		*/
-		
+
+		/*Exercicio 58
+		 *  Vetor com 15 posições  
+		 *  
+		 *  { EXERCICIO 058 - Fibonacci no Vetor }
+		 *  
+		 *  0 1 1 2 
+		 *   
+		 *   0 + 1 = 1 
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -50,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 797; 
+ * @POSICAO-CURSOR = 950; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
