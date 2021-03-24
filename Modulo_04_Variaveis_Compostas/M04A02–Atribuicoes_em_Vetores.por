@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		inteiro idade[5] = {11, 15, 7, 33, 40}
@@ -15,6 +15,7 @@ programa
 		escreva("As idades digitadas foram ")
 		para(inteiro pos = 0; pos < 4; pos++){
 			escreva(id[pos]," ")
+			Util.aguarde(500)
 		}
 		/*
 		 * idade[0] = 11
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 421; 
+ * @POSICAO-CURSOR = 359; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {idade, 6, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
