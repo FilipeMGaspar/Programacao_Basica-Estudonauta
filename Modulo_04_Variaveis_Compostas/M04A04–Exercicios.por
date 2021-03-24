@@ -50,7 +50,10 @@ programa
 		 *  
 		 *  0 1 1 2 
 		 *   
-		 *   0 + 1 = 1 
+		 *  0 + 1 = 1 
+		 *   
+		 *  Os 15 primeiros elementos Fibonacci são 
+		 *  [0] [1] [1] [2] [3] [5] [8] ... [233] [377]
 		*/
 	}
 }
@@ -59,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 950; 
+ * @POSICAO-CURSOR = 1053; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
