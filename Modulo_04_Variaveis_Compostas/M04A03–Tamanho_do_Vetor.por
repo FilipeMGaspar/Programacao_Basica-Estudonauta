@@ -1,13 +1,12 @@
 programa
 {
-	inclua biblioteca Util
+	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro idade[4]
+		inteiro idade[8]
 
 		para(inteiro i = 0; i< 4; i++){
-			escreva("Digite uma idade :")
-			leia(idade[i])
+			idade[i] = sorteia(1, 125)
 		}
 
 		escreva("As idades digitadas foram ")
@@ -23,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 318; 
+ * @POSICAO-CURSOR = 295; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
