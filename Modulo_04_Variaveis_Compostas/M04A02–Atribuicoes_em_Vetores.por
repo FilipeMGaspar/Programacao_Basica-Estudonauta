@@ -7,7 +7,9 @@ programa
 		inteiro id[4]
 
 		para(inteiro c = 0; c < 4 ; c++){
-			id[c] = sorteia(1,100)
+			//id[c] = sorteia(1,100)
+			escreva("Digite uma idade: ")
+			leia(id[c])
 		}
 		/*
 		 * idade[0] = 11
@@ -23,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 156; 
+ * @POSICAO-CURSOR = 207; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {idade, 6, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
