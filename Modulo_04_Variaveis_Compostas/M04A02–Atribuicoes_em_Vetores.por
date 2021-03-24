@@ -6,7 +6,7 @@ programa
 		inteiro idade[5] = {11, 15, 7, 33, 40}
 		inteiro id[4]
 
-		para(inteiro c =0; c < 4 ; c++){
+		para(inteiro c = 0; c < 4 ; c++){
 			id[c] = 10
 		}
 		/*
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 259; 
+ * @POSICAO-CURSOR = 115; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {idade, 6, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
