@@ -5,12 +5,12 @@ programa
 	{
 		inteiro idade[8]
 
-		para(inteiro i = 0; i< 8; i++){
+		para(inteiro i = 0; i< Util.numero_elementos(idade); i++){
 			idade[i] = sorteia(1, 125)
 		}
 
 		escreva("As idades digitadas foram ")
-		para(inteiro i = 0; i< 8; i++){
+		para(inteiro i = 0; i< Util.numero_elementos(idade); i++){
 			Util.aguarde(500)
 			escreva(idade[i], " -> ")
 		}
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 210; 
+ * @POSICAO-CURSOR = 264; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
