@@ -3,7 +3,9 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro idade[4] = {11,17,5,55}
+		inteiro idade[4] 
+		idade[2] = 31
+		escreva("FIM!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +13,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 53; 
+ * @POSICAO-CURSOR = 71; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {idade, 6, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
