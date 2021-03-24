@@ -3,7 +3,7 @@ programa
 	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro idade[8]
+		inteiro idade[10]
 
 		para(inteiro i = 0; i< Util.numero_elementos(idade); i++){
 			idade[i] = sorteia(1, 125)
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 264; 
+ * @POSICAO-CURSOR = 73; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
