@@ -3,7 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		escreva("{ EXERCICIO 058 - Fibonacci no Vetor } \n")
+		escreva("-------------------------------------- \n")
+		escreva("\n")
+		
 	}
 }
 
@@ -24,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 111; 
+ * @POSICAO-CURSOR = 161; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
