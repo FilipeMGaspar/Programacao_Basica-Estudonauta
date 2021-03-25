@@ -1,55 +1,29 @@
 programa
 {
-	inclua biblioteca Util
+	
 	funcao inicio()
 	{
-		inteiro vet[10] // vetro de 10 posições
-		
-		escreva("{ EXERCICIO 057 - Sorteio Invertido } \n")
-		escreva("------------------------------------- \n")
-		escreva("Vou sortear 10 valores\n")
-		escreva("\n")
-
-		para(inteiro i = 0 ; i < 10; i++){
-			vet[i] = sorteia(1, 10)
-		}
-
-		para(inteiro i = 0; i < 10; i++){
-			Util.aguarde(500)
-			escreva(i,":{",vet[i],"} ")
-		}
-
-		escreva("\n\n")
-		escreva("Mostrando a sequencia invertida... \n")
-		escreva("\n")
-		para(inteiro i = 9; i>=0; i--){
-			Util.aguarde(500)
-			escreva(i,":{",vet[i],"} ")
-		}
-		
-		escreva("\n")
+		escreva("Olá Mundo")
 	}
 }
-
-/* Exercicio 57
+/* Exercicio 56
 *  Vetor com 10 posições  
 *  
-*  { EXERCICIO 057 - Sorteio Invertido }
+*  { EXERCICIO 056 - Vetor com Contagem de 5 em 5 }
 *  
-*  Vou sortear 10 valores...
+*  Me diga um valor: 10
 *  
-*  0:{9} 1:{8} 2:{7} 3:{2} ... 9:{7}
+*  O vetor foi gerado com os valores:
 *  
-*  Mostrando a sequencia invertida...
+*  0:{10} 1:{15} 2:{20} .... 
 *  
-*  9:{7} 8:{2} 7:{3} 6:{1} .... 0:{9}
 */
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 512; 
+ * @POSICAO-CURSOR = 268; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
