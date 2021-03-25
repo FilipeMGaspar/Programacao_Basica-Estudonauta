@@ -3,7 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		
+		
+		escreva("{ EXERCICIO 057 - Sorteio Invertido } \n")
+		escreva("------------------------------------- \n")
+		escreva("Vou sortear 10 valores\n")
+		escreva("\n")
 	}
 }
 
@@ -25,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 316; 
+ * @POSICAO-CURSOR = 205; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
