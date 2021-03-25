@@ -29,7 +29,8 @@ programa
 				total++
 			}
 		}
-
+		
+		Util.aguarde(500)
 		escreva("O valor ", valor, " foi encontrado ", total, " vezes dentro do vetor! \n")
 	}
 }
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 619; 
+ * @POSICAO-CURSOR = 689; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
