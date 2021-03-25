@@ -24,6 +24,7 @@ programa
 		Util.aguarde(1000)
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
 			se(vet[i] == valor){
+				escreva("Achado na posição ", i)
 				total++
 			}
 		}
@@ -36,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 699; 
+ * @POSICAO-CURSOR = 633; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
