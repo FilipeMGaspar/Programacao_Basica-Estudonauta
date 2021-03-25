@@ -3,7 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro val[10]
+		
+		escreva("{ EXERCICIO 055 - O dobro do anterior } \n")
+		escreva("--------------------------------------- \n")
+		escreva("\n")
+		val[0] = 3
+		escreva(val[0])
 	}
 }
 
@@ -24,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 264; 
+ * @POSICAO-CURSOR = 212; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
