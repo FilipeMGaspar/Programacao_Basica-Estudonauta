@@ -36,7 +36,7 @@ programa
 			}			
 		}
 		
-		media = soma / contaValor
+		media = Tipos.inteiro_para_real(soma) / contaValor
 		escreva("A soma dos valores maiores ou iguais que ", valor, " é igual a ", soma, "\n")
 		escreva("A média deles é ", media," \n")
 	}
@@ -46,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 177; 
+ * @POSICAO-CURSOR = 818; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
