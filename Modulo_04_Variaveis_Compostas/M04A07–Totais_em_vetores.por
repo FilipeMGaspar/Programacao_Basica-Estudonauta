@@ -1,9 +1,14 @@
 programa
 {
+	inclua biblioteca Util	
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro vet[9]
+		
+		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
+			vet[i] = sorteia(1, 40)
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 168; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
