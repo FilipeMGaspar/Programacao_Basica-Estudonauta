@@ -32,7 +32,7 @@ programa
 			}			
 		}
 
-		escreva("A soma dos valores iguais ou maiores que ", valor, " soma é igual a ", soma, "\n")
+		escreva("A soma dos valores iguais ou maiores que ", valor, " é igual a ", soma, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 791; 
+ * @POSICAO-CURSOR = 755; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
