@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		inteiro fib[15]
@@ -21,7 +21,8 @@ programa
 		escreva("\n")
 		
 		para(inteiro i = 0; i < 15; i++){
-			escreva(i,":[",fib[0],"] ")	
+			Util.aguarde(500)
+			escreva(i,":[",fib[i],"] ")	
 		}
 		
 		escreva("\n")
