@@ -13,8 +13,9 @@ programa
 		
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
 			Util.aguarde(500)
-			escreva(vet[i], " ")
+			escreva(vet[i], " -> ")
 		}
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 320; 
+ * @POSICAO-CURSOR = 321; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
