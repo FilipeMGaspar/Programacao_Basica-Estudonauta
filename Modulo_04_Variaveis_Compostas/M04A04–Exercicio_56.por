@@ -19,7 +19,9 @@ programa
 			escreva(i,":{",vet[i],"} ")
 		}
 
-		escreva("Mostrando a sequencia invertida... \n")
+		escreva("\nMostrando a sequencia invertida... \n")
+
+		
 		escreva("\n")
 	}
 }
@@ -42,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 477; 
+ * @POSICAO-CURSOR = 442; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
