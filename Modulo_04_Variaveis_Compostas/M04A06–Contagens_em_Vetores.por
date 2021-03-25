@@ -4,6 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[9]
+		inteiro valor, total = 0
 
 		para(inteiro i = 0 ; i < Util.numero_elementos(vet); i++){
 			vet[i] = sorteia(1,10)			
@@ -16,6 +17,18 @@ programa
 			escreva(vet[i], " -> ")
 		}
 		escreva("FIM!\n")
+
+		escreva("Está procuranco por qual valor? ")
+		leia(valor)
+		escreva("\nProcurando pelo valor ", valor, "... \n")
+		Util.aguarde(1000)
+		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
+			se(vet[i] == valor){
+				total++
+			}
+		}
+
+		escreva("O valor ", valor, " foi sorteado ", total, " vezes! \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 356; 
+ * @POSICAO-CURSOR = 513; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
