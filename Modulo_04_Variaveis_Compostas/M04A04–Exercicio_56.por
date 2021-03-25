@@ -3,11 +3,20 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro vet[10]
+		inteiro valor
 		
 		escreva("{ EXERCICIO 056 - Vetor com Contagem de 5 em 5 } \n")
 		escreva("------------------------------------------------ \n")
 		escreva("\n")
-		
+
+		escreva("Me diga um valor: ")
+		leia(valor)
+
+		para(inteiro i = 0; i < 10; i++){
+			vet[i] = valor
+			valor += 5
+		}
 	}
 }
 /* Exercicio 56
@@ -27,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 35; 
+ * @POSICAO-CURSOR = 328; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
