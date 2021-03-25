@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		inteiro vet[10] // vetro de 10 posições
@@ -15,9 +15,11 @@ programa
 		}
 
 		para(inteiro i = 0; i < 10; i++){
+			Util.aguarde(500)
 			escreva(i,":{",vet[i],"} ")
 		}
 
+		escreva("Mostrando a sequencia invertida... \n")
 		escreva("\n")
 	}
 }
@@ -40,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 384; 
+ * @POSICAO-CURSOR = 477; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
