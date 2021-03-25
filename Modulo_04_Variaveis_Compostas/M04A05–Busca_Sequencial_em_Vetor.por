@@ -3,9 +3,14 @@ programa
 	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro num[8] = {2, 5, 7, 3, 2, 9, 4, 2}
+		//inteiro num[8] = {2, 5, 7, 3, 2, 9, 4, 2}
+		inteiro num[8]
 		inteiro chave
 		logico achei = falso
+
+		para(inteiro i = 0; i< Util.numero_elementos(num); i++){
+			num[i] = sorteia(1, 30)
+		}
 		
 		escreva("Qual é a chave? ")
 		leia(chave)
@@ -18,7 +23,7 @@ programa
 		}
 
 		se(nao achei){
-			escreva("\nInfelizmente a chave '", chave, "' Não existe no vetor!\n")
+			escreva("\nInfelizmente a chave '", chave, "' Não existe no vetor! \n")
 		}
 	}
 }
@@ -27,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 465; 
+ * @POSICAO-CURSOR = 247; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
