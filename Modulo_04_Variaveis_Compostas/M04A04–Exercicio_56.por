@@ -3,7 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		
+		escreva("{ EXERCICIO 056 - Vetor com Contagem de 5 em 5 } \n")
+		escreva("------------------------------------------------ \n")
+		escreva("\n")
+		
 	}
 }
 /* Exercicio 56
@@ -23,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 268; 
+ * @POSICAO-CURSOR = 35; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
