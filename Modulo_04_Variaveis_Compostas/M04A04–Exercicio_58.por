@@ -13,7 +13,7 @@ programa
 		fib[1] = 1
 
 		para(inteiro i = 2; i < 15; i++){
-			fib[i] = fib[i - 2] + fib[i - 1] //Namprimeira execução fib[2] = fib[2-2] + fib[2 - 1], fib[2] = fib[0] + fib[1], ou seja  fib[2] = 0 + 1 fib[2] = 1
+			fib[i] = fib[i - 2] + fib[i - 1] //Na primeira execução fib[2] = fib[2-2] + fib[2 - 1], fib[2] = fib[0] + fib[1], ou seja  fib[2] = 0 + 1 fib[2] = 1
 		}
 
 		escreva("\n")
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 584; 
+ * @POSICAO-CURSOR = 307; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
