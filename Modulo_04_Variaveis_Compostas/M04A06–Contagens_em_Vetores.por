@@ -9,13 +9,13 @@ programa
 			vet[i] = sorteia(1,10)			
 		}
 
-		escreva("Os valores sorteados são: ")
+		escreva("Os valores sorteados são: \n")
 		
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
 			Util.aguarde(500)
 			escreva(vet[i], " -> ")
 		}
-		escreva("\n")
+		escreva("FIM!\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 321; 
+ * @POSICAO-CURSOR = 356; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
