@@ -19,6 +19,12 @@ programa
 		escreva("\n")
 		escreva("Os 15 primeiros elementos Fibonacci são: \n")
 		escreva("\n")
+		
+		para(inteiro i = 0; i < 15; i++){
+			escreva(i,":[",fib[0],"] ")	
+		}
+		
+		escreva("\n")
 	}
 	
 }
@@ -40,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 487; 
+ * @POSICAO-CURSOR = 570; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
