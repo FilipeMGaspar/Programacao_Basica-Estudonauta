@@ -15,7 +15,7 @@ programa
 		}
 
 		para(inteiro i = 0; i < 10; i++){
-			escreva(i,":{",i,"} ")
+			escreva(i,":{",vet[i],"} ")
 		}
 
 		escreva("\n")
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 394; 
+ * @POSICAO-CURSOR = 384; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
