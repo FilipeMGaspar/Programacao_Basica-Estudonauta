@@ -40,6 +40,13 @@ programa
 		media = Tipos.inteiro_para_real(soma) / contaValor
 		escreva("A soma dos valores maiores ou iguais que ", valor, " é igual a ", soma, "\n")
 		escreva("A média deles é ", mat.arredondar(media, 2)," \n")
+		escreva("\nOs valores2 acima da média são: \n")
+		
+		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
+			se(vet[i] >= media){
+				escreva("Posição ", i," com valor ", vet[i], " ")	
+			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -47,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1013; 
+ * @POSICAO-CURSOR = 1209; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
