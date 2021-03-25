@@ -11,7 +11,7 @@ programa
 		escreva("\n")
 
 		para(inteiro i = 0 ; i < 10; i++){
-			vet[i] = sorteia(1,10)
+			vet[i] = sorteia(1, 10)
 		}
 
 		para(inteiro i = 0; i < 10; i++){
@@ -19,8 +19,11 @@ programa
 			escreva(i,":{",vet[i],"} ")
 		}
 
-		escreva("\nMostrando a sequencia invertida... \n")
-
+		escreva("\n\n")
+		escreva("Mostrando a sequencia invertida... \n")
+		para(inteiro i = 9; i>=0; i--){
+			escreva(i,":{",vet[i],"} ")
+		}
 		
 		escreva("\n")
 	}
@@ -44,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 442; 
+ * @POSICAO-CURSOR = 561; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
