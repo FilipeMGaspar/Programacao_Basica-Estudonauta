@@ -15,6 +15,7 @@ programa
 		escreva("\n")
 		escreva("O vetor gerado foi \n")
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
+			Util.aguarde(500)
 			escreva(vet[i]," -> ")
 		}
 		escreva("FIM! \n")
@@ -25,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 378; 
+ * @POSICAO-CURSOR = 402; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
