@@ -10,10 +10,17 @@ programa
 		escreva("\n")
 		val[0] = 3
 		
-		para(inteiro i = 0; i < 10; i++){
+		para(inteiro i = 1; i < 10; i++){
 			val[i]= val[i-1]*2
 		}
+
+		escreva("O vetor foi gerado com os valores: \n")
 		
+		para(inteiro i = 0; i < 10; i++){
+			escreva(i,":","[",val[i],"]")
+		}
+
+		escreva("\n")
 	}
 }
 
@@ -34,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 262; 
+ * @POSICAO-CURSOR = 387; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
