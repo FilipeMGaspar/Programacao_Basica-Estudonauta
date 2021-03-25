@@ -17,6 +17,14 @@ programa
 			vet[i] = valor
 			valor += 5
 		}
+
+		escreva("\n")
+		escreva("O vetor foi gerado com os valores: \n")
+		para(inteiro i = 0; i < 10; i++){
+			escreva(i,":{",vet[i],"} ")
+		}
+		
+		escreva("\n")
 	}
 }
 /* Exercicio 56
@@ -36,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 328; 
+ * @POSICAO-CURSOR = 401; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
