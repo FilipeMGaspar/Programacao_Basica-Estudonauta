@@ -1,11 +1,14 @@
 programa
 {
 	inclua biblioteca Util	
+	inclua biblioteca Tipos
 	
 	funcao inicio()
 	{
 		inteiro vet[9]
 		inteiro valor, soma = 0
+		real media = 0.0
+		inteiro contaValor = 0
 		
 		//Preenchimento do vetor com número s aleatórios
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
@@ -29,10 +32,13 @@ programa
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
 			se(vet[i] >= valor){
 				soma += vet[i]
+				contaValor++
 			}			
 		}
-
+		
+		media = soma / contaValor
 		escreva("A soma dos valores maiores ou iguais que ", valor, " é igual a ", soma, "\n")
+		escreva("A média deles é ", media," \n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -40,7 +46,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 738; 
+ * @POSICAO-CURSOR = 177; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
