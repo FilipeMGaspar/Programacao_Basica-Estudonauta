@@ -27,10 +27,9 @@ programa
 		leia(valor)
 		//Resultados 
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
-			/*se(){
-				
-			}*/
-			soma += vet[i]
+			se(vet[i] >= valor){
+				soma += vet[i]
+			}			
 		}
 
 		escreva("A soma de todos os valores é igual a ", soma, "\n")
@@ -41,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 657; 
+ * @POSICAO-CURSOR = 682; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
