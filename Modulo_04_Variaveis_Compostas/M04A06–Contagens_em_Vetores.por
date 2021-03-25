@@ -18,6 +18,7 @@ programa
 		}
 		escreva("FIM!\n")
 
+		escreva("\n")
 		escreva("Está procuranco por qual valor? ")
 		leia(valor)
 		escreva("\nProcurando pelo valor ", valor, "... \n")
@@ -43,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 898; 
+ * @POSICAO-CURSOR = 244; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
