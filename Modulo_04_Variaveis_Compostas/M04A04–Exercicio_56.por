@@ -21,7 +21,9 @@ programa
 
 		escreva("\n\n")
 		escreva("Mostrando a sequencia invertida... \n")
+		escreva("\n")
 		para(inteiro i = 9; i>=0; i--){
+			Util.aguarde(500)
 			escreva(i,":{",vet[i],"} ")
 		}
 		
@@ -47,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 561; 
+ * @POSICAO-CURSOR = 512; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
