@@ -22,7 +22,7 @@ programa
 		
 		para(inteiro i = 0; i < 15; i++){
 			Util.aguarde(500)
-			escreva(i,":[",fib[i],"] ")	
+			escreva("[",fib[i],"] ")	
 		}
 		
 		escreva("\n")
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 570; 
+ * @POSICAO-CURSOR = 584; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
