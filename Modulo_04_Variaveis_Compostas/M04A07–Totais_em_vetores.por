@@ -5,6 +5,7 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[9]
+		inteiro valor, soma = 0
 		
 		//Preenchimento do vetor com número s aleatórios
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
@@ -19,6 +20,20 @@ programa
 			escreva(vet[i]," -> ")
 		}
 		escreva("FIM! \n")
+		
+		//Busca de um valor
+		escreva("\n")
+		escreva("Quer somar acima de qual valor? ")
+		leia(valor)
+		//Resultados 
+		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
+			/*se(){
+				
+			}*/
+			soma += vet[i]
+		}
+
+		escreva("A soma de todos os valores é igual a ", soma, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 402; 
+ * @POSICAO-CURSOR = 743; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
