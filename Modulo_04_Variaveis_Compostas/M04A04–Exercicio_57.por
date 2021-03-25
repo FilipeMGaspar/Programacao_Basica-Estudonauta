@@ -1,30 +1,55 @@
 programa
 {
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro vet[10] // vetro de 10 posições
+		
+		escreva("{ EXERCICIO 057 - Sorteio Invertido } \n")
+		escreva("------------------------------------- \n")
+		escreva("Vou sortear 10 valores\n")
+		escreva("\n")
+
+		para(inteiro i = 0 ; i < 10; i++){
+			vet[i] = sorteia(1, 10)
+		}
+
+		para(inteiro i = 0; i < 10; i++){
+			Util.aguarde(500)
+			escreva(i,":{",vet[i],"} ")
+		}
+
+		escreva("\n\n")
+		escreva("Mostrando a sequencia invertida... \n")
+		escreva("\n")
+		para(inteiro i = 9; i>=0; i--){
+			Util.aguarde(500)
+			escreva(i,":{",vet[i],"} ")
+		}
+		
+		escreva("\n")
 	}
 }
 
-/*Exercicio 58
-*  Vetor com 15 posições  
+/* Exercicio 57
+*  Vetor com 10 posições  
 *  
-*  { EXERCICIO 058 - Fibonacci no Vetor }
+*  { EXERCICIO 057 - Sorteio Invertido }
 *  
-*  0 1 1 2 
-*   
-*  0 + 1 = 1 
-*   
-*  Os 15 primeiros elementos Fibonacci são 
-*  [0] [1] [1] [2] [3] [5] [8] ... [233] [377]
+*  Vou sortear 10 valores...
+*  
+*  0:{9} 1:{8} 2:{7} 3:{2} ... 9:{7}
+*  
+*  Mostrando a sequencia invertida...
+*  
+*  9:{7} 8:{2} 7:{3} 6:{1} .... 0:{9}
 */
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 119; 
+ * @POSICAO-CURSOR = 512; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
