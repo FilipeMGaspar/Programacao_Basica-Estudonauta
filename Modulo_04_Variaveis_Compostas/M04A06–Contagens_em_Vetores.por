@@ -31,7 +31,11 @@ programa
 		}
 		
 		Util.aguarde(500)
-		escreva("O valor ", valor, " foi encontrado ", total, " vezes dentro do vetor! \n")
+		se(total == 0){
+			escreva("O valor ", valor, " não foi encontrado dentro do vetor\n")
+		} senao {
+			escreva("O valor ", valor, " foi encontrado ", total, " vezes dentro do vetor! \n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -39,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 689; 
+ * @POSICAO-CURSOR = 898; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
