@@ -10,7 +10,9 @@ programa
 		leia(chave)
 
 		para(inteiro i = 0; i < Util.numero_elementos(num); i++){
-			
+			se(num[i] == chave){
+				escreva("Encontrei a chave ", chave, " na posição ", i,"\n")
+			}
 		}
 	}
 }
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 231; 
+ * @POSICAO-CURSOR = 314; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
