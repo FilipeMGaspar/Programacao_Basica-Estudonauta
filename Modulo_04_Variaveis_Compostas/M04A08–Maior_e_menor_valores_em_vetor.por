@@ -49,7 +49,7 @@ programa
 		}
 
 		escreva("\n")
-		escreva("o menor valor gerado foi ", menor, "\n")
+		escreva("O menor valor gerado foi ", menor, "\n")
 		//Posição da ocorrencia
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
 			se(vet[i] == menor){
@@ -63,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1144; 
+ * @POSICAO-CURSOR = 999; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
