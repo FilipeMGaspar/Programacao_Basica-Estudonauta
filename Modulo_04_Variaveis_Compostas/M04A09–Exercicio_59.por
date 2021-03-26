@@ -1,7 +1,7 @@
 programa
 {
 	
-	inclua biblioteca Util
+	inclua biblioteca Util
 	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
@@ -12,7 +12,7 @@ programa
 		escreva("{ EXERCICIO 059 - Acima da Média } \n")
 		escreva("---------------------------------- \n")
 		escreva("\tESCOLA ESTUDONAUTA \n")
-		escreva("---------------------------------- \n")
+		escreva("---------------------------------- \n")
 		escreva("\n")
 		
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
@@ -26,6 +26,15 @@ programa
 		escreva("\n")
 		escreva("------------------------------\n")
 		escreva("A média da turma foi ", mat.arredondar(media, 2), "\n")
+
+		escreva("\n------------------------------ \n")
+		escreva("Alunos que ficaram acima da média: \n")
+		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
+			se(vet[i] > media){
+				escreva(i)
+			}
+		}
+		
 	}
 }
 
@@ -55,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 672; 
+ * @POSICAO-CURSOR = 861; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
