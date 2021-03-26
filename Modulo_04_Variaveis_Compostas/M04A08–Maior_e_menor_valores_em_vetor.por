@@ -22,7 +22,7 @@ programa
 		
 		escreva("FIM! \n")
 
-		//Descobrir qual o maior valor
+		//Descobrir qual o maior e o menor valor
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
 			se(i == 0){
 				maior = vet[i]
@@ -63,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 999; 
+ * @POSICAO-CURSOR = 494; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
