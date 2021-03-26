@@ -19,7 +19,12 @@ programa
 			
 			escreva(vet[i], ".. ")
 			Util.aguarde(500)
-		}		
+		}
+
+		escreva("\n")		
+		escreva("-------------------------------------- \n")
+		Util.aguarde(1000)
+		escreva("Analisando os valores sorteados.... \n")
 	}
 }
 
@@ -47,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 466; 
+ * @POSICAO-CURSOR = 549; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
