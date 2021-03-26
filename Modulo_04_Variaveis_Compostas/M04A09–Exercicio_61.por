@@ -7,7 +7,7 @@ programa
 		cadeia nomes[6]
 		inteiro qtMaisDeSeisLtr = 0
 		caracter iniciaVogal = ' '//, contemLetraS  = ' '
-		inteiro qtComVogalNinicio = 0, contemS = 0
+		inteiro qtComVogalNinicio = 0, contemSmi = 0, contemSma = 0
 		
 		escreva("{ EXERCICIO 061 - Analisando Nomes } \n")
 		escreva("------------------------------------ \n")
@@ -67,16 +67,26 @@ programa
 		escreva("-------------------------- \n")
 		escreva("Nomes que possuem letra S: \n")
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
-			para(inteiro c = 0 ; c < txt.numero_caracteres(nomes[i]); c++){
-				/*contemLetraS = txt.obter_caracter(nomes[i], c)			
+			/*para(inteiro c = 0 ; c < txt.numero_caracteres(nomes[i]); c++){
+				contemLetraS = txt.obter_caracter(nomes[i], c)			
 				se(contemLetraS == 's' ou contemLetraS == 'S'){
 					contaS++
 					se(contaS == 1){
 						escreva("[",i,"]=", nomes[i]," ")
 						Util.aguarde(500)
 					}
-				}*/
-			}			
+				}
+			}*/
+			contemSmi = txt.posicao_texto("s", nomes[i],0)	
+			se(contemSmi != -1){
+				escreva("[",i,"]=", nomes[i]," ")
+				Util.aguarde(500)		
+			}
+			contemSma = txt.posicao_texto("S", nomes[i],0)
+			se(contemSma != -1){
+				escreva("[",i,"]=", nomes[i]," ")
+				Util.aguarde(500)		
+			}
 		}
 		escreva("\n")
 		escreva("-------------------------- \n")
@@ -115,7 +125,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2274; 
+ * @POSICAO-CURSOR = 2573; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
