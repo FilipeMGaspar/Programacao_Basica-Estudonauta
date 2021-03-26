@@ -6,7 +6,7 @@ programa
 	{
 		cadeia nomes[6]
 		inteiro qtMaisDeSeisLtr = 0
-		caracter iniciaVogal = ' ' 
+		caracter iniciaVogal = ' ', contemLetraS  = ' '
 		inteiro qtComVogalNinicio = 0
 		
 		escreva("{ EXERCICIO 061 - Analisando Nomes } \n")
@@ -34,8 +34,9 @@ programa
 			}
 		}
 		Util.aguarde(500)
-		escreva("TOTAL = ", qtMaisDeSeisLtr)
-		escreva("\n\n")
+		escreva("TOTAL = ", qtMaisDeSeisLtr, "\n")
+		escreva("\n")
+		
 		escreva("-------------------------- \n")
 		escreva("Nomes que começam com vogal: \n")
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
@@ -61,6 +62,19 @@ programa
 			
 		}
 		escreva("TOTAL = ", qtComVogalNinicio, "\n")
+		escreva("\n")
+		
+		escreva("-------------------------- \n")
+		escreva("Nomes que possuem letra S: \n")
+		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
+			para(inteiro c = 0 ; c < txt.numero_caracteres(nomes[i]); c++){
+				contemLetraS = txt.obter_caracter(nomes[i], c)
+				se(contemLetraS == 's' ou contemLetraS == 'S'){
+					escreva("[",i,"]=", nomes[i]," ")
+					Util.aguarde(500)
+				}
+			}			
+		}
 	}
 }
 
@@ -96,7 +110,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1655; 
+ * @POSICAO-CURSOR = 1969; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
