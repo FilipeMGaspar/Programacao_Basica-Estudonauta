@@ -7,6 +7,7 @@ programa
 	{
 		inteiro vet[10]
 		inteiro somaPares = 0, somaImpares = 0
+		inteiro contaImpares = 0
 		
 		escreva("{ EXERCICIO 060 - Analisando Números } \n")
 		escreva("-------------------------------------- \n")
@@ -39,14 +40,19 @@ programa
 		escreva("    --> Soma dos pares: ", somaPares)
 		escreva("\n")
 
-		escreva("Valores impares nas posições: ")
+		escreva(" ---> Valores impares nas posições: ")
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){			
 			se(vet[i] % 2 != 0){
+				contaImpares++
 				somaImpares += vet[i]
 				Util.aguarde(500)
 				escreva(i, " ")
 			}
-		}
+		}		
+		escreva("\n")
+		Util.aguarde(500)
+		escreva("    --> Quantitade de impares: ", contaImpares, "\n")
+		escreva("\n")
 	}
 }
 
@@ -74,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1160; 
+ * @POSICAO-CURSOR = 1340; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
