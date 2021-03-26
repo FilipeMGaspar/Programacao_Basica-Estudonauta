@@ -6,8 +6,9 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[10]
-		inteiro somaPares = 0, somaImpares = 0
-		inteiro contaImpares = 0, maior = 0
+		inteiro somaPares = 0 
+		inteiro contaImpares = 0, somaImpares = 0
+		inteiro maior = 0, numVsMaior = 0
 		
 		escreva("{ EXERCICIO 060 - Analisando Números } \n")
 		escreva("-------------------------------------- \n")
@@ -64,11 +65,20 @@ programa
 			}senao{
 				se(vet[i] > maior){
 						maior = vet[i]
+						numVsMaior++
 				}
 			}			
 		}
+		Util.aguarde(500)
 		escreva(" ---> Maior valor sorteado: ", maior, "\n")
-		
+		escreva("    --> O maior valor encontra-se nas posições: ")
+		//Pesquisa da posição das ocorrencias
+		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
+			se(vet[i] == maior){
+				escreva(i," ")	
+			}
+		}
+		escreva("    --> Total de ocorrencias: ", numVsMaior, "\n")		
 	}
 }
 
@@ -96,7 +106,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1707; 
+ * @POSICAO-CURSOR = 2029; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
