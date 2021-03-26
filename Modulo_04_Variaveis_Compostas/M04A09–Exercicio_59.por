@@ -31,10 +31,11 @@ programa
 		escreva("Alunos que ficaram acima da média: \n")
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
 			se(vet[i] > media){
-				escreva(i)
+				escreva(i, " ")
 			}
 		}
 		
+		escreva("\n")
 	}
 }
 
@@ -64,7 +65,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 861; 
+ * @POSICAO-CURSOR = 881; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
