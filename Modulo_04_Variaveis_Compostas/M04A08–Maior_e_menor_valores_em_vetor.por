@@ -6,6 +6,7 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[10]
+		inteiro maior = 0
 
 		//preencher o vetor com números aleatóreos de 1 a 5
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
@@ -20,6 +21,20 @@ programa
 		}
 		
 		escreva("FIM! \n")
+
+		//Descobrir qual o maior valor
+		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
+			se(i == 0){
+				maior = vet[i]
+			}senao{
+				se(vet[i] > maior){
+					maior = vet[i]
+				}
+			}
+		}
+		
+		escreva("\n")
+		escreva("O maior valor gerado foi ", maior, "\n")
 		
 	}
 }
@@ -28,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 288; 
+ * @POSICAO-CURSOR = 709; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
