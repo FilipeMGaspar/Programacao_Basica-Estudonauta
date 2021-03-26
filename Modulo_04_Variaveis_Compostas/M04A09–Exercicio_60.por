@@ -65,7 +65,6 @@ programa
 			}senao{
 				se(vet[i] > maior){
 						maior = vet[i]
-						numVsMaior++
 				}
 			}			
 		}
@@ -75,6 +74,7 @@ programa
 		//Pesquisa da posição das ocorrencias
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
 			se(vet[i] == maior){
+				numVsMaior++
 				Util.aguarde(500)
 				escreva(i," ")	
 			}
@@ -109,7 +109,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2042; 
+ * @POSICAO-CURSOR = 1953; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
