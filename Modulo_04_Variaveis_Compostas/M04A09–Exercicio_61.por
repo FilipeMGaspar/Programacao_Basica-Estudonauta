@@ -7,6 +7,7 @@ programa
 		cadeia nomes[6]
 		inteiro qtMaisDeSeisLtr = 0
 		caracter iniciaVogal = ' ' 
+		inteiro qtComVogalNinicio = 0
 		
 		escreva("{ EXERCICIO 061 - Analisando Nomes } \n")
 		escreva("------------------------------------ \n")
@@ -34,29 +35,32 @@ programa
 		}
 		Util.aguarde(500)
 		escreva("TOTAL = ", qtMaisDeSeisLtr)
-		escreva("\n")
+		escreva("\n\n")
 		escreva("-------------------------- \n")
 		escreva("Nomes que começam com vogal: \n")
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
-			iniciaVogal = txt.obter_caracter(nomes[i],0)
+			iniciaVogal = txt.obter_caracter(nomes[i],0)//Obtem a primeira letra do nome
 			
 			se(iniciaVogal=='a' ou iniciaVogal=='A' ou iniciaVogal=='e' ou iniciaVogal=='E'){
-				escreva("[",i,"]=",nomes[i]," ")
+				qtComVogalNinicio++
+				escreva("[",i,"]=", nomes[i]," ")
 				Util.aguarde(500)
 			}
 
 			se(iniciaVogal=='i' ou iniciaVogal=='I' ou iniciaVogal=='o' ou iniciaVogal=='O'){
-				escreva("[",i,"]=",nomes[i]," ")
+				qtComVogalNinicio++
+				escreva("[",i,"]=", nomes[i]," ")
 				Util.aguarde(500)
 			}
 
 			se(iniciaVogal=='u' ou iniciaVogal=='U'){
-				escreva("[",i,"]=",nomes[i]," ")
+				qtComVogalNinicio++
+				escreva("[",i,"]=", nomes[i]," ")
 				Util.aguarde(500)
 			}
 			
 		}
-		escreva("\n")
+		escreva("TOTAL = ", qtComVogalNinicio, "\n")
 	}
 }
 
@@ -92,7 +96,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1579; 
+ * @POSICAO-CURSOR = 1655; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
