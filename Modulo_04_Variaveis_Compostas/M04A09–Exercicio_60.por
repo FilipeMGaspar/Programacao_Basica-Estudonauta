@@ -35,8 +35,18 @@ programa
 			}
 		}
 		escreva("\n")
+		Util.aguarde(500)
 		escreva("    --> Soma dos pares: ", somaPares)
 		escreva("\n")
+
+		escreva("Valores impares nas posições: ")
+		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){			
+			se(vet[i] % 2 != 0){
+				
+				Util.aguarde(500)
+				escreva(i, " ")
+			}
+		}
 	}
 }
 
@@ -64,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 927; 
+ * @POSICAO-CURSOR = 1080; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
