@@ -3,10 +3,17 @@ programa
 	inclua biblioteca Util
 	funcao inicio()
 	{
+		cadeia nomes[6]
 		
 		escreva("{ EXERCICIO 061 - Analisando Nomes } \n")
 		escreva("------------------------------------ \n")
 		escreva("\n")
+
+		//Preenchimento do vetor
+		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
+			escreva("Nome para a posição [",i,"]: ")
+			leia(nomes[i])
+		}
 	}
 }
 
@@ -42,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 62; 
+ * @POSICAO-CURSOR = 359; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
