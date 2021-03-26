@@ -21,7 +21,9 @@ programa
 
 		media = soma / Util.numero_elementos(vet)
 
-		escreva("")
+		escreva("\n")
+		escreva("------------------------------\n")
+		escreva("A média da turma foi ", media, "\n")
 	}
 }
 
@@ -51,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 512; 
+ * @POSICAO-CURSOR = 607; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
