@@ -6,8 +6,9 @@ programa
 	{
 		cadeia nomes[6]
 		inteiro qtMaisDeSeisLtr = 0
-		caracter iniciaVogal = ' '//, contemLetraS  = ' '
-		inteiro qtComVogalNinicio = 0, contemSmi = 0, contemSma = 0
+		caracter iniciaVogal = ' '
+		inteiro qtComVogalNinicio = 0, contemSmi = 0
+		inteiro contemSma = 0, qtNomesComS = 0
 		
 		escreva("{ EXERCICIO 061 - Analisando Nomes } \n")
 		escreva("------------------------------------ \n")
@@ -71,11 +72,12 @@ programa
 			contemSmi = txt.posicao_texto("s", nomes[i],0)				
 			contemSma = txt.posicao_texto("S", nomes[i],0)
 			se(contemSma != -1 ou contemSmi !=-1){
+				qtNomesComS++
 				escreva("[",i,"]=", nomes[i]," ")
 				Util.aguarde(500)		
 			}
 		}
-		escreva("\n")
+		escreva("TOTAL= ", qtNomesComS, "\n")
 		escreva("-------------------------- \n")
 	}
 }
@@ -112,7 +114,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2056; 
+ * @POSICAO-CURSOR = 2172; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
