@@ -7,6 +7,7 @@ programa
 		cadeia nomes[6]
 		inteiro qtMaisDeSeisLtr = 0
 		caracter iniciaVogal = ' '
+		cadeia vogalMaius = "aeiou", vogalMinus = "AEIOU" 
 		
 		escreva("{ EXERCICIO 061 - Analisando Nomes } \n")
 		escreva("------------------------------------ \n")
@@ -40,7 +41,7 @@ programa
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
 			iniciaVogal = txt.obter_caracter(nomes[i],0)
 			
-			se(iniciaVogal=='a' ou iniciaVogal=='A' ou iniciaVogal=='e' ou iniciaVogal=='E'){
+			se(iniciaVogal=='e' ou iniciaVogal=='E'){
 				escreva("[",i,"]=",nomes[i]," ")
 				Util.aguarde(500)
 			}
@@ -81,7 +82,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 70; 
+ * @POSICAO-CURSOR = 222; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
