@@ -6,6 +6,7 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[10]
+		inteiro somaPares = 0
 		
 		escreva("{ EXERCICIO 060 - Analisando Números } \n")
 		escreva("-------------------------------------- \n")
@@ -28,11 +29,13 @@ programa
 		escreva("  ---> Valores pares nas posições:  ")
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){			
 			se(vet[i] % 2 == 0){
+				somaPares += vet[i]
 				Util.aguarde(500)
 				escreva(i, " ")
 			}
 		}
-		escreva("    --> Soma dos pares: ")
+		escreva("\n")
+		escreva("    --> Soma dos pares: ", somaPares)
 		escreva("\n")
 	}
 }
@@ -61,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 830; 
+ * @POSICAO-CURSOR = 927; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
