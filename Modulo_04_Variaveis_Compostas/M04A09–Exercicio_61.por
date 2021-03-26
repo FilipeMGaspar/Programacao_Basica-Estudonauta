@@ -68,13 +68,9 @@ programa
 		escreva("Nomes que possuem letra S: \n")
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
 			
-			contemSmi = txt.posicao_texto("s", nomes[i],0)	
-			se(contemSmi != -1){
-				escreva("[",i,"]=", nomes[i]," ")
-				Util.aguarde(500)		
-			}
+			contemSmi = txt.posicao_texto("s", nomes[i],0)				
 			contemSma = txt.posicao_texto("S", nomes[i],0)
-			se(contemSma != -1){
+			se(contemSma != -1 ou contemSmi !=-1){
 				escreva("[",i,"]=", nomes[i]," ")
 				Util.aguarde(500)		
 			}
@@ -116,7 +112,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2219; 
+ * @POSICAO-CURSOR = 2056; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
