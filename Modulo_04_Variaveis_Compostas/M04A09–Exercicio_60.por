@@ -75,9 +75,12 @@ programa
 		//Pesquisa da posição das ocorrencias
 		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
 			se(vet[i] == maior){
+				Util.aguarde(500)
 				escreva(i," ")	
 			}
 		}
+		escreva("\n")
+		Util.aguarde(500)
 		escreva("    --> Total de ocorrencias: ", numVsMaior, "\n")		
 	}
 }
@@ -106,7 +109,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2029; 
+ * @POSICAO-CURSOR = 2042; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
