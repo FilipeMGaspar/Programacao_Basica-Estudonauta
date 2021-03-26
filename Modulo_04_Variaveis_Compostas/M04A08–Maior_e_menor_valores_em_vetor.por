@@ -35,6 +35,13 @@ programa
 		
 		escreva("\n")
 		escreva("O maior valor gerado foi ", maior, "\n")
+
+		//Posição da ocorrencia
+		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
+			se(vet[i] == maior){
+				escreva("Encontrei o maior valor na posição ", i,"\n")
+			}
+		}
 		
 	}
 }
@@ -43,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 709; 
+ * @POSICAO-CURSOR = 877; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
