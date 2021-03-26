@@ -5,6 +5,7 @@ programa
 	funcao inicio()
 	{
 		cadeia nomes[6]
+		inteiro qtMaisDeSeisLtr = 0
 		
 		escreva("{ EXERCICIO 061 - Analisando Nomes } \n")
 		escreva("------------------------------------ \n")
@@ -15,18 +16,24 @@ programa
 			escreva("Nome para a posição [",i,"]: ")
 			leia(nomes[i])
 		}
-		escreva("==== 6 NOMES CADASTRADOS COM SUCESSO ==== \n")
+		escreva("\n==== 6 NOMES CADASTRADOS COM SUCESSO ==== \n")
 
 		escreva("\n")
 		escreva("--------- ANALISANDO --------- \n")
 		Util.aguarde(1000)
+		
 		escreva("Nomes com menos de 6 letras \n")
 		//Pesquisa por nomes com menos de 6 letras
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
-			se(txt.numero_caracteres(nomes[i])<6){
+			
+			se(txt.numero_caracteres(nomes[i]) < 6){				
+				qtMaisDeSeisLtr++
 				escreva("[",i,"]=",nomes[i]," ")
+				Util.aguarde(500)
 			}
 		}
+		Util.aguarde(500)
+		escreva("TOTAL = ", qtMaisDeSeisLtr)
 		escreva("\n")
 	}
 }
@@ -63,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 788; 
+ * @POSICAO-CURSOR = 795; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
