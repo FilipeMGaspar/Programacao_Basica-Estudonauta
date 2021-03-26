@@ -1,14 +1,27 @@
 programa
 {
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
+		real vet[6]
+		real soma = 0.0, media = 0.0
+	
 		escreva("{ EXERCICIO 059 - Acima da Média } \n")
 		escreva("---------------------------------- \n")
 		escreva("\tESCOLA ESTUDONAUTA \n")
 		escreva("---------------------------------- \n")
 		escreva("\n")
 		
+		para(inteiro i = 0; i < Util.numero_elementos(vet); i++){
+			escreva("Nota do aluno ",i ,": ")
+			leia(vet[i])
+			soma += vet[i]
+		}
+
+		media = soma / Util.numero_elementos(vet)
+
+		escreva("")
 	}
 }
 
@@ -38,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 247; 
+ * @POSICAO-CURSOR = 512; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
