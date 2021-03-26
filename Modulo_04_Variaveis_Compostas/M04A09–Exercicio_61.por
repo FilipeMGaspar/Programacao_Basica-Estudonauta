@@ -22,7 +22,7 @@ programa
 		escreva("--------- ANALISANDO --------- \n")
 		Util.aguarde(1000)
 		
-		escreva("Nomes com menos de 6 letras \n")
+		escreva("Nomes com menos de 6 letras: \n")
 		//Pesquisa por nomes com menos de 6 letras
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
 			
@@ -34,6 +34,9 @@ programa
 		}
 		Util.aguarde(500)
 		escreva("TOTAL = ", qtMaisDeSeisLtr)
+		escreva("\n")
+		escreva("-------------------------- \n")
+		escreva("Nomes que começam com vogal: \n")
 		escreva("\n")
 	}
 }
@@ -70,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 795; 
+ * @POSICAO-CURSOR = 610; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
