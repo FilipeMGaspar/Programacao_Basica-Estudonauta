@@ -6,7 +6,7 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[10]
-		inteiro maior = 0
+		inteiro maior = 0, menor = 0
 
 		//preencher o vetor com números aleatóreos de 1 a 5
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
@@ -26,9 +26,14 @@ programa
 		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
 			se(i == 0){
 				maior = vet[i]
+				menor = vet[i]
 			}senao{
 				se(vet[i] > maior){
 					maior = vet[i]
+				}
+
+				se(vet[i] < menor){
+					menor = vet[i]
 				}
 			}
 		}
@@ -42,7 +47,15 @@ programa
 				escreva("Encontrei o maior valor na posição ", i,"\n")
 			}
 		}
-		
+
+		escreva("\n")
+		escreva("o menor valor gerado foi ", menor, "\n")
+		//Posição da ocorrencia
+		para(inteiro i=0; i < Util.numero_elementos(vet); i++){
+			se(vet[i] == menor){
+				escreva("Encontrei o menor valor na posição ", i,"\n")
+			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -50,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 877; 
+ * @POSICAO-CURSOR = 1144; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
