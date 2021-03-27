@@ -3,7 +3,9 @@ programa
 	
 	funcao inicio()
 	{
-		
+		cadeia nomes[6]
+		caracter sexo[6]
+		real salarios[6]
 		
 		escreva("{ EXERCICIO 062 - Listagem de Dados } \n")
 		escreva("------------------------------------- \n")
@@ -62,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 35; 
+ * @POSICAO-CURSOR = 337; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
