@@ -43,17 +43,25 @@ programa
 			faca{
 				escreva("SALÁRIO: R$ ")
 				leia(salario)
+				//Verrifica se o valor na string é real
 				se(Tipos.cadeia_e_real(salario)){
 					salarios[i] = Tipos.cadeia_para_real(salario) //Conversão de string para número real, isto é, com ponto flutuante
+					
+					//Verrifica se o salário é menor ou igual a zero, o programa não aceita salário menor ou igual a 0
 					se(salarios[i] > 0.0){
-						salarios[i] = Tipos.cadeia_para_real(salario)	
+						salarios[i] = Tipos.cadeia_para_real(salario)						
 					}senao{
+						
 						escreva("   <<ERRO>> O valor do salário não pode ser menor ou igual a 0! \n")
 					}
-				} senao {
+				} senao { //Para o caso de o valor na string não ser rela pode ser inteiro nesse caso vamos converte-lo para real
+					
+					//Verifica se o valor na string é inteiro	
 					se(Tipos.cadeia_e_inteiro(salario, 10)){
 						recebeSal = Tipos.cadeia_para_inteiro(salario, 10) // Conversão de string para inteiro
 						salarios[i] = Tipos.inteiro_para_real(recebeSal) //Conversão de número inteiro para real
+						
+						//Verrifica se o salário é menor ou igual a zero, o programa não aceita salário menor ou igual a 0
 						se(salarios[i] > 0.0){
 							salarios[i] = Tipos.cadeia_para_real(salario)	
 						}senao{
@@ -119,7 +127,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2233; 
+ * @POSICAO-CURSOR = 472; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
