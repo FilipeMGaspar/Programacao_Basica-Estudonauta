@@ -86,17 +86,21 @@ programa
 
 			//Vamos mostrar a listagem no ecrã através bloco de código abaixo
 			escreva("\n\n")
+			Util.aguarde(500)
 			escreva("\t\tLISTAGEM COMPLETA \n")
+			Util.aguarde(1000)
 			escreva("---------------------------------------------------- \n")
 			escreva("| NOME \t\t\t | SEXO \t | SALÁRIO | \n")
 			escreva("---------------------------------------------------- \n")
 			para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
 				se(txt.numero_caracteres(nomes[i]) < 5){
-					escreva("| ", nomes[i], " \t\t\t     ", sexos[i], " \t\t   ", mat.arredondar(salarios[i],2), " | \n")	
+					Util.aguarde(500)
+					escreva("  ", nomes[i], " \t\t\t     ", sexos[i], " \t\t   ", mat.arredondar(salarios[i],2), " \n")	
 				}senao{
-					escreva("| ", nomes[i], " \t\t     ", sexos[i], " \t\t   ", mat.arredondar(salarios[i],2), " | \n")	
+					Util.aguarde(500)
+					escreva("  ", nomes[i], " \t\t     ", sexos[i], " \t\t   ", mat.arredondar(salarios[i],2), "  \n")	
 				}
-				
+				Util.aguarde(500)
 			}
 		//Fim do se para evitar erros no caso dos vetores term tamanhos diferentes
 		}senao{
@@ -156,7 +160,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3959; 
+ * @POSICAO-CURSOR = 3891; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
