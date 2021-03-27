@@ -5,7 +5,6 @@ programa
 	inclua biblioteca Texto --> txt
 	inclua biblioteca Tipos
 	inclua biblioteca Matematica --> mat
-	inclua biblioteca Graficos --> graf
 			
 	funcao inicio()
 	{
@@ -86,7 +85,7 @@ programa
 			}//Fim do preenchimento do vetor
 
 			//Vamos mostrar a listagem no ecrã através bloco de código abaixo
-			graf.limpar()
+			limpa()//Limpa o console do portugol studio
 			escreva("\n\n")
 			Util.aguarde(500)
 			escreva("\t\tLISTAGEM COMPLETA \n")
@@ -162,7 +161,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3505; 
+ * @POSICAO-CURSOR = 212; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
