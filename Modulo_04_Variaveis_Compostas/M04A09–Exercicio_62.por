@@ -7,14 +7,15 @@ programa
 			
 	funcao inicio()
 	{
-		cadeia nomes[6]
-		caracter sexos[6]
-		real salarios[6]
+		cadeia nomes[2]
+		caracter sexos[2]
+		real salarios[2]
 		cadeia salario//Vai receber o salário vindo do teclado para depois verificarmos se é o pretendido
 		inteiro recebeSal // Vai receber o salário no caso de o valor digitado ser inteiro para depois ser convertido em número real
 		
 		escreva("{ EXERCICIO 062 - Listagem de Dados } \n")
 		escreva("------------------------------------- \n")
+		
 		
 		//Para evitar erros se por algum motivo o tamanho dos vetores não sejam iguais
 		inteiro numElemNomes = Util.numero_elementos(nomes)
@@ -82,6 +83,15 @@ programa
 				}enquanto(salarios[i] <= 0.0)		
 			}//Fim do preenchimento do vetor
 
+			//Vamos mostrar a listagem no ecrã através bloco de código abaixo
+			escreva("\n\n")
+			escreva("\tLISTAGEM COMPLETA \n")
+			escreva("-------------------------------------------- \n")
+			escreva("| NOME \t\t | SEXO \t | SALÁRIO | \n")
+			escreva("-------------------------------------------- \n")
+			/*para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
+				
+			}*/
 		//Fim do se para evitar erros no caso dos vetores term tamanhos diferentes
 		}senao{
 			escreva("\n << ERRO [ 0 0 1 ] >> Os seus vetores não têm o mesmo tamanho! \n")
@@ -140,7 +150,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 174; 
+ * @POSICAO-CURSOR = 3643; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
