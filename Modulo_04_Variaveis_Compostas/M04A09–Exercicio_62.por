@@ -89,9 +89,9 @@ programa
 			escreva("-------------------------------------------- \n")
 			escreva("| NOME \t\t | SEXO \t | SALÁRIO | \n")
 			escreva("-------------------------------------------- \n")
-			/*para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
-				
-			}*/
+			para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
+				escreva("| ",nomes[i]," \t\t | ",sexos[i]," \t | ",salarios[i]," | \n")	
+			}
 		//Fim do se para evitar erros no caso dos vetores term tamanhos diferentes
 		}senao{
 			escreva("\n << ERRO [ 0 0 1 ] >> Os seus vetores não têm o mesmo tamanho! \n")
@@ -150,7 +150,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3643; 
+ * @POSICAO-CURSOR = 3780; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
