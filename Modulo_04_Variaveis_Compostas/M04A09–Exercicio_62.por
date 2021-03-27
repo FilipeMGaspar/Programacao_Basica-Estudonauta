@@ -7,7 +7,7 @@ programa
 	funcao inicio()
 	{
 		cadeia nomes[6]
-		caracter sexo[6]
+		caracter sexos[6]
 		real salarios[6]
 		
 		escreva("{ EXERCICIO 062 - Listagem de Dados } \n")
@@ -23,9 +23,18 @@ programa
 				escreva("NOME: ")
 				leia(nomes[i])
 				se(txt.numero_caracteres(nomes[i]) < 3){
-					escreva("<<ERRO>> O NOME deve conter pelo menos 3 caracteres \n")
+					escreva("   <<ERRO>> O NOME deve conter pelo menos 3 caracteres! \n")
 				}
 			}enquanto(txt.numero_caracteres(nomes[i]) < 3)			
+
+			//Vamos validar o SEXO só vai aceitar m; M Ou f; F
+			faca{
+				escreva("SEXO [M/F]: ")
+				leia(sexos[i])
+				se(sexos[i] != 'f' e sexos[i] != 'F' e sexos[i] != 'm' e sexos[i] != 'M'){
+					escreva("   <<ERRO>> O SEXO Digitado não é válido! Digite [M/F] \n")
+				}
+			}enquanto(sexos[i] != 'f' e sexos[i] != 'F' e sexos[i] != 'm' e sexos[i] != 'M')
 		}
 	}
 }
@@ -80,7 +89,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 700; 
+ * @POSICAO-CURSOR = 1020; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
