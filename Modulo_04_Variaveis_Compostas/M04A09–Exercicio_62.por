@@ -85,12 +85,17 @@ programa
 
 			//Vamos mostrar a listagem no ecrã através bloco de código abaixo
 			escreva("\n\n")
-			escreva("\tLISTAGEM COMPLETA \n")
-			escreva("-------------------------------------------- \n")
-			escreva("| NOME \t\t | SEXO \t | SALÁRIO | \n")
-			escreva("-------------------------------------------- \n")
+			escreva("\t\tLISTAGEM COMPLETA \n")
+			escreva("---------------------------------------------------- \n")
+			escreva("| NOME \t\t\t | SEXO \t | SALÁRIO | \n")
+			escreva("---------------------------------------------------- \n")
 			para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
-				escreva("| ",nomes[i]," \t\t | ",sexos[i]," \t | ",salarios[i]," | \n")	
+				se(txt.numero_caracteres(nomes[i]) < 5){
+					escreva("| ",nomes[i]," \t\t\t     ",sexos[i]," \t\t   ",salarios[i]," | \n")	
+				}senao{
+					escreva("| ",nomes[i]," \t\t     ",sexos[i]," \t\t   ",salarios[i]," | \n")	
+				}
+				
 			}
 		//Fim do se para evitar erros no caso dos vetores term tamanhos diferentes
 		}senao{
@@ -150,7 +155,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3780; 
+ * @POSICAO-CURSOR = 3929; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
