@@ -45,11 +45,11 @@ programa
 				se(Tipos.cadeia_e_real(salario)){
 					salarios[i] = Tipos.cadeia_para_real(salario)
 				} senao {
-					escreva("   <<ERRO>> Esperava um valor numérico! \n")
+					escreva("   <<ERRO>> Valor deigitado inválido! !! Exemplo !! 759.59 \n")
 				}
-				//salario leia(salarios[i])
 				
-			}enquanto(salarios[i] < 0)	
+				
+			}enquanto(nao Tipos.cadeia_e_real(salario))	
 			
 		}
 	}
@@ -105,7 +105,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1549; 
+ * @POSICAO-CURSOR = 1557; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
