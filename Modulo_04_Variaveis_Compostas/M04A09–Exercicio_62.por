@@ -2,6 +2,7 @@ programa
 {
 	
 	inclua biblioteca Util
+	inclua biblioteca Texto --> txt
 			
 	funcao inicio()
 	{
@@ -13,10 +14,18 @@ programa
 		escreva("------------------------------------- \n")
 		escreva("\n")
 
+		//Preenchimento do vetor com os dados vindos do teclado
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
 			escreva("===== CADASTRO ", i, " ===== \n")
-			escreva("NOME: ")
-			leia(nomes[i])			
+			
+			//Vamos validar os dados obrigando a que o nome tenha pelo menos 3 caracteres
+			faca{
+				escreva("NOME: ")
+				leia(nomes[i])
+				se(txt.numero_caracteres(nomes[i]) < 3){
+					escreva("<<ERRO>> O NOME deve conter pelo menos 3 caracteres \n")
+				}
+			}enquanto(txt.numero_caracteres(nomes[i]) < 3)			
 		}
 	}
 }
@@ -71,7 +80,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 391; 
+ * @POSICAO-CURSOR = 700; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
