@@ -57,7 +57,7 @@ programa
 						se(salarios[i] > 0.0){
 							salarios[i] = Tipos.cadeia_para_real(salario)	
 						}senao{
-							escreva("   <<ERRO>> O valor do salário não pode ser menor ou igual a 0! | Exemplo  759.59 \n")
+							escreva("   <<ERRO>> O valor do salário não pode ser menor ou igual a 0! \n")
 						}
 					}senao{
 						escreva("   <<ERRO>> Esperava um valor numérico! \n")
@@ -119,7 +119,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1828; 
+ * @POSICAO-CURSOR = 2233; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
