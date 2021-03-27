@@ -7,9 +7,9 @@ programa
 			
 	funcao inicio()
 	{
-		cadeia nomes[6]
-		caracter sexos[8]
-		real salarios[6]
+		cadeia nomes[8]
+		caracter sexos[6]
+		real salarios[7]
 		cadeia salario//Vai receber o salário vindo do teclado para depois verificarmos se é o pretendido
 		inteiro recebeSal // Vai receber o salário no caso de o valor digitado ser inteiro para depois ser convertido em número real
 		
@@ -84,8 +84,8 @@ programa
 
 		//Fim do se para evitar erros no caso dos vetores term tamanhos diferentes
 		}senao{
-			escreva("\n << ERRO [001] >> Os seus vetores não têm o mesmo tamanho! \n")
-			escreva("        [001] --> Corrija o tamanho dos vetores para poder executar este programa!! \n")
+			escreva("\n << ERRO [ 0 0 1 ] >> Os seus vetores não têm o mesmo tamanho! \n")
+			escreva("\n        [ 0 0 1 ] --> Corrija o tamanho dos vetores para poder executar este PROGRAMA!! \n")
 		}
 	}
 }
@@ -140,7 +140,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3526; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
