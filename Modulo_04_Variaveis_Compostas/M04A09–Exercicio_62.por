@@ -95,10 +95,10 @@ programa
 			para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
 				se(txt.numero_caracteres(nomes[i]) < 5){
 					Util.aguarde(500)
-					escreva("  ", nomes[i], " \t\t\t     ", sexos[i], " \t\t   R$ ", mat.arredondar(salarios[i],2), " \n")	
+					escreva("  ", nomes[i], " \t\t\t     ", sexos[i], " \t\t R$ ", mat.arredondar(salarios[i],2), " \n")	
 				}senao{
 					Util.aguarde(500)
-					escreva("  ", nomes[i], " \t\t     ", sexos[i], " \t\t   R$ ", mat.arredondar(salarios[i],2), "  \n")	
+					escreva("  ", nomes[i], " \t\t     ", sexos[i], " \t\t R$ ", mat.arredondar(salarios[i],2), "  \n")	
 				}
 				Util.aguarde(500)
 			}
@@ -160,7 +160,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4085; 
+ * @POSICAO-CURSOR = 4078; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
