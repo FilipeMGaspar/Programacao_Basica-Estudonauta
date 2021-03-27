@@ -45,19 +45,23 @@ programa
 				leia(salario)
 				se(Tipos.cadeia_e_real(salario)){
 					salarios[i] = Tipos.cadeia_para_real(salario) //Conversão de string para número real, isto é, com ponto flutuante
+					se(salarios[i] > 0.0){
+						salarios[i] = Tipos.cadeia_para_real(salario)	
+					}senao{
+						escreva("   <<ERRO>> O valor do salário não pode ser menor ou igual a 0! \n")
+					}
 				} senao {
 					se(Tipos.cadeia_e_inteiro(salario, 10)){
 						recebeSal = Tipos.cadeia_para_inteiro(salario, 10) // Conversão de string para inteiro
 						salarios[i] = Tipos.inteiro_para_real(recebeSal) //Conversão de número inteiro para real
+						se(salarios[i] > 0.0){
+							salarios[i] = Tipos.cadeia_para_real(salario)	
+						}senao{
+							escreva("   <<ERRO>> O valor do salário não pode ser menor ou igual a 0! | Exemplo  759.59 \n")
+						}
 					}senao{
 						escreva("   <<ERRO>> Esperava um valor numérico! \n")
 					}
-				}
-				se(salarios[i] > 0.0){
-					salarios[i] = Tipos.cadeia_para_real(salario)	
-				}senao{
-					escreva("   <<ERRO>> O valor do salário não pode ser menor ou igual a 0! | Exemplo  759.59 \n")
-					escreva(salarios[i], "\n")
 				}				
 			}enquanto(salarios[i] <= 0.0)	
 			
@@ -115,7 +119,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1939; 
+ * @POSICAO-CURSOR = 1828; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
