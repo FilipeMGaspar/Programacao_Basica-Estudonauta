@@ -3,19 +3,21 @@ programa
 	
 	inclua biblioteca Util
 	inclua biblioteca Texto --> txt
+	inclua biblioteca Tipos
 			
 	funcao inicio()
 	{
 		cadeia nomes[6]
 		caracter sexos[6]
 		real salarios[6]
+		cadeia salario//Vai receber o salário vindo do teclado para depois verificarmos se é o pretendido
 		
 		escreva("{ EXERCICIO 062 - Listagem de Dados } \n")
 		escreva("------------------------------------- \n")
-		escreva("\n")
 
 		//Preenchimento do vetor com os dados vindos do teclado
 		para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
+			escreva("\n")
 			escreva("===== CADASTRO ", i, " ===== \n")
 			
 			//Vamos validar os dados obrigando a que o nome tenha pelo menos 3 caracteres
@@ -35,6 +37,20 @@ programa
 					escreva("   <<ERRO>> O SEXO Digitado não é válido! Digite [M/F] \n")
 				}
 			}enquanto(sexos[i] != 'f' e sexos[i] != 'F' e sexos[i] != 'm' e sexos[i] != 'M')
+
+			//Vamos validar o salário evitando a digitação de números negativos e de caracteres
+			faca{
+				escreva("SALÁRIO: R$ ")
+				leia(salario)
+				se(Tipos.cadeia_e_real(salario)){
+					salarios[i] = Tipos.cadeia_para_real(salario)
+				} senao {
+					escreva("   <<ERRO>> Esperava um valor numérico! \n")
+				}
+				//salario leia(salarios[i])
+				
+			}enquanto(salarios[i] < 0)	
+			
 		}
 	}
 }
@@ -89,7 +105,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1020; 
+ * @POSICAO-CURSOR = 1549; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
