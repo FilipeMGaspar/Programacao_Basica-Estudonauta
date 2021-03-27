@@ -7,9 +7,9 @@ programa
 			
 	funcao inicio()
 	{
-		cadeia nomes[8]
+		cadeia nomes[6]
 		caracter sexos[6]
-		real salarios[7]
+		real salarios[6]
 		cadeia salario//Vai receber o salário vindo do teclado para depois verificarmos se é o pretendido
 		inteiro recebeSal // Vai receber o salário no caso de o valor digitado ser inteiro para depois ser convertido em número real
 		
@@ -140,7 +140,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 135; 
+ * @POSICAO-CURSOR = 174; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
