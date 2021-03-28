@@ -106,7 +106,9 @@ programa
 					escreva("\t-> ", nomes[i], "\n")
 				}
 			}
+			Util.aguarde(500)
 			escreva("\n------------------------------------ \n")
+			Util.aguarde(350)
 			escreva("\t Obrigado. Volte Sempre!\n")	
 		} senao {
 			escreva("\n")
@@ -156,7 +158,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4113; 
+ * @POSICAO-CURSOR = 4128; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
