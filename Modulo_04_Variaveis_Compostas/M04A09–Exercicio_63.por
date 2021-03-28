@@ -106,7 +106,8 @@ programa
 					escreva("\t-> ", nomes[i], "\n")
 				}
 			}
-				
+			escreva("\n------------------------------------ \n")
+			escreva("\t Obrigado. Volte Sempre!\n")	
 		} senao {
 			escreva("\n")
 			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
@@ -155,7 +156,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4016; 
+ * @POSICAO-CURSOR = 4113; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
