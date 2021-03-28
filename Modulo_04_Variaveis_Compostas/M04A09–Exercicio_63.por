@@ -19,7 +19,7 @@ programa
 		} senao {
 			escreva("\n")
 			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
-			escreva("    ->  [ 0 1 ] -> Vetores de tamanho diferentes. Corrija para poder prosseguir\n")
+			escreva("\n    ERRO [ 0 1 ] > Vetores de tamanho diferentes. Por favor corrija! \n")
 		}		
 	}
 }
@@ -64,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 75; 
+ * @POSICAO-CURSOR = 579; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
