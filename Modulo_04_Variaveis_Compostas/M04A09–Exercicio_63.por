@@ -60,6 +60,7 @@ programa
 			}
 
 			//Bloco de código para mostrar os resultados no ecrã
+			//limpa()//Limpa o console mostrando apenas o resultado
 			escreva("\n")
 			escreva(" ====== ANALISANDO AS PESSOAS CADASTRADAS ====== \n")
 			
@@ -96,6 +97,9 @@ programa
 			}
 			Util.aguarde(500)
 			escreva("\n  > Maior idade do grupo ", maiorIdadeG, " Anos \n")
+
+			//Pesquisa pela maior idade no grupo mostrando os nomes das pessoas através da posição do vetor idades que é igual á posição no vetor nomes
+			
 				
 		} senao {
 			escreva("\n")
@@ -145,7 +149,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3512; 
+ * @POSICAO-CURSOR = 3731; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
