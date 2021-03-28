@@ -12,6 +12,7 @@ programa
 		inteiro idades[2], somaIdades = 0
 		cadeia recbIdade // cadeia utilizada para receber as idades através do tecla evitando erros a idade é um valor inteiro
 		real mediaIdades = 0.0
+		inteiro maiorIdadeG = 0
 		
 		escreva(" { EXERCICIO 063 - Pessoas e Idades } \n")
 		escreva("------------------------------------- \n")
@@ -68,17 +69,33 @@ programa
 			}
 			mediaIdades = Tipos.inteiro_para_real(somaIdades) / Util.numero_elementos(idades) // Calculo da média
 			Util.aguarde(1000)
-			escreva("Média de idade ", mat.arredondar(mediaIdades,2), " anos \n")
+			escreva("\n Média de idade ", mat.arredondar(mediaIdades,2), " anos \n")
 			Util.aguarde(500)
-			escreva("Pessoas acima da média: \n")
+			escreva("\n  > Pessoas acima da média: \n")
 			
 			//Pesquisa pelas idades acima da média
 			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
 				//Verifica se a idade está cima da média se estiver mostra o nome correspondente no vetor nomes através da sua posição  no vetor idades
 				se(idades[i] > mediaIdades){
-					escreva("\t-> ", nomes[i], "(", idades[i], " Anos) \n")
+					Util.aguarde(500)
+					escreva("\t-> ", nomes[i], " (", idades[i], " Anos) \n")
 				}
 			}
+
+			//Pesquisa pela maior idade no grupo
+			Util.aguarde(350)
+			escreva("\n------------------------------------\n")
+			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
+				se(i == 0){
+					maiorIdadeG = idades[i]
+				}senao{
+					se(idades[i] > maiorIdadeG){
+						maiorIdadeG = idades[i]
+					}
+				}
+			}
+			Util.aguarde(500)
+			escreva("\n  > Maior idade do grupo ", maiorIdadeG, " Anos \n")
 				
 		} senao {
 			escreva("\n")
@@ -128,7 +145,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3040; 
+ * @POSICAO-CURSOR = 3512; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
