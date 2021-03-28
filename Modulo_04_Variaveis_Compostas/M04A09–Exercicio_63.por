@@ -2,19 +2,31 @@ programa
 {
 	
 	inclua biblioteca Util
+	inclua biblioteca Texto --> txt
 	
 	funcao inicio()
 	{
 		cadeia nomes[2]
-		inteiro idades[3]
+		inteiro idades[2]
 		
 		escreva(" { EXERCICIO 063 - Pessoas e Idades } \n")
 		escreva("------------------------------------- \n")
 
 		//O programa só executa se os vetores tiverem o mesmo tamanho
 		se(Util.numero_elementos(nomes) == Util.numero_elementos(idades)){
+
+			//Preenchimento do vetor com dados vindos do teclado
 			para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
-				escreva("Nome da pessoa [",i,"]: ")
+
+				//O programa só vai aceitar nomes com 3 ou mais caracteres
+				faca{
+					escreva("Nome da pessoa [",i,"]: ")
+					leia(nomes[i])
+					//vamos verificar se o nome tem menos de 3 carateres se tiver imprime um erro
+					se(txt.numero_caracteres(nomes[i]) < 3){
+						escreva("  <<ERRO>> O nome deve ter pelo menos 3 caracteres!")
+					}
+				}enquanto(txt.numero_caracteres(nomes[i]) < 3)
 			}	
 		} senao {
 			escreva("\n")
@@ -64,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 579; 
+ * @POSICAO-CURSOR = 834; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
