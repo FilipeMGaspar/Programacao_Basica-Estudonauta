@@ -22,10 +22,15 @@ programa
 				faca{
 					escreva("Nome da pessoa [",i,"]: ")
 					leia(nomes[i])
+					
 					//vamos verificar se o nome tem menos de 3 carateres se tiver imprime um erro
 					se(txt.numero_caracteres(nomes[i]) < 3){
-						escreva("  <<ERRO>> O nome deve ter pelo menos 3 caracteres!")
+						escreva("  <<ERRO>> O nome deve ter pelo menos 3 caracteres! \n")
 					}
+
+					escreva("Idade de ",nomes[i],": ")
+					leia(idades[i])
+					
 				}enquanto(txt.numero_caracteres(nomes[i]) < 3)
 			}	
 		} senao {
@@ -76,7 +81,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 834; 
+ * @POSICAO-CURSOR = 911; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
