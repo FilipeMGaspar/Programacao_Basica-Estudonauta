@@ -3,7 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		escreva(" { EXERCICIO 063 - Pessoas e Idades } \n")
+		escreva("------------------------------------- \n")
+
+		para(inteiro i = 0; i < 6; i++){
+			escreva("")
+		}
 	}
 }
 
@@ -47,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 60; 
+ * @POSICAO-CURSOR = 189; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
