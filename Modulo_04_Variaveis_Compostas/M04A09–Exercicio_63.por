@@ -8,8 +8,9 @@ programa
 	funcao inicio()
 	{
 		cadeia nomes[2]
-		inteiro idades[2]
+		inteiro idades[2], somaIdades = 0
 		cadeia recbIdade // cadeia utilizada para receber as idades através do tecla evitando erros a idade é um valor inteiro
+		real mediaIdades = 0.0
 		
 		escreva(" { EXERCICIO 063 - Pessoas e Idades } \n")
 		escreva("------------------------------------- \n")
@@ -58,8 +59,12 @@ programa
 			//Bloco de código para mostrar os resultados no ecrã
 			escreva("\n")
 			escreva(" ====== ANALISANDO AS PESSOAS CADASTRADAS ====== \n")
+			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
+				somaIdades += idades[i]
+			}
+			mediaIdades = Tipos.inteiro_para_real(somaIdades) / Util.numero_elementos(idades)
 			Util.aguarde(1000)
-			escreva("Média de idade "," anos \n")
+			escreva("Média de idade ", mediaIdades, " anos \n")
 		} senao {
 			escreva("\n")
 			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
@@ -108,7 +113,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2141; 
+ * @POSICAO-CURSOR = 2370; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
