@@ -4,6 +4,7 @@ programa
 	inclua biblioteca Util
 	inclua biblioteca Texto --> txt
 	inclua biblioteca Tipos
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -64,7 +65,7 @@ programa
 			}
 			mediaIdades = Tipos.inteiro_para_real(somaIdades) / Util.numero_elementos(idades)
 			Util.aguarde(1000)
-			escreva("Média de idade ", mediaIdades, " anos \n")
+			escreva("Média de idade ", mat.arredondar(mediaIdades,2), " anos \n")
 		} senao {
 			escreva("\n")
 			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
@@ -113,7 +114,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2370; 
+ * @POSICAO-CURSOR = 2647; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
