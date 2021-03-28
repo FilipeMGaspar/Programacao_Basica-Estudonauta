@@ -28,7 +28,7 @@ programa
 					escreva("Nome da pessoa [",i,"]: ")
 					leia(nomes[i])
 					
-					//vamos verificar se o nome tem menos de 3 carateres se tiver imprime um erro
+					//Verifica se o nome tem menos de 3 carateres se tiver imprime um erro
 					se(txt.numero_caracteres(nomes[i]) < 3){
 						escreva("  <<ERRO>> O nome deve ter pelo menos 3 caracteres! \n")
 					}
@@ -38,11 +38,11 @@ programa
 						escreva("Idade de ",nomes[i],": ")
 						leia(recbIdade)
 						
-						//Vamos verificar se a string contem um número inteiro
+						//Verifica se a string contem um número inteiro
 						se(Tipos.cadeia_e_inteiro(recbIdade, 10)){
 							idades[i] = Tipos.cadeia_para_inteiro(recbIdade, 10)
 
-							//Vamos veririficar se a idade é maior ou igual a 0 e menor que 130 se for imprime um erro
+							//Veririfica se a idade é maior ou igual a 0 e menor que 130 se for imprime um erro
 							se(idades[i] <= 0 ou idades[i] > 130){
 								escreva("  <<ERRO>> Idade inválida! Idade entre 1 e 130 anos! \n")
 							}senao{ 
@@ -50,7 +50,8 @@ programa
 							}
 							
 						}senao{
-							escreva("  <<ERRO>> Esperava um valor Numério inteiro! Exemplo:  11 \n")
+							inteiro exIdade = sorteia(1 , 100) //Sorteia um número inteiro entre 1 e 100 para mostrar como exemplo
+							escreva("  <<ERRO>> Esperava um valor Numério inteiro! Exemplo:  ", exIdade, "\n")
 						}
 					}enquanto(idades[i] <= 0 ou idades[i] > 130)	
 					
@@ -60,12 +61,17 @@ programa
 			//Bloco de código para mostrar os resultados no ecrã
 			escreva("\n")
 			escreva(" ====== ANALISANDO AS PESSOAS CADASTRADAS ====== \n")
+			//Soma as idades para depois podermos calcular a média
 			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
-				somaIdades += idades[i]
+				somaIdades += idades[i]//Somatório das idades
 			}
-			mediaIdades = Tipos.inteiro_para_real(somaIdades) / Util.numero_elementos(idades)
+			mediaIdades = Tipos.inteiro_para_real(somaIdades) / Util.numero_elementos(idades) // Calculo da média
 			Util.aguarde(1000)
 			escreva("Média de idade ", mat.arredondar(mediaIdades,2), " anos \n")
+			Util.aguarde(500)
+			escreva("Pessoas acima da média: \n")
+			
+			//Pesquisa pelas idades acima da média
 		} senao {
 			escreva("\n")
 			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
@@ -114,7 +120,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2647; 
+ * @POSICAO-CURSOR = 1908; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
