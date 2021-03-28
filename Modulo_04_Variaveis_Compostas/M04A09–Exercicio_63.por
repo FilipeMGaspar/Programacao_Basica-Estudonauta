@@ -99,7 +99,13 @@ programa
 			escreva("\n  > Maior idade do grupo ", maiorIdadeG, " Anos \n")
 
 			//Pesquisa pela maior idade no grupo mostrando os nomes das pessoas através da posição do vetor idades que é igual á posição no vetor nomes
-			
+			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
+				//Verifica se a idade é igual á maior idade mostrando o nome correspondente no vetor nomes através da sua posição  no vetor idades
+				se(idades[i] == maiorIdadeG){
+					Util.aguarde(500)
+					escreva("\t-> ", nomes[i], "\n")
+				}
+			}
 				
 		} senao {
 			escreva("\n")
@@ -149,7 +155,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3731; 
+ * @POSICAO-CURSOR = 4016; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
