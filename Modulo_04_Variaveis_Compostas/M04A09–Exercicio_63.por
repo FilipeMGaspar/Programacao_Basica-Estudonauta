@@ -8,8 +8,8 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nomes[2]
-		inteiro idades[2], somaIdades = 0
+		cadeia nomes[6]
+		inteiro idades[6], somaIdades = 0
 		cadeia recbIdade // cadeia utilizada para receber as idades através do tecla evitando erros a idade é um valor inteiro
 		real mediaIdades = 0.0
 		inteiro maiorIdadeG = 0
@@ -60,7 +60,7 @@ programa
 			}
 
 			//Bloco de código para mostrar os resultados no ecrã
-			//limpa()//Limpa o console mostrando apenas o resultado
+			limpa() //Limpa o console mostrando apenas o resultado
 			escreva("\n")
 			escreva(" ====== ANALISANDO AS PESSOAS CADASTRADAS ====== \n")
 			
@@ -96,7 +96,7 @@ programa
 				}
 			}
 			Util.aguarde(500)
-			escreva("\n  > Maior idade do grupo ", maiorIdadeG, " Anos \n")
+			escreva("  > Maior idade do grupo ", maiorIdadeG, " Anos \n")
 
 			//Pesquisa pela maior idade no grupo mostrando os nomes das pessoas através da posição do vetor idades que é igual á posição no vetor nomes
 			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
@@ -158,7 +158,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4128; 
+ * @POSICAO-CURSOR = 191; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
