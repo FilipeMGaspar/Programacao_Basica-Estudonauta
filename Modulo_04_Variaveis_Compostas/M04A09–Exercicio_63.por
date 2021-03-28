@@ -39,10 +39,18 @@ programa
 						//Vamos verificar se a string contem um número inteiro
 						se(Tipos.cadeia_e_inteiro(recbIdade, 10)){
 							idades[i] = Tipos.cadeia_para_inteiro(recbIdade, 10)
-						}senao{
+
+							//Vamos veririficar se a idade é maior ou igual a 0 e menor que 130 se for imprime um erro
+							se(idades[i] <= 0 ou idades[i] > 130){
+								escreva("  <<ERRO>> Idade inválida! Idade entre 1 e 130 anos! \n")
+							}senao{ 
+								idades[i] = Tipos.cadeia_para_inteiro(recbIdade, 10) // a idade é armazenada no vetor já dentro do limite definido entre 1 e 130 anos
+							}
 							
+						}senao{
+							escreva("  <<ERRO>> Esperava um valor Numério inteiro! Exemplo:  11 \n")
 						}
-					}enquanto(idades[i] < 0 ou idades[i] > 130)	
+					}enquanto(idades[i] <= 0 ou idades[i] > 130)	
 					
 				}enquanto(txt.numero_caracteres(nomes[i]) < 3)
 			}	
@@ -94,7 +102,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1353; 
+ * @POSICAO-CURSOR = 1718; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
