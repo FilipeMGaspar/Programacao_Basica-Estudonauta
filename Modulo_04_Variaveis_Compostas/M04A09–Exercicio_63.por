@@ -61,6 +61,7 @@ programa
 			//Bloco de código para mostrar os resultados no ecrã
 			escreva("\n")
 			escreva(" ====== ANALISANDO AS PESSOAS CADASTRADAS ====== \n")
+			
 			//Soma as idades para depois podermos calcular a média
 			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
 				somaIdades += idades[i]//Somatório das idades
@@ -72,6 +73,13 @@ programa
 			escreva("Pessoas acima da média: \n")
 			
 			//Pesquisa pelas idades acima da média
+			para(inteiro i = 0; i < Util.numero_elementos(idades); i++){
+				//Verifica se a idade está cima da média se estiver mostra o nome correspondente no vetor nomes através da sua posição  no vetor idades
+				se(idades[i] > mediaIdades){
+					escreva("\t-> ", nomes[i], "(", idades[i], " Anos) \n")
+				}
+			}
+				
 		} senao {
 			escreva("\n")
 			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
@@ -120,7 +128,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1908; 
+ * @POSICAO-CURSOR = 3040; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
