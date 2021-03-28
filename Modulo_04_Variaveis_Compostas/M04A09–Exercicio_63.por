@@ -3,11 +3,13 @@ programa
 	
 	inclua biblioteca Util
 	inclua biblioteca Texto --> txt
+	inclua biblioteca Tipos
 	
 	funcao inicio()
 	{
 		cadeia nomes[2]
 		inteiro idades[2]
+		cadeia recbIdade // cadeia utilizada para receber as idades através do tecla evitando erros a idade é um valor inteiro
 		
 		escreva(" { EXERCICIO 063 - Pessoas e Idades } \n")
 		escreva("------------------------------------- \n")
@@ -29,8 +31,18 @@ programa
 						escreva("  <<ERRO>> O nome deve ter pelo menos 3 caracteres! \n")
 					}
 
-					escreva("Idade de ",nomes[i],": ")
-					leia(idades[i])
+					//O programa só vai aceita idades maiores que 0 e inferiores a 130
+					faca{
+						escreva("Idade de ",nomes[i],": ")
+						leia(recbIdade)
+						
+						//Vamos verificar se a string contem um número inteiro
+						se(Tipos.cadeia_e_inteiro(recbIdade, 10)){
+							idades[i] = Tipos.cadeia_para_inteiro(recbIdade, 10)
+						}senao{
+							
+						}
+					}enquanto(idades[i] < 0 ou idades[i] > 130)	
 					
 				}enquanto(txt.numero_caracteres(nomes[i]) < 3)
 			}	
@@ -82,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 510; 
+ * @POSICAO-CURSOR = 1353; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
