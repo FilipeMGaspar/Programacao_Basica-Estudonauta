@@ -1,14 +1,26 @@
 programa
 {
 	
+	inclua biblioteca Util
+	
 	funcao inicio()
 	{
+		cadeia nomes[2]
+		inteiro idades[3]
+		
 		escreva(" { EXERCICIO 063 - Pessoas e Idades } \n")
 		escreva("------------------------------------- \n")
 
-		para(inteiro i = 0; i < 6; i++){
-			escreva("")
-		}
+		//O programa só executa se os vetores tiverem o mesmo tamanho
+		se(Util.numero_elementos(nomes) == Util.numero_elementos(idades)){
+			para(inteiro i = 0; i < Util.numero_elementos(nomes); i++){
+				escreva("Nome da pessoa [",i,"]: ")
+			}	
+		} senao {
+			escreva("\n")
+			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
+			escreva("    ->  [ 0 1 ] -> Vetores de tamanho diferentes. Corrija para poder prosseguir\n")
+		}		
 	}
 }
 
@@ -52,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 189; 
+ * @POSICAO-CURSOR = 75; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
