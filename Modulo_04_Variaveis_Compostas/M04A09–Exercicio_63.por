@@ -58,6 +58,8 @@ programa
 			//Bloco de código para mostrar os resultados no ecrã
 			escreva("\n")
 			escreva(" ====== ANALISANDO AS PESSOAS CADASTRADAS ====== \n")
+			Util.aguarde(1000)
+			escreva("Média de idade "," anos \n")
 		} senao {
 			escreva("\n")
 			escreva("  <<ERRO>> [ 0 1 ] Erro de estrutura! Inconsistensia detetada! \n")	
@@ -106,7 +108,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2079; 
+ * @POSICAO-CURSOR = 2141; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
