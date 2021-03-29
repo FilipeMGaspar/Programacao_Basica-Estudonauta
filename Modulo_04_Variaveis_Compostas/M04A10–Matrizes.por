@@ -9,7 +9,9 @@ programa
 
 		x = 8
 		y[3] = 7
+		
 		z[2][1] = 6
+		z[1][0] = 4
 
 		escreva("FIM!")
 	}
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 212; 
+ * @POSICAO-CURSOR = 213; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
