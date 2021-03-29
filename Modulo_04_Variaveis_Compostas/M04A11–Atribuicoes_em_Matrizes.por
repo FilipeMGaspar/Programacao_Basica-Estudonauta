@@ -6,8 +6,8 @@ programa
 		inteiro valor[3][3]
 		para(inteiro l = 0; l < 3; l++){ //precorre as linhas
 			para(inteiro c = 0; c < 3; c++){ //precorre as colunas
-				escreva("Dgite um valor para a posição [",l,"] [",c,"] \n")
-				
+				escreva("Dgite um valor para a posição [",l,"][",c,"]: ")
+				leia(valor[l][c])
 				//valor[l][c] = 10
 				//valor[l][c] = sorteia(1, 23)
 			}
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 242; 
+ * @POSICAO-CURSOR = 233; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
