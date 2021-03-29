@@ -12,7 +12,7 @@ programa
 				//valor[l][c] = sorteia(1, 23)
 			}
 		}
-		escreva("FIM!")
+		escreva("\nFIM! \n")
 		
 		/*
 		inteiro num[3][2] //num[linhas][colunas]
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 233; 
+ * @POSICAO-CURSOR = 343; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
