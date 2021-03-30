@@ -21,17 +21,15 @@ programa
 		}
 
 		escreva("\n")
-		//Para fixar uma linha varia a coluna e fixa a linha
 		escreva("Mostra a segunda linha \n")
 		para(inteiro c= 0; c < Util.numero_colunas(valor); c++){
 				escreva(valor[1][c]," \t")//fixa a linha varia a coluna
 		}
 		
 		escreva("\n")
-		//Para fixar uma colunoa varia a linha fixa a coluna
 		escreva("Mostra a terceira coluna \n")
 		para(inteiro l = 0; l < Util.numero_linhas(valor); l++){
-			escreva(valor[l][2])
+			escreva(valor[l][2],"\n") // varia a linha fixa a coluna
 		}
 		
 		
@@ -42,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 957; 
+ * @POSICAO-CURSOR = 538; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
