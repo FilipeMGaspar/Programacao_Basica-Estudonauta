@@ -19,10 +19,19 @@ programa
 			}
 			escreva("\n")
 		}
+
+		escreva("\n")
+		//Para fixar uma linha varia a coluna e fixa a linha
+		escreva("Mostra a segunda linha \n")
+		para(inteiro c= 0; c < Util.numero_colunas(valor); c++){
+				escreva(valor[2][c]," \t")//fixa a linha varia a coluna
+		}
+		
 		
 		//Para fixar uma colunoa varia a linha fixa a coluna
-
-		  //Para fixar uma linha varia a coluna e fixa a linha
+		
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 580; 
+ * @POSICAO-CURSOR = 761; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
