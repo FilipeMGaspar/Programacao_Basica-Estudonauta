@@ -136,6 +136,21 @@ programa
 		 *  
 		 *  -------------------------
 		 *  Você fez 2 pontos em 2 tentativas.
+		 *  
+		 *  
+		 *  No caso de ganhar o jogo
+		 *  
+		 *  ------------------------
+		 *  FIM DO JOGO!
+		 *  V 0 - 0 V
+		 *  - 0 V 0 -
+		 *  - V - - 0
+		 *  - - V 0 -
+		 *  - - - - -
+		 *  
+		 *  Você fez 10 pontos em 5 tentativas.
+		 *  ------------------------------------
+		 *  
 		*/	
 	}		
 }
@@ -144,7 +159,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2296; 
+ * @POSICAO-CURSOR = 3438; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
