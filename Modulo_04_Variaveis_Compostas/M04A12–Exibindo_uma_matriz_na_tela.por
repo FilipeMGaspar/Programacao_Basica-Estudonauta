@@ -4,7 +4,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro valor[8][8]
+		inteiro valor[2][2]
 
 		//Preencher a matriz com números aleatórios
 		para(inteiro l = 0; l < Util.numero_linhas(valor); l++){ //precorre as linhas
