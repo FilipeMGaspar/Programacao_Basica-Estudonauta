@@ -1,12 +1,22 @@
 programa
 {
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
-	
+		inteiro vet[4][4]
 		escreva(" { EXERCICIO 065 - Somador de Colunas } \n")
 		escreva("--------------------------------------- \n")
 		escreva("\n")
+
+		//Preenchimento da matriz com números aleatóreos
+		para(inteiro l = 0; l < Util.numero_linhas(vet); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
+				vet[l][c] = sorteia(1, 10) //sorteia números entre 1 e 10
+			}
+		}
+
+		
+		
 	}
 }
 
@@ -31,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 39; 
+ * @POSICAO-CURSOR = 451; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
