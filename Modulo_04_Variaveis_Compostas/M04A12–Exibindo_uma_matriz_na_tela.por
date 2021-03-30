@@ -4,7 +4,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro valor[3][3]
+		inteiro valor[8][8]
 
 		//Preencher a matriz com números aleatórios
 		para(inteiro l = 0; l < Util.numero_linhas(valor); l++){ //precorre as linhas
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 580; 
+ * @POSICAO-CURSOR = 82; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
