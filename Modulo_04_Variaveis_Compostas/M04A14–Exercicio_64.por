@@ -4,6 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[4][5]
+		inteiro somaLinha = 0
 	
 		escreva("{ EXERCICIO 064 - Somador de linhas } \n")
 		escreva("------------------------------------- \n")
@@ -32,13 +33,15 @@ programa
 			escreva("Somando linha ",l,": ")
 			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
 				escreva(" ",vet[l][c]," ")
+				somaLinha += vet[l][c]
 				se(c < (Util.numero_colunas(vet)-1)){
 					escreva("+ ")
 				}senao{
-					escreva(" = ")
+					escreva(" = ", somaLinha)
 				}
 			}
 			escreva("\n")
+			somaLinha = 0
 		}
 	}
 
@@ -66,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1048; 
+ * @POSICAO-CURSOR = 1157; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
