@@ -3,7 +3,7 @@ programa
 	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro vet[4][5]
+		inteiro vet[4][4]
 		inteiro somaLinha = 0
 	
 		escreva("{ EXERCICIO 064 - Somador de linhas } \n")
@@ -27,7 +27,7 @@ programa
 		}
 
 		escreva("\n")
-		escreva("------------------------------------- \n")
+		escreva("---------------------------------------------------- \n")
 		//Ciclo para mostrar o somatório de cada linha
 		para(inteiro l=0; l < Util.numero_linhas(vet); l++){
 			escreva("Somando linha ",l,": ")
@@ -72,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1095; 
+ * @POSICAO-CURSOR = 761; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
