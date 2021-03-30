@@ -15,7 +15,7 @@ programa
 		//Mostra a a matriz no ecrã
 		para(inteiro l = 0; l < Util.numero_linhas(valor); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(valor); c++){
-				escreva(valor[l][c],"   ")
+				escreva(valor[l][c],"\t")
 			}
 			escreva("\n")
 		}
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 518; 
+ * @POSICAO-CURSOR = 580; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
