@@ -33,10 +33,13 @@ programa
 			escreva("Somando linha ",l,": ")
 			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
 				escreva(" ",vet[l][c]," ")
+				Util.aguarde(300)
 				somaLinha += vet[l][c]
 				se(c < (Util.numero_colunas(vet)-1)){
+					Util.aguarde(300)
 					escreva("+ ")
 				}senao{
+					Util.aguarde(300)
 					escreva(" = ", somaLinha)
 				}
 			}
@@ -69,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1157; 
+ * @POSICAO-CURSOR = 1095; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
