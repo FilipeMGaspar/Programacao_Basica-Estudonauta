@@ -37,7 +37,7 @@ programa
 		 *  
 		*/
 
-		/** Exercicio 66
+		/* Exercicio 66
 		 *  { EXERCICIO 066 - Matriz 3x3 }
 		 *  
 		 *  Digite valor para a posição [0][0]: 7
@@ -60,6 +60,35 @@ programa
 		 *  Valor 7 encontrado nas posições:
 		 *  [0][0] -> [1][2] -> [2][2] -> FIM!
 		*/ 
+
+		/*  Exercicio 67 -> Matriz 5x5
+		 *  { EXERCICIO 067 - Média de Valores }
+		 *  
+		 *  9	1	4	1	3
+		 *  7	10	8	10	4
+		 *  1	2	3	8	9
+		 *  9	1	10	6	8	
+		 *  6	5	4	5	5
+		 *  
+		 *  -----------------------------
+		 *  A média dos valores gerados é 5.56
+		 *  ------------------------------
+		 *  
+		 *  Na segunda linha, os valores acima da média são:
+		 *  [1][0] = 7
+		 *  [1][1] = 10
+		 *  [1][2] = 8
+		 *  [1][3] = 10
+		 *  TOTAL = 4 ocorrência(s).
+		 *  
+		 *  -------------------------------
+		 *  Na terceira coluna, os valores abaixo da média são:
+		 *  [0][2] = 4
+		 *  [2][2] = 3
+		 *  [4][2] = 4
+		 *  TOTAL = 3 ocorrência(s).
+		 *  -------------------------------
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -67,7 +96,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1531; 
+ * @POSICAO-CURSOR = 2211; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
