@@ -29,9 +29,12 @@ programa
 		escreva("------------------------------------- \n")
 		//Ciclo para mostrar o somatório de cada linha
 		para(inteiro l=0; l < Util.numero_linhas(vet); l++){
+			escreva("Somando linha ",l,": ")
 			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
-				escreva("Somando linha ", l, ": ", vet[l][c], " \n")
+				escreva(" ",vet[l][c]," ")
+				
 			}
+			escreva("\n")
 		}
 	}
 
@@ -59,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 924; 
+ * @POSICAO-CURSOR = 941; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
