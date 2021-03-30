@@ -21,12 +21,15 @@ programa
 		}
 
 		escreva("\n")
+		inteiro s2l = 0
 		escreva("Mostra a segunda linha \n")
 		para(inteiro c= 0; c < Util.numero_colunas(valor); c++){
 				escreva(valor[1][c]," \t")//fixa a linha varia a coluna
+				s2l += valor[1][c]
 		}
+		escreva("\n Somatório = ", s2l)
 		
-		escreva("\n")
+		escreva("\n\n")
 		escreva("Mostra a terceira coluna \n")
 		para(inteiro l = 0; l < Util.numero_linhas(valor); l++){
 			escreva(valor[l][2],"\n") // varia a linha fixa a coluna
@@ -40,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 538; 
+ * @POSICAO-CURSOR = 774; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
