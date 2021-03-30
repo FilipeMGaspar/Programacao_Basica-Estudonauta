@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		inteiro vet[4][5]
@@ -28,7 +28,11 @@ programa
 		escreva("\n")
 		escreva("------------------------------------- \n")
 		//Ciclo para mostrar o somatório de cada linha
-		
+		para(inteiro l=0; l < Util.numero_linhas(vet); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
+				escreva("Somando linha ", l, ": ", vet[l][c], " \n")
+			}
+		}
 	}
 
 	
@@ -55,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 785; 
+ * @POSICAO-CURSOR = 924; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
