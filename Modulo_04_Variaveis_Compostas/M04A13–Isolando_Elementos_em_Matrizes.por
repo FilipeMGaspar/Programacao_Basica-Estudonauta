@@ -27,7 +27,7 @@ programa
 				escreva(valor[1][c]," \t")//fixa a linha varia a coluna
 				s2l += valor[1][c]
 		}
-		escreva("\n Somatório = ", s2l)
+		escreva("\n\n \t Somatório = ", s2l)
 		
 		escreva("\n\n")
 		inteiro s3c = 0
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1015; 
+ * @POSICAO-CURSOR = 758; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
