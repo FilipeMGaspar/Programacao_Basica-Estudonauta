@@ -32,7 +32,11 @@ programa
 			escreva("Somando linha ",l,": ")
 			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
 				escreva(" ",vet[l][c]," ")
-				
+				se(c < (Util.numero_colunas(vet)-1)){
+					escreva("+ ")
+				}senao{
+					escreva(" = ")
+				}
 			}
 			escreva("\n")
 		}
@@ -62,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 941; 
+ * @POSICAO-CURSOR = 1048; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
