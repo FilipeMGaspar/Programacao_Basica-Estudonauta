@@ -16,7 +16,8 @@ programa
 		//Mostrar a matriz na tela
 		para(inteiro l = 0; l < Util.numero_linhas(valor); l++){ //precorre as linhas
 			para(inteiro c = 0; c < Util.numero_colunas(valor); c++){ //precorre as colunas
-				escreva(valor[l][c], " ")
+				escreva(valor[l][c], "\t")
+				Util.aguarde(300)
 			}
 			escreva("\n") //Quebra de linha no final das colunas
 		}		
@@ -28,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 637; 
+ * @POSICAO-CURSOR = 580; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
