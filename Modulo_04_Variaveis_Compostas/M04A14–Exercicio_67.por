@@ -47,9 +47,12 @@ programa
 		Util.aguarde(500)
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
-				se(l == 1){
-					Util.aguarde(300)
-					escreva("[",l,"][",c,"] = ",matriz[l][c],"\n")
+				se(l == 1){ // vamos fixar a linha e variar a coluna; segunda linha na matriz é a linha 1
+					//Verifica se o valor está acima da média
+					se(matriz[l][c] > media){
+						Util.aguarde(300)
+						escreva("[",l,"][",c,"] = ",matriz[l][c],"\n")
+					}	
 				}
 			}			
 		}
@@ -89,7 +92,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1827; 
+ * @POSICAO-CURSOR = 1939; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
