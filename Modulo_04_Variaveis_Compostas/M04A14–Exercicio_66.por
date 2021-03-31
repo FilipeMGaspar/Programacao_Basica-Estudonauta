@@ -20,11 +20,11 @@ programa
 					escreva("Digite um valor para a posição [",l,"][",c,"]: ")
 					leia(teclado)
 					se(Tipos.cadeia_e_inteiro(teclado, 10)){
-						escreva("INTEIRO")
+						escreva("INTEIRO \n")
 					}senao{
-						escreva("ERRO")
+						escreva("ERRO \n")
 					}
-				}enquanto(Tipos.cadeia_e_inteiro(teclado, 10))
+				}enquanto(nao Tipos.cadeia_e_inteiro(teclado, 10)) // o loop vai ser repetido enquanto a cadeia não for do tipo inteiro
 			}
 		}
 	}
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 719; 
+ * @POSICAO-CURSOR = 687; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
