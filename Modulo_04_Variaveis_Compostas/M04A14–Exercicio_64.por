@@ -36,10 +36,10 @@ programa
 				escreva(" ",vet[l][c]," ")
 				Util.aguarde(300)
 				somaLinha += vet[l][c]
-				se(c < (Util.numero_colunas(vet)-1)){
+				se(c < (Util.numero_colunas(vet)-1)){ //O simal de + vai ser impresso menos no final da expressão
 					Util.aguarde(300)
 					escreva("+ ")
-				}senao{
+				}senao{ // No final da expressão vai ser impresso o sinal de = e o resultado
 					Util.aguarde(300)
 					escreva(" = ", somaLinha)
 				}
@@ -73,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1068; 
+ * @POSICAO-CURSOR = 1191; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
