@@ -57,9 +57,11 @@ programa
 		
 		Util.aguarde(200)
 		escreva("Valor ", maior, " encontrado nas posições: \n")
+		Util.aguarde(600)
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
 				se(matriz[l][c] == maior){
+					Util.aguarde(400)
 					escreva("[",l,"][",c,"]"," -> ")
 				}
 			}
@@ -96,7 +98,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2239; 
+ * @POSICAO-CURSOR = 2031; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
