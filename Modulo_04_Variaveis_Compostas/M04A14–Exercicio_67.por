@@ -1,10 +1,13 @@
 programa
 {
 	inclua biblioteca Util
+	inclua biblioteca Tipos
 	
 	funcao inicio()
 	{
-		inteiro matriz[5][5]
+		inteiro matriz[5][5], numElementos = 0 //numElementos para o calculo da média necessitamos do total de elemntos da matriz no caso 5 x 5 = 25
+		inteiro somaValores = 0 //vai guardar o somatório dos valores da matriz
+		real media = 0.0
 		
 		escreva("{ EXERCICIO 067 - Média de Valores } \n")
 		escreva("------------------------------------ \n")
@@ -22,14 +25,17 @@ programa
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
 				Util.aguarde(300)
 				escreva(matriz[l][c], "\t")
+				somaValores += matriz[l][c]
 			}
 			escreva("\n")			
 		}
 
+		numElementos = Util.numero_linhas(matriz) * Util.numero_colunas(matriz) //Calculo do número totar de elementos no caso 5 x 5 = 25,
+		media = Tipos.inteiro_para_real(somaValores) / numElementos //Calculo da média 
 		escreva("\n")
-		escreva("-------------------------------- \n")
-		escreva("A média dos valores gerados é: ","\n")
-		escreva("-------------------------------- \n")
+		escreva("-------------------------------------- \n")
+		escreva("A média dos valores gerados é: ", media, "\n")
+		escreva("-------------------------------------- \n")
 	}
 }
 
@@ -66,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 801; 
+ * @POSICAO-CURSOR = 1173; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
