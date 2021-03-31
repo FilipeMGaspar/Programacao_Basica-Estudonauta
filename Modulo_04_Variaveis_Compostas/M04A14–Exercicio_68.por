@@ -6,6 +6,7 @@ programa
 	funcao inicio()
 	{
 		caracter matriz[5][5]
+		inteiro linha, coluna
 		
 		escreva("{ EXERCICIO 068 - Jogo campo Minado } \n")
 		escreva("------------------------------------- \n")
@@ -18,7 +19,12 @@ programa
 			}
 		}
 
-		//Mostra a matriz como ficou
+		//Vamos colocar as minas identificadas po '0' as minhas vão ser colocadas  aleatóriamente
+		linha = sorteia(0, Util.numero_linhas(matriz))//Vai sortear o número da linha de 0 até ao numero de linhas da matriz
+		coluna = sorteia(0, Util.numero_colunas(matriz))//Vai sortear o número da linha de 0 até ao numero de colunas da matriz
+		
+		
+		//Mostra a matriz como ficou não vai surgir no programa final
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
 				escreva(matriz[l][c],"\t")
@@ -115,7 +121,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 602; 
+ * @POSICAO-CURSOR = 517; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
