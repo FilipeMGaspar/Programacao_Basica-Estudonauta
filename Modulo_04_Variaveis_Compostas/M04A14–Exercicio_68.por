@@ -25,10 +25,12 @@ programa
 		enquanto(numMinas < 5){
 			linha = sorteia(0, Util.numero_linhas(matriz))//Vai sortear o número da linha de 0 até ao numero de linhas da matriz
 			coluna = sorteia(0, Util.numero_colunas(matriz))//Vai sortear o número da linha de 0 até ao numero de colunas da matriz
+			matriz[linha][coluna] = '0'//Colocando minas o 0 identifica as minhas
+			
 			numMinas++
-			escreva("Linha = ", linha,"\n")
-			escreva("Coluna = ", coluna,"\n")
-		}
+			escreva("Linha = ", linha," ")
+			escreva("Coluna = ", coluna,"\n")		
+		}//Fim do enquanto para sortear a localização das minas
 		
 		
 		//Mostra a matriz como ficou não vai surgir no programa final
@@ -128,7 +130,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 945; 
+ * @POSICAO-CURSOR = 932; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
