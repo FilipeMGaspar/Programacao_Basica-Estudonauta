@@ -6,8 +6,11 @@ programa
 	funcao inicio()
 	{
 		caracter matriz[5][5]
-		inteiro linha, coluna
+		inteiro linha, coluna //Recebem as posições da linha e da coluna que vão ser sorteadas
 		inteiro numMinas // Número total de minas neste caso 5 
+		inteiro numTentativas // Numero de tentativas 5 no total
+		cadeia tecLinha, tecColuna //Vai receber os dados vindos do teclado da linha e da coluna evitando letras e valores inválidos
+		inteiro userLinha, userColuna //Para converter o recebido no teclado String para inteiro 
 		
 		escreva("{ EXERCICIO 068 - Jogo campo Minado } \n")
 		escreva("------------------------------------- \n")
@@ -25,27 +28,34 @@ programa
 		enquanto(numMinas < 5){
 			linha = sorteia(0, Util.numero_linhas(matriz)-1)//Vai sortear o número da linha de 0 até ao numero de linhas da matriz
 			coluna = sorteia(0, Util.numero_colunas(matriz)-1)//Vai sortear o número da linha de 0 até ao numero de colunas da matriz
-			
-			
-			
-			numMinas++
-			escreva("Linha = ", linha," ")
-			escreva("Coluna = ", coluna,"\n")		
 
-			matriz[linha][coluna] = '0'//Colocando minas o 0 identifica as minhas
+			//Bloco Abaixo não surge no programa final colocado para testes
+			escreva("Linha = ", linha," ")
+			escreva("Coluna = ", coluna,"\n")
+			//Bloco acima não surge no programa final colocado para testes	
+				
+			se(matriz[linha][coluna] == '-'){ //A mina só vai ser colocada se o espaço estiver disponível
+				matriz[linha][coluna] = '0'//Colocando minas o 0 identifica as minhas
+				numMinas++
+			}
+			
 		}//Fim do enquanto para sortear a localização das minas
 		
 		
+		//Bloco Abaixo não surge no programa final colocado para testes
 		//Mostra a matriz como ficou não vai surgir no programa final
+		escreva("\n--------------------------------------- \n")
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
 				escreva(matriz[l][c],"\t")
 			}
 			escreva("\n")
 		}
-		
-		/*
+		//Bloco acima não surge no programa final colocado para testes
+
 		// Ciclo para mostrar o tabuleiro com linha e colunas
+		escreva("\n")
+		escreva("===========================================\n\n")
 		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
 			se(c == 0){
 				escreva("  C ",c)
@@ -62,7 +72,19 @@ programa
 			}
 			escreva("\n")
 		}
-		*/
+
+		numTentativas = 1
+		escreva("\n-------------------------------------------\n")
+		//ciclo para contar as tentativas
+		enquanto(numTentativas <= 5){
+			escreva("  Faça a sua jogada! (Tentativa: ", numTentativas, ") \n")
+			//tecLinha, tecColuna // recebe o que vem do teclado com cadeia = string
+			//userLinha, userColuna //Para converter o recebido no teclado String para inteiro
+			/* Falta receber os dados do teclado validando-os
+			 * Falta verificar se acertou ou não numa bomba
+			*/
+			numTentativas++
+		}	
 	}
 }
 
@@ -133,7 +155,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 787; 
+ * @POSICAO-CURSOR = 1221; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
