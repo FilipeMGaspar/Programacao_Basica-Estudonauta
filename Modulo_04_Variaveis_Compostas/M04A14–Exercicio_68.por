@@ -23,13 +23,16 @@ programa
 		//Vamos colocar as minas identificadas po '0' as minhas vão ser colocadas aleatóriamente
 		numMinas = 0
 		enquanto(numMinas < 5){
-			linha = sorteia(0, Util.numero_linhas(matriz))//Vai sortear o número da linha de 0 até ao numero de linhas da matriz
-			coluna = sorteia(0, Util.numero_colunas(matriz))//Vai sortear o número da linha de 0 até ao numero de colunas da matriz
-			matriz[linha][coluna] = '0'//Colocando minas o 0 identifica as minhas
+			linha = sorteia(0, Util.numero_linhas(matriz)-1)//Vai sortear o número da linha de 0 até ao numero de linhas da matriz
+			coluna = sorteia(0, Util.numero_colunas(matriz)-1)//Vai sortear o número da linha de 0 até ao numero de colunas da matriz
+			
+			
 			
 			numMinas++
 			escreva("Linha = ", linha," ")
 			escreva("Coluna = ", coluna,"\n")		
+
+			matriz[linha][coluna] = '0'//Colocando minas o 0 identifica as minhas
 		}//Fim do enquanto para sortear a localização das minas
 		
 		
@@ -130,7 +133,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 932; 
+ * @POSICAO-CURSOR = 787; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
