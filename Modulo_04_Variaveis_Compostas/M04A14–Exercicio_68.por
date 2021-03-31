@@ -12,18 +12,22 @@ programa
 		escreva("\n")
 
 		//Ciclo para preencher a matriz
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				matriz[l][c] = '-'
+			}
+		}
 
 		// Ciclo para mostrar o tabuleiro com linha e colunas
 		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
-			escreva("\t",c," ")
+			escreva("\tC ",c)
 		}
-		escreva(" <- Colunas")
-		escreva("\n|L|\n")
+		escreva("\n\n")
 
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
-			escreva("|",l,"| ")
+			escreva("|L ",l,"| ")
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
-				escreva("\t","?")			
+				escreva("\t"," ?")			
 			}
 			escreva("\n")
 		}
@@ -97,7 +101,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 243; 
+ * @POSICAO-CURSOR = 726; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
