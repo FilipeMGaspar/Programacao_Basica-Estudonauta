@@ -39,9 +39,10 @@ programa
 		}
 		Util.aguarde(300)
 		escreva("ANALISADO! \n")
-		escreva("------------------------------ \n")
-		escreva("Maior valor encontrado: ", maior, "\n")
-		escreva("------------------------------ \n")
+		
+		escreva("\n------------------------------- \n")
+		escreva("| Maior valor encontrado: ", maior, "\n")
+		escreva("---------------------------------- \n")
 		
 	}
 }
@@ -74,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1602; 
+ * @POSICAO-CURSOR = 1505; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
