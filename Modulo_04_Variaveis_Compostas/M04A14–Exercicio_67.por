@@ -7,8 +7,9 @@ programa
 	funcao inicio()
 	{
 		inteiro matriz[5][5], numElementos = 0 //numElementos para o calculo da média necessitamos do total de elemntos da matriz no caso 5 x 5 = 25
-		inteiro numOcorrDoMaior = 0, somaValores = 0 //vai guardar o somatório dos valores da matriz
+		inteiro numOcorrMaiorQmedia = 0, somaValores = 0 //vai guardar o somatório dos valores da matriz
 		real media = 0.0
+		inteiro numOcorrMenorQmedia = 0
 		
 		escreva("{ EXERCICIO 067 - Média de Valores } \n")
 		escreva("------------------------------------ \n")
@@ -52,12 +53,12 @@ programa
 					se(matriz[l][c] > media){
 						Util.aguarde(300)
 						escreva("[",l,"][",c,"] = ",matriz[l][c],"\n")
-						numOcorrDoMaior++
+						numOcorrMaiorQmedia++
 					}	
 				}
 			}			
 		}
-		escreva("TOTAL = ", numOcorrDoMaior, " ocorrência(s). \n")
+		escreva("TOTAL = ", numOcorrMaiorQmedia, " ocorrência(s). \n")
 
 		Util.aguarde(300)
 		escreva("\n--------------------------------- \n")
@@ -71,11 +72,12 @@ programa
 					se(matriz[l][c] < media){
 						Util.aguarde(300)
 						escreva("[",l,"][",c,"] = ",matriz[l][c],"\n")
+						numOcorrMenorQmedia++
 					}
 				}
 			}
 		}
-		escreva("TOTAL = "," ocorrência(s). \n")
+		escreva("TOTAL = ", numOcorrMenorQmedia, " ocorrência(s). \n")
 
 		escreva("--------------------------------- \n")
 	}
@@ -114,7 +116,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2932; 
+ * @POSICAO-CURSOR = 2994; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
