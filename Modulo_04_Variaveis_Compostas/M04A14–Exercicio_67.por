@@ -2,6 +2,7 @@ programa
 {
 	inclua biblioteca Util
 	inclua biblioteca Tipos
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -34,7 +35,7 @@ programa
 		media = Tipos.inteiro_para_real(somaValores) / numElementos //Calculo da média 
 		escreva("\n")
 		escreva("-------------------------------------- \n")
-		escreva("A média dos valores gerados é: ", media, "\n")
+		escreva("A média dos valores gerados é: ", mat.arredondar(media, 2), "\n")
 		escreva("-------------------------------------- \n")
 	}
 }
@@ -72,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1173; 
+ * @POSICAO-CURSOR = 1420; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
