@@ -3,6 +3,8 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro matris[3][3]
+		
 		escreva("{ EXERCICIO 066 - Matriz 3x3 } \n")
 		escreva("------------------------------ \n")
 		escreva("\n")
@@ -37,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 53; 
+ * @POSICAO-CURSOR = 59; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
