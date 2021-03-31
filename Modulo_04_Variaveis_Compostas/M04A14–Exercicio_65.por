@@ -38,7 +38,7 @@ programa
 				Util.aguarde(300)
 				escreva(vet[l][c])
 				somaColuna += vet[l][c]
-				se(l < (Util.numero_linhas(vet)-1)){
+				se(l < (Util.numero_linhas(vet)-1)){//O simal de + vai ser impresso menos no final da expressão
 					Util.aguarde(300)
 					escreva(" + ")
 				}senao{
@@ -74,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1385; 
+ * @POSICAO-CURSOR = 1306; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
