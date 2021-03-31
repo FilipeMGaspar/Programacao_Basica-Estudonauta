@@ -1,12 +1,21 @@
 programa
 {
 
+	inclua biblioteca Util
+	
 	funcao inicio()
 	{
+		caracter matriz[5][5]
+		
 		escreva("{ EXERCICIO 068 - Jogo campo Minado } \n")
 		escreva("------------------------------------- \n")
 		escreva("\n")
 
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				
+			}
+		}
 	}
 }
 
@@ -77,7 +86,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1211; 
+ * @POSICAO-CURSOR = 329; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
