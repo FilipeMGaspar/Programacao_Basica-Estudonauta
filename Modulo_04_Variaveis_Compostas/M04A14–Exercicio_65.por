@@ -34,7 +34,8 @@ programa
 			escreva("Somando a coluna ", c, ": ")
 			para(inteiro l = 0; l < Util.numero_linhas(vet); l++){ //precorre as linhas
 					escreva(vet[l][c],"  ")
-			}			
+			}
+			escreva("\n")			
 		}			
 		
 	}
@@ -61,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1143; 
+ * @POSICAO-CURSOR = 1148; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
