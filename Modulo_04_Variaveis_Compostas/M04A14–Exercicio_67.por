@@ -7,7 +7,7 @@ programa
 	funcao inicio()
 	{
 		inteiro matriz[5][5], numElementos = 0 //numElementos para o calculo da média necessitamos do total de elemntos da matriz no caso 5 x 5 = 25
-		inteiro somaValores = 0 //vai guardar o somatório dos valores da matriz
+		inteiro numOcorrDoMaior = 0, somaValores = 0 //vai guardar o somatório dos valores da matriz
 		real media = 0.0
 		
 		escreva("{ EXERCICIO 067 - Média de Valores } \n")
@@ -15,15 +15,15 @@ programa
 		escreva("\n")
 
 		//Ciclo para preencher a Matriz
-		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
-			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ // Precorre as linhas
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Precorre as colunas
 				matriz[l][c] = sorteia(1,10) // Números aleatórios entre 1 e 10
 			}			
 		}
 
 		//Ciclo para mostrar a Matria no ecrã
-		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
-			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ // Precorre as linhas
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Precorre as colunas
 				Util.aguarde(300)
 				escreva(matriz[l][c], "\t")
 				somaValores += matriz[l][c]
@@ -45,22 +45,30 @@ programa
 		Util.aguarde(300)
 		escreva("Na segunda linha, os valores acima da média são: \n")
 		Util.aguarde(500)
-		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
-			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ // Precorre as linhas
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Precorre as colunas
 				se(l == 1){ // vamos fixar a linha e variar a coluna; segunda linha na matriz é a linha 1
 					//Verifica se o valor está acima da média
 					se(matriz[l][c] > media){
 						Util.aguarde(300)
 						escreva("[",l,"][",c,"] = ",matriz[l][c],"\n")
+						numOcorrDoMaior++
 					}	
 				}
 			}			
 		}
-		escreva("TOTAL = ","\n")
+		escreva("TOTAL = ", numOcorrDoMaior, " ocorrência(s).\n")
 
 		escreva("\n--------------------------------- \n")
 		escreva("Na terceira coluna, os valores abaixo da média são: \n")
-		
+		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Precorre as colunas
+			para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ // Precorre as linhas
+				se(c == 2){//fixamos a coluna variamos a linha; terceira coluna na matriz corresponde a 2 (0 1 2)
+					Util.aguarde(300)
+					escreva("[",l,"][",c,"] = ",matriz[l][c],"\n")
+				}
+			}
+		}
 	}
 }
 
@@ -97,7 +105,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2139; 
+ * @POSICAO-CURSOR = 2652; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
