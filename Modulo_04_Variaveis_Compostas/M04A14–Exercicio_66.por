@@ -19,10 +19,10 @@ programa
 				faca{
 					escreva("Digite um valor para a posição [",l,"][",c,"]: ")
 					leia(teclado)
-					se(Tipos.cadeia_e_inteiro(teclado, 10)){
-						escreva("INTEIRO \n")
-					}senao{
-						escreva("ERRO \n")
+					se(Tipos.cadeia_e_inteiro(teclado, 10)){ // se o valor recebido na string teclado for inteiro este passa para a matriz senao é impresso um erro
+						matriz[l][c] = Tipos.cadeia_para_inteiro(teclado, 10)//Conversão de string para inteiro
+					}senao{//Se não for inteiro imprime o erro
+						escreva("   <<ERRO>> Valor inválido! Esperava um valor numérico! \n")
 					}
 				}enquanto(nao Tipos.cadeia_e_inteiro(teclado, 10)) // o loop vai ser repetido enquanto a cadeia não for do tipo inteiro
 			}
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 687; 
+ * @POSICAO-CURSOR = 906; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
