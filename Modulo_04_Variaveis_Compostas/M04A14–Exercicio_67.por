@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
@@ -20,10 +20,16 @@ programa
 		//Ciclo para mostrar a Matria no ecrã
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				Util.aguarde(300)
 				escreva(matriz[l][c], "\t")
 			}
 			escreva("\n")			
 		}
+
+		escreva("\n")
+		escreva("-------------------------------- \n")
+		escreva("A média dos valores gerados é: ","\n")
+		escreva("-------------------------------- \n")
 	}
 }
 
@@ -60,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 662; 
+ * @POSICAO-CURSOR = 801; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
