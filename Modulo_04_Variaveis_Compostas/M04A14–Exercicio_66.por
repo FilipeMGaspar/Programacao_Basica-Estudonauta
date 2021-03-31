@@ -7,6 +7,7 @@ programa
 	{
 		inteiro matriz[3][3]
 		cadeia teclado // vai receber os dados vindos do teclado
+		inteiro maior = 0
 		
 		escreva("{ EXERCICIO 066 - Matriz 3x3 } \n")
 		escreva("------------------------------ \n")
@@ -32,12 +33,15 @@ programa
 		escreva("\n")
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
-				Util.aguarde(500)
+				Util.aguarde(350)
 				escreva(matriz[l][c]," -> ")
 			}
 		}
 		Util.aguarde(300)
 		escreva("ANALISADO! \n")
+		escreva("------------------------------ \n")
+		escreva("Maior valor encontrado: ", maior, "\n")
+		escreva("------------------------------ \n")
 		
 	}
 }
@@ -70,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1435; 
+ * @POSICAO-CURSOR = 1602; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
