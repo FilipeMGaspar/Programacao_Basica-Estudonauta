@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		inteiro vet[4][4]
@@ -15,7 +15,14 @@ programa
 			}
 		}
 
-		
+		//Mostrar a matriz no ecrã
+		escreva("A matriz gerada foi: \n")
+		para(inteiro l = 0; l < Util.numero_linhas(vet); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
+				escreva(vet[l][c], "\t")
+			}
+			escreva("\n")
+		}	
 		
 	}
 }
@@ -41,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 451; 
+ * @POSICAO-CURSOR = 680; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
