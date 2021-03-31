@@ -4,6 +4,8 @@ programa
 	funcao inicio()
 	{
 		inteiro vet[4][4]
+		inteiro somaColuna = 0
+		
 		escreva(" { EXERCICIO 065 - Somador de Colunas } \n")
 		escreva("--------------------------------------- \n")
 		escreva("\n")
@@ -27,20 +29,21 @@ programa
 
 		//Somando colunas
 		escreva("\n")
-		escreva("================================= \n")
+		escreva("======================================= \n")
 		//Ciclo para efectuar o somatório de cada coluna
 		//para somar as colunas fixamos a coluna variamos a linha
 		para(inteiro c = 0; c < Util.numero_colunas(vet); c++){ //Precorre as colunas
 			escreva("Somando a coluna ", c, ": ")
 			para(inteiro l = 0; l < Util.numero_linhas(vet); l++){ //precorre as linhas
 				Util.aguarde(300)
-				escreva(vet[l][c],"  ")
+				escreva(vet[l][c])
+				somaColuna += vet[l][c]
 				se(l < (Util.numero_linhas(vet)-1)){
 					Util.aguarde(300)
-					escreva("+ ")
+					escreva(" + ")
 				}senao{
 					Util.aguarde(300)
-					escreva(" = ")
+					escreva(" = ",somaColuna)
 				}
 			}
 			escreva("\n")			
@@ -70,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1286; 
+ * @POSICAO-CURSOR = 817; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
