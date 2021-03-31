@@ -3,7 +3,7 @@ programa
 	inclua biblioteca Util
 	funcao inicio()
 	{
-		inteiro vet[4][4]
+		inteiro matriz[4][4]
 		inteiro somaColuna = 0
 		
 		escreva(" { EXERCICIO 065 - Somador de Colunas } \n")
@@ -11,17 +11,17 @@ programa
 		escreva("\n")
 
 		//Preenchimento da matriz com números aleatóreos
-		para(inteiro l = 0; l < Util.numero_linhas(vet); l++){
-			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
-				vet[l][c] = sorteia(1, 10) //sorteia números entre 1 e 10
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				matriz[l][c] = sorteia(1, 10) //sorteia números entre 1 e 10
 			}
 		}
 
 		//Mostrar a matriz no ecrã
 		escreva("A matriz gerada foi: \n")
-		para(inteiro l = 0; l < Util.numero_linhas(vet); l++){
-			para(inteiro c = 0; c < Util.numero_colunas(vet); c++){
-				escreva(vet[l][c], "\t")
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				escreva(matriz[l][c], "\t")
 				Util.aguarde(300)
 			}
 			escreva("\n")
@@ -32,13 +32,13 @@ programa
 		escreva("======================================= \n")
 		//Ciclo para efectuar o somatório de cada coluna
 		//para somar as colunas fixamos a coluna variamos a linha
-		para(inteiro c = 0; c < Util.numero_colunas(vet); c++){ //Precorre as colunas
+		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ //Precorre as colunas
 			escreva("Somando a coluna ", c, ": ")
-			para(inteiro l = 0; l < Util.numero_linhas(vet); l++){ //precorre as linhas
+			para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ //precorre as linhas
 				Util.aguarde(300)
-				escreva(vet[l][c])
-				somaColuna += vet[l][c]
-				se(l < (Util.numero_linhas(vet)-1)){//O simal de + vai ser impresso menos no final da expressão
+				escreva(matriz[l][c])
+				somaColuna += matriz[l][c]
+				se(l < (Util.numero_linhas(matriz)-1)){//O simal de + vai ser impresso menos no final da expressão
 					Util.aguarde(300)
 					escreva(" + ")
 				}senao{ // No final da expressão vai ser impresso o sinal de = e o resultado
@@ -74,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1430; 
+ * @POSICAO-CURSOR = 1277; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
