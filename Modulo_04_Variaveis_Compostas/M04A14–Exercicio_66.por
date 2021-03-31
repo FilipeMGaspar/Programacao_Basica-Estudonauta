@@ -27,6 +27,16 @@ programa
 				}enquanto(nao Tipos.cadeia_e_inteiro(teclado, 10)) // o loop vai ser repetido enquanto a cadeia não for do tipo inteiro
 			}
 		}
+
+		//Imprime o analisando no ecrã, mostra a matriz sem formatação
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				Util.aguarde(300)
+				escreva(matriz[l][c]," -> ")
+			}
+		}
+		escreva("ANALISADO!")
+		
 	}
 }
 
@@ -58,7 +68,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 906; 
+ * @POSICAO-CURSOR = 1396; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
