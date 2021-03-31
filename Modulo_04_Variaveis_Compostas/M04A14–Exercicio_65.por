@@ -28,10 +28,12 @@ programa
 		//Somando colunas
 		escreva("\n")
 		escreva("================================= \n")
+		//Ciclo para efectuar o somatório de cada coluna
 		//para somar as colunas fixamos a coluna variamos a linha
 		para(inteiro c = 0; c < Util.numero_colunas(vet); c++){ //Precorre as colunas
+			escreva("Somando a coluna ", c, ": ")
 			para(inteiro l = 0; l < Util.numero_linhas(vet); l++){ //precorre as linhas
-					
+					escreva(vet[l][c],"  ")
 			}			
 		}			
 		
@@ -59,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1013; 
+ * @POSICAO-CURSOR = 1143; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
