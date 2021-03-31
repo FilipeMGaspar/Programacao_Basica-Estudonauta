@@ -57,10 +57,13 @@ programa
 				}
 			}			
 		}
-		escreva("TOTAL = ", numOcorrDoMaior, " ocorrência(s).\n")
+		escreva("TOTAL = ", numOcorrDoMaior, " ocorrência(s). \n")
 
+		Util.aguarde(300)
 		escreva("\n--------------------------------- \n")
+		Util.aguarde(200)
 		escreva("Na terceira coluna, os valores abaixo da média são: \n")
+		Util.aguarde(500)
 		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Precorre as colunas
 			para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ // Precorre as linhas
 				se(c == 2){//fixamos a coluna variamos a linha; terceira coluna na matriz corresponde a 2 (0 1 2)
@@ -72,6 +75,9 @@ programa
 				}
 			}
 		}
+		escreva("TOTAL = "," ocorrência(s). \n")
+
+		escreva("--------------------------------- \n")
 	}
 }
 
@@ -108,7 +114,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2815; 
+ * @POSICAO-CURSOR = 2932; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
