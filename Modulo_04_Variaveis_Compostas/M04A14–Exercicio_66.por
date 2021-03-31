@@ -29,13 +29,15 @@ programa
 		}
 
 		//Imprime o analisando no ecrã, mostra a matriz sem formatação
+		escreva("\n")
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
-				Util.aguarde(300)
+				Util.aguarde(500)
 				escreva(matriz[l][c]," -> ")
 			}
 		}
-		escreva("ANALISADO!")
+		Util.aguarde(300)
+		escreva("ANALISADO! \n")
 		
 	}
 }
@@ -68,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1396; 
+ * @POSICAO-CURSOR = 1435; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
