@@ -35,6 +35,14 @@ programa
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
 				Util.aguarde(350)
 				escreva(matriz[l][c]," -> ")
+				se((l == 0) e (c == 0)){ //O maior valor na primeira execução será o da posição 0 0
+					maior = matriz[l][c]
+				}senao{
+					//verifica se os valores eguintes são maiores que o maior
+					se(matriz[l][c] > maior){
+						maior = matriz[l][c]
+					}
+				}
 			}
 		}
 		Util.aguarde(300)
@@ -75,7 +83,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1505; 
+ * @POSICAO-CURSOR = 1655; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
