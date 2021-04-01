@@ -81,29 +81,27 @@ programa
 			
 			//O programa só vai aceitar números inteiros
 			// Linhas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
-			
-			/*faca{
+			enquanto(verdadeiro){
 				escreva("Linha = ")
-				leia(tecLinha)	
+				leia(tecLinha)
 				se(Tipos.cadeia_e_inteiro(tecLinha, 10)){ // verifica se o valor na string é inteiro se for converte senao imprime um erro
-					userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro		
-
-					faca{
-						//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
-						se(userLinha >= 0 e userLinha < Util.numero_linhas(matriz)){
-							userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
-							numTentativas++
-						}senao{
-							escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_linhas(matriz)-1),"\n")
-						}
-					}enquanto(nao (userLinha >= 0 e userLinha < Util.numero_linhas(matriz)))
+					userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
+				
+					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
+					se(userLinha >= 0 e userLinha < Util.numero_linhas(matriz)){
+				   		userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
+				   		//numTentativas++
+					}senao{
+				   		escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_linhas(matriz)-1),"\n")
+					}//Fim da validação do número da linha
+					
 				}senao{ // se o valor vindo na string não for inteiro imprime um erro
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")
-				}
-			}enquanto(nao Tipos.cadeia_e_inteiro(tecLinha, 10)) // O ciclo vai ser repetido enquanto o valor recebido na string não for inteiro, quando for para o ciclo*/
+				}//Fim da validação do conteudo da string se é ou não um valor inteiro	
+			}// O ciclo vai ser repetido infinitamente vai ser parado quando recebido na string não for inteiro, quando for para o ciclo
 
 			// Colunas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
-			faca{
+			enquanto(verdadeiro){
 				escreva("Coluna = ")
 				leia(tecColuna)
 				se(Tipos.cadeia_e_inteiro(tecColuna, 10)){ // verifica se o valor na string é inteiro se for converte senao imprime um erro
@@ -112,6 +110,7 @@ programa
 					se(userColuna >= 0 e userColuna < (Util.numero_colunas(matriz))){
 						userColuna = Tipos.cadeia_para_inteiro(tecColuna ,10) //Conversão de string para inteiro
 						numTentativas++
+						pare
 					}senao{
 						escreva("  <<ERRO>> Valor inválido para a Coluna! escolha entre 0 e ", (Util.numero_colunas(matriz)-1),"\n")
 					}
@@ -120,7 +119,7 @@ programa
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")	
 				}
 				
-			}enquanto(nao Tipos.cadeia_e_inteiro(tecColuna, 10)) // O ciclo vai ser repetido enquanto o valor recebido na string não for inteiro, quando for para o ciclo 	
+			}// O ciclo vai ser repetido infinitamente vai ser parado quando recebido na string não for inteiro, quando for para o ciclo 	
 		}
 
 			/* Falta receber os dados do teclado validando-os
@@ -196,7 +195,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2965; 
+ * @POSICAO-CURSOR = 4087; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
