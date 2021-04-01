@@ -83,6 +83,8 @@ programa
 			/* Falta receber os dados do teclado validando-os
 			 * Falta verificar se acertou ou não numa bomba
 			*/
+			escreva("Linha = ")
+			leia(tecLinha)
 			numTentativas++
 		}	
 	}
@@ -155,7 +157,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1221; 
+ * @POSICAO-CURSOR = 3120; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
