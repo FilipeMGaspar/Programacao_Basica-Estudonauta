@@ -2,7 +2,7 @@ programa
 {
 
 	inclua biblioteca Util
-	
+	inclua biblioteca Tipos
 	funcao inicio()
 	{
 		caracter matriz[5][5]
@@ -83,6 +83,12 @@ programa
 			/* Falta receber os dados do teclado validando-os
 			 * Falta verificar se acertou ou não numa bomba
 			*/
+			
+			//O programa só vai aceitar números inteiros
+			// ciclo para evitar erro de digitação e só aceitar numeros inteiros
+			faca{
+				
+			}enquanto()
 			escreva("Linha = ")
 			leia(tecLinha)
 			numTentativas++
@@ -157,7 +163,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3120; 
+ * @POSICAO-CURSOR = 720; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
