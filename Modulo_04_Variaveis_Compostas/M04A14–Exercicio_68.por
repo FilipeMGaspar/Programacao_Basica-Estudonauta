@@ -91,7 +91,6 @@ programa
 					se(userLinha >= 0 e userLinha < Util.numero_linhas(matriz)){
 				   		userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
 				   		pare //vai parar o ciclo enquanto uma vez que cumpre todos os requisitos, é inteiro maior que 0 e menor que o número de linhas da matriz
-				   		//numTentativas++
 					}senao{
 				   		escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_linhas(matriz)-1),"\n")
 					}//Fim da validação do número da linha
@@ -110,8 +109,7 @@ programa
 					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
 					se(userColuna >= 0 e userColuna < (Util.numero_colunas(matriz))){
 						userColuna = Tipos.cadeia_para_inteiro(tecColuna ,10) //Conversão de string para inteiro
-						numTentativas++
-						pare
+						pare //vai parar o ciclo enquanto uma vez que cumpre todos os requisitos, é inteiro maior que 0 e menor que o número de linhas da matriz
 					}senao{
 						escreva("  <<ERRO>> Valor inválido para a Coluna! escolha entre 0 e ", (Util.numero_colunas(matriz)-1),"\n")
 					}
@@ -119,8 +117,9 @@ programa
 				}senao {// se o valor vindo na string não for inteiro imprime um erro
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")	
 				}
-				
 			}// O ciclo vai ser repetido infinitamente vai ser parado quando recebido na string não for inteiro, quando for para o ciclo 	
+			
+			numTentativas++ //Incrementa as tentativas			
 		}
 
 			/* Falta receber os dados do teclado validando-os
@@ -196,7 +195,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3677; 
+ * @POSICAO-CURSOR = 5486; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
