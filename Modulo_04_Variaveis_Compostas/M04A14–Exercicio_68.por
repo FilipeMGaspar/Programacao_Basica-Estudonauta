@@ -6,7 +6,8 @@ programa
 	
 	funcao inicio()
 	{
-		caracter matriz[5][5]
+		caracter matriz[5][5] //Matriz utilizada para o tabuleiro principal de jogo
+		caracter matrizAux[5][5] // Matriz auxiliar utilizada para mostrar os ? ? ? ? e os V durante o jogo
 		inteiro linha, coluna //Recebem as posições da linha e da coluna que vão ser sorteadas
 		inteiro numMinas // Número total de minas neste caso 5 
 		inteiro numTentativas // Numero de tentativas 5 no total
@@ -22,7 +23,8 @@ programa
 		//Ciclo para preencher a matriz
 		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
-				matriz[l][c] = '-'
+				matriz[l][c] = '-' //Preenche a matriz do jogo, tabuleiro principal do jogo com '-'
+				matrizAux[l][c] = '?'//preenche a matriz auxiliar com ? ? ? ? ?
 			}
 		}
 
@@ -71,7 +73,7 @@ programa
 			escreva(l)// Mostra o número das linhas
 			
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Ciclo para precorrer as colunas
-				escreva("   ?\t")			
+				escreva("    " ,matrizAux[l][c], "\t")			
 			}
 			
 			escreva("\n") // Muda de linha, quebra de linha
@@ -268,7 +270,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 7602; 
+ * @POSICAO-CURSOR = 3288; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
