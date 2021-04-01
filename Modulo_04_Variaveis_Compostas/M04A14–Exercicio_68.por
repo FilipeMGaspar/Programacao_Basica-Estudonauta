@@ -11,7 +11,7 @@ programa
 		inteiro numMinas // Número total de minas neste caso 5 
 		inteiro numTentativas // Numero de tentativas 5 no total
 		cadeia tecLinha, tecColuna //Vai receber os dados vindos do teclado da linha e da coluna evitando letras e valores inválidos
-		inteiro userLinha, userColuna //Para converter o recebido no teclado String para inteiro 
+		inteiro userLinha = 0, userColuna = 0 //Para converter o recebido no teclado String para inteiro 
 		
 		escreva("{ EXERCICIO 068 - Jogo campo Minado } \n")
 		escreva("------------------------------------- \n")
@@ -126,10 +126,13 @@ programa
 			se(matriz[userLinha][userColuna] == '0'){
 				escreva("\n----------------------------------- \n")
 				escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
+				pare
 			}
 			numTentativas++ //Incrementa as tentativas			
 		}
 
+		escreva("================================================ \n")
+		escreva("\t FIM DO JOGO!")
 			/*
 			 * Falta verificar se acertou ou não numa bomba
 			*/
@@ -203,7 +206,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 5761; 
+ * @POSICAO-CURSOR = 5931; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
