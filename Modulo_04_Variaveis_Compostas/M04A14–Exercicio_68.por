@@ -78,8 +78,8 @@ programa
 		//ciclo para contar as tentativas
 		enquanto(numTentativas <= 5){
 			escreva("  Faça a sua jogada! (Tentativa: ", numTentativas, ") \n")
-			//tecLinha, tecColuna // recebe o que vem do teclado com cadeia = string
-			//userLinha, userColuna //Para converter o recebido no teclado String para inteiro
+			// tecColuna // recebe o que vem do teclado com cadeia = string
+			//, userColuna //Para converter o recebido no teclado String para inteiro
 			/* Falta receber os dados do teclado validando-os
 			 * Falta verificar se acertou ou não numa bomba
 			*/
@@ -87,10 +87,15 @@ programa
 			//O programa só vai aceitar números inteiros
 			// ciclo para evitar erro de digitação e só aceitar numeros inteiros
 			faca{
-				
-			}enquanto()
-			escreva("Linha = ")
-			leia(tecLinha)
+				escreva("Linha = ")
+				leia(tecLinha)	
+				se(Tipos.cadeia_e_inteiro(tecLinha, 10)){
+					userLinha 		
+				}senao{
+					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")
+				}
+			}enquanto(nao Tipos.cadeia_e_inteiro(tecLinha, 10))
+			
 			numTentativas++
 		}	
 	}
@@ -163,7 +168,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 720; 
+ * @POSICAO-CURSOR = 3323; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
