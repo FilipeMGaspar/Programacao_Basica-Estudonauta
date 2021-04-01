@@ -3,6 +3,7 @@ programa
 
 	inclua biblioteca Util
 	inclua biblioteca Tipos
+	
 	funcao inicio()
 	{
 		caracter matriz[5][5]
@@ -118,11 +119,18 @@ programa
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")	
 				}
 			}// O ciclo vai ser repetido infinitamente vai ser parado quando recebido na string não for inteiro, quando for para o ciclo 	
-			
+
+			//userLinha 
+			//userColuna				
+			//Verifica se acertamos ou não numa bomba(mina) se acertar na mina(bomba) para o jogo senão soma 2 pontos e imprime a matriz com ????? 
+			se(matriz[userLinha][userColuna] == '0'){
+				escreva("\n----------------------------------- \n")
+				escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
+			}
 			numTentativas++ //Incrementa as tentativas			
 		}
 
-			/* Falta receber os dados do teclado validando-os
+			/*
 			 * Falta verificar se acertou ou não numa bomba
 			*/
 	}
@@ -195,7 +203,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 5486; 
+ * @POSICAO-CURSOR = 5761; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
