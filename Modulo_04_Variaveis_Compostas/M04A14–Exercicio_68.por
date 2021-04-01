@@ -16,7 +16,7 @@ programa
 		inteiro pontos = 0 //Acomulador de pontos, 2 pontos quando acerta num local sem bomba
 		logico posicaoOcupada = falso //Utilizada para evitar a repetição de posições no jogo o jogo não pode deixar repetir a mesma jogada
 		
-		escreva("{ EXERCICIO 068 - Jogo campo Minado } \n")
+		escreva("{ EXERCICIO 068 - Jogo Campo Minado } \n")
 		escreva("------------------------------------- \n")
 		escreva("\n")
 
@@ -41,8 +41,20 @@ programa
 			
 		}//Fim do enquanto para sortear a localização das minas		
 		
+		//Bloco Abaixo não surge no programa final colocado para testes
+		//Mostra a matriz como ficou não vai surgir no programa final
+		escreva("\n--------------------------------------- \n")
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				escreva(matriz[l][c],"\t")
+			}
+			escreva("\n")
+		}
+		//Bloco acima não surge no programa final colocado para testes
+		
+		limpa()
 		// Ciclo para mostrar o tabuleiro com linha e colunas
-		escreva("\n")
+		escreva("{ EXERCICIO 068 - Jogo Campo Minado } \n")
 		escreva("===========================================\n\n")
 		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ //Ciclo para mostrar o número das colunas
 			se(c == 0){
@@ -251,7 +263,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2010; 
+ * @POSICAO-CURSOR = 2565; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
