@@ -131,7 +131,7 @@ programa
 				escreva("\n-------------------------------------- \n")
 				escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
 				matriz[userLinha][userColuna] = 'V'
-				
+				pontos += 2				
 			}
 			numTentativas++ //Incrementa as tentativas			
 		}
@@ -225,7 +225,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 5527; 
+ * @POSICAO-CURSOR = 6070; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
