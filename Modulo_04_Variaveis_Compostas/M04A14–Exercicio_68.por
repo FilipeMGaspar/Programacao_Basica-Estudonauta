@@ -73,7 +73,7 @@ programa
 			escreva(l)// Mostra o número das linhas
 			
 			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Ciclo para precorrer as colunas
-				escreva("    " ,matrizAux[l][c], "\t")			
+				escreva("   " ,matrizAux[l][c], "\t")			
 			}
 			
 			escreva("\n") // Muda de linha, quebra de linha
@@ -136,7 +136,8 @@ programa
 				se(matriz[userLinha][userColuna] != 'V'){ //Verifica se a posição ainda não foi selecionada
 					escreva("\n-------------------------------------- \n")
 					escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
-					matriz[userLinha][userColuna] = 'V'
+					matriz[userLinha][userColuna] = 'V' //Coloca o 'V' na matriz principal tabuleiro de jogo 
+					matrizAux[userLinha][userColuna] = 'V' //Coloca o 'V' na matriz auxiliar que será mostrada sempre que não acertar numa bomba
 					pontos += 2 //Soma 2 pontos pois não acertou na bomba
 					posicaoOcupada = verdadeiro // Identifica que esta posição foi colocado um 'V'
 					
@@ -270,7 +271,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3288; 
+ * @POSICAO-CURSOR = 3275; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
