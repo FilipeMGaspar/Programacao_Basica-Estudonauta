@@ -12,6 +12,7 @@ programa
 		inteiro numTentativas // Numero de tentativas 5 no total
 		cadeia tecLinha, tecColuna //Vai receber os dados vindos do teclado da linha e da coluna evitando letras e valores inválidos
 		inteiro userLinha = 0, userColuna = 0 //Para converter o recebido no teclado String para inteiro 
+		inteiro pontos = 0 //Acomulador de pontos, 2 pontos quando acerta num local sem bomba
 		
 		escreva("{ EXERCICIO 068 - Jogo campo Minado } \n")
 		escreva("------------------------------------- \n")
@@ -128,6 +129,9 @@ programa
 				escreva("\n-------------------------------------- \n")
 				escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
 				pare
+			}senao {
+				escreva("\n-------------------------------------- \n")
+				escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
 			}
 			numTentativas++ //Incrementa as tentativas			
 		}
@@ -145,7 +149,7 @@ programa
 		}
 
 		escreva("\n-------------------------------------- \n")
-		escreva("  Você fez ", " em ", numTentativas," tentativas\n")
+		escreva("  Você fez ", pontos, " pontos! Em ", numTentativas," tentativas\n")
 			/*
 			 * Falta verificar se acertou ou não numa bomba
 			*/
@@ -219,7 +223,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6334; 
+ * @POSICAO-CURSOR = 6588; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
