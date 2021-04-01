@@ -58,21 +58,23 @@ programa
 		// Ciclo para mostrar o tabuleiro com linha e colunas
 		escreva("\n")
 		escreva("===========================================\n\n")
-		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ //Ciclo para mostrar o número das colunas
 			se(c == 0){
 				escreva("  C ",c)
 			}senao{
 				escreva("\t   ",c)
 			}
-		}
+		}//Fim do Ciclo para mostrar o número das colunas
 		escreva("\nL\n")
 
-		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
-			escreva(l)
-			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ // Ciclo para precorrer as linhas
+			escreva(l)// Mostra o número das linhas
+			
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ // Ciclo para precorrer as colunas
 				escreva("   ?\t")			
 			}
-			escreva("\n")
+			
+			escreva("\n") // Muda de linha, quebra de linha
 		}
 
 		numTentativas = 0
@@ -136,27 +138,27 @@ programa
 					pontos += 2 //Soma 2 pontos pois não acertou na bomba
 					posicaoOcupada = verdadeiro // Identifica que esta posição foi colocado um 'V'
 					
-					//Ciclo para mostrar o tabuleiro quando Não acertou nenhuma bomba
-					// Ciclo para mostrar o tabuleiro com linha e colunas
+					//Mostra o tabuleiro quando Não acertou nenhuma bomba
+					// Ciclo para mostrar o tabuleiro com linhas e colunas
 					escreva("\n")
 					escreva("===========================================\n\n")
-					para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+					para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){//Ciclo para mostrar o número das colunas
 						se(c == 0){
 							escreva("  C ",c)
 						}senao{
 							escreva("\t   ",c)
 						}
-					}
+					}//Fim do Ciclo para mostrar o número das colunas
 					escreva("\nL\n")
 
-					para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
-						escreva(l)
+					para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){ //Ciclo para precorrer as linhas
+						escreva(l) // Mostra o número das linhas
 						
-						para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+						para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ //Ciclo para precorrer as colunas
 							escreva("   ?\t")			
 						}
 						
-						escreva("\n")
+						escreva("\n")//Muda de linha, Quebra de linha
 					}
 				
 				}senao{
@@ -262,7 +264,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 7140; 
+ * @POSICAO-CURSOR = 3066; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
