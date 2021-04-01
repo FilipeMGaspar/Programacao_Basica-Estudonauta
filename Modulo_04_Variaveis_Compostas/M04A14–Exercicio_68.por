@@ -149,7 +149,9 @@ programa
 		}
 
 		escreva("\n-------------------------------------- \n")
-		escreva("  Você fez ", pontos, " pontos! Em ", numTentativas," tentativas\n")
+		escreva("  Você fez ", pontos, " pontos! Em ", numTentativas," tentativa(s)! \n")
+		escreva("\n-------------------------------------------- \n")
+		escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n © 2021 Filipe Gaspar \n")
 			/*
 			 * Falta verificar se acertou ou não numa bomba
 			*/
@@ -223,7 +225,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6588; 
+ * @POSICAO-CURSOR = 6749; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
