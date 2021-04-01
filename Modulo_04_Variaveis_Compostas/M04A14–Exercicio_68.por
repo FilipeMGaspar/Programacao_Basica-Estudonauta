@@ -76,11 +76,12 @@ programa
 		}
 
 		numTentativas = 1
-		escreva("\n-------------------------------------------\n")
+		escreva("\n")
 		//ciclo para contar as tentativas
 		enquanto(numTentativas <= 5){
-			escreva("  Faça a sua jogada! (Tentativa: ", numTentativas, ") \n")
-			
+			escreva("-------------------------------------------\n")
+			escreva("Faça a sua jogada! (Tentativa: ", numTentativas, ") \n")
+			escreva("\n")
 			//O programa só vai aceitar números inteiros
 			// Linhas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
 			enquanto(verdadeiro){
@@ -127,11 +128,11 @@ programa
 				escreva("\n-------------------------------------- \n")
 				escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
 				pare
-			}senao {
+			}senao { //Se a posição não tiver bomba mostra que deu um tiro certeiro, Ganhamdo 2 pontos
 				escreva("\n-------------------------------------- \n")
 				escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
 				matriz[userLinha][userColuna] = 'V'
-				pontos += 2				
+				pontos += 2 //Soma 2 pontos pois não acertou na bomba				
 			}
 			numTentativas++ //Incrementa as tentativas			
 		}
@@ -225,7 +226,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6070; 
+ * @POSICAO-CURSOR = 2956; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
