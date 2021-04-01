@@ -183,6 +183,9 @@ programa
 	}
 }
 
+// Pode ser melhorado verificando a estrutura da matriz principal comparando com a auxiliar
+// Não executando se as matriz principal e auxiliar não forem iguais
+
 /* Exercicio 68
 *  5 tentativas ganha 2 pontos quando não acerta na bomba
 *  { EXERCICIO 068 - Jogo campo Minado }
@@ -250,7 +253,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2009; 
+ * @POSICAO-CURSOR = 8827; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

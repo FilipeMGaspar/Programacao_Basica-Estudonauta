@@ -52,7 +52,7 @@ programa
 		}
 		//Bloco acima não surge no programa final colocado para testes
 		
-		limpa()
+		limpa() // Limpa o ecrã do console
 		escreva("{ EXERCICIO 068 - Jogo Campo Minado } \n")
 		escreva("===========================================\n\n")
 		// Ciclo para mostrar o tabuleiro com linha e colunas
@@ -264,7 +264,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2448; 
+ * @POSICAO-CURSOR = 2482; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
