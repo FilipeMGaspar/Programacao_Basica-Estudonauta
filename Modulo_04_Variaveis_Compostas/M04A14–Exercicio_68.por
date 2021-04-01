@@ -91,6 +91,11 @@ programa
 				leia(tecLinha)	
 				se(Tipos.cadeia_e_inteiro(tecLinha, 10)){ // verifica se o valor na string é inteiro se for converte senao imprime um erro
 					userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro		
+					
+					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
+					se(userLinha < 0 ou userLinha > Util.numero_colunas(matriz)){
+						
+					}
 				}senao{ // se o valor vindo na string não for inteiro imprime um erro
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")
 				}
@@ -168,7 +173,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3638; 
+ * @POSICAO-CURSOR = 3678; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
