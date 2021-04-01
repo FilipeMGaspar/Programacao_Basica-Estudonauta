@@ -135,11 +135,35 @@ programa
 					matriz[userLinha][userColuna] = 'V'
 					pontos += 2 //Soma 2 pontos pois não acertou na bomba
 					posicaoOcupada = verdadeiro // Identifica que esta posição foi colocado um 'V'
+					
+					//Ciclo para mostrar o tabuleiro quando Não acertou nenhuma bomba
+					// Ciclo para mostrar o tabuleiro com linha e colunas
+					escreva("\n")
+					escreva("===========================================\n\n")
+					para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+						se(c == 0){
+							escreva("  C ",c)
+						}senao{
+							escreva("\t   ",c)
+						}
+					}
+					escreva("\nL\n")
+
+					para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+						escreva(l)
+						
+						para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+							escreva("   ?\t")			
+						}
+						
+						escreva("\n")
+					}
+				
 				}senao{
 					posicaoOcupada = falso // Identifica que nesta posição já existe um 'V'
 					escreva("\n\n...........: ATENÇÃO :........... \n")
 					escreva("A posição [",userLinha,"][",userColuna,"] já foi utilizada! \n")
-					escreva("Por favor escolha uma Linha e coluna diferente! \n")
+					escreva("Por favor escolha uma Linha ou Coluna diferente! \n")
 					escreva("\n")
 				}
 			}
@@ -166,7 +190,7 @@ programa
 		escreva("\n-------------------------------------------- \n")
 		escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n\t   © 2021 Filipe Gaspar \n")
 			/*
-			 * Falta verificar se acertou ou não numa bomba
+			 * Falta mostrar o tabuleiro quando não acerta na bomba
 			*/
 	}
 }
@@ -238,7 +262,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6694; 
+ * @POSICAO-CURSOR = 7140; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
