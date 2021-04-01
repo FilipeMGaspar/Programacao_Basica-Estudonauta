@@ -32,12 +32,7 @@ programa
 		numMinas = 0
 		enquanto(numMinas < 5){
 			linha = sorteia(0, Util.numero_linhas(matriz)-1)//Vai sortear o número da linha de 0 até ao numero de linhas da matriz
-			coluna = sorteia(0, Util.numero_colunas(matriz)-1)//Vai sortear o número da linha de 0 até ao numero de colunas da matriz
-
-			//Bloco Abaixo não surge no programa final colocado para testes
-			escreva("Linha = ", linha," ")
-			escreva("Coluna = ", coluna,"\n")
-			//Bloco acima não surge no programa final colocado para testes	
+			coluna = sorteia(0, Util.numero_colunas(matriz)-1)//Vai sortear o número da linha de 0 até ao numero de colunas da matriz	
 				
 			se(matriz[linha][coluna] == '-'){ //A mina só vai ser colocada se o espaço estiver disponível
 				matriz[linha][coluna] = '0'//Colocando minas o 0 identifica as minhas
@@ -267,7 +262,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 8037; 
+ * @POSICAO-CURSOR = 1938; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
