@@ -89,12 +89,12 @@ programa
 			faca{
 				escreva("Linha = ")
 				leia(tecLinha)	
-				se(Tipos.cadeia_e_inteiro(tecLinha, 10)){
-					userLinha 		
-				}senao{
+				se(Tipos.cadeia_e_inteiro(tecLinha, 10)){ // verifica se o valor na string é inteiro se for converte senao imprime um erro
+					userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro		
+				}senao{ // se o valor vindo na string não for inteiro imprime um erro
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")
 				}
-			}enquanto(nao Tipos.cadeia_e_inteiro(tecLinha, 10))
+			}enquanto(nao Tipos.cadeia_e_inteiro(tecLinha, 10)) // O ciclo vai ser repetido enquanto o valor recebido na string não for inteiro, quando for para o ciclo
 			
 			numTentativas++
 		}	
@@ -168,7 +168,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3323; 
+ * @POSICAO-CURSOR = 3638; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
