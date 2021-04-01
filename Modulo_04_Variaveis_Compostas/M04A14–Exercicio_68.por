@@ -128,10 +128,12 @@ programa
 				escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
 				pare
 			}senao { //Se a posição não tiver bomba mostra que deu um tiro certeiro, Ganhamdo 2 pontos
-				escreva("\n-------------------------------------- \n")
-				escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
-				matriz[userLinha][userColuna] = 'V'
-				pontos += 2 //Soma 2 pontos pois não acertou na bomba				
+				se(matriz[userLinha][userColuna] != 'V'){
+					escreva("\n-------------------------------------- \n")
+					escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
+					matriz[userLinha][userColuna] = 'V'
+					pontos += 2 //Soma 2 pontos pois não acertou na bomba
+				}
 			}
 			numTentativas++ //Incrementa as tentativas			
 		}
@@ -225,7 +227,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6038; 
+ * @POSICAO-CURSOR = 6243; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
