@@ -155,7 +155,11 @@ programa
 						escreva(l) // Mostra o número das linhas
 						
 						para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ //Ciclo para precorrer as colunas
-							escreva("   ?\t")			
+							se(userLinha == l e userColuna == c){
+								escreva("   V\t")
+							}senao{
+								escreva("   ?\t")			
+							}	
 						}
 						
 						escreva("\n")//Muda de linha, Quebra de linha
@@ -264,7 +268,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3066; 
+ * @POSICAO-CURSOR = 7602; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
