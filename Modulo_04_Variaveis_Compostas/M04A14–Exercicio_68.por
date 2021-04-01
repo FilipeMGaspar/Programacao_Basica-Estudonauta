@@ -134,10 +134,11 @@ programa
 					matriz[userLinha][userColuna] = 'V'
 					pontos += 2 //Soma 2 pontos pois não acertou na bomba
 				}senao{
-					
+					escreva("A posição [",userLinha,"][",userColuna,"] já foi utilizada! \n")
 				}
 			}
-			numTentativas++ //Incrementa as tentativas			
+			numTentativas++ //Incrementa as tentativas	
+			escreva("N tentativas = ",numTentativas ,"\n")		
 		}
 
 		escreva("\n============================== \n")
@@ -229,7 +230,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6295; 
+ * @POSICAO-CURSOR = 6551; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
