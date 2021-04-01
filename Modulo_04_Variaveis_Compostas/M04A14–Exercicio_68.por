@@ -53,9 +53,9 @@ programa
 		//Bloco acima não surge no programa final colocado para testes
 		
 		limpa()
-		// Ciclo para mostrar o tabuleiro com linha e colunas
 		escreva("{ EXERCICIO 068 - Jogo Campo Minado } \n")
 		escreva("===========================================\n\n")
+		// Ciclo para mostrar o tabuleiro com linha e colunas
 		para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){ //Ciclo para mostrar o número das colunas
 			se(c == 0){
 				escreva("  C ",c)
@@ -264,7 +264,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 9036; 
+ * @POSICAO-CURSOR = 2448; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
