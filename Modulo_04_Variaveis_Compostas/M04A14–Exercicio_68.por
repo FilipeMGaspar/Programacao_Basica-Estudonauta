@@ -13,6 +13,7 @@ programa
 		cadeia tecLinha, tecColuna //Vai receber os dados vindos do teclado da linha e da coluna evitando letras e valores inválidos
 		inteiro userLinha = 0, userColuna = 0 //Para converter o recebido no teclado String para inteiro 
 		inteiro pontos = 0 //Acomulador de pontos, 2 pontos quando acerta num local sem bomba
+		logico posicaoOcupada = falso //Utilizada para evitar a repetição de posições no jogo o jogo não pode deixar repetir a mesma jogada
 		
 		escreva("{ EXERCICIO 068 - Jogo campo Minado } \n")
 		escreva("------------------------------------- \n")
@@ -133,12 +134,16 @@ programa
 					escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
 					matriz[userLinha][userColuna] = 'V'
 					pontos += 2 //Soma 2 pontos pois não acertou na bomba
+					posicaoOcupada = verdadeiro // Identifica que esta posição foi colocado um 'V'
 				}senao{
+					posicaoOcupada = falso // Identifica que nesta posição já existe um 'V'
 					escreva("A posição [",userLinha,"][",userColuna,"] já foi utilizada! \n")
 				}
 			}
-			numTentativas++ //Incrementa as tentativas	
-			escreva("N tentativas = ",numTentativas ,"\n")		
+			
+			se(posicaoOcupada){ // Só vamos incrementar as tentativas se a posição não for repetida
+				numTentativas++ //Incrementa as tentativas			
+			}
 		}
 
 		escreva("\n============================== \n")
@@ -230,7 +235,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2806; 
+ * @POSICAO-CURSOR = 6878; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
