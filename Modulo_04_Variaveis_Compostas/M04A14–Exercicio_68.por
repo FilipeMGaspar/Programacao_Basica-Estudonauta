@@ -78,10 +78,6 @@ programa
 		//ciclo para contar as tentativas
 		enquanto(numTentativas <= 5){
 			escreva("  Faça a sua jogada! (Tentativa: ", numTentativas, ") \n")
-			//,  //Para converter o recebido no teclado String para inteiro
-			/* Falta receber os dados do teclado validando-os
-			 * Falta verificar se acertou ou não numa bomba
-			*/
 			
 			//O programa só vai aceitar números inteiros
 			// Linhas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
@@ -111,8 +107,8 @@ programa
 				se(Tipos.cadeia_e_inteiro(tecColuna, 10)){ // verifica se o valor na string é inteiro se for converte senao imprime um erro
 					userColuna = Tipos.cadeia_para_inteiro(tecColuna ,10) //Conversão de string para inteiro
 					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
-					se(userColuna >= 0 e userLinha < (Util.numero_colunas(matriz))){
-						userColuna = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
+					se(userColuna >= 0 e userColuna < (Util.numero_colunas(matriz))){
+						userColuna = Tipos.cadeia_para_inteiro(tecColuna ,10) //Conversão de string para inteiro
 						numTentativas++
 					}senao{
 						escreva("  <<ERRO>> Valor inválido para a Coluna! escolha entre 0 e ", (Util.numero_colunas(matriz)-1),"\n")
@@ -124,7 +120,10 @@ programa
 				
 			}enquanto(nao Tipos.cadeia_e_inteiro(tecColuna, 10)) // O ciclo vai ser repetido enquanto o valor recebido na string não for inteiro, quando for para o ciclo 	
 		}
-			
+
+			/* Falta receber os dados do teclado validando-os
+			 * Falta verificar se acertou ou não numa bomba
+			*/
 	}
 }
 
@@ -195,7 +194,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3826; 
+ * @POSICAO-CURSOR = 4637; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
