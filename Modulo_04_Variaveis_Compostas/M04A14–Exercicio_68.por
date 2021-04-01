@@ -78,7 +78,7 @@ programa
 		//ciclo para contar as tentativas
 		enquanto(numTentativas <= 5){
 			escreva("  Faça a sua jogada! (Tentativa: ", numTentativas, ") \n")
-			//, userColuna //Para converter o recebido no teclado String para inteiro
+			//,  //Para converter o recebido no teclado String para inteiro
 			/* Falta receber os dados do teclado validando-os
 			 * Falta verificar se acertou ou não numa bomba
 			*/
@@ -92,11 +92,11 @@ programa
 					userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro		
 					
 					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
-					se(userLinha > 0 e userLinha < (Util.numero_colunas(matriz))){
+					se(userLinha >= 0 e userLinha < (Util.numero_linhas(matriz))){
 						userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
 						numTentativas++
 					}senao{
-						escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_colunas(matriz)-1),"\n")
+						escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_linhas(matriz)-1),"\n")
 					}
 					
 				}senao{ // se o valor vindo na string não for inteiro imprime um erro
@@ -109,7 +109,15 @@ programa
 				escreva("Coluna = ")
 				leia(tecColuna)
 				se(Tipos.cadeia_e_inteiro(tecColuna, 10)){ // verifica se o valor na string é inteiro se for converte senao imprime um erro
-					userLinha = Tipos.cadeia_para_inteiro(tecColuna ,10) //Conversão de string para inteiro
+					userColuna = Tipos.cadeia_para_inteiro(tecColuna ,10) //Conversão de string para inteiro
+					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
+					se(userColuna >= 0 e userLinha < (Util.numero_colunas(matriz))){
+						userColuna = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
+						numTentativas++
+					}senao{
+						escreva("  <<ERRO>> Valor inválido para a Coluna! escolha entre 0 e ", (Util.numero_colunas(matriz)-1),"\n")
+					}
+					
 				}senao {// se o valor vindo na string não for inteiro imprime um erro
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")	
 				}
@@ -187,7 +195,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4609; 
+ * @POSICAO-CURSOR = 3826; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
