@@ -188,11 +188,12 @@ programa
 
 		escreva("\n-------------------------------------- \n")
 		escreva("  Você fez ", pontos, " pontos! Em ", numTentativas," tentativa(s)! \n")
+		se(pontos == 10){
+			escreva("\n ..: PARABÉNS! Venceu o jogo! :.. ")
+		}
 		escreva("\n-------------------------------------------- \n")
 		escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n\t   © 2021 Filipe Gaspar \n")
-			/*
-			 * Falta mostrar o tabuleiro quando não acerta na bomba
-			*/
+		
 	}
 }
 
@@ -263,7 +264,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2565; 
+ * @POSICAO-CURSOR = 9036; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
