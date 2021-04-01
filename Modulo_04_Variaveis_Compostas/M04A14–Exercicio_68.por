@@ -93,18 +93,21 @@ programa
 					userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro		
 					
 					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
-					se(userLinha < 0 ou userLinha > Util.numero_colunas(matriz)){
-						escreva("Tudo OK PODEMOS SEGUIR \n")
+					se(userLinha > 0 e userLinha < (Util.numero_colunas(matriz))){
+						userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
+						numTentativas++
 					}senao{
-						escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", Util.numero_colunas(matriz),"\n")
+						escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_colunas(matriz)-1),"\n")
 					}
+					
 				}senao{ // se o valor vindo na string não for inteiro imprime um erro
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")
 				}
 			}enquanto(nao Tipos.cadeia_e_inteiro(tecLinha, 10)) // O ciclo vai ser repetido enquanto o valor recebido na string não for inteiro, quando for para o ciclo
+
 			
-			numTentativas++
-		}	
+		}
+			
 	}
 }
 
@@ -175,7 +178,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3712; 
+ * @POSICAO-CURSOR = 4244; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
