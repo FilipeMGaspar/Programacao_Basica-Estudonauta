@@ -74,12 +74,12 @@ programa
 			escreva("\n")
 		}
 
-		numTentativas = 1
+		numTentativas = 0
 		escreva("\n")
 		//ciclo para contar as tentativas
-		enquanto(numTentativas <= 5){
+		enquanto(numTentativas < 5){
 			escreva("-------------------------------------------\n")
-			escreva("Faça a sua jogada! (Tentativa: ", numTentativas, ") \n")
+			escreva("Faça a sua jogada! (Tentativa: ", (numTentativas+1), ") \n")
 			escreva("\n")
 			//O programa só vai aceitar números inteiros
 			// Linhas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
@@ -230,7 +230,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6551; 
+ * @POSICAO-CURSOR = 2806; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
