@@ -41,17 +41,6 @@ programa
 			
 		}//Fim do enquanto para sortear a localização das minas		
 		
-		//Bloco Abaixo não surge no programa final colocado para testes
-		//Mostra a matriz como ficou não vai surgir no programa final
-		escreva("\n--------------------------------------- \n")
-		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
-			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
-				escreva(matriz[l][c],"\t")
-			}
-			escreva("\n")
-		}
-		//Bloco acima não surge no programa final colocado para testes
-
 		// Ciclo para mostrar o tabuleiro com linha e colunas
 		escreva("\n")
 		escreva("===========================================\n\n")
@@ -262,7 +251,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1938; 
+ * @POSICAO-CURSOR = 2010; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
