@@ -81,24 +81,26 @@ programa
 			
 			//O programa só vai aceitar números inteiros
 			// Linhas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
-			faca{
+			
+			/*faca{
 				escreva("Linha = ")
 				leia(tecLinha)	
 				se(Tipos.cadeia_e_inteiro(tecLinha, 10)){ // verifica se o valor na string é inteiro se for converte senao imprime um erro
 					userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro		
-					
-					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
-					se(userLinha >= 0 e userLinha < (Util.numero_linhas(matriz))){
-						userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
-						numTentativas++
-					}senao{
-						escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_linhas(matriz)-1),"\n")
-					}
-					
+
+					faca{
+						//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
+						se(userLinha >= 0 e userLinha < Util.numero_linhas(matriz)){
+							userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
+							numTentativas++
+						}senao{
+							escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_linhas(matriz)-1),"\n")
+						}
+					}enquanto(nao (userLinha >= 0 e userLinha < Util.numero_linhas(matriz)))
 				}senao{ // se o valor vindo na string não for inteiro imprime um erro
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")
 				}
-			}enquanto(nao Tipos.cadeia_e_inteiro(tecLinha, 10)) // O ciclo vai ser repetido enquanto o valor recebido na string não for inteiro, quando for para o ciclo
+			}enquanto(nao Tipos.cadeia_e_inteiro(tecLinha, 10)) // O ciclo vai ser repetido enquanto o valor recebido na string não for inteiro, quando for para o ciclo*/
 
 			// Colunas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
 			faca{
@@ -194,7 +196,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4637; 
+ * @POSICAO-CURSOR = 2965; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
