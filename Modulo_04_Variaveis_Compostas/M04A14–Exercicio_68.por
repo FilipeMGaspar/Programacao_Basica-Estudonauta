@@ -120,9 +120,7 @@ programa
 					escreva("<<ERRO>> Opção inválida! Esperava um número inteiro! \n")	
 				}
 			}// O ciclo vai ser repetido infinitamente vai ser parado quando recebido na string não for inteiro, quando for para o ciclo 	
-
-			//userLinha 
-			//userColuna				
+				
 			//Verifica se acertamos ou não numa bomba(mina) se acertar na mina(bomba) para o jogo senão soma 2 pontos e imprime a matriz com ????? 
 			se(matriz[userLinha][userColuna] == '0'){
 				matriz[userLinha][userColuna] = '*'
@@ -132,6 +130,8 @@ programa
 			}senao {
 				escreva("\n-------------------------------------- \n")
 				escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
+				matriz[userLinha][userColuna] = 'V'
+				
 			}
 			numTentativas++ //Incrementa as tentativas			
 		}
@@ -151,7 +151,7 @@ programa
 		escreva("\n-------------------------------------- \n")
 		escreva("  Você fez ", pontos, " pontos! Em ", numTentativas," tentativa(s)! \n")
 		escreva("\n-------------------------------------------- \n")
-		escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n © 2021 Filipe Gaspar \n")
+		escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n\t   © 2021 Filipe Gaspar \n")
 			/*
 			 * Falta verificar se acertou ou não numa bomba
 			*/
@@ -225,7 +225,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6749; 
+ * @POSICAO-CURSOR = 5527; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
