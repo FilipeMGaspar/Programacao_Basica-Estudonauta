@@ -90,6 +90,7 @@ programa
 					//O valor recebido do teclado para a linha não pode ser menor que 0 nem maior que o número de linhas da matriz
 					se(userLinha >= 0 e userLinha < Util.numero_linhas(matriz)){
 				   		userLinha = Tipos.cadeia_para_inteiro(tecLinha ,10) //Conversão de string para inteiro
+				   		pare //vai parar o ciclo enquanto uma vez que cumpre todos os requisitos, é inteiro maior que 0 e menor que o número de linhas da matriz
 				   		//numTentativas++
 					}senao{
 				   		escreva("  <<ERRO>> Valor inválido para a linha! escolha entre 0 e ", (Util.numero_linhas(matriz)-1),"\n")
@@ -195,7 +196,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 4087; 
+ * @POSICAO-CURSOR = 3677; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
