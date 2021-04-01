@@ -41,8 +41,7 @@ programa
 				numMinas++
 			}
 			
-		}//Fim do enquanto para sortear a localização das minas
-		
+		}//Fim do enquanto para sortear a localização das minas		
 		
 		//Bloco Abaixo não surge no programa final colocado para testes
 		//Mostra a matriz como ficou não vai surgir no programa final
@@ -123,7 +122,7 @@ programa
 			}// O ciclo vai ser repetido infinitamente vai ser parado quando recebido na string não for inteiro, quando for para o ciclo 	
 				
 			//Verifica se acertamos ou não numa bomba(mina) se acertar na mina(bomba) para o jogo senão soma 2 pontos e imprime a matriz com ????? 
-			se(matriz[userLinha][userColuna] == '0'){
+			se(matriz[userLinha][userColuna] == '0'){ //Verifica se acertou na mina '0' 
 				matriz[userLinha][userColuna] = '*'
 				escreva("\n-------------------------------------- \n")
 				escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
@@ -226,7 +225,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2956; 
+ * @POSICAO-CURSOR = 6038; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
