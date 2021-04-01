@@ -137,7 +137,10 @@ programa
 					posicaoOcupada = verdadeiro // Identifica que esta posição foi colocado um 'V'
 				}senao{
 					posicaoOcupada = falso // Identifica que nesta posição já existe um 'V'
+					escreva("\n\n...........: ATENÇÃO :........... \n")
 					escreva("A posição [",userLinha,"][",userColuna,"] já foi utilizada! \n")
+					escreva("Por favor escolha uma Linha e coluna diferente! \n")
+					escreva("\n")
 				}
 			}
 			
@@ -235,7 +238,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6878; 
+ * @POSICAO-CURSOR = 6694; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
