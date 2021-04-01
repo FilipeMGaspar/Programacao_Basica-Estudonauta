@@ -124,15 +124,25 @@ programa
 			//userColuna				
 			//Verifica se acertamos ou não numa bomba(mina) se acertar na mina(bomba) para o jogo senão soma 2 pontos e imprime a matriz com ????? 
 			se(matriz[userLinha][userColuna] == '0'){
-				escreva("\n----------------------------------- \n")
+				matriz[userLinha][userColuna] = '*'
+				escreva("\n-------------------------------------- \n")
 				escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
 				pare
 			}
 			numTentativas++ //Incrementa as tentativas			
 		}
 
-		escreva("================================================ \n")
-		escreva("\t FIM DO JOGO!")
+		escreva("\n============================== \n")
+		escreva("\t FIM DO JOGO! \n")
+		escreva("\n-------------------------------------- \n")
+		
+		//Ciclo para mostrar a Matriz no fim do jogo
+		para(inteiro l = 0; l < Util.numero_linhas(matriz); l++){
+			para(inteiro c = 0; c < Util.numero_colunas(matriz); c++){
+				escreva(matriz[l][c],"\t")
+			}
+			escreva("\n")
+		}
 			/*
 			 * Falta verificar se acertou ou não numa bomba
 			*/
@@ -206,7 +216,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 5931; 
+ * @POSICAO-CURSOR = 5882; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
