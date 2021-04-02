@@ -186,11 +186,14 @@ programa
 			}
 
 			escreva("\n-------------------------------------- \n")
+			se(numTentativas == 0){ //Se falhar logo na primeira será mostrado 0 se for o caso numTentativas passa a ser 1
+				numTentativas = 1
+			}
 			escreva("  Você fez ", pontos, " pontos! Em ", numTentativas," tentativa(s)! \n")
 			se(pontos == (maxTentativas * 2)){
 				escreva("\n ..: PARABÉNS! Venceu o jogo! :.. ")
 			}senao{
-				escreva("\n Foi um bom jogo mas ainda não foi desta! \n")
+				escreva("\n Foi um bom jogo mas ainda não foi desta! ")
 			}
 			escreva("\n-------------------------------------------- \n")
 			escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n\t   © 2021 Filipe Gaspar \n")
@@ -269,7 +272,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 9541; 
+ * @POSICAO-CURSOR = 9446; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
