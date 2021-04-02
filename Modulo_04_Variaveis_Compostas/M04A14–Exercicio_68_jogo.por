@@ -187,8 +187,10 @@ programa
 
 			escreva("\n-------------------------------------- \n")
 			escreva("  Você fez ", pontos, " pontos! Em ", numTentativas," tentativa(s)! \n")
-			se(pontos == 10){
+			se(pontos == (maxTentativas * 2)){
 				escreva("\n ..: PARABÉNS! Venceu o jogo! :.. ")
+			}senao{
+				escreva("\n Foi um bom jogo mas ainda não foi desta! \n")
 			}
 			escreva("\n-------------------------------------------- \n")
 			escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n\t   © 2021 Filipe Gaspar \n")
@@ -267,7 +269,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3352; 
+ * @POSICAO-CURSOR = 9541; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
