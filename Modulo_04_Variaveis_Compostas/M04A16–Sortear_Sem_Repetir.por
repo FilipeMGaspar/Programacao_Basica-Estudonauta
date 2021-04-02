@@ -5,9 +5,17 @@ programa
 	{
 		inteiro vet[10]
 
+		//ciclo para preencher o vetor
 		para(inteiro i = 0 ; i < Util.numero_elementos(vet); i++){
-			vet[i] = sorteia(1,10)
+			vet[i] = sorteia(1,20)
 		}
+
+		//Ciclo para mostrar o vetor
+		para(inteiro i = 0 ; i < Util.numero_elementos(vet); i++){
+			escreva(vet[i]," ")
+			Util.aguarde(300)
+		}
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -15,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 169; 
+ * @POSICAO-CURSOR = 338; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
