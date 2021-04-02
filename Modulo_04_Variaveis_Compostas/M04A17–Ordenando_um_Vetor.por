@@ -32,7 +32,7 @@ programa
 		escreva("\n")
 
 		//Ordenando o vetor
-		inteiro aux //variavel auxiliar para a ordenação do vetor
+		inteiro aux = 0 //variavel auxiliar para a ordenação do vetor
 		escreva("\n======================================================== \n")
 		escreva(" Estou a colocar em ordem crescente! Por favor aguarde! \n")
 		Util.aguarde(1500)
@@ -62,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1147; 
+ * @POSICAO-CURSOR = 1017; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
