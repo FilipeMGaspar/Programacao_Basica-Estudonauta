@@ -132,9 +132,13 @@ programa
 					matriz[userLinha][userColuna] = '*'
 					escreva("\n-------------------------------------- \n")
 					escreva(" --> TIRO ERRADO! Acertou numa Bomba. \n")
+					escreva("-------------------------------------- \n")
+					Util.aguarde(200)
 					pare
 				}senao { //Se a posição não tiver bomba mostra que deu um tiro certeiro, Ganhamdo 2 pontos
 					se(matriz[userLinha][userColuna] != 'V'){ //Verifica se a posição ainda não foi selecionada
+						limpa()//Limpa o console utilizado para evitar poluição visual no console
+						escreva("{ EXERCICIO 068 - Jogo Campo Minado } \n")
 						escreva("\n-------------------------------------- \n")
 						escreva(" --> ATIROU CERTO! Não acertou nenhuma bomba! \n")
 						matriz[userLinha][userColuna] = 'V' //Coloca o 'V' na matriz principal tabuleiro de jogo 
@@ -178,7 +182,10 @@ programa
 				numTentativas++ //Incrementa as tentativas			
 				}
 			}
-
+			
+			Util.aguarde(1000)
+			limpa()//Limpa o console utilizado para evitar poluição visual no console
+						escreva("{ EXERCICIO 068 - Jogo Campo Minado } \n")
 			escreva("\n============================== \n")
 			escreva("\t FIM DO JOGO! \n")
 			escreva("\n-------------------------------------- \n")
@@ -271,7 +278,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1271; 
+ * @POSICAO-CURSOR = 7008; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
