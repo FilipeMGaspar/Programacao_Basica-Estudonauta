@@ -15,7 +15,7 @@ programa
 			para(inteiro aux = 0; aux < i; aux++){ // vai verificar todoas as posições da posição 0 até a ultima posição sorteada
 				se(vet[aux] == vet[i]){
 					encontrado = verdadeiro
-					pare
+					pare // se encontrar um valor repetido para o ciclo
 				}
 			}
 			se(nao encontrado){ //Só soma o indice se o valor não for encontrado
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 430; 
+ * @POSICAO-CURSOR = 477; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
