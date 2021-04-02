@@ -61,11 +61,13 @@ programa
 		//A busca binária só funciona se o vetor estiver em ordem crescente
 		inteiro chave
 		logico encontrouChave
+		escreva("\n------------------------------------- \n")
 		escreva("Qual número deseja perquisar: ")
 		leia(chave)
 		encontrouChave = falso //até agora ainda não encontrou a chave
 		inteiro ini = 0, fim = (Util.numero_elementos(vet)-1), meio = 0
-		enquanto(ini < fim){
+		
+		enquanto(ini <= fim){
 			meio = (ini + fim) / 2//Calculo do meio do vetor
 			se(vet[meio] == chave){
 				encontrouChave = verdadeiro
@@ -94,7 +96,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3219; 
+ * @POSICAO-CURSOR = 2605; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
