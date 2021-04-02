@@ -33,9 +33,9 @@ programa
 
 		//Ordenando o vetor
 		inteiro aux //variavel auxiliar para a ordenação do vetor
-		escreva("====================================================== \n")
-		escreva("Estou a colocar em ordem crescente! por favor aguarde! \n")
-		Util.aguarde(1200)
+		escreva("\n====================================================== \n")
+		escreva("Estou a colocar em ordem crescente! Por favor aguarde! \n")
+		Util.aguarde(1500)
 		
 		para(inteiro p = 0; p < (Util.numero_elementos(vet)-1); p++){ //Ciclo para o ponteiro principal que vai da posição 0 até á Penúltimo posição. Que ocorre imediatamente antes do último 
 			para(inteiro s = (p+1); s < Util.numero_elementos(vet); s++){ //Ciclo para o ponteiro secundário que vai da posição p + 1, posição seguinte ao p, até ao ultimo elemento do vetor
@@ -62,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1224; 
+ * @POSICAO-CURSOR = 1221; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
