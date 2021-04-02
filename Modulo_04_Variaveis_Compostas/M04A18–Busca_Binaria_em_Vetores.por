@@ -67,7 +67,24 @@ programa
 		inteiro ini = 0, fim = (Util.numero_elementos(vet)-1), meio = 0
 		enquanto(ini < fim){
 			meio = (ini + fim) / 2//Calculo do meio do vetor
-			
+			se(vet[meio] == chave){
+				encontrouChave = verdadeiro
+				pare//como encontrou a chave vai parar o ciclo
+			}senao{
+				se(chave > vet[meio]){ //se o valor da chave for maior que o valor no vetor na posição meio
+					ini = meio +1
+				}senao{ //se o valor da chave for menor que o valor no vetor na posição meio
+					fim = meio -1
+				}
+			}
+		}
+
+		se(encontrouChave){ //Verifica se encontrou a chave dentro do vetor
+			escreva("\n")
+			escreva("O valor ", chave, " foi encontrado na posição ", meio, "\n")
+		}senao{
+			escreva("\n")
+			escreva("Infelizmente o valor ", chave, " não foi encontrado no vetor! \n")
 		}
 		
 	}
@@ -77,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2607; 
+ * @POSICAO-CURSOR = 3219; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
