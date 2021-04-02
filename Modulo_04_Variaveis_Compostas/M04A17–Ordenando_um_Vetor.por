@@ -35,11 +35,11 @@ programa
 		inteiro aux //variavel auxiliar para a ordenação do vetor
 		escreva("====================================================== \n")
 		escreva("Estou a colocar em ordem crescente! por favor aguarde! \n")
-		Util.aguarde(1000)
+		Util.aguarde(1200)
 		
 		para(inteiro p = 0; p < (Util.numero_elementos(vet)-1); p++){ //Ciclo para o ponteiro principal que vai da posição 0 até á Penúltimo posição. Que ocorre imediatamente antes do último 
 			para(inteiro s = (p+1); s < Util.numero_elementos(vet); s++){ //Ciclo para o ponteiro secundário que vai da posição p + 1, posição seguinte ao p, até ao ultimo elemento do vetor
-				se(vet[p] < vet[s]){ //Na primeira execuçaõ verifica se vet[0] é menor que vet[1] se for faz a troca ou swap, e assim consecutivamente vet[1] é menor que vet[2] até terminar o ciclo
+				se(vet[p] > vet[s]){ //Na primeira execuçaõ verifica se vet[0] é menor que vet[1] se for faz a troca ou swap, e assim consecutivamente vet[1] é menor que vet[2] até terminar o ciclo
 					aux = vet[p]
 					vet[p] = vet[s]
 					vet[s] = aux			
@@ -48,7 +48,7 @@ programa
 		}
 
 		//Mostra o vetor por ordem crescente
-		escreva("-----------------------------------\n")
+		escreva("\n--------------------------------------- \n")
 		escreva("O vetor colocado em ordem Crescente: \n")		
 		para(inteiro p = 0; p < Util.numero_elementos(vet); p++){
 			Util.aguarde(300)
@@ -62,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1988; 
+ * @POSICAO-CURSOR = 1224; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
