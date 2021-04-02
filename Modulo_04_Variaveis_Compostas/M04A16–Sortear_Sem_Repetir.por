@@ -7,9 +7,20 @@ programa
 
 		//ciclo para preencher o vetor
 		inteiro i = 0
+		logico encontrado
+		
 		enquanto(i < Util.numero_elementos(vet)){
 			vet[i] = sorteia(1,10)
-			i++
+			encontrado = falso
+			para(inteiro aux = 0; aux < i; aux++){ // vai verificar todoas as posições da posição 0 até a ultima posição sorteada
+				se(vet[aux] == vet[i]){
+					encontrado = verdadeiro
+					pare
+				}
+			}
+			se(nao encontrado){ //Só soma o indice se o valor não for encontrado
+				i++
+			}
 		}
 		/*
 		para(inteiro i = 0 ; i < Util.numero_elementos(vet); i++){
@@ -30,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 400; 
+ * @POSICAO-CURSOR = 430; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
