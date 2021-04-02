@@ -46,8 +46,15 @@ programa
 				}
 			}
 		}
-		
-		
+
+		//Mostra o vetor por ordem crescente
+		escreva("-----------------------------------\n")
+		escreva("O vetor colocado em ordem Crescente: \n")		
+		para(inteiro p = 0; p < Util.numero_elementos(vet); p++){
+			Util.aguarde(300)
+			escreva(vet[p],"  ")
+		}
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -55,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1801; 
+ * @POSICAO-CURSOR = 1988; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
