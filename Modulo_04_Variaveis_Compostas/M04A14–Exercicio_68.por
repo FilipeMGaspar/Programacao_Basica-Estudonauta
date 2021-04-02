@@ -6,7 +6,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro maxTentativas = 5 //número máximo de tentativas
+		inteiro maxTentativas = 5 //Número máximo de tentativas
 		caracter matriz[5][5] //Matriz utilizada para o tabuleiro principal de jogo
 		caracter matrizAux[5][5] // Matriz auxiliar utilizada para mostrar os ? ? ? ? e os V durante o jogo
 		inteiro linha, coluna //Recebem as posições da linha e da coluna que vão ser sorteadas
@@ -22,7 +22,7 @@ programa
 		escreva("\n")
 
 		//O jogo só vai funcionar se:
-		//o número de linhas da matriz for igual áo numero de linhas da matriz auxiliar e vice versa
+		//O número de linhas da matriz for igual áo numero de linhas da matriz auxiliar e vice versa
 		//O número de Colunas da matriz for igual áo numero de linhas da matriz auxiliar e vice versa
 		se(Util.numero_linhas(matriz) == Util.numero_linhas(matrizAux) e Util.numero_colunas(matriz) == Util.numero_colunas(matrizAux)){
 			 
@@ -286,7 +286,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10297; 
+ * @POSICAO-CURSOR = 1141; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
