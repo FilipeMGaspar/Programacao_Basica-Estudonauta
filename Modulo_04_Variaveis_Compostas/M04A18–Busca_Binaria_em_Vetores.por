@@ -56,6 +56,13 @@ programa
 			escreva(vet[p],"  ")
 		}
 		escreva("\n")
+
+		//Busca binária
+		//A busca binária só funciona se o vetor estiver em ordem crescente
+		inteiro chave
+		escreva("Qual número deseja perquisar: ")
+		leia(chave)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -63,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 34; 
+ * @POSICAO-CURSOR = 2376; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
