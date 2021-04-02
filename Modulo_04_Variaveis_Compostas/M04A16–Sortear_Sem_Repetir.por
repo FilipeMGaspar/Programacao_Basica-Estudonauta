@@ -18,7 +18,7 @@ programa
 					pare // se encontrar um valor repetido para o ciclo
 				}
 			}
-			se(nao encontrado){ //Só soma o indice se o valor não for encontrado
+			se(nao encontrado){ //Só soma o indice se o valor não for encontrado  nao encontrado é = a falso
 				i++
 			}
 		}
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 477; 
+ * @POSICAO-CURSOR = 582; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
