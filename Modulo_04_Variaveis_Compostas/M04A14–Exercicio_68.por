@@ -207,6 +207,8 @@ programa
 			escreva("\tOBRIGADO POR JOGAR!  Campo Minado! \n\t   © 2021 Filipe Gaspar \n")
 		} senao { // Se o número de linhas e colunas das das matriz não for igual será impresso um erro
 			escreva(" <<ERRO>> [ 8 5 ] Estrutura do jogo comprometida!\n")
+			escreva("  [ 8 5 ] Número de linhas ou de colunas difente numa das matriz! \n")
+			escreva("\tPor favor Corrija! \n")
 		}
 	}
 }
@@ -278,7 +280,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 7008; 
+ * @POSICAO-CURSOR = 102; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
