@@ -60,8 +60,11 @@ programa
 		//Busca binária
 		//A busca binária só funciona se o vetor estiver em ordem crescente
 		inteiro chave
+		logico encontrouChave
 		escreva("Qual número deseja perquisar: ")
 		leia(chave)
+		encontrouChave = falso //até agora ainda não encontrou a chave
+		inteiro ini = 0, fim = (Util.numero_elementos(vet)-1), meio = 0
 		
 	}
 }
@@ -70,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2376; 
+ * @POSICAO-CURSOR = 2528; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
