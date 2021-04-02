@@ -6,6 +6,7 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro maxTentativas = 5 //número máximo de tentativas
 		caracter matriz[5][5] //Matriz utilizada para o tabuleiro principal de jogo
 		caracter matrizAux[5][5] // Matriz auxiliar utilizada para mostrar os ? ? ? ? e os V durante o jogo
 		inteiro linha, coluna //Recebem as posições da linha e da coluna que vão ser sorteadas
@@ -71,7 +72,7 @@ programa
 			//ciclo para contar as tentativas
 			enquanto(numTentativas < 5){
 				escreva("-------------------------------------------\n")
-				escreva("Faça a sua jogada! (Tentativa: ", (numTentativas+1), ") \n")
+				escreva("Faça a sua jogada! (Tentativa: ", (numTentativas+1), " de ", maxTentativas,") \n")
 				escreva("\n")
 				//O programa só vai aceitar números inteiros
 				// Linhas Ciclo para evitar erro de digitação e só aceitar numeros inteiros
@@ -266,7 +267,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2386; 
+ * @POSICAO-CURSOR = 3352; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
