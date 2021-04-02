@@ -39,8 +39,10 @@ programa
 		
 		para(inteiro p = 0; p < (Util.numero_elementos(vet)-1); p++){ //Ciclo para o ponteiro principal que vai da posição 0 até á Penúltimo posição. Que ocorre imediatamente antes do último 
 			para(inteiro s = (p+1); s < Util.numero_elementos(vet); s++){ //Ciclo para o ponteiro secundário que vai da posição p + 1, posição seguinte ao p, até ao ultimo elemento do vetor
-				se(){
-							
+				se(vet[p] < vet[s]){ //Na primeira execuçaõ verifica se vet[0] é menor que vet[1] se for faz a troca ou swap, e assim consecutivamente vet[1] é menor que vet[2] até terminar o ciclo
+					aux = vet[p]
+					vet[p] = vet[s]
+					vet[s] = aux			
 				}
 			}
 		}
@@ -53,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1605; 
+ * @POSICAO-CURSOR = 1801; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
