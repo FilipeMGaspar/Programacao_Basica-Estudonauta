@@ -1,6 +1,6 @@
 programa
 {
-	funcao mercado(){ //Função sem retorno ou procedimento
+	funcao mercado(inteiro dinheiro){ // A função recebe parametro  
 		escreva("\nVou ao supermercado: \n")
 		escreva(" Comprar gomas \n")
 		escreva(" Comprar refrigerante \n")
@@ -11,11 +11,11 @@ programa
 	funcao inicio()
 	{
 		escreva("Jogando bola \n")
-		mercado() //Chama a função mercado, funcção sem retorno ou procedimento
+		mercado(10) //Chama a função mercado com passagem de parametros 
 		escreva("Tomar um  banho \n")
-		mercado() //Chama a função mercado, funcção sem retorno ou procedimento
+		mercado(30)  //Chama a função mercado com passagem de parametros 
 		escreva("Jogando videogame \n")
-		mercado() //Chama a função mercado, funcção sem retorno ou procedimento
+		mercado(30)  //Chama a função mercado com passagem de parametros 
 		escreva("Dormindo \n")
 	}
 }
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 270; 
+ * @POSICAO-CURSOR = 46; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
