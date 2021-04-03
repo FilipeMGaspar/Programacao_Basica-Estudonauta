@@ -114,6 +114,26 @@ programa
 		 *    5 x 10 = 50
 		 *    ===============
 		*/
+
+		/* Exercicio 73
+		 *  { EXERCICO 073 - Contador }
+		 *  
+		 *  funcao vazio contagem(inteiro i, inteiro f, inteiro p){
+		 *  
+		 *  funcao inicio(){
+		 *   contagem(0, 10, 2)
+		 *   contagem(10, 50, 5)
+		 *   
+		 *     RESULTADO
+		 *    
+		 *    -------- CONTANDO De 0 ATÉ 10  --------
+		 *    0 -> 2 -> 4 -> 6  .... -> 10 -> FIM!
+		 *    
+		 *    
+		 *     -------- CONTANDO DE 10 ATÉ 50  --------
+		 *    10 -> 15 -> 20 ... -> 50 -> FIM!
+		*/
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -121,7 +141,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2428; 
+ * @POSICAO-CURSOR = 2879; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
