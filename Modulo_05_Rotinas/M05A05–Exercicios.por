@@ -63,6 +63,33 @@ programa
 		 *  * * * * *
 		 *    5x5
 		*/
+
+		/* Exercicio 71
+		 *  { EXERCICO 071 - Mensagem }
+		 *  
+		 *  funcao linha(inteiro tam){ //vai desenhar a linha
+		 *  -----------
+		 *  funcao mensagem(cadeia txt){
+		 *  --------------
+		 *  funcao inicio(){
+		 *  	mensagem("Oi, tudo bem?")
+		 *  	mensagem("Eu sou aluno do Estudonauta!!!")
+		 *  	mensagem("Vou aprender a programar!")
+		 *  	
+		 *  	*** RESULTADO ***
+		 *  	
+		 *  	-------------
+		 *  	Oi, tudo bem?
+		 *  	-------------
+		 *  	
+		 *  	-------------------------------
+		 *  	Eu sou aluno do Estudonauta!!!!
+		 *  	-------------------------------
+		 *  	
+		 *  	-------------------------
+		 *  	Vou aprender a programar!
+		 *  	-------------------------
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -70,7 +97,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1273; 
+ * @POSICAO-CURSOR = 1389; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
