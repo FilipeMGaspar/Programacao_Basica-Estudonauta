@@ -2,7 +2,7 @@ programa
 {
 	funcao mercado(inteiro dinheiro){ // A função recebe parametro  
 		
-		escreva("\n Tenho R$ ",dinheiro ," Vou ao supermercado: \n")
+		escreva("\nTenho R$ ",dinheiro ," Vou ao supermercado: \n")
 		se(dinheiro <= 10){
 		     escreva(" Comprar gomas \n")	
 		}senao se (dinheiro < 50){
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 218; 
+ * @POSICAO-CURSOR = 96; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
