@@ -34,6 +34,35 @@ programa
 		 *   Sucesso total!
 		 *   
 		*/
+
+		/* Exercicio 70
+		 *  { EXERCICO 070 - Quadrado }
+		 *  
+		 *  funcao quadrado(inteiro tam)
+		 *  
+		 *  funcao inicio(){
+		 *  		quadrado(4)
+		 *  		quadrado(2)
+		 *  		quadrado(5)
+		 *  }
+		 *  
+		 *  * * * *
+		 *  * * * *
+		 *  * * * *
+		 *  * * * *
+		 *    4x4
+		 * 
+		 *  * *
+		 *  * *
+		 *  2x2
+		 *  
+		 *  * * * * *
+		 *  * * * * *
+		 *  * * * * *
+		 *  * * * * *
+		 *  * * * * *
+		 *    5x5
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -41,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 852; 
+ * @POSICAO-CURSOR = 1273; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
