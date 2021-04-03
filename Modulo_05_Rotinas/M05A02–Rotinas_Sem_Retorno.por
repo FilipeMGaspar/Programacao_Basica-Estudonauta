@@ -2,9 +2,9 @@ programa
 {
 	funcao mercado(){
 		escreva("\nVou ao supermercado: \n")
-		escreva("Comprar gomas \n")
-		escreva("Comprar refrigerante \n")
-		escreva("Comprar bolachas Waffer \n")
+		escreva(" Comprar gomas \n")
+		escreva(" Comprar refrigerante \n")
+		escreva(" Comprar bolachas Waffer \n")
 		escreva("Estou a chegar do supermercado \n\n")
 	}
 	
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 566; 
+ * @POSICAO-CURSOR = 150; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
