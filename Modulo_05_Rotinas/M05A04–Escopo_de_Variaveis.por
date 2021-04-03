@@ -5,12 +5,12 @@ programa
 		n1++
 		n2--
 		s = n1 + n2
-		escreva("\n",a," \n")		
+		escreva("\n",s," \n")		
 	}
 	
 	funcao inicio()
 	{
-		inteiro a = 5, b = 3
+		inteiro a = 5, b = 3 // as variaveis a e b são variaveis de escopo local da funcao inicio
 		teste(a, b)
 		escreva(a,"  ", b, "\n")
 	}
@@ -20,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 110; 
+ * @POSICAO-CURSOR = 236; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
