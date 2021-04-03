@@ -23,7 +23,7 @@ programa
 		escreva("Tomar um  banho \n")
 		mercado(30)  //Chama a função mercado com passagem de parametros 
 		escreva("Jogando videogame \n")
-		mercado(30)  //Chama a função mercado com passagem de parametros 
+		mercado(50)  //Chama a função mercado com passagem de parametros 
 		escreva("Dormindo \n")
 	}
 }
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 96; 
+ * @POSICAO-CURSOR = 751; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
