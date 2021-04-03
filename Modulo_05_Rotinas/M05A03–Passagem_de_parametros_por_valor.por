@@ -1,10 +1,18 @@
 programa
 {
 	funcao mercado(inteiro dinheiro){ // A função recebe parametro  
+		
 		escreva("\nVou ao supermercado: \n")
-		escreva(" Comprar gomas \n")
-		escreva(" Comprar refrigerante \n")
-		escreva(" Comprar bolachas Waffer \n")
+		se(dinheiro <= 10){
+		     escreva(" Comprar gomas \n")	
+		}senao se (dinheiro > 10 e dinheiro < 50){
+			escreva(" Comprar gomas \n")	
+			escreva(" Comprar refrigerante \n")
+		}senao{
+			 escreva(" Comprar gomas \n")	
+			escreva(" Comprar bolachas Waffer \n")
+			escreva(" Comprar Ovo Kinder \n")
+		}		
 		escreva("Estou a chegar do supermercado \n\n")
 	}
 	
@@ -24,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 46; 
+ * @POSICAO-CURSOR = 418; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
