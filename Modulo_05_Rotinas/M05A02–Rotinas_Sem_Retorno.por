@@ -1,5 +1,10 @@
 programa
 {
+	funcao mercado(){
+		escreva("Comprar gomas \n")
+		escreva("Comprar refrigerante \n")
+		escreva("Comprar bolachas wafer \n")
+	}
 	
 	funcao inicio()
 	{
@@ -14,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 150; 
+ * @POSICAO-CURSOR = 133; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
