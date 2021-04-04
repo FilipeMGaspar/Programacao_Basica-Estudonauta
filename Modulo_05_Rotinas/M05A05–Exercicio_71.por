@@ -4,14 +4,16 @@ programa
 	inclua biblioteca Texto
 	
 	funcao linha(inteiro tam){ //vai desenhar a linha
-		para(){
-			
+		para(inteiro c = 0; c < tam; c++){
+			escreva("-")			
 		}
+		escreva("\n")
 	}
 
 	funcao mensagem(cadeia txt){//Escreve a mensagem
 		linha(Texto.numero_caracteres(txt))
-		escreva(txt,"\n")	
+		escreva(txt,"\n")
+		linha(Texto.numero_caracteres(txt))	
 	}
 	
 	funcao inicio()
@@ -57,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 123; 
+ * @POSICAO-CURSOR = 341; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
