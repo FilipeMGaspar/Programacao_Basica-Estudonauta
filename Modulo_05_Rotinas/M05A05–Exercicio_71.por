@@ -16,9 +16,13 @@ programa
 		inteiro tamDaMsg = Texto.numero_caracteres(txt)
 		
 		linha(tamDaMsg)
-		
-		escreva(txt,"\n")
-		//obter_caracter(*cadeia* cad, *inteiro* indice
+		para(inteiro i = 0; i < tamDaMsg; i++){
+			maqEscrever = Texto.obter_caracter(txt, i)
+
+			escreva(maqEscrever)
+			Util.aguarde(100)
+		}
+		escreva("\n")
 		linha(tamDaMsg)
 		escreva("\n")	
 	}
@@ -66,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 363; 
+ * @POSICAO-CURSOR = 509; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
