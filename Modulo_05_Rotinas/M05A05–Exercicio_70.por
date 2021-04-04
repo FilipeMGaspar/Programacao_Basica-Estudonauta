@@ -30,7 +30,7 @@ inclua biblioteca Util
 }
 
 /* Exercicio 70
-*  { EXERCICO 070 - Quadrado }
+*  { EXERCICO 070 - Desenha um Quadrado }
 *  
 *  funcao quadrado(inteiro tam)
 *  
@@ -62,7 +62,7 @@ inclua biblioteca Util
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 273; 
+ * @POSICAO-CURSOR = 611; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
