@@ -16,6 +16,7 @@ programa
 	funcao tabuada(inteiro num){
 		escreva("\n")
 		escreva("==== TABUADA DE ",num," ==== \n")
+		escreva("\n")
 		//ciclo para escrever a tabuada
 		para(inteiro ntb = 1; ntb <= 10; ntb++){
 			Util.aguarde(100)
@@ -27,7 +28,7 @@ programa
 			Util.aguarde(100)
 			escreva(" = ")
 			Util.aguarde(100)
-			escreva((ntb * num))
+			escreva((ntb * num),"\n")
 		}
 	}
 	
@@ -75,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 606; 
+ * @POSICAO-CURSOR = 370; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
