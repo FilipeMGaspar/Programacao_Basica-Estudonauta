@@ -11,6 +11,11 @@ programa
 				retorne falso
 			}
 	}
+
+	funcao tabuada(inteiro num){
+		escreva("\n")
+		escreva("==== TABUADA DE ",num," ==== \n")
+	}
 	
 	funcao inicio()
 	{
@@ -19,10 +24,13 @@ programa
 		escreva("{ EXERCICO 072 - Função Tabuada } \n")
 		escreva("--------------------------------- \n")
 		escreva("\n")		
-		faca{
+		
+		faca{//ciclo com validação através de uma função
 			escreva("Quer ver a tabuada de qual número? ")
 			leia(teclado)
 		}enquanto(nao e_inteiro(teclado))		
+
+		tabuada(Tipos.cadeia_para_inteiro(teclado, 10))
 	}
 }
 /* Exercicio 72
@@ -53,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 212; 
+ * @POSICAO-CURSOR = 285; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
