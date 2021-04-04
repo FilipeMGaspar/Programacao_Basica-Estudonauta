@@ -1,6 +1,7 @@
 programa
 {
 	inclua biblioteca Tipos
+	inclua biblioteca Util
 
 	funcao logico e_inteiro(cadeia tec){		
 		
@@ -15,6 +16,19 @@ programa
 	funcao tabuada(inteiro num){
 		escreva("\n")
 		escreva("==== TABUADA DE ",num," ==== \n")
+		//ciclo para escrever a tabuada
+		para(inteiro ntb = 1; ntb <= 10; ntb++){
+			Util.aguarde(100)
+			escreva(ntb)
+			Util.aguarde(100)
+			escreva(" X ")
+			Util.aguarde(100)
+			escreva(num)
+			Util.aguarde(100)
+			escreva(" = ")
+			Util.aguarde(100)
+			escreva((ntb * num))
+		}
 	}
 	
 	funcao inicio()
@@ -61,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 285; 
+ * @POSICAO-CURSOR = 606; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
