@@ -1,18 +1,28 @@
 programa
 {
 	inclua biblioteca Tipos
+
+	funcao logico e_inteiro(cadeia tec){		
+		
+		se(Tipos.cadeia_e_inteiro(tec, 10)){
+				retorne verdadeiro
+			}senao{
+				escreva(" <<ERRO>> Esperava um número inteiro! \n")
+				retorne falso
+			}
+	}
+	
 	funcao inicio()
 	{
 		cadeia teclado // vai receber os dados do teclado
-		inteiro numTabuada
+		
 		escreva("{ EXERCICO 072 - Função Tabuada } \n")
 		escreva("--------------------------------- \n")
-		escreva("\n")
-
+		escreva("\n")		
 		faca{
 			escreva("Quer ver a tabuada de qual número? ")
 			leia(teclado)
-		}enquanto(nao Tipos.cadeia_e_inteiro(teclado, 10))
+		}enquanto(nao e_inteiro(teclado))		
 	}
 }
 /* Exercicio 72
@@ -43,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 326; 
+ * @POSICAO-CURSOR = 199; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
