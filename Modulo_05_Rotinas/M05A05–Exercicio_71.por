@@ -1,11 +1,16 @@
 programa
 {
+	inclua biblioteca Util
+	inclua biblioteca Texto
 	
 	funcao linha(inteiro tam){ //vai desenhar a linha
-	
+		para(){
+			
+		}
 	}
 
 	funcao mensagem(cadeia txt){//Escreve a mensagem
+		linha(Texto.numero_caracteres(txt))
 		escreva(txt,"\n")	
 	}
 	
@@ -52,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 140; 
+ * @POSICAO-CURSOR = 123; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
