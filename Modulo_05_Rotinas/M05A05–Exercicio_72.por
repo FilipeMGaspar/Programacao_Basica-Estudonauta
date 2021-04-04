@@ -1,12 +1,18 @@
 programa
 {
-	
+	inclua biblioteca Tipos
 	funcao inicio()
 	{
+		cadeia teclado // vai receber os dados do teclado
+		inteiro numTabuada
 		escreva("{ EXERCICO 072 - Função Tabuada } \n")
 		escreva("--------------------------------- \n")
 		escreva("\n")
-		
+
+		faca{
+			escreva("Quer ver a tabuada de qual número? ")
+			leia(teclado)
+		}enquanto(nao Tipos.cadeia_e_inteiro(teclado, 10))
 	}
 }
 /* Exercicio 72
@@ -37,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 157; 
+ * @POSICAO-CURSOR = 326; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
