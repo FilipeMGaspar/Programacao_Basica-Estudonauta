@@ -5,7 +5,8 @@ programa
 	
 	funcao linha(inteiro tam){ //vai desenhar a linha
 		para(inteiro c = 0; c < tam; c++){
-			escreva("-")			
+			escreva("-")	
+			Util.aguarde(100)		
 		}
 		escreva("\n")
 	}
@@ -13,7 +14,8 @@ programa
 	funcao mensagem(cadeia txt){//Escreve a mensagem
 		linha(Texto.numero_caracteres(txt))
 		escreva(txt,"\n")
-		linha(Texto.numero_caracteres(txt))	
+		linha(Texto.numero_caracteres(txt))
+		escreva("\n")	
 	}
 	
 	funcao inicio()
@@ -59,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 341; 
+ * @POSICAO-CURSOR = 187; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
