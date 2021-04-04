@@ -18,12 +18,12 @@ programa
 				contorno = ""
 			pare
 		}
-		
+
 		escreva(contorno,"\n")
 		para(inteiro c = 0; c < quant; c++){
 			escreva(txt,"\n")
 		}
-		escreva(contorno,"\n")
+		escreva(contorno,"\n\n")
 	}
 	
 	funcao inicio()
@@ -32,7 +32,7 @@ programa
 		escreva("------------------------------ \n")
 		escreva("\n")
 		
-		meu_escreva("Sou Estudonauta", 1, 1)
+		meu_escreva("Sou Estudonauta", 1, 1)
  		meu_escreva("Estou aprendendo a programar", 3, 2)
   		meu_escreva("E estou adorando", 2, 3)
    		meu_escreva("Sucesso total!", 5, 0)
@@ -75,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 473; 
+ * @POSICAO-CURSOR = 468; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
