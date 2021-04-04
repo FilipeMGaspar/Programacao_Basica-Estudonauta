@@ -7,7 +7,7 @@ programa
 		se(Tipos.cadeia_e_inteiro(tec, 10)){
 				retorne verdadeiro
 			}senao{
-				escreva(" <<ERRO>> Esperava um número inteiro! \n")
+				escreva("  <<ERRO>> Esperava um número inteiro! \n\n")
 				retorne falso
 			}
 	}
@@ -53,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 199; 
+ * @POSICAO-CURSOR = 212; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
