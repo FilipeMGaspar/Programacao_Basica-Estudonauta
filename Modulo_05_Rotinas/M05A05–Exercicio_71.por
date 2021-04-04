@@ -12,9 +12,14 @@ programa
 	}
 
 	funcao mensagem(cadeia txt){//Escreve a mensagem
-		linha(Texto.numero_caracteres(txt))
+		caracter maqEscrever
+		inteiro tamDaMsg = Texto.numero_caracteres(txt)
+		
+		linha(tamDaMsg)
+		
 		escreva(txt,"\n")
-		linha(Texto.numero_caracteres(txt))
+		//obter_caracter(*cadeia* cad, *inteiro* indice
+		linha(tamDaMsg)
 		escreva("\n")	
 	}
 	
@@ -61,7 +66,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 187; 
+ * @POSICAO-CURSOR = 363; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
