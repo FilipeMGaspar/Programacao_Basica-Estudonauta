@@ -2,7 +2,22 @@ programa
 {
 	
 	funcao vazio meu_escreva(cadeia txt, inteiro quant, inteiro borda){
-		
+		cadeia contorno = ""
+
+		escolha(borda){
+			caso 1:
+				contorno = "+-------=======-------+"
+			pare
+			caso 2:
+				contorno = "_______:::::::: _______"
+			pare
+			caso 3:
+				contorno = "<<<<---------------->>>>"
+			pare
+			caso contrario:
+				contorno = ""
+			pare
+		}
 	}
 	
 	funcao inicio()
@@ -54,7 +69,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 87; 
+ * @POSICAO-CURSOR = 343; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
