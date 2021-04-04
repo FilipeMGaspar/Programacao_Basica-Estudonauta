@@ -4,7 +4,7 @@ programa
 		
 		para(inteiro l=0; l < tam; l++){//Precorre as linhas até ao tamanho
 			para(inteiro c = 0; c < tam; c++){//Precorre as colunas até ao tamanho
-				escreva(" * ")
+				escreva("* ")
 			}
 			escreva("\n")
 		}
@@ -58,7 +58,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 264; 
+ * @POSICAO-CURSOR = 204; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
