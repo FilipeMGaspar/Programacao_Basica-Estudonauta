@@ -1,6 +1,14 @@
 programa
 {
 	
+	funcao linha(inteiro tam){ //vai desenhar a linha
+	
+	}
+
+	funcao mensagem(cadeia txt){//Escreve a mensagem
+			
+	}
+	
 	funcao inicio()
 	{
 		escreva("{ EXERCICO 071 - Máquina de Escrever Mensagens } \n")
@@ -40,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 182; 
+ * @POSICAO-CURSOR = 122; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
