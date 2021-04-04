@@ -1,12 +1,19 @@
 programa
 {
-
+	funcao quadrado(inteiro tam){
+		
+	}
 	
 	funcao inicio()
 	{
 		escreva("{ EXERCICO 070 - Desenha um Quadrado } \n")
 		escreva("-------------------------------------- \n")
 		escreva("\n")
+
+		quadrado(4)
+  		quadrado(2)
+  		quadrado(5)
+  		
 	}
 }
 
@@ -43,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 165; 
+ * @POSICAO-CURSOR = 253; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
