@@ -11,6 +11,12 @@ programa
 		escreva("{ EXERCICO 074 - Contador V2.0 } \n")
 		escreva("-------------------------------- \n")
 		escreva("\n")
+
+		contagem(0, 10, 2)
+		contagem(10, 50, 5)
+
+		//contagem(10, 2, 1)
+		//contagem(50, 0, -10)
 	}
 }
 
@@ -45,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 390; 
+ * @POSICAO-CURSOR = 315; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
