@@ -25,8 +25,15 @@ programa
 
 		escreva("\n\n")
 		escreva("Valores ímpares nas posições: ")
-		
-		escreva("\n================================= \n")
+		para(inteiro i=0; i < Util.numero_elementos(num); i++){
+			se(num[i]%2 != 0){
+				Util.aguarde(300)
+				escreva(i," ")
+			}
+		}
+
+		escreva("\n\n")
+		escreva("======================================= \n")
 		
 	}
 	
@@ -68,7 +75,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 485; 
+ * @POSICAO-CURSOR = 836; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
