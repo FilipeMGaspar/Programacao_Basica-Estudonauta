@@ -10,13 +10,17 @@ programa
 		Util.aguarde(300)
 		escreva("\n Os elementos são: \n")
 		para(inteiro i=0; i < Util.numero_elementos(num); i++){
-			escreva("[",i,"] -> ",num[i])
+			Util.aguarde(300)
+			escreva("  [",i,"] -> ",num[i],"  ")
 		}
 
-		escreva("\n")
+		escreva("\n\n")
 		escreva("Valores pares nas posições: ")
 		para(inteiro i=0; i < Util.numero_elementos(num); i++){
-			escreva()
+			se(num[i]%2 == 0){
+				Util.aguarde(300)
+				escreva(i," ")
+			}
 		}
 		
 	}
@@ -59,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 523; 
+ * @POSICAO-CURSOR = 583; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
