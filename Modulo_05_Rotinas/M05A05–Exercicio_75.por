@@ -9,8 +9,14 @@ programa
 		escreva(" O vetor possui ",Util.numero_elementos(num)," elementos.... \n")
 		Util.aguarde(300)
 		escreva("\n Os elementos são: \n")
-		para(){
-			
+		para(inteiro i=0; i < Util.numero_elementos(num); i++){
+			escreva("[",i,"] -> ",num[i])
+		}
+
+		escreva("\n")
+		escreva("Valores pares nas posições: ")
+		para(inteiro i=0; i < Util.numero_elementos(num); i++){
+			escreva()
 		}
 		
 	}
@@ -53,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 312; 
+ * @POSICAO-CURSOR = 523; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
