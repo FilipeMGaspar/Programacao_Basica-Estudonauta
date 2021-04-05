@@ -2,7 +2,16 @@ programa
 {
 	inclua biblioteca Util
 	
-	funcao analisar(inteiro num[]){
+	funcao analisar(inteiro num[]){		
+		escreva("\n ====== ANALISANDO O VETOR  ====== \n")
+		Util.aguarde(1000)
+		escreva("\n")
+		escreva(" O vetor possui ",Util.numero_elementos(num)," elementos.... \n")
+		Util.aguarde(300)
+		escreva("\n Os elementos são: \n")
+		para(){
+			
+		}
 		
 	}
 	
@@ -12,7 +21,8 @@ programa
 		escreva("--------------------------------- \n")
 		escreva("\n")
 
-		
+		inteiro vet[] = {2, 8, 7, 4, 3, 1}
+	  	analisar(vet)
 	}
 }
 
@@ -43,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 39; 
+ * @POSICAO-CURSOR = 312; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
