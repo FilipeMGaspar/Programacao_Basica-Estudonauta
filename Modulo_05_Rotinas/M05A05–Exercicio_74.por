@@ -11,7 +11,7 @@ programa
 			}
 			escreva("FIM! \n\n")
 		}senao{ //Se o fim for menor que o inicio
-			para(inteiro c = f; c >= i; c-=p){
+			para(inteiro c = i; c >= f; c -= p){
 				Util.aguarde(300)
 				escreva(c," -> ")
 			}
@@ -64,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 672; 
+ * @POSICAO-CURSOR = 366; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
