@@ -22,6 +22,11 @@ programa
 				escreva(i," ")
 			}
 		}
+
+		escreva("\n\n")
+		escreva("Valores ímpares nas posições: ")
+		
+		escreva("\n================================= \n")
 		
 	}
 	
@@ -63,7 +68,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 583; 
+ * @POSICAO-CURSOR = 485; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
