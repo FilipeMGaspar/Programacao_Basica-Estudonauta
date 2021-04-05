@@ -3,9 +3,15 @@ programa
 	inclua biblioteca Util
 	
 	funcao vazio contagem(inteiro i, inteiro f, inteiro p){
-		escreva("----- CONTAGEM DE ", i, " ATÈ ", f, " -----\n")
+		escreva("------ CONTAGEM DE ", i, " ATÉ ", f, " ------ \n")
 		se(i < f){//verifica de o inicio é menor que o fim 
 			para(inteiro c = i; c <= f; c+=p){
+				Util.aguarde(300)
+				escreva(c," -> ")
+			}
+			escreva("FIM! \n\n")
+		}senao{ //Se o fim for menor que o inicio
+			para(inteiro c = f; c >= i; c-=p){
 				Util.aguarde(300)
 				escreva(c," -> ")
 			}
@@ -22,7 +28,7 @@ programa
 		contagem(0, 10, 2)
 		contagem(10, 50, 5)
 
-		//contagem(10, 2, 1)
+		contagem(10, 2, 1)
 		//contagem(50, 0, -10)
 	}
 }
@@ -58,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 145; 
+ * @POSICAO-CURSOR = 672; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
